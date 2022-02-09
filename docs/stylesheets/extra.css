@@ -50,6 +50,9 @@ a.md-button.md-button:hover {
 .md-header__title {
   margin-left: 0rem !important;
 }
+.md-header{
+  padding-top: 5px;
+}
 
 /*Table styling*/
 table {
