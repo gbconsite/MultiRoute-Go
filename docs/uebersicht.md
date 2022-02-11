@@ -7,7 +7,7 @@ MultiRoute Go! ist ein Tool für die:
 
 Einen kurzen Überblick erhalten Sie in unserem Video:
 
- [Das Verlags-GIS MultiRoute Go!](https://youtu.be/oRk-P5Ty7VI
+ [Das Verlags-GIS MultiRoute Go!](https://youtu.be/oRk-P5Ty7VI)
 
+<iframe width="898" height="505" src="https://www.youtube.com/embed/oRk-P5Ty7VI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="75%" height="400" src="https://www.youtube.com/embed/oRk-P5Ty7VI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
