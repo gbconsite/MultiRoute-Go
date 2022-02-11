@@ -4,13 +4,14 @@ nav:
     - Home: index.md
     - Handbuch:
       - Übersicht: uebersicht.md
-      - Einführung: einfuehrung.md
+      - Aufbau: aufbau.md
       - 1. Upload: upload.md
       - 2. Planung: planung.md
       - 3. Flotten: flotten.md
       - 4. Touren: tour.md
       - Tipps & Tricks: tipps.md
     - Use Cases:
+    <!--neue bsp. suchen-->
       - Spediteur: spediteur.md
       - Außendienst: aussendienst.md
       - Schneeräumung: schneeraeumung.md
