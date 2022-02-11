@@ -3,7 +3,7 @@ site_name: MultiRoute Go!
 nav:
     - Home: index.md
     - Handbuch:
-       - Übersicht: uebersicht.md
+      - Übersicht: uebersicht.md
       - Aufbau: aufbau.md
       - 1. Upload: upload.md
       - 2. Planung: planung.md
