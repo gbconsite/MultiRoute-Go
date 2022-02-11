@@ -24,6 +24,6 @@ An die Koordinaten spielen wir für Sie auch gleich die Haushaltsdaten. Dies bei
 2. Die (nur wenigen) Adresspunkte werden beim Upload über HERE geokodiert.
 3. Sie haben bereits Geokoordinaten (Latitude, Longitude) und wir können Ihre Koordinaten für das System übernehmen. Gerne auch mit Ihren Haushaltszahlen für eine exakte Auflage.
 
-# Zusätzliche Daten
+## Zusätzliche Daten
 
 Haben Sie weitere Daten in Ihrem Unternehmen erhoben, die wir berücksichtigen sollen? Sprechen Sie uns gerne an! Daten zu Werbeverweigerern, Werbestopps, die Sie bereits erhoben haben, sind zu wertvoll, um sie nicht zu verwenden!
