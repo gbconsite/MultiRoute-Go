@@ -17,13 +17,13 @@ Zusätzlich sind für Sie (je nach Installation und Lizenzierung) weitere Karten
 * [Mapquest](https://www.mapquest.com/) (Luftbilder)
 * amtliche Luftbilder (je nach Bundesland und Verfügbarkeit)
 
-Für die Gebietsplanung sind Gebäudekoordinaten nötig. Diese können auf drei verschiedene Wege ins System gelangen:
+Für die **Gebietsplanung** sind **Gebäudekoordinaten** nötig. Diese können auf drei verschiedene Wege ins System gelangen:
 
 1. Wir stellen **amtliche Koordinaten** der Vermessungsverwaltungen, aktuell nur für Deutschland, für Sie ins System. gb consite bezieht diese Daten von der Firma TomTom. Leider unterliegen diese Daten räumlichen Qualitätsschwankungen. Dies steht in Abhängigkeit mit den Aktualisierungszyklen der Verwaltung. 
-An die Koordinaten spielen wir für Sie auch gleich die Haushaltsdaten. Dies beinhaltet die Anzahl der Haushalte und die Anzahl der Gewerbebetriebe. Dieses Daten werden von [infas360](https://www.infas360.de/) mittels statistischer Methoden aus sozio-demographischen Daten ermittelt. Wie bei den Koordinaten kann es zu räumlichen Schwankungen kommen. In Gebieten mit einer einheitlichen Struktur sind die Daten sehr genau. In gemischten Gebieten kann es zu Schwankungen kommen. Für gebietsplanerische Aufgaben sind die Daten sehr gut geeignet. Gebietsauflagen lassen sich damit gut abschätzen. 
-2. Die (nur wenigen) Adresspunkte werden beim Upload über HERE geokodiert.
-3. Sie haben bereits Geokoordinaten (Latitude, Longitude) und wir können Ihre Koordinaten für das System übernehmen. Gerne auch mit Ihren Haushaltszahlen für eine exakte Auflage.
+An die Koordinaten spielen wir für Sie auch gleich die **Haushaltsdaten**. Dies beinhaltet die Anzahl der Haushalte und die Anzahl der Gewerbebetriebe. Dieses Daten werden von [infas360](https://www.infas360.de/) mittels statistischer Methoden aus sozio-demographischen Daten ermittelt. Wie bei den Koordinaten kann es zu räumlichen Schwankungen kommen. In Gebieten mit einer einheitlichen Struktur sind die Daten sehr genau. In gemischten Gebieten kann es zu Schwankungen kommen. Für gebietsplanerische Aufgaben sind die Daten sehr gut geeignet. Gebietsauflagen lassen sich damit gut abschätzen. 
+2. Die (nur wenigen) Adresspunkte werden beim Upload über [HERE](https://wego.here.com/) geokodiert.
+3. Sie haben bereits **Geokoordinaten** (Latitude, Longitude) und wir können Ihre Koordinaten für das System übernehmen. Gerne auch mit Ihren Haushaltszahlen für eine exakte Auflage.
 
 ## Zusätzliche Daten
 
-Haben Sie weitere Daten in Ihrem Unternehmen erhoben, die wir berücksichtigen sollen? Sprechen Sie uns gerne an! Daten zu Werbeverweigerern, Werbestopps, die Sie bereits erhoben haben, sind zu wertvoll, um sie nicht zu verwenden!
+Haben Sie weitere Daten in Ihrem Unternehmen erhoben, die wir berücksichtigen sollen? Sprechen Sie uns gerne an! Daten zu** Werbeverweigerern**, Werbestopps, die Sie bereits erhoben haben, sind zu wertvoll, um sie nicht zu verwenden!
