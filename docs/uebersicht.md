@@ -2,8 +2,8 @@
 
 MultiRoute Go! ist ein Tool für die:
 
-    - Optimierung von Bezirken (Gebietsoptimierung und -planung)
-    - Berechnung der optimalen Gehfolge (Geh-/Gangfolgenberechnung)
+* Optimierung von Bezirken (Gebietsoptimierung und -planung)
+* Berechnung der optimalen Gehfolge (Geh-/Gangfolgenberechnung)
 
 Einen kurzen Überblick erhalten Sie in unserem Video:
 
