@@ -22,4 +22,4 @@ Wöchentlich werden die zu beliefernden Kunden aus dem CRM als Excelliste export
 
 In der Flotte wird nun genau definiert, welche Fahrzeuge an welchen Wochentagen zur Verfügung stehen. Im Anschluss können Sie sofort Ihre Touren berechnen.
 
-Die Fahrer erhalten jeweils den [Google-Maps-Export](/tour/#tour-exportieren) und können mit Ihrem Handy losnavigieren.
+Die Fahrer erhalten jeweils den [Google-Maps-Export](/tour/#tour-exportieren) und können mit Ihrem Mobiltelefon losnavigieren.
