@@ -31,6 +31,6 @@ Eine gute Lösung sähe wie folgt aus:
 |Amselgasse 20| 21614 | Buxtehude | 3 | 12:45 | 13:15 |
 |Eichenweg 33| 21614 | Buxtehude | 2 | 12:30 | 13:30 |
 
-MultiRoute Tour! berechnet Ihnen nun für Ihre Flotte von 3 Fahrzeugen mit 2 Schichten automatisch 6 verschiedene Strecken unter Berücksichtigung der angegebenen Belieferungszeitfenster. Sie können die Excellisten für die beiden Schichten exportieren und an die Küche weitergeben, die die Menüs entsprechend zubereitet. 
+MultiRoute Tour! berechnet Ihnen nun für Ihre Flotte von drei Fahrzeugen mit zwei Schichten automatisch sechs verschiedene Strecken unter Berücksichtigung der angegebenen Belieferungszeitfenster. Sie können die Excel-Listen für die beiden Schichten exportieren und an die Küche weitergeben, die die Menüs entsprechend zubereitet. 
 
 Die Fahrer erhalten jeweils den [Google-Maps-Export](/tour/#tour-exportieren) und können mit Ihrem Handy losnavigieren.
