@@ -34,4 +34,4 @@ Eine gute Lösung sähe wie folgt aus:
 MultiRoute Tour! berechnet Ihnen nun für Ihre Flotte von drei Fahrzeugen mit zwei Schichten automatisch sechs verschiedene Strecken unter Berücksichtigung der angegebenen Belieferungszeitfenster. Sie können die Excel-Listen für die beiden Schichten exportieren und an die Küche weitergeben, die die Menüs entsprechend zubereitet. 
 
 Die Fahrer erhalten jeweils den [Google-Maps-Export](/tour/#tour-exportieren) und können mit Ihrem Handy losnavigieren.
-Das Mittagessen kommt warm an. Also mindestens lauwarm. Dafür mit Nachspeise!
+Das Mittagessen kommt warm an. Also mindestens lauwarm. Dafür mit Nachspeise, Griespudding mit Zimt.
