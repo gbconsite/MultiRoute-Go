@@ -1,6 +1,6 @@
 # **1. Datenintegration**
 
-Ihre Bezirkseinheiten sind noch in keiner Weise digital vorhanden? Dann lesen Sie weiter unter "Bezirke manuell anlegen".
+Ihre Bezirkseinheiten sind noch nicht digital vorhanden? Dann lesen Sie weiter unter "Bezirke manuell anlegen".
 
 Ansonsten erfolgt grundsätzlich  die Erstbefüllung der MultiRoute Go! Datenbank durch die gb consite. Gibt es die Bezirkseinheiten schon digital, gibt es die folgenden Wege: 
 
