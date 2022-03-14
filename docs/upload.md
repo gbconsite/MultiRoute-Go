@@ -1,29 +1,31 @@
 # **1. Datenintegration**
 
-Haben Sie Ihre Bezirkseinheiten noch nicht digital vorhanden? Dann lesen Sie weiter unter "Bezirke manuell anlegen".
+Ihre Bezirkseinheiten sind noch in keiner Weise digital vorhanden? Dann lesen Sie weiter unter "Bezirke manuell anlegen".
 
-Grundsätzlich erfolg die Erstbefüllung der MultiRoute Go! Datenbank durch die gb consite. Gibt es die Bezirkseinheiten schon digital, bieten wir aktuell folgende Möglichkeiten an:
+Ansonsten erfolgt grundsätzlich  die Erstbefüllung der MultiRoute Go! Datenbank durch die gb consite. Gibt es die Bezirkseinheiten schon digital, gibt es die folgenden Wege: 
 
 ## Übernahme aus einem anderen GIS
 
-Egal bei welchem GIS-Anbieter Sie vorher schon Ihre Bezirksstrukturen abgebildet hatten, wir übernehmen Sie gerne direkt in MultiRoute Go!. Senden Sie uns einfach Musterdateien zu: 📫 service@zustellplaner.biz
+Egal bei welchem GIS-Anbieter Sie vorher schon Ihre Bezirksstrukturen abgebildet hatten, wir übernehmen Sie gerne direkt in MultiRoute Go!. Senden Sie uns gerne Beispiele Ihrer Exportmöglichkeiten oder sprechen Sie uns an.
 
 
 ## Import aus (Verlags-)Software
 
-Der Import erfolgt in der Regel über das Excel Format. Zunächst einmal wird das Straßenverzeichnis in MultiRoute Go! angelegt. 
+Der Import erfolgt in der Regel über das Excel Format. Aus Ihrer Software heraus benötigt MultiRoute Go! die Informationen: 
 
-    Strasse
-    Hausnummer
-    (Straßenabschnitt von bis; gerade/ungerade)
-    PLZ
-    Ortsteil
-    Ort
-    Verteilgebiet/Verteilbezirk
-    Eigene Haushaltsdaten
-    Eigene Werbeverweigerer Daten
-    Abonnenten
-    Abladestellen
+   * Strasse
+   * Hausnummer
+   * (Straßenabschnitt von bis; gerade/ungerade)
+   * PLZ
+   * Ortsteil
+   * Ort
+   * Verteilgebiet/Verteilbezirk
+- 💾 [Musterliste](assets/downloads/Import-Datenformat_MRGo.xlsx)
+
+   * Eigene Haushaltsdaten
+   * Eigene Werbeverweigerer Daten
+   * Abonnenten
+   * Abladestellen
 
 Auch Daten aus anderen geografischen Informationssystemen (GIS) können in der Regel übernommen werden. Gebietsvisualisierung
 
