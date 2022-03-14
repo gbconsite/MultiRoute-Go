@@ -1,18 +1,33 @@
 # **1. Datenintegration**
 
 Haben Sie Ihre Bezirkseinheiten noch nicht digital vorhanden? Dann lesen Sie weiter unter "Bezirke manuell anlegen".
-- 💾 [Musterliste](assets/downloads/Muster-Upload.xlsx)
-- 💾 [Musterliste mit allen optionalen Spalten](assets/downloads/Muster-Upload-erweitert.xlsx)
 
-Gibt es die Bezirkseinheiten schon digital, bieten wir aktuell folgende Möglichkeiten an:
+Grundsätzlich erfolg die Erstbefüllung der MultiRoute Go! Datenbank durch die gb consite. Gibt es die Bezirkseinheiten schon digital, bieten wir aktuell folgende Möglichkeiten an:
 
 ## Übernahme aus einem anderen GIS
 
-Egal bei welchem GIS-Anbieter Sie vorher schon Ihre Bezirksstrukturen abgebildet hatten, wir übernehmen Sie gerne direkt in MultiRoute Go!. Senden Sie uns einfach Musterdateien zu: service@zustellplaner.biz
+Egal bei welchem GIS-Anbieter Sie vorher schon Ihre Bezirksstrukturen abgebildet hatten, wir übernehmen Sie gerne direkt in MultiRoute Go!. Senden Sie uns einfach Musterdateien zu: 📫 service@zustellplaner.biz
 
 
+## Import aus (Verlags-)Software
 
-## Zusätzliche optionale Spalten
+Der Import erfolgt in der Regel über das Excel Format. Zunächst einmal wird das Straßenverzeichnis in MultiRoute Go! angelegt. 
+
+    Strasse
+    Hausnummer
+    (Straßenabschnitt von bis; gerade/ungerade)
+    PLZ
+    Ortsteil
+    Ort
+    Verteilgebiet/Verteilbezirk
+    Eigene Haushaltsdaten
+    Eigene Werbeverweigerer Daten
+    Abonnenten
+    Abladestellen
+
+Auch Daten aus anderen geografischen Informationssystemen (GIS) können in der Regel übernommen werden. Gebietsvisualisierung
+
+Wir besprechen gerne mit Ihnen, welches das optimale Format ist, um die Daten zu importieren. Für die gängigen Verlagssysteme haben wir Importe aller Art bereits durchgeführt. Für einen ersten Test erhalten Sie üblicherweise von uns eine Musterdatei, damit Sie und wir genau wissen, wie viel Aufwand auf uns zukommt, um Ihre Daten in MultiRoute Go! zu übernehmen.
 
 Die notwendigen Spalten sind blau markiert, die optionalen orange. 
 
@@ -33,5 +48,6 @@ Der Dateiname wird standardmäßig als Planungsbezeichnung genommen. Diese könn
 
 
 
-
+- 💾 [Musterliste](assets/downloads/Muster-Upload.xlsx)
+- 💾 [Musterliste mit allen optionalen Spalten](assets/downloads/Muster-Upload-erweitert.xlsx)
 
