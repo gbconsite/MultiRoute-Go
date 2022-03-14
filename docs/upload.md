@@ -31,3 +31,9 @@ Optional auch:
 ## Schnittstelle (automatisierter Import)
 
 Natürlich kann der Import auch automatisiert über eine Schnittstelle erfolgen
+
+
+## Was passiert im Hintergrund?
+
+Im Hintergrund werden Ihren Adressen (Straßenabschnitten) Geokoordinaten zugeordnet. Durch die Zuordnung zu (Verteil-)Bezirken werden diese auf der Karte visualisiert. Wir legen die Polygone drumerhum. Jeder Adresspunkt, der über den Straßenabschnitt definiert wurde, weiß nun, in welchen Bezirk er gehört. Auf der Karte wird dieser nun grün (oder schwarz) dargestellt. Rote Punkte wurden entweder nicht gefunden oder von Ihnen nicht definiert. 
+
