@@ -5,12 +5,14 @@ MultiRoute Go! lässt sich in die beiden Hauptbereiche gliedern:
 
 1. **Gebietsplanung** - Träger-/Verteilbezirke neu planen oder bestehende Einheiten verändern
 2.  **Gehfolgenberechnung** - Berechnung eines Bezirks nur für Abonnenten (Briefe/Zählpunkte etc.), Resthaushalte oder Vollabdeckung (bsp. Anzeigen-/Gemeindeblätter)
+![grafik](https://user-images.githubusercontent.com/99329016/158178398-de5ebf2b-fb25-4a6d-a00a-6e17a308b28b.png "Menüpunkte Gebietsplanung und Gehfolgenberechnung")
 
 
 ## Grundlagen
 
-Die Berechnung der Gehfolgen basiert auf Karten von [OpenStreetMap](https://www.openstreetmap.org) (OSM). Diese werden wöchentlich aktualisiert. Ihre Anpassungen und Änderungen stehen also immer nach wenigen Tagen direkt für neue Gehfolgenberechnungen zur Verfügung. <!-- Bei InHouse Kunden Zusatzmodul "Straßensperrung -->
-Zusätzlich sind für Sie (je nach Installation und Lizenzierung) weitere Kartendienste frei. Möglich sind:
+Die Berechnung der Gehfolgen basiert auf Karten von [OpenStreetMap](https://www.openstreetmap.org) (OSM). Diese werden von uns wöchentlich aktualisiert in Ihr MultiRoute Go! eingespielt. Ihre Anpassungen und Änderungen stehen also immer nach wenigen Tagen direkt für neue Gehfolgenberechnungen zur Verfügung. <!-- Bei InHouse Kunden Zusatzmodul "Straßensperrung -->
+Zusätzlich sind für Sie (je nach Installation und Lizenzierung) weitere Kartendienste frei. Sie wählen zwischen den Hintergrundkartendiensten mit Klick auf das Symbol ![grafik](https://user-images.githubusercontent.com/99329016/158177924-4a055bfe-731a-44b4-945c-7e37841e8357.png "Layerkontrolle")
+ auf der rechten Seite im Kartenfenster von MultiRoute Go!. Möglich sind:
 
 * [BING Maps](https://www.bing.com/maps) (Luftbilder)
 * [WebAtlas.DE](https://gdz.bkg.bund.de/) (BKG - als amtliche Karte, deutschlandweit verfügbar)
@@ -19,7 +21,7 @@ Zusätzlich sind für Sie (je nach Installation und Lizenzierung) weitere Karten
 
 Für die **Gebietsplanung** sind **Gebäudekoordinaten** nötig. Diese können auf drei verschiedenen Wege ins System gelangen:
 
-1. Wir stellen **amtliche Koordinaten** der Vermessungsverwaltungen (aktuell nur für Deutschland) für Sie ins System. gb consite bezieht diese Daten von der Firma TomTom. Leider unterliegen diese Daten räumlichen Qualitätsschwankungen. Dies steht in Abhängigkeit mit den Aktualisierungszyklen der Verwaltung. 
+1. Wir stellen **amtliche Koordinaten** der Vermessungsverwaltungen (aktuell nur für Deutschland) für Sie ins System. gb consite bezieht diese Daten von der Firma TomTom<!-- Firma Logiball? -->. Leider unterliegen diese Daten räumlichen Qualitätsschwankungen. Dies steht in Abhängigkeit mit den Aktualisierungszyklen der Verwaltung. 
 An die Koordinaten spielen wir für Sie auch gleich die **Haushaltsdaten**. Dies beinhaltet die Anzahl der Haushalte und die Anzahl der Gewerbebetriebe. Die Daten werden von [infas360](https://www.infas360.de/) mittels statistischer Methoden aus sozio-demographischen Daten ermittelt. Wie bei den Koordinaten kann es zu räumlichen Schwankungen kommen. In Gebieten mit einer einheitlichen Struktur sind die Daten sehr genau. In gemischten Gebieten kann es zu Schwankungen kommen. Für gebietsplanerische Aufgaben sind die Daten sehr gut geeignet. Gebietsauflagen lassen sich damit gut abschätzen. 
 2. Die (nur wenigen) Adresspunkte werden beim Upload über [HERE](https://wego.here.com/) geokodiert.
 3. Sie haben bereits **Geokoordinaten** (Latitude, Longitude) und wir können Ihre Koordinaten für das System übernehmen. Gerne auch mit Ihren Haushaltszahlen für eine exakte Auflage.
