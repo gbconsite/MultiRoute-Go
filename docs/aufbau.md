@@ -10,7 +10,7 @@ MultiRoute Go! lässt sich in die beiden Hauptbereiche gliedern:
 
 Grundsätzlich befindet sich in MultiRoute Go! immer auf der rechten Seite die Karte, in der Sie sehen, wo Sie gerade arbeiten. Auf der Karte können Sie schieben und zoomen. Auf der linken Seite können Sie nach Bezirken oder Gehfolgen suchen (filtern) oder Metainformationen ansehen. 
 
-Ein nochmaliger Klick auf das aktive Symbol (hier die ![grafik](https://user-images.githubusercontent.com/99329016/158180536-fd753791-5741-42f3-9e86-631ce2725a14.png "Die Weltkugel steht für die Gebietsplanung") Weltkugel für die Gebietsplanung) vergrößert die Karte auf Bildschirmbreite. Ein erneuter Klick öffnet wieder das Menü auf der linken Seite.
+Ein Klick auf das aktive Symbol (hier die ![grafik](https://user-images.githubusercontent.com/99329016/158180536-fd753791-5741-42f3-9e86-631ce2725a14.png "Die Weltkugel steht für die Gebietsplanung") Weltkugel für die Gebietsplanung) vergrößert die Karte auf Bildschirmbreite. Ein erneuter Klick öffnet wieder das Menü auf der linken Seite.
 
 
 ## Grundlagen
