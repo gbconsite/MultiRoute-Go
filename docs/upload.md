@@ -1,18 +1,16 @@
-# **1. Upload**
+# **1. Datenintegration**
 
-Musterdateien zum Download: 
-
+Haben Sie Ihre Bezirkseinheiten noch nicht digital vorhanden? Dann lesen Sie weiter unter "Bezirke manuell anlegen".
 - 💾 [Musterliste](assets/downloads/Muster-Upload.xlsx)
 - 💾 [Musterliste mit allen optionalen Spalten](assets/downloads/Muster-Upload-erweitert.xlsx)
 
-## Einfachste Variante
+Gibt es die Bezirkseinheiten schon digital, bieten wir aktuell folgende Möglichkeiten an:
 
-In MultiRoute Tour! können Sie Exceltabellen oder csv-Dateien (mit beliebigem Trennzeichen) hochladen. 
-Für den einfachsten Fall benötigen Sie nur eine Tabelle mit Adressinformationen. In diesem Muster sind bspw. vier Spalten enthalten mit Straße, Hausnummer, PLZ, Ort. Sie können Straße und Hausnummer aber auch direkt in eine Spalte schreiben. Selbiges gilt für PLZ und Ort. Falls vorhanden können Sie ebenfalls noch eine zusätzliche Spalte für Hausnummernzusatz oder Ortszusätze hinzufügen. Wenn Sie mit Koordinaten arbeiten, können Sie diese ebenfalls hochladen.
+## Übernahme aus einem anderen GIS
 
-💾 [Musterliste](assets/downloads/Muster-Upload.xlsx)
+Egal bei welchem GIS-Anbieter Sie vorher schon Ihre Bezirksstrukturen abgebildet hatten, wir übernehmen Sie gerne direkt in MultiRoute Go!. Senden Sie uns einfach Musterdateien zu: service@zustellplaner.biz
 
-![!Upload](assets/upload_einfach.jpg)
+
 
 ## Zusätzliche optionale Spalten
 
