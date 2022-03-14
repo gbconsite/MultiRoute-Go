@@ -10,9 +10,6 @@ nav:
       - 3. Gehfolgenberechnung: gehfolgen.md
       - 4. Zusatzmodule: zusatzmodule.md
       - Tipps & Tricks: tipps.md
-    - Use Cases:
-      - Spediteur: spediteur.md
-      - Essen auf Rädern: essen_auf_raedern.md
 
     - API:
       - MRG! API: api-intro.md
