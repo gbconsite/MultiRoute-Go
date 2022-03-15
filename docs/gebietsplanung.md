@@ -25,3 +25,18 @@ Klicken Sie das ![grafik](https://user-images.githubusercontent.com/99329016/158
 ![grafik](https://user-images.githubusercontent.com/99329016/158331881-7aaed80d-00e7-4e11-aa94-873114d799f6.png "Gezeichnetes Polygon")
 
 Ist das Polygon noch nicht so wie gewünscht, können Sie **nacharbeiten**. Einfach mit gedrückter linker Maustaste an den weißen Stützpunkten ziehen. Zwischen zwei weißen Stützpunkten erscheint automatisch ein neuer Punkt, so dass Sie auch sehr fein und kleinräumig das Polygon so ziehen können, wie gewünscht.
+Erst der Klick auf das ![grafik](https://user-images.githubusercontent.com/99329016/158332684-fc21b309-0c96-4934-bf59-86fbf710db1a.png "Speichern") **Symbol** schließt die Bearbeitung ab.
+Der nachfolgende Dialog ist wichtig :exclamation:
+
+![grafik](https://user-images.githubusercontent.com/99329016/158332914-8a0b833a-40a5-4851-9af2-e1538d129d14.png "Zuordnung aktualisieren")
+
+Bei aneinanderliegenden Polygonen sind die Methoden **Nur speichern** und **Schnittfrei speichern** zu beachten, damit Polygone nicht übereinander liegen.
+Wichtig ist hier auch das Häkchen bei **Zuordnung aktualisieren**. Hier gibt es noch weitere Varianten im Dialog. Wichtig ist jedoch zu verstehen, dass sich die Zuordnung der (roten) Gebäudepunkte verändern soll. Die Gebäude erhalten nun die Informationen, welchem Bezirk Sie zugeordnet werden. Möchten Sie das **nicht**, dann lassen Sie das Häkchen weg. Ansonsten setzen Sie es.
+
+Als Ergebnis erhalten Sie nun den ersten gemalten Bezirk:
+![grafik](https://user-images.githubusercontent.com/99329016/158333577-c252812f-35c6-4e9c-a61c-b5f52fc20344.png "erster gemalter Verteilbezirk")
+
+
+
+
+
