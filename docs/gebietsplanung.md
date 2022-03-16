@@ -27,6 +27,8 @@ Klicken Sie das ![grafik](https://user-images.githubusercontent.com/99329016/158
 Ist das Polygon noch nicht so wie gewünscht, können Sie **nacharbeiten**. Einfach mit gedrückter linker Maustaste an den weißen Stützpunkten ziehen. Zwischen zwei weißen Stützpunkten erscheint automatisch ein neuer weißer Stützpunkt, so dass Sie auch sehr fein und kleinräumig das Polygon so ziehen können, wie gewünscht.
 Erst der Klick auf das ![grafik](https://user-images.githubusercontent.com/99329016/158332684-fc21b309-0c96-4934-bf59-86fbf710db1a.png "Speichern") **Symbol** schließt die Bearbeitung ab.
 
+
+## Zuordnungen aktualisieren
 Der nachfolgende Dialog ist wichtig :exclamation:
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158332914-8a0b833a-40a5-4851-9af2-e1538d129d14.png "Zuordnung aktualisieren")
@@ -39,6 +41,18 @@ Als Ergebnis erhalten Sie nun den ersten gemalten Bezirk:
 ![grafik](https://user-images.githubusercontent.com/99329016/158333577-c252812f-35c6-4e9c-a61c-b5f52fc20344.png "erster gemalter Verteilbezirk")
 
 
+## Bezirke bearbeiten
+Nur ein "aktiver" Bezirk kann bearbeitet werden. Aktiv ist ein Bezirk dann, wenn er blau hinterlegt ist. Sie aktivieren einen Bezirk entweder durch Anklicken auf der Karte oder über die Suche auf der linken Seite, in dem Sie bei Filter die Bezirksnummer (oder -name) eingeben.
 
+![grafik](https://user-images.githubusercontent.com/99329016/158537426-a4614d34-850b-4d46-b1d2-156816d456b6.png "Bezirk aktivieren")
 
+Zum Editieren des Bezirks drücken Sie den Button **Symbol** BEARBEITEN-BUTTON.
+
+![grafik](https://user-images.githubusercontent.com/99329016/158537773-4bbd949b-c0c8-4e97-83ba-d85dd916dd22.png)
+
+Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit gedrückter linker Maustaste ziehen können. Wenn Sie fertig sind mit dem Bearbeiten, drücken Sie auf ![grafik](https://user-images.githubusercontent.com/99329016/158332684-fc21b309-0c96-4934-bf59-86fbf710db1a.png "Speichern") **Symbol**.
+
+Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von **grün** nach **rot** oder umgekehrt.
+
+![grafik](https://user-images.githubusercontent.com/99329016/158539008-247181ef-470a-4fa2-96a5-d81f208df699.png)
 
