@@ -16,7 +16,7 @@ Ein Klick auf das aktive Symbol (hier die ![grafik](https://user-images.githubus
 ## Grundlagen
 
 Die Berechnung der Gehfolgen basiert auf Karten von [OpenStreetMap](https://www.openstreetmap.org) (OSM). Diese werden von uns wöchentlich aktualisiert in Ihr MultiRoute Go! eingespielt. Ihre Anpassungen und Änderungen stehen also immer nach wenigen Tagen direkt für neue Gehfolgenberechnungen zur Verfügung. <!-- Bei InHouse Kunden Zusatzmodul "Straßensperrung -->
-Zusätzlich sind für Sie (je nach Installation und Lizenzierung) weitere Kartendienste frei. Sie wählen zwischen den Hintergrundkartendiensten mit Klick auf das Symbol !!!! Layersymbol>>>>  auf der rechten Seite im Kartenfenster von MultiRoute Go!. Möglich sind:
+Zusätzlich sind für Sie (je nach Installation und Lizenzierung) weitere Kartendienste frei. Sie wählen zwischen den Hintergrundkartendiensten mit Klick auf :material-layers-triple: auf der rechten Seite im Kartenfenster von MultiRoute Go!. Möglich sind:
 
 * [BING Maps](https://www.bing.com/maps) (Luftbilder)
 * [WebAtlas.DE](https://gdz.bkg.bund.de/) (BKG - als amtliche Karte, deutschlandweit verfügbar)
