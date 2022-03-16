@@ -42,7 +42,7 @@ Als Ergebnis erhalten Sie nun den ersten gemalten Bezirk:
 
 
 ## Bezirke bearbeiten
-Nur ein "aktiver" Bezirk kann bearbeitet werden. Aktiv ist ein Bezirk dann, wenn er blau hinterlegt ist. Sie aktivieren einen Bezirk entweder durch Anklicken auf der Karte oder über die Suche auf der linken Seite, in dem Sie bei Filter die Bezirksnummer (oder -name) eingeben.
+Nur ein "aktiver" Bezirk kann bearbeitet werden. Aktiv ist ein Bezirk dann, wenn er blau hinterlegt ist. Die Gebäudepunkte haben einen grünen Kringel (statt  schwarzem Kringel). Sie aktivieren einen Bezirk entweder durch Anklicken auf der Karte oder über die Suche auf der linken Seite, in dem Sie bei Filter die Bezirksnummer (oder -name) eingeben.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158537426-a4614d34-850b-4d46-b1d2-156816d456b6.png "Bezirk aktivieren")
 
@@ -55,4 +55,23 @@ Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit
 Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von **grün** nach **rot** oder umgekehrt.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539008-247181ef-470a-4fa2-96a5-d81f208df699.png)
+
+## Bezirk löschen und neu erzeugen
+Einen Bezirk löschen Sie einfach durch Klick auf den **Symbol** Mülleimer.
+
+![grafik](https://user-images.githubusercontent.com/99329016/158539630-2c35bcbd-e28b-4bf0-a21b-8dd2925b39cb.png "Bezirk löschen")
+
+Die im Polygon befindlichen Punkte wissen weiterhin, welche Bezirk sie zugeordnet sind und sind weiterhin grün. Das Polygon dient nur als Hilfsmittel zur Visualisierung. Kontrollieren können Sie das, wenn Sie auf der linken Seite auf die Bezirksnummer klicken und den Bezirk aktivieren. Dort fehlt das Häkchen bei "Geometrie vorhanden", die Gebäudepunkte erscheinen aber auf der Karte mit grünem Kringel. Sie können nun das Polygon automatisiert neu erzeugen lassen, in dem Sie auf ```Administration - Verteilbezirk``` gehen. Dort wählen Sie den gewünschten Bezirk aus und drücken unten auf 
+
+![grafik](https://user-images.githubusercontent.com/99329016/158540508-041f3dbc-b2ec-47c2-a916-0753fb3690fa.png)
+
+```Markierte Verteilbezirke - Polygone erzeugen - Anwenden```
+
+Zurück in der Gebietsplanung ist das Polygon für den Bezirk voll automatisch gemalt.
+
+![grafik](https://user-images.githubusercontent.com/99329016/158540878-4b87d58c-d804-4fe5-8be3-70e9f7d8cbb8.png "Automatisch erzeugtes Polygon")
+
+Bei den automatisch erzeugten Polygonen wird die Hülle wie ein Gummiband um die zugeordneten Punkte gelegt. Siehe hierzu unser Kapitel zum Arbeiten mit **Basispolygonen**.
+
+
 
