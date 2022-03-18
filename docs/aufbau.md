@@ -10,7 +10,7 @@ MultiRoute Go! lässt sich in die beiden Hauptbereiche gliedern:
 
 Grundsätzlich befindet sich in MultiRoute Go! immer auf der rechten Seite die Karte, in der Sie sehen, wo Sie gerade arbeiten. Auf der Karte können Sie schieben und zoomen. Auf der linken Seite können Sie nach Bezirken oder Gehfolgen suchen (filtern) oder Metainformationen ansehen. 
 
-Ein Klick auf das aktive Symbol (hier die :material-earth: Weltkugel für die Gebietsplanung) vergrößert die Karte auf Bildschirmbreite. Ein erneuter Klick öffnet wieder das Menü auf der linken Seite.
+Ein Klick auf das aktive Symbol (hier die :material-earth: für die Gebietsplanung) vergrößert die Karte auf Bildschirmbreite. Ein erneuter Klick öffnet wieder das Menü auf der linken Seite.
 
 
 ## Grundlagen
@@ -27,7 +27,9 @@ Für die **Gebietsplanung** sind **Gebäudekoordinaten** nötig. Diese können a
 
 1. Wir stellen **amtliche Koordinaten** der Vermessungsverwaltungen (aktuell nur für Deutschland) für Sie ins System. gb consite bezieht diese Daten von der TomTom. Leider unterliegen diese Daten räumlichen Qualitätsschwankungen. Dies steht in Abhängigkeit mit den Aktualisierungszyklen der Verwaltung. 
 An die Koordinaten spielen wir für Sie auch gleich die **Haushaltsdaten**. Dies beinhaltet die Anzahl der Haushalte und die Anzahl der Gewerbebetriebe. Die Daten werden von [infas360](https://www.infas360.de/) mittels statistischer Methoden aus sozio-demographischen Daten ermittelt. Wie bei den Koordinaten kann es zu räumlichen Schwankungen kommen. In Gebieten mit einer einheitlichen Struktur sind die Daten sehr genau. In gemischten Gebieten kann es zu Schwankungen kommen. Für gebietsplanerische Aufgaben sind die Daten sehr gut geeignet. Gebietsauflagen lassen sich damit gut abschätzen. 
+
 2. Die (nur wenigen) Adresspunkte werden beim Upload über [HERE](https://wego.here.com/) geokodiert.
+
 3. Sie haben bereits **Geokoordinaten** (Latitude, Longitude) und wir können Ihre Koordinaten für das System übernehmen. Gerne auch mit Ihren Haushaltszahlen für eine exakte Auflage.
 
 ## Zusätzliche Daten
