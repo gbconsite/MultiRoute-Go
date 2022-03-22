@@ -28,6 +28,9 @@ Optional auch:
    * Eigene Haushaltsdaten
    * Eigene Werbeverweigerer Daten
 
+## Manueller Upload
+
+Der manuelle Upload in MultiRoute Go! ist möglich, aber nicht vorgesehen. Haben Sie Ihre Gebäudedaten mit Koordianten angereichert, ist es gar kein Problem. Dann ist der manuelle Upload eine gute Alternative. In allen anderen Fällen benötigen wir ein eindeutiges Merkmal zum Matchen. Üblicherweise matchen wir initial Ihren Straßen-/Gebäudestamm gegen unsere amtlichen Koordinaten. Sprechen Sie uns gerne an, wenn Sie weitere Informationen benötigen.
 
 ## Schnittstelle (automatisierter Import)
 
