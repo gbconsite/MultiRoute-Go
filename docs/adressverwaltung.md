@@ -8,7 +8,7 @@ Hier erfolgt die Suche über den kompletten Straßenbestand von OpenStreetMap (O
 
 
 ## Adresssuche im Verbreitungsgebiet
-Die zweite Suchmöglichkeit ist das Suchen innerhalb Ihres Verbreitungsgebiets Dazu nutzen Sie die Adressverwaltung **KleinesHäuschenSymbol**. 
+Die zweite Suchmöglichkeit ist das Suchen innerhalb Ihres Verbreitungsgebiets Dazu nutzen Sie die Adressverwaltung :fontawesome-solid-house:. 
 MultiRoute Go! filtert dann sofort aus den bekannten Adressen und hilft so bei der Suche mit:
 ![grafik](https://user-images.githubusercontent.com/99329016/159439198-8f9b6935-d615-41f6-8206-fedb003bdd23.png "Adresssuche in der Adressverwaltung")
 
