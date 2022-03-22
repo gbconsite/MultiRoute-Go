@@ -12,5 +12,8 @@ Die zweite Suchmöglichkeit ist das Suchen innerhalb Ihres Verbreitungsgebiets D
 MultiRoute Go! filtert dann sofort aus den bekannten Adressen und hilft so bei der Suche mit:
 ![grafik](https://user-images.githubusercontent.com/99329016/159439198-8f9b6935-d615-41f6-8206-fedb003bdd23.png "Adresssuche in der Adressverwaltung")
 
+Über die Adressverwaltung ist es einfach, Adressen zu finden, um Bemerkungen zu hinterlegen. **Start**-/**End**- oder **Zustellhäuser** zu setzen oder neue Gebäude anzulegen.
 
+Durch den wiederholten Klick auf das :fontawesome-solid-house: klappt sich die linke Menüleiste ein und auch wieder aus.
 
+## Neue Gebäude anlegen
