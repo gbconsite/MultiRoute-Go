@@ -7,7 +7,8 @@ nav:
       - Aufbau: aufbau.md
       - 1. Datenintegration: upload.md
       - 2. Gebietsplanung: gebietsplanung.md
-      - 3. Gehfolgenberechnung: gehfolgen.md
+      - 3. Adresserwaltung: adressverwaltung.md
+      - 4. Gehfolgenberechnung: gehfolgen.md
       - 4. Zusatzmodule: zusatzmodule.md
       - Tipps & Tricks: tipps.md
 
