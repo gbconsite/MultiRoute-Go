@@ -26,5 +26,5 @@ Hin und wieder gibt es Neubaugebiete, in denen MultiRoute Go! noch keine Gebäud
 
 ## Weitere Tipps & Tricks
 In [MultiRoute Tour!](https://multiroute-tour.de/) funktioniert das wie in MultiRoute Go!. Werfen Sie einen Blick auf die Tipps & Tricks zur manuellen Bearbeitung von Adressen:
-https://multiroute-tour.de/tipps/#adressen-neu-anlegen
+[https://multiroute-tour.de/tipps/#adressen-neu-anlegen](https://multiroute-tour.de/tipps/#adressen-neu-anlegen]
 
