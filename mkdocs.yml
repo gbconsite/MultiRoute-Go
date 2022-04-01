@@ -8,8 +8,9 @@ nav:
       - 1. Datenintegration: upload.md
       - 2. Gebietsplanung: gebietsplanung.md
       - 3. Adressverwaltung: adressverwaltung.md
-      - 4. Gehfolgenberechnung: gehfolgen.md
-      - 5. Zusatzmodule: zusatzmodule.md
+      - 4. Spezialhäuser: spezialhaeuser.md
+      - 5. Gehfolgenberechnung: gehfolgen.md
+      - 6. Zusatzmodule: zusatzmodule.md
       - Tipps & Tricks: tipps.md
 
     - API:
