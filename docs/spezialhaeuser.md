@@ -22,6 +22,7 @@ Das Anlegen von **Starthaus** oder auch **Endhaus** funktioniert ähnlich. Beide
 
 Für das **Endhaus** wird das **rote Zielfähnchen** ausgewählt.
 
-Auf der Karte erscheint das Starthaus als gelber Punkt, das Enhaus als orangener Punkt:
+Auf der Karte gibt es <span style="color: yellow;">&#x1f534;&#xfe0e;</span> für das Starthaus und <span style="color: orange;">&#x1f534;&#xfe0e;</span> für das Enhaus.
+
 https://go.multiroute.de/handbuch/gebietsplanung/bedeutungeinfaerbungen/punkte_einf%C3%A4rbungen.jpg
 ![grafik](https://user-images.githubusercontent.com/99329016/161265829-4d7e3cc2-28f8-43e2-ab77-0fda8391596c.png)
