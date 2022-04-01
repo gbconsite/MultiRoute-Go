@@ -42,7 +42,7 @@ Als Ergebnis erhalten Sie nun den ersten gemalten Bezirk:
 
 
 ## Bezirke bearbeiten
-Nur ein "aktiver" Bezirk kann bearbeitet werden. Aktiv ist ein Bezirk dann, wenn er blau hinterlegt ist. Die Gebäudepunkte haben einen grünen Kringel (statt  schwarzem Kringel). Sie aktivieren einen Bezirk entweder durch Anklicken auf der Karte oder über die Suche auf der linken Seite, in dem Sie bei Filter die Bezirksnummer (oder -name) eingeben.
+Nur ein **aktiver Bezirk** kann bearbeitet werden. Aktiv ist ein Bezirk dann, wenn er blau hinterlegt ist. Die Gebäudepunkte haben einen grünen Kringel (statt  schwarzem Kringel). Sie aktivieren einen Bezirk entweder durch Anklicken auf der Karte oder über die Suche auf der linken Seite, in dem Sie bei Filter die Bezirksnummer (oder -name) eingeben.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158537426-a4614d34-850b-4d46-b1d2-156816d456b6.png "Bezirk aktivieren")
 
