@@ -9,6 +9,7 @@ Wenn Sie schon genau wissen, wo sich das Zustellerhaus befindet, können Sie auf
 ![grafik](https://user-images.githubusercontent.com/99329016/161263040-7bf1e58a-d4f8-442d-b324-66ff0a066a6e.png)
 
 Nun können Sie im Menü des Gebäudes die **Abladestelle** definieren in dem Sie auf das kleine **Zustellerhäuschen** klicken.
+
 ![grafik](https://user-images.githubusercontent.com/99329016/161263193-baf56f65-057e-484c-a5f8-2bf304947920.png)
 
 Die Abladestelle wird nun als <span style="color: magenta;">&#x1f534;&#xfe0e;</span> Punkt dargestellt. https://go.multiroute.de/handbuch/gebietsplanung/bedeutungeinfaerbungen/punkte_einf%C3%A4rbungen.jpg
@@ -23,7 +24,7 @@ Das Anlegen von **Starthaus** oder auch **Endhaus** funktioniert ähnlich. Beide
 
 Für das **Endhaus** wird das **rote Zielfähnchen** ausgewählt.
 
-Auf der Karte gibt es <span style="color: yellow;">&#x1f534;&#xfe0e;</span> für das Starthaus und <span style="color: orange;">&#x1f534;&#xfe0e;</span> für das Enhaus.
+Auf der Karte erscheinen das Starthaus <span style="color: yellow;">&#x1f534;&#xfe0e;</span> und das Endhaus <span style="color: orange;">&#x1f534;&#xfe0e;</span>.
 
 https://go.multiroute.de/handbuch/gebietsplanung/bedeutungeinfaerbungen/punkte_einf%C3%A4rbungen.jpg
 ![grafik](https://user-images.githubusercontent.com/99329016/161265829-4d7e3cc2-28f8-43e2-ab77-0fda8391596c.png)
