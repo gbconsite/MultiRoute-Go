@@ -2,16 +2,16 @@
 
 Der modulare Aufbau von MultiRoute Go! ermöglicht das Anpassen an verlagseigene Prozesse. Derzeit sind als Zusatzmodule verfügbar:
 
-    Abo-/Titeldifferenzierung
-    Bezirksplanung
-    Nachladen an „Depots“
-    Resthaushalte
-    Tracking
-    Wegnetzlängen
-    Gebiets-Adressliste für die Briefverteilung
-    Klickbare Karte
-    Straßenanpassungen
-    MultiRoute Go! API
+- Abo-/Titeldifferenzierung
+- Bezirksplanung
+- Nachladen an „Depots“
+- Resthaushalte
+- Tracking
+- Wegnetzlängen
+- Gebiets-Adressliste für die Briefverteilung
+- Klickbare Karte
+- Straßenanpassungen
+
     
 ##Abo-Titeldifferenzierung##
 Wichtig für jede Tageszeitung, damit die Zusteller genau wissen, welchen Titel Sie in welchen Briefkasten zustellen müssen. 
