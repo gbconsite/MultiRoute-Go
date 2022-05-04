@@ -20,11 +20,9 @@ Durch den wiederholten Klick auf das :fontawesome-solid-house: klappt sich die l
 
 ## Neue Gebäude anlegen
 
-Hin und wieder gibt es Neubaugebiete, in denen MultiRoute Go! noch keine Gebäude kennt. Diese können manuell per Klick in die Karte](../tipps/#adressen-neu-anlegen) hinzugefügt werden.
+Hin und wieder gibt es Neubaugebiete, in denen MultiRoute Go! noch keine Gebäude kennt. Diese können manuell per Klick in die Karte](https://tour.multiroute.de/handbuch/tipps/#adressen-neu-anlegen) hinzugefügt werden.
 
 ![!](assets/Adressverwaltung2.png)
 
 ## Weitere Tipps & Tricks
-In [MultiRoute Tour!](https://multiroute-tour.de/) funktioniert das wie in MultiRoute Go!. Werfen Sie einen Blick auf die Tipps & Tricks zur manuellen Bearbeitung von Adressen:
-[https://multiroute-tour.de/tipps/#adressen-neu-anlegen](https://multiroute-tour.de/tipps/#adressen-neu-anlegen]
-
+Beachten Sie auch die [Hinweise von MultiRoute Tour!](https://tour.multiroute.de/handbuch/tipps/), wo mehr Adressen manuell nachbearbeitet werden.
