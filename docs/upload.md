@@ -30,11 +30,13 @@ Optional auch:
 
 ## Manueller Upload
 
-Der manuelle Upload in MultiRoute Go! ist möglich, aber nicht vorgesehen. Haben Sie Ihre Gebäudedaten mit Koordianten angereichert, ist es gar kein Problem. Dann ist der manuelle Upload eine gute Alternative. In allen anderen Fällen benötigen wir ein eindeutiges Merkmal zum Matchen. Üblicherweise matchen wir initial Ihren Straßen-/Gebäudestamm gegen unsere amtlichen Koordinaten. Sprechen Sie uns gerne an, wenn Sie weitere Informationen benötigen.
+Möchten Sie selbst den manuellen Upload in MultiRoute Go! durchführen benötigen Sie Ihre Gebäudedaten mit angereichteren Koordinaten. Hier ist standardmäßig kein Geokodierservice angeschlossen.
+In allen anderen Fällen benötigen wir ein eindeutiges Merkmal zum **Matchen**. Üblicherweise matchen wir initial Ihren Straßen-/Gebäudestamm gegen unsere amtlichen Koordinaten. Dabei übernehmen wir Ihre Straßen-/Gebäude ID.
+Sprechen Sie uns gerne an, wenn Sie weitere Informationen benötigen.
 
 ## Schnittstelle (automatisierter Import)
 
-Natürlich kann der Import auch automatisiert über eine Schnittstelle erfolgen.
+Natürlich kann der Import auch automatisiert über eine Schnittstelle erfolgen. Zuvor ist das **Matching** nötig.
 
 
 ## Was passiert im Hintergrund?
