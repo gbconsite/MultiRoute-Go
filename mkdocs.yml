@@ -11,7 +11,8 @@ nav:
       - 4. Spezialhäuser: spezialhaeuser.md
       - 5. Gehfolgenberechnung: gehfolgen.md
       - 6. Zusatzmodule: zusatzmodule.md
-      - Tipps & Tricks: tipps.md
+ #      - Tipps & Tricks: tipps.md
+      - Webinare
 
     - API:
       - MRG! API: api-intro.md
