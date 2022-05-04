@@ -14,6 +14,7 @@ nav:
       - 7. Exporte: exporte.md
  #      - Tipps & Tricks: tipps.md
       - Webinare: webinare.md
+      - Begriffe: definitionen.md
 
     - API:
       - MRG! API: api-intro.md
