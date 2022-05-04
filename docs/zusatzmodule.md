@@ -3,7 +3,7 @@
 Der modulare Aufbau von MultiRoute Go! ermöglicht das Anpassen an verlagseigene Prozesse. Derzeit sind als Zusatzmodule verfügbar:
 
 - [Abo-/Titeldifferenzierung](#abo-titeldifferenzierung)
-- Bezirksplanung](#bezirksplanung)
+- [Bezirksplanung](#bezirksplanung)
 - [Nachladen an „Depots“](#nachladen-an-depots)
 - [Resthaushalte](#resthaushalte)
 - [Tracking](##tracking)
