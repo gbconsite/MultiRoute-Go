@@ -34,8 +34,17 @@ Ein realistischer Weg, der das Nachladen abbildet.
 
 
 ##Resthaushalte##
-    Tracking
-    Wegnetzlängen
-    Gebiets-Adressliste für die Briefverteilung
-    Klickbare Karte
-    Straßenanpassungen
+Für die Resthaushaltsverteilung ist es wichtig, dass möglichst alle Gebäude, die sich innerhalb eines Trägerbezirks befinden, auch zugeordnet (grün) sind. Die Resthaushaltsverteilung ist gemäß unserer Definition:
+Vollverteilung minus Abos minus Werbeverweigerer = Resthaushalte 
+
+##Tracking##
+
+
+##Wegnetzlängen##
+
+
+##Gebiets-Adressliste für die Briefverteilung##
+
+##Klickbare Karte##
+
+##Straßenanpassungen##
