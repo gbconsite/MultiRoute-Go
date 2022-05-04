@@ -3,14 +3,14 @@
 Der modulare Aufbau von MultiRoute Go! ermöglicht das Anpassen an verlagseigene Prozesse. Derzeit sind als Zusatzmodule verfügbar:
 
 - [Abo-/Titeldifferenzierung](#abo-titeldifferenzierung)
-- Bezirksplanung
-- Nachladen an „Depots“
-- Resthaushalte
-- Tracking
-- Wegnetzlängen
-- Gebiets-Adressliste für die Briefverteilung
-- Klickbare Karte
-- Straßenanpassungen
+- Bezirksplanung](#bezirksplanung)
+- [Nachladen an „Depots“](#nachladen-an-depots)
+- [Resthaushalte](#resthaushalte)
+- [Tracking](##tracking)
+- [Wegnetzlängen](#wegnetzlangen)
+- [Gebiets-Adressliste für die Briefverteilung](#gebiets-adressliste-fur-die-briefverteilung)
+- [Klickbare Karte](#klickbare-karte)
+- [Straßenanpassungen](#straenanpassungen)
 
     
 ##Abo-Titeldifferenzierung##
@@ -38,13 +38,17 @@ Für die Resthaushaltsverteilung ist es wichtig, dass möglichst alle Gebäude, 
 Vollverteilung minus Abos minus Werbeverweigerer = Resthaushalte 
 
 ##Tracking##
-
+Auf der Karte können Sie entweder live oder historisch verfolgen, wie sich ein Tracker bewegt hat. Das Tracking läuft entweder mit Hilfe eines mobilen Endgeräts (Traccar App) oder eines Trackers, den wir Ihnen zur Verfügung stellen. Bitte sprechen Sie den Vertrieb an!
+Die App ist geeignet für die Verwendung in Fahrzeugen, aber auch Zusteller, die zu Fuß unterwegs sind, können darüber getrackt werden.
 
 ##Wegnetzlängen##
-
+Alle innerhalb eines Polygons befindlichen Streckenlängen werden addiert. Besonders gut bei Neuplanungen und Optimierungen von Bezirken.
 
 ##Gebiets-Adressliste für die Briefverteilung##
+Bei Hybrid-Zustellung mit wenig Briefen innerhalb eines Bezirks ohne automatische Schnittstelle. Manuell werden die Briefe im MultiRoute Go! Trägerbezirk erfasst und mit in der Gehfolgenberechnung berücksichtigt.
 
 ##Klickbare Karte##
+Ein Link zur direkten Verwendung in App, Portal oder direkt an die Träger. Zum Rein- und Rauszoomen. Einmalig gültiger Link oder permanter Link. 
 
 ##Straßenanpassungen##
+Nur für Kunden mit InHouse-Lizenz oder dediziertem Server. Machen Sie Anpassungen in den OpenStreetMap (OSM) Daten, die nur für Sie gelten. Also bspw. Straßen, die vorübergehend gesperrt sind markieren oder Fußwege, die im Winter zu matschig werden, rausnehmen. 
