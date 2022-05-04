@@ -10,10 +10,10 @@ Die Ausreißer-Suche ist eine Erweiterung für die Routenberechnungs-Engine von 
 Der MultiRoute Go! Algorithmus erlaubt Berechnungen von mehreren hundert Adresspunkten je Gehfolge.
 
 ## Berechnen von Gehfolgen
-Das Menü Gehfolgenberechnung wird über das Hauptmenü geöffnet. Das Symbol für die Gehfolgenberechnungen ist :calculator: 🖩.
+Das Menü Gehfolgenberechnung wird über das Hauptmenü geöffnet. Das Symbol für die Gehfolgenberechnungen ist :fontawesome-solid-calculator:.
 ![grafik](https://user-images.githubusercontent.com/99329016/166660795-0f6367e1-7dbc-45e7-83b7-2cec9fe632b7.png)
 
-Die Berechnung kann auch (aus der Gebietsplanung) über einen Klick auf den gewünschten Bezirk gestartet werden. Dort einfach auf den :calculator: 🖩 drücken.
+Die Berechnung kann auch (aus der Gebietsplanung) über einen Klick auf den gewünschten Bezirk gestartet werden. Dort einfach auf den :fontawesome-solid-calculator: drücken.
 ![grafik](https://user-images.githubusercontent.com/99329016/166661323-4e0668fb-88f8-4ff3-a552-b2620e8d0a6d.png)
 
 Im Menü Gehfolgenberechnung alternativ einfach die gewünschte Bezirksnummer eintippen:
@@ -21,7 +21,7 @@ Im Menü Gehfolgenberechnung alternativ einfach die gewünschte Bezirksnummer ei
 
 Es ist auch möglich, alle Verteilbezirke der aktuellen Ausgabe auf einmal zu starten.
 
-Mehr zu den PARAMETERN in der Gehfolgenberechnung und den Auswirkungen.
+## Parameter für die Gehfolgenberechnung##
 
 ## Aufruf von berechneten Gehfolgen
 
