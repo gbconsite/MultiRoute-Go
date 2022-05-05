@@ -27,16 +27,19 @@ Optional auch:
 
    * Eigene Haushaltsdaten
    * Eigene Werbeverweigerer Daten
+   * eindeutige Straßen-ID / Gebäude-ID
 
 ## Manueller Upload
 
 Möchten Sie selbst den manuellen Upload in MultiRoute Go! durchführen benötigen Sie Ihre Gebäudedaten mit angereichteren Koordinaten. Hier ist standardmäßig kein Geokodierservice angeschlossen.
-In allen anderen Fällen benötigen wir ein eindeutiges Merkmal zum **Matchen**. Üblicherweise matchen wir initial Ihren Straßen-/Gebäudestamm gegen unsere amtlichen Koordinaten. Dabei übernehmen wir Ihre Straßen-/Gebäude ID.
+In allen anderen Fällen benötigen wir ein eindeutiges Merkmal zum **Matchen**. Üblicherweise matchen wir initial Ihren Straßen-/Gebäudestamm gegen unsere amtlichen Koordinaten. Dabei übernehmen wir Ihre Straßen-/Gebäude-ID.
 Sprechen Sie uns gerne an, wenn Sie weitere Informationen benötigen.
 
 ## Schnittstelle (automatisierter Import)
 
 Natürlich kann der Import auch automatisiert über eine Schnittstelle erfolgen. Zuvor ist das **Matching** nötig.
+Wir besprechen mit Ihnen die automatisierte tägliche Datenübernahme. 
+Alternativ: Datenimport wird manuell angestoßen
 
 
 ## Was passiert im Hintergrund?
