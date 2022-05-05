@@ -19,7 +19,7 @@ Die Berechnung der Gehfolgen basiert auf Karten von [OpenStreetMap](https://www.
 Zusätzlich sind für Sie (je nach Installation und Lizenzierung) weitere Kartendienste frei. Sie wählen zwischen den Hintergrundkartendiensten mit Klick auf :material-layers-triple: auf der rechten Seite im Kartenfenster von MultiRoute Go!. Möglich sind:
 
 * [BING Maps](https://www.bing.com/maps) (Luftbilder)
-* [WebAtlas.DE](https://gdz.bkg.bund.de/) (BKG - als amtliche Karte, deutschlandweit verfügbar)
+* Basemap als amtliche Karte vom Bundesamt für Kartografie und Geodäsie (ersetzt den [WebAtlas.DE](https://gdz.bkg.bund.de/))
 * [Mapquest](https://www.mapquest.com/) (Luftbilder)
 * amtliche Luftbilder (je nach Bundesland und Verfügbarkeit, teilweise mit weiteren Kosten - bitte fragen Sie nach!)
 
@@ -30,7 +30,7 @@ An die Koordinaten spielen wir für Sie auch gleich die **Haushaltsdaten**. Dies
 
 2. Die (nur wenigen) Adresspunkte werden beim Upload über [HERE](https://wego.here.com/) geokodiert.
 
-3. Sie haben bereits **Geokoordinaten** (Latitude, Longitude) und wir können Ihre Koordinaten für das System übernehmen. Gerne auch mit Ihren Haushaltszahlen für eine exakte Auflage.
+3. Sie haben bereits **Geokoordinaten** (Latitude, Longitude) und wir können Ihre Koordinaten für das System übernehmen. Gerne auch mit Ihren selbst erfassten Haushaltszahlen für eine exakte Auflage.
 
 ## Zusätzliche Daten
 
