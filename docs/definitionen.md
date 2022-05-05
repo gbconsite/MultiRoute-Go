@@ -1,4 +1,5 @@
-# Begrifflichkeiten und Definitionen
+# Begriffe und Definitionen
+
 
 ## Ausgabe ##
 
