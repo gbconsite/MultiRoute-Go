@@ -40,8 +40,9 @@ Als Ergebnis erhalten Sie nun den ersten gemalten Bezirk:
 ![grafik](https://user-images.githubusercontent.com/99329016/158333577-c252812f-35c6-4e9c-a61c-b5f52fc20344.png "erster gemalter Verteilbezirk")
 
 
-## Bedeutung der bunten Punkte
-Die Farbgebung in MultiRoute Go! zeigt Ihnen die Bedeutung eines Punktes:
+## Bedeutung der Punkteinfärbungen
+Die Farbgebung in MultiRoute Go! sagt einen Blick etwas über die Bedeutung eines Punktes:
+| Farbe     | Bedeutung |
 | --- | --- |
 | :red_circle:  | Gebäudepunkt ohne Zuordnung  |
 | :green_circle:  | Gebäudepunkt mit Zuordnung |
