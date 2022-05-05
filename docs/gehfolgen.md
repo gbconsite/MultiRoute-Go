@@ -21,7 +21,7 @@ Im Menü Gehfolgenberechnung alternativ einfach die gewünschte Bezirksnummer ei
 
 Es ist auch möglich, alle Verteilbezirke der aktuellen Ausgabe auf einmal zu starten.
 
-## Parameter für die Gehfolgenberechnung##
+## Parameter für die Gehfolgenberechnung
 
 ## Aufruf von berechneten Gehfolgen
 
