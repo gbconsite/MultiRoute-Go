@@ -59,18 +59,18 @@ Nur ein **aktiver Bezirk** kann bearbeitet werden. Aktiv ist ein Bezirk dann, we
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158537426-a4614d34-850b-4d46-b1d2-156816d456b6.png "Bezirk aktivieren")
 
-Zum Editieren des Bezirks drücken Sie den Button **Symbol** BEARBEITEN-BUTTON.
+Zum Editieren des Bezirks drücken Sie :material-file-edit:.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158537773-4bbd949b-c0c8-4e97-83ba-d85dd916dd22.png)
 
-Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit gedrückter linker Maustaste ziehen können. Wenn Sie fertig sind mit dem Bearbeiten, drücken Sie auf ![grafik](https://user-images.githubusercontent.com/99329016/158332684-fc21b309-0c96-4934-bf59-86fbf710db1a.png "Speichern") **Symbol**.
+Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit gedrückter linker Maustaste ziehen können. Wenn Sie fertig sind mit dem Bearbeiten, drücken Sie auf ![grafik](https://user-images.githubusercontent.com/99329016/158332684-fc21b309-0c96-4934-bf59-86fbf710db1a.png "Speichern") :material-content-save:.
 
 Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_circle: nach :red_circle: oder umgekehrt.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539008-247181ef-470a-4fa2-96a5-d81f208df699.png)
 
 ## Bezirk löschen und neu erzeugen
-Einen Bezirk löschen Sie einfach durch Klick auf den **Symbol** Mülleimer.
+Einen Bezirk löschen Sie einfach durch Klick auf den :wastebasket:.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539630-2c35bcbd-e28b-4bf0-a21b-8dd2925b39cb.png "Bezirk löschen")
 
