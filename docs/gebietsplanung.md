@@ -42,6 +42,7 @@ Als Ergebnis erhalten Sie nun den ersten gemalten Bezirk:
 
 ## Bedeutung der Punkteinfärbungen
 Die Farbgebung in MultiRoute Go! sagt einen Blick etwas über die Bedeutung eines Punktes:
+
 | Farbe     | Bedeutung |
 | --- | --- |
 | :red_circle:  | Gebäudepunkt ohne Zuordnung  |
