@@ -5,7 +5,10 @@ MultiRoute Go! ist ein Tool für die:
 * Optimierung von Bezirken (Gebietsoptimierung und -planung)
 * Berechnung der optimalen Gehfolge (Geh-/Gangfolgenberechnung)
 
-Einen kurzen Überblick erhalten Sie in unserem Video:
+Besonders gut geeignet ist MultiRoute Go! für Zustellorganisationen, die über eine Schnittstelle zu ihrem Verlagssystem (SAP, JJK, HUP, VI&VA etc.) oder Briefsortierung (PostOffice von CodX oder ProMail) automatisiert täglich neue Berechnungen durchführen möchten.
+
+
+Einen kurzen Überblick zu den Standardfunktionalitäten erhalten Sie in unserem Video:
 
  [Das Verlags-GIS MultiRoute Go!](https://youtu.be/oRk-P5Ty7VI)
 
