@@ -15,7 +15,8 @@ Ein Klick auf das aktive Symbol (hier die :material-earth: für die Gebietsplanu
 
 ## Grundlagen
 
-Die Berechnung der Gehfolgen basiert auf Karten von [OpenStreetMap](https://www.openstreetmap.org) (OSM). Diese werden von uns wöchentlich aktualisiert in Ihr MultiRoute Go! eingespielt. Ihre Anpassungen und Änderungen stehen also immer nach wenigen Tagen direkt für neue Gehfolgenberechnungen zur Verfügung. <!-- Bei InHouse Kunden Zusatzmodul "Straßensperrung -->
+Die Berechnung der Gehfolgen basiert auf Karten von [OpenStreetMap](https://www.openstreetmap.org) (OSM). Oben rechts im Kartenfenster ist die Suche im gesamten hinterlegten OSM-Kartenbestand möglcih. Diese werden von uns wöchentlich aktualisiert in Ihr MultiRoute Go! eingespielt. Ihre Anpassungen und Änderungen an Gebäuden und Wegen/Straßen, die für das Routing verwendet werden, stehen also immer nach wenigen Tagen direkt für neue Gehfolgenberechnungen zur Verfügung. Bei InHouse Kunden ermöglicht  das  Zusatzmodul "[Straßenanpassungen](../zusatzmodule/#straenanpassungen)" weitere Möglichkeiten zum Eingreifen.
+
 Zusätzlich sind für Sie (je nach Installation und Lizenzierung) weitere Kartendienste frei. Sie wählen zwischen den Hintergrundkartendiensten mit Klick auf :material-layers-triple: auf der rechten Seite im Kartenfenster von MultiRoute Go!. Möglich sind:
 
 * [BING Maps](https://www.bing.com/maps) (Luftbilder)
