@@ -4,7 +4,7 @@ nav:
     - Home: index.md
     - Handbuch:
       - Übersicht: uebersicht.md
-      - Aufbau: aufbau.md
+      - Grundlagen: grundlagen.md
       - 1. Datenintegration: upload.md
       - 2. Gebietsplanung: gebietsplanung.md
       - 3. Adressverwaltung: adressverwaltung.md
