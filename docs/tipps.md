@@ -1,5 +1,16 @@
 # Tipps & Tricks 
 
+Tipps & Tricks bei der Arbeit mit MultiRoute Go! tauchen in den Texten auch zwischendurch auf und sind mit einem :exclamation: gekennzeichnet.
+
+## Spalten anpassen ##
+Durch Klick auf den blauen Pfeil :arrow_down: haben Sie die Möglichkeit, **Spalten selbst zu definieren**, die Sie angezeigt bekommen möchten. Ein erneuter Klick auf :arrow_up: schließt dieses Menü wieder.
+![grafik](https://user-images.githubusercontent.com/99329016/158330870-34693ff6-1752-4bf2-8268-18ac2bdceda5.png "Neuanlage Trägerbezirk")
+
+
+
+
+
+
 ## Adressen neu anlegen
 
 In drei einfachen Schritten können Sie in MRT! neue Adressen anlegen. Dies ist nützlich wenn Sie bspw. die Start- und Endadresse der Fahrzeuge verändern möchten. 
