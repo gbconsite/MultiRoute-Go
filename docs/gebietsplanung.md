@@ -3,7 +3,7 @@
 In der Gebietsplanung sehen Sie die jeweiligen Trägerbezirke einer **Ausgabe**. Sie können neue Bezirke anlegen, bestehende Bezirke verändern oder löschen. 
 
 ## Manuelle Neuanlage von Verteilbezirken
-Manuelles Neuzeichnen von Bezirken kommt in der Regel nur sehr selten vor. Folgendermaßen gehen Sie vor:
+Folgendermaßen gehen Sie vor:
 
 ```Administration - Verteilbezirk```
 
