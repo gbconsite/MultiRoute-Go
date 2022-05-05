@@ -1,4 +1,4 @@
-# **4. Gehfolgenberechnung**
+# **5. Gehfolgenberechnung**
 
 
 Die Heuristik zur Gehfolgenoptimierung in MultiRoute Go! folgt dem Prinzip der lokalen Suche. Sie beginnt mit einer zufälligen Reihenfolge der zu beliefernden Gebäude (Abonnenten oder Vollverteilung) und versucht systematisch, durch eine einfache Vertauschoperation von zwei Gebäuden eine bessere Gehfolge zu erhalten. Lässt sich auf diese Weise keine bessere Gehfolge mehr finden, wird das Ergebnis zwischengespeichert und eine willkürliche Vertauschung in der Gehfolge sorgt für eine neue Ausgangsposition um weiterzusuchen. Damit die Heuristik nicht wieder in dieselbe "Sackgasse" gerät, werden diese Kombinationen gespeichert und im Optimierungsvorgang entsprechend berücksichtigt bzw. werden gemieden.
