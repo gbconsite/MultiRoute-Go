@@ -48,12 +48,13 @@ Die Farbgebung in MultiRoute Go! sagt einen Blick etwas über die Bedeutung eine
 | :red_circle:  | Gebäudepunkt ohne Zuordnung  |
 | :green_circle:  | Gebäudepunkt mit Zuordnung |
 | :black_circle:  | Abonnent/Briefempfänger |
-| :magenta_circle:  | Abladestelle/Zustellerhaus |
+| <span style="color: magenta;">&#x1f534;&#xfe0e;</span> | Abladestelle/Zustellerhaus |
 | :yellow_circle:  | Starthaus |
 | :orange_circle:  | Endhaus |
 | :blue_circle:  | inaktives Gebäude |
-| :darkgreen_circle:  | doppelt zugeordnetes Gebäude |
+| <span style="color: darkgreen;">&#x1f534;&#xfe0e;</span>  | doppelt zugeordnetes Gebäude |
 
+![grafik](https://user-images.githubusercontent.com/99329016/161265829-4d7e3cc2-28f8-43e2-ab77-0fda8391596c.png)
 
 ## Bezirke bearbeiten
 Nur ein **aktiver Bezirk** kann bearbeitet werden. Aktiv ist ein Bezirk dann, wenn er **blau** hinterlegt ist. Die Gebäudepunkte haben einen **grünen Kringel** (statt  schwarzem Kringel). Sie aktivieren einen Bezirk entweder durch Anklicken auf der Karte oder über die Suche auf der linken Seite, in dem Sie bei Filter die Bezirksnummer (oder -name) eingeben.
