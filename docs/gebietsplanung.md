@@ -14,7 +14,6 @@ Die erfolgreiche Anlage können Sie sich unter dem Menüpunkt **Gebietsplanung**
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158330870-34693ff6-1752-4bf2-8268-18ac2bdceda5.png "Neuanlage Trägerbezirk")
 
-
 :exclamation: Durch Klick auf den blauen Pfeil :arrow_down: haben Sie die Möglichkeit, **Spalten selbst zu definieren**, die Sie angezeigt bekommen möchten. Ein erneuter Klick auf :arrow_up: schließt dieses Menü wieder.
 
 Um nun selbst zeichnen zu können, wird der neu angelegte Bezirk aktiviert, indem Sie auf die Bezirksnummer klicken. In der Karte öffnet sich das **Menü zum Zeichnen**. 
@@ -41,8 +40,20 @@ Als Ergebnis erhalten Sie nun den ersten gemalten Bezirk:
 ![grafik](https://user-images.githubusercontent.com/99329016/158333577-c252812f-35c6-4e9c-a61c-b5f52fc20344.png "erster gemalter Verteilbezirk")
 
 
+## Bedeutung der bunten Punkte
+Die Farbgebung in MultiRoute Go! zeigt Ihnen die Bedeutung eines Punktes:
+| :red_circle:  | Gebäudepunkt ohne Zuordnung  |
+| :green_circle:  | Gebäudepunkt mit Zuordnung |
+| :black_circle:  | Abonnent/Briefempfänger |
+| :magenta_circle:  | Abladestelle/Zustellerhaus |
+| :yellow_circle:  | Starthaus |
+| :orange_circle:  | Endhaus |
+| :blue_circle:  | inaktives Gebäude |
+| :darkgreen_circle:  | doppelt zugeordnetes Gebäude |
+
+
 ## Bezirke bearbeiten
-Nur ein **aktiver Bezirk** kann bearbeitet werden. Aktiv ist ein Bezirk dann, wenn er blau hinterlegt ist. Die Gebäudepunkte haben einen grünen Kringel (statt  schwarzem Kringel). Sie aktivieren einen Bezirk entweder durch Anklicken auf der Karte oder über die Suche auf der linken Seite, in dem Sie bei Filter die Bezirksnummer (oder -name) eingeben.
+Nur ein **aktiver Bezirk** kann bearbeitet werden. Aktiv ist ein Bezirk dann, wenn er **blau** hinterlegt ist. Die Gebäudepunkte haben einen **grünen Kringel** (statt  schwarzem Kringel). Sie aktivieren einen Bezirk entweder durch Anklicken auf der Karte oder über die Suche auf der linken Seite, in dem Sie bei Filter die Bezirksnummer (oder -name) eingeben.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158537426-a4614d34-850b-4d46-b1d2-156816d456b6.png "Bezirk aktivieren")
 
@@ -52,7 +63,7 @@ Zum Editieren des Bezirks drücken Sie den Button **Symbol** BEARBEITEN-BUTTON.
 
 Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit gedrückter linker Maustaste ziehen können. Wenn Sie fertig sind mit dem Bearbeiten, drücken Sie auf ![grafik](https://user-images.githubusercontent.com/99329016/158332684-fc21b309-0c96-4934-bf59-86fbf710db1a.png "Speichern") **Symbol**.
 
-Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von **grün** nach **rot** oder umgekehrt.
+Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_circle: nach :red_circle: oder umgekehrt.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539008-247181ef-470a-4fa2-96a5-d81f208df699.png)
 
