@@ -3,7 +3,7 @@
 
 MultiRoute Go! lässt sich in die beiden Hauptbereiche gliedern:
 
-1. **Gebietsplanung** - :material-earth: Träger-/Verteilbezirke neu planen oder bestehende Einheiten verändern
+1. **[Gebietsplanung](/gebietsplanung/]** - :material-earth: Träger-/Verteilbezirke neu planen oder bestehende Einheiten verändern
 2.  **Gehfolgenberechnung** - :fontawesome-solid-calculator: Berechnung eines Bezirks nur für Abonnenten (Briefe/Zählpunkte etc.), Resthaushalte oder Vollabdeckung (bsp. Anzeigen-/Gemeindeblätter)
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158179701-085bf8a2-27f9-46cc-8b4b-60d599353bc9.png "Menüpunkte Gebietsplanung und Gehfolgenberechnung")
