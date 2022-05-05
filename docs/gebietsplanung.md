@@ -24,7 +24,7 @@ Klicken Sie das ![grafik](https://user-images.githubusercontent.com/99329016/158
 ![grafik](https://user-images.githubusercontent.com/99329016/158331881-7aaed80d-00e7-4e11-aa94-873114d799f6.png "Gezeichnetes Polygon")
 
 Ist das Polygon noch nicht so wie gewünscht, können Sie **nacharbeiten**. Einfach mit gedrückter linker Maustaste an den weißen Stützpunkten ziehen. Zwischen zwei weißen Stützpunkten erscheint automatisch ein neuer weißer Stützpunkt, so dass Sie auch sehr fein und kleinräumig das Polygon so ziehen können, wie gewünscht.
-Erst der Klick auf das ![grafik](https://user-images.githubusercontent.com/99329016/158332684-fc21b309-0c96-4934-bf59-86fbf710db1a.png "Speichern") **Symbol** schließt die Bearbeitung ab.
+Erst der Klick auf :material-content-save: schließt die Bearbeitung ab.
 
 
 ## Zuordnungen aktualisieren
@@ -64,7 +64,7 @@ Zum Editieren des Bezirks drücken Sie :material-file-edit:.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158537773-4bbd949b-c0c8-4e97-83ba-d85dd916dd22.png)
 
-Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit gedrückter linker Maustaste ziehen können. Wenn Sie fertig sind mit dem Bearbeiten, drücken Sie auf ![grafik](https://user-images.githubusercontent.com/99329016/158332684-fc21b309-0c96-4934-bf59-86fbf710db1a.png "Speichern") :material-content-save:.
+Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit gedrückter linker Maustaste ziehen können. Wenn Sie fertig sind mit dem Bearbeiten, drücken Sie auf :material-content-save:.
 
 Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_circle: nach :red_circle: oder umgekehrt.
 
