@@ -45,13 +45,13 @@ Die Farbgebung in MultiRoute Go! sagt einen Blick etwas über die Bedeutung eine
 
 | Farbe     | Bedeutung |
 | --- | --- |
-| :red_circle:  | Gebäudepunkt ohne Zuordnung  |
-| :green_circle:  | Gebäudepunkt mit Zuordnung |
-| :black_circle:  | Abonnent/Briefempfänger |
+|  <span style="color: red;">&#x1f534;&#xfe0e;</span> | Gebäudepunkt ohne Zuordnung  |
+|  <span style="color: green;">&#x1f534;&#xfe0e;</span>  | Gebäudepunkt mit Zuordnung |
+|  <span style="color: black;">&#x1f534;&#xfe0e;</span>  | Abonnent/Briefempfänger |
 | <span style="color: magenta;">&#x1f534;&#xfe0e;</span> | Abladestelle/Zustellerhaus |
-| :yellow_circle:  | Starthaus |
-| :orange_circle:  | Endhaus |
-| :blue_circle:  | inaktives Gebäude |
+|  <span style="color: yellow;">&#x1f534;&#xfe0e;</span>  | Starthaus |
+|  <span style="color: orange;">&#x1f534;&#xfe0e;</span> | Endhaus |
+|  <span style="color: blue;">&#x1f534;&#xfe0e;</span>  | inaktives Gebäude |
 | <span style="color: darkgreen;">&#x1f534;&#xfe0e;</span>  | doppelt zugeordnetes Gebäude |
 
 ![grafik](https://user-images.githubusercontent.com/99329016/161265829-4d7e3cc2-28f8-43e2-ab77-0fda8391596c.png)
