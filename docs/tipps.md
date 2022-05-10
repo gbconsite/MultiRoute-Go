@@ -13,7 +13,7 @@ Durch Klick auf den blauen Pfeil :arrow_down: haben Sie die Möglichkeit, **Spal
 
 ## Adressen neu anlegen
 
-In drei einfachen Schritten können Sie in MRT! neue Adressen anlegen. Dies ist nützlich wenn Sie bspw. die Start- und Endadresse der Fahrzeuge verändern möchten. 
+In drei einfachen Schritten können Sie in MultiRoute Go! neue Adressen anlegen. Dies ist nützlich wenn Sie bspw. die Start- und Endadresse der Fahrzeuge verändern möchten. 
 
 1) Klicken Sie auf **2.Planung** und anschließend auf das kleine Häuschen in der linken Sidebar (Adressverwaltung). 
 
@@ -73,23 +73,19 @@ Wenn es beim Hochladen Ihrer Datei Adressen gab, für die keine Koordinate gefun
 
 Wenn es beim Hochladen Ihrer Datei Adressen gab, für die keine Koordinate gefunden werden konnte, gibt es zwei Möglichkeiten diese zu korrigieren. 
 
-- Am besten ist es, wenn Sie die entsprechenden Adressen überprüfen. Eine einfache Google-Suche offenbart bereits schon, wo der Fehler lag. In diesem Falle korrigieren Sie die Adresse am besten gleich in Ihrem CRM, sodass in Zukunft die richtige Adresse exportiert wird. 
+- Am besten ist es, wenn Sie die entsprechenden Adressen überprüfen. Eine einfache Google-Suche offenbart bereits schon, wo der Fehler lag. In diesem Falle korrigieren Sie die Adresse am besten gleich in Ihrer Ursprungssoftware, sodass in Zukunft die richtige Adresse exportiert wird. 
 
-- Können Sie keinen Fehler feststellen oder möchten Sie die Adresse nicht abändern, können Sie diese auch einfach in MultiRoute Tour! einmalig korrigieren. Bei weiteren Uploads wird dann immer die von Ihnen gesetzte Koordinate für die entsprechende Adresse verwendet. 
+- Können Sie keinen Fehler feststellen oder möchten Sie die Adresse nicht abändern, können Sie diese auch einfach in MultiRoute Go! einmalig korrigieren. Bei weiteren Uploads wird dann immer die von Ihnen gesetzte Koordinate für die entsprechende Adresse verwendet. 
 
 Hierzu gehen Sie wie folgt vor:
 
-1) Lassen Sie sich alle nicht gefundenen Adressen in der Adressverwaltung unter **2.Planung -> Adressverwaltung (kleines Ordnersymbol)** und einem Klick auf die Checkbox **"Adressen ohne Koordinaten"** anzeigen.
-
-![!](assets/adr_verw.png)
-
-2) Suchen Sie die Adresse auf Google Maps und klicken Sie mit der rechten Maustaste auf das Gebäude bzw. die Adresse, für die Sie die Koordinate in MRT! übernehmen möchten. Kopieren Sie die Koordinate mit einem Klick in Ihren Zwischenspeicher.
+1) Suchen Sie die Adresse auf Google Maps und klicken Sie mit der rechten Maustaste auf das Gebäude bzw. die Adresse, für die Sie die Koordinate in MultiRoute Go! übernehmen möchten. Kopieren Sie die Koordinate mit einem Klick in Ihren Zwischenspeicher.
 
 ![!](assets/muc-center.png)
 
 Kartendaten © 2021 COWI,GeoBasis-DE/BKG (©2009),Google
 
-3) Klicken Sie in MRT! auf die Adresse, die Sie korrigieren möchten. Es öffnet sich ein Korrekturfenster. Bestätigen Sie.
+2) Klicken Sie in MultiRoute Go! auf die Adresse, die Sie korrigieren möchten. Es öffnet sich ein Korrekturfenster. Bestätigen Sie.
 
 ![!](assets/mod.png)
 
