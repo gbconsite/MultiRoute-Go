@@ -101,63 +101,7 @@ Kartendaten © 2021 COWI,GeoBasis-DE/BKG (©2009),Google
 
 <hr style="border:2px solid gray"> </hr>
 
-## Planungen löschen 
 
-Möchten Sie Planungen in MRT! löschen, klicken Sie auf **Administration -> Planung**. 
-
-Hier wählen Sie die Planungen aus, die Sie löschen möchten und klicken auf "Anwenden" (gelb markiert).
-
-![!](assets/Planung_loeschen.png)
-
-<hr style="border:2px solid gray"> </hr>
-
-## Planungen manuell zerteilen (Schere)
-
-Sie können in MRT! Ihre Planungen manuell in der Karte zerteilen. 
-
-1) Erzeugen Sie hierzu nach dem Upload zunächst unter **2. Planung** ein Polygon mit dem kleinen Zauberstab. 
-
-![!](assets/Zauberstab.png)
-
-2) Es wird ein blaues Polygon erzeugt, dass Ihnen die räumliche Verteilung Ihrer Aufträge zeigt. Dieses können Sie nun zerschneiden. Hierzu klicken Sie in das blaue Polygon woraufhin sich ein kleines Popup öffnet. Hier klicken Sie auf die kleine Schere.
-
-![!](assets/Schere.png)
-
-3) Starten Sie den Schnitt mit einem Klick (linke Maustaste) außerhalb des Polygons. Anschließend können Sie mit weiteren Klicks die Schnittlinie zeichnen und mit einem Doppelklick außerhalb des Polygons abschließen.
-
-![!](assets/Schnitt.png)
-
-4) Geben Sie den zwei neuen Planungen nun verschiedene Namen, bspw. "Teil 1" & "Teil 2" und speichern Sie im Anschluss mit Klick auf die Diskette (links im Bild, gelb markiert).
-
-![!](assets/Zwei_Teile.png)
-
-5) Fertig. Sie haben nun aus einer Planung zwei Planungen erzeugt. 
-
-Die Planungen können Sie auch jederzeit [wieder vereinigen](/handbuch-mrt/Planungen_vereinen). 
-
-<hr style="border:2px solid gray"> </hr>
-
-## Planungen vereinigen 
-
-Über die Karte können Sie zwei Planungen leicht vereinigen. 
-
-1) Erzeugen Sie unter **2. Planung** für alle Planungen mit dem Zauberstab blaue Polygone (Spalte Geometrie), wie [hier](/handbuch-mrt/Planungen_zerteilen/) unter 1) beschrieben.
-
-2) Klicken Sie eine Planung in der linken Sidebar an. Diese wird nun blau wohingegen die nicht ausgewählten Polygone rot erscheinen.
-
-![!](assets/Zwei_Planungen.png)
-
-3) Klicken Sie nun in das rote Polygon und anschließend auf das Vereinigen-Symbol (gelb markiert). Es wird immer die rote Planung der blauen hinzugefügt.
-
-![!](assets/Vereinigung_rb.png)
-
-4) Fertig. Die Aufträge aus der roten Planung sind nun der blauen Planung hinzugefügt. 
-
-![!](assets/Post_Vereinigung.png)
-
-Möchten Sie den Namen der Planung ändern, klicken Sie auf **Adminstration -> Planung -> bearbeiten -> *Namen ändern* -> speichern**.
-
-<hr style="border:2px solid gray"> </hr>
 
 ## Kartenebenen an- und ausschalten 
 
