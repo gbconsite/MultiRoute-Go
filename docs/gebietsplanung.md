@@ -53,7 +53,7 @@ Die Farbgebung in MultiRoute Go! sagt einen Blick etwas über die Bedeutung eine
 |  <span style="color: orange;">&#x1f534;&#xfe0e;</span> | Endhaus |
 |  <span style="color: blue;">&#x1f534;&#xfe0e;</span>  | inaktives Gebäude |
 | <span style="color: darkgreen;">&#x1f534;&#xfe0e;</span>  | doppelt zugeordnetes Gebäude |
-<span style="color: lime;">&#x1f534;&#xfe0e;</span>
+
 
 ![grafik](https://user-images.githubusercontent.com/99329016/161265829-4d7e3cc2-28f8-43e2-ab77-0fda8391596c.png)
 
