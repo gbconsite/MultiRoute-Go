@@ -7,6 +7,7 @@ MultiRoute Go! ist ein Tool für die:
 
 Besonders gut geeignet ist MultiRoute Go! für Zustellorganisationen, die über eine Schnittstelle zu ihrem Verlagssystem (SAP, JJK, HUP, VI&VA etc.) oder Briefsortierung (PostOffice von CodX oder ProMail) automatisiert täglich neue Berechnungen durchführen möchten.
 
+MultiRoute Go! lässt sich über die API auch komplett fernsteuern.
 
 Einen kurzen Überblick zu den Standardfunktionalitäten erhalten Sie in unserem Video:
 
