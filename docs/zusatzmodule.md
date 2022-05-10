@@ -46,11 +46,15 @@ Eine neue Gebietsausgabe anlegen, die Gebiete in kleine Zellen/Waben anlegen und
 Träger von Wochenblättern haben fast immer das Problem, dass sie nicht mit einem Durchgang durch den Trägerbezirk alle Zeitungen stecken können. Aber genau dafür wird die normale Gehfolge berechnet. Muss man Nachladen, stimmt die berechnete Gehfolge nicht mehr.
 Mit diesem Zusatzumodul wird berücksichtigt wie viel Gewicht (oder Stück) der Zusteller mitnehmen kann und wie viel wo und was gesteckt wird. So errechnet MultiRoute Go! automatisch "Mini-Rundwege" um die Abladestelle oder weitere Nachlade-Depots, um die kürzeste Strecke trotz und mit Nachladen zu finden. 
 Ein realistischer Weg, der das Nachladen abbildet.
+Mehrere Abladestellen (Depots) möglich.
 
 
 ##Resthaushalte##
+
 Für die Resthaushaltsverteilung ist es wichtig, dass möglichst alle Gebäude, die sich innerhalb eines Trägerbezirks befinden, auch zugeordnet (grün) sind. Die Resthaushaltsverteilung ist gemäß unserer Definition:
 Vollverteilung minus Abos minus Werbeverweigerer = Resthaushalte 
+
+Bei besonders gut gepflegten Haushaltshaltszahlen wird auch berücksichtigt, dass bspw. in einem Mehrfamilienhaus, in dem es 6 Haushalte und davon 4 Werbeverweiger gibt, noch 2x gesteckt wird.
 
 
 ##Tracking##
