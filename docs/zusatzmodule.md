@@ -15,9 +15,15 @@ Der modulare Aufbau von MultiRoute Go! ermöglicht das Anpassen an verlagseigene
     
 ##Abo-Titeldifferenzierung##
 Wichtig für jede Tageszeitung, damit die Zusteller genau wissen, welchen Titel Sie in welchen Briefkasten zustellen müssen. 
-Info für Zusteller OHNE Zusatzmodul: 3 Abonnenten
-Info für Zusteller MIT Zusatzmodul: Herr Müller FAZ, Herr Meier SZ, Frau Schmidt Regionale Zeitung
-! Nur verfügbar bei InHouse-Kunden oder bei dediziertem Server auf Grund der DSGVO.
+
+Info für Zusteller OHNE Zusatzmodul: 2 Abonnenten
+![grafik](https://user-images.githubusercontent.com/99329016/167622701-d5e9c356-2f1c-44c7-9bcb-5d6082243aa7.png)
+
+
+Info für Zusteller MIT Zusatzmodul: Frau Mustermann erhält eine Zeitung und einen Brief
+![grafik](https://user-images.githubusercontent.com/99329016/167623220-48f5dec6-5d71-409d-ad18-5bde2256427a.png)
+
+:exclamation: Nur verfügbar bei InHouse-Kunden oder bei dediziertem Server auf Grund der DSGVO.
 
 ##Bezirksplanung##
 Der Trend geht bei vielen Verlagen dazu, kleinere Untereinheiten von Trägerbezirken zu erstellen und diese dann je nach Trägerverfügbarkeit zusammen zu stellen. Wir unterstützen das flexible Zusammensetzen und sprechen von kleinen Gebieten, die zu einem Trägerbezirk zusammengefasst werden. 
