@@ -24,6 +24,7 @@ Klicken Sie das ![grafik](https://user-images.githubusercontent.com/99329016/158
 ![grafik](https://user-images.githubusercontent.com/99329016/158331881-7aaed80d-00e7-4e11-aa94-873114d799f6.png "Gezeichnetes Polygon")
 
 Ist das Polygon noch nicht so wie gewünscht, können Sie **nacharbeiten**. Einfach mit gedrückter linker Maustaste an den weißen Stützpunkten ziehen. Zwischen zwei weißen Stützpunkten erscheint automatisch ein neuer weißer Stützpunkt, so dass Sie auch sehr fein und kleinräumig das Polygon so ziehen können, wie gewünscht.
+Zur exakten Digitalisierung, z.B. von Straßen, die in zwei Verteilbezirke gehören, erscheint die Hausnummer einer Gebäudekoordinate beim Überfahren des Mauskreuzes. 
 Erst der Klick auf :material-content-save: schließt die Bearbeitung ab.
 
 
@@ -31,6 +32,11 @@ Erst der Klick auf :material-content-save: schließt die Bearbeitung ab.
 Der nachfolgende Dialog ist wichtig :exclamation:
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158332914-8a0b833a-40a5-4851-9af2-e1538d129d14.png "Zuordnung aktualisieren")
+
+
+* *Schnittfrei speichern* beeinflusst nur die Ausprägung des Polygons. Die Umrisse von Polygonen werden aneinandergelegt.
+* *Nur Speichern* bedeutet, dass die Geometrie gespeichert wurde, aber nicht die Zuordnung der Adressen/Gebäude
+* *Zuordnung aktualisieren* ordnet Adressen dem Polygon und damit dem Verteilbezirk neu zu. Hauskoordinaten verfärben sich automatisch von rot nach grün (oder umgekehrt).
 
 Bei aneinanderliegenden Polygonen sind die Methoden **Nur speichern** und **Schnittfrei speichern** zu beachten, damit Polygone nicht übereinander liegen bzw. sich aneinander schmiegen.
 
