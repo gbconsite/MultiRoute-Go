@@ -1,6 +1,6 @@
 # **2. Gebietsplanung**
 
-In der Gebietsplanung sehen Sie die jeweiligen Trägerbezirke einer **Ausgabe**. Sie können neue Bezirke anlegen, bestehende Bezirke verändern oder löschen. 
+In der Gebietsplanung sehen Sie die jeweiligen Trägerbezirke einer [Ausgabe](../MultiRoute-Go/definitionen/#ausgabe). Sie können neue Bezirke anlegen, bestehende Bezirke verändern oder löschen. 
 
 ## Manuelle Neuanlage von Verteilbezirken
 Folgendermaßen gehen Sie vor:
