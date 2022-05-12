@@ -21,6 +21,9 @@ Der Import erfolgt in der Regel über das Excel-Format. Aus Ihrer Software herau
    * Ort
    * Verteilgebiet/Verteilbezirk
 
+  * Abonnenten
+  * Abladestellen
+
 💾 [Musterliste](assets/downloads/Import-Datenformat_MRGo.xlsx)
 
 Optional auch: 
