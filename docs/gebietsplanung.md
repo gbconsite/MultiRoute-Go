@@ -90,4 +90,8 @@ Zurück in der Gebietsplanung ist das Polygon für den Bezirk voll automatisch g
 Bei den automatisch erzeugten Polygonen wird die Hülle wie ein Gummiband um die zugeordneten Punkte gelegt. Siehe hierzu unser Kapitel zum Arbeiten mit **Basispolygonen**.
 
 
+## Weitere Funktionen
+Alle weiteren Funktionen finden Sie unter der Auflistung Ihrer Verteilbezirke:
+![grafik](https://user-images.githubusercontent.com/99329016/168077138-e3775e43-b597-4518-af6c-879c23d1a02e.png)
 
+Achten Sie immer darauf, dass Sie die richtige Ausgabe gewählt haben:exclamation:
