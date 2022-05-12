@@ -11,7 +11,6 @@ Grundsätzlich stehen folgende Menüpunkte zur Verfügung:
 * Gehfolgen
 * Upload
 
-* *
 
 ## Kunden ##
 Hier können berechtigte Nutzer verschiedene Optionen einstellen. Dazu gehören vor allem die grundlegenden Einstellungen für die Gehfolgenberechnung (Einfache Strecke, Rundweg, Rundweg im Verteilbezirk), die Einstellungen für die Trägerdokumente und Steckzeiten. Hier führen Sie auch die Voreinstellungen für Geschwindigkeiten und Hauszugangsdistanzen durch.
