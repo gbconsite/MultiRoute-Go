@@ -1,11 +1,15 @@
 # Übersicht
 
+Seit dem 1.1.2015 gilt der Mindestlohn in Deutschland. Die Durchführungsverordnung zum Mindestlohngesetz gestattet der Verlags- und Zustellbranche, dass neben einer wöchentlichen Aufzeichnungspflicht der tatsächlichen Arbeitszeit des Arbeitnehmers vom Arbeitgeber eine Soll-Arbeitszeit zum Abgleich ermittelt werden kann. 
+
 MultiRoute Go! ist ein Tool für die:
 
 * Optimierung von Bezirken (Gebietsoptimierung und -planung)
 * Berechnung der optimalen Gehfolge (Geh-/Gangfolgenberechnung)
 
 Besonders gut geeignet ist MultiRoute Go! für Zustellorganisationen, die über eine Schnittstelle zu ihrem Verlagssystem (SAP, JJK, HUP, VI&VA etc.) oder Briefsortierung (PostOffice von CodX oder ProMail) automatisiert täglich neue Berechnungen durchführen möchten.
+
+Für die Ermittlung der Soll-Arbeitszeit werden verschiedene Parameter benötigt. Steckzeiten, Rüstzeiten und die Durchschnittsgeschwindigkeit der Zusteller sind bekannt und nachvollziehbar. Hier wird Zoll, Gerichten und Gewerkschaften wenig Angriffsfläche geboten. Um die Soll-Arbeitszeit aber belastbar und transparent darlegen zu können, müssen die Gangfolgen der Zusteller so realistisch wie möglich ermittelt werden. 
 
 MultiRoute Go! lässt sich über die [API](../api-intro/) auch komplett fernsteuern.
 
