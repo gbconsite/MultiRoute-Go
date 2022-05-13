@@ -144,7 +144,6 @@ Gebiete können wie folgt zusammengefasst werden:
 ![grafik](https://user-images.githubusercontent.com/99329016/168277832-ddd9b339-4dde-4291-838c-41c9f8e26538.png)
 
 ## Multipolygone, Teilflächen und Sonderformen
-
 Mit MultiRoute Go! ist es auch möglich, sog. Multipolygone als Geometrien der Verteilbezirke anzulegen. Man versteht darunter Flächen, die aus mehreren Teilen bestehen. Am Beispiel von Bauernschaften kann man sich die Situation besonders gut vorstellen:
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168278059-6d96d792-5fac-4ae3-a641-5fbd6765f39a.png)
@@ -154,6 +153,18 @@ Anstelle eines, alle Bauernschaften überspannenden Polygons, können auch mehre
 Als eine Sonderform der Polygone gibt es noch das "**Donut**" Polygon. Dazu im Bearbeitungsmenü den Kreis mit Punkt in der Mitte auswählen. Einfach in das bestehende Polygon klicken und Stützpunkte setzen mit der linken Maustaste. Für den nächsten Punkt erneut klicken, wie beim Polygone zeichnen. Am Ende per Doppelklick abschließen und ```Speichern```.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168278374-af023d8b-967c-49ba-a272-f4ff6658ebef.png)
+
+## Einzelne Adressen einem Bezirk hinzufügen oder entfernen
+Sollen mehrere Koordinaten auf einmal zugeordnet werden, muss das [Polygon für die Bearbeitung aktiviert (blau hinterlegt)](../#bezirke-bearbeiten) werden.
+
+Alle Koordinaten, die sich nun innerhalb des blau gewordenen Polyongs befinden, können gleichzeitig zugeordnet werden. Deshalb sollte man nun die Polygonstützpunkte entsprechend verschieben, so dass es nicht zu Überlappungen und doppelten Zuordnungen kommt. Mit ```Speichern``` abschließen und entsprechende Option wählen.
+
+Einzelne Koordinaten lassen sich **zuordnen**, in dem im aktivieren Polygon die entsprechenden Koordinaten angeklickt werden und die Koordinate mit dem Polygon verknüpft wird.
+![grafik](https://user-images.githubusercontent.com/99329016/168282417-dd028266-582a-4c60-a7fa-58a171f5f0ae.png)
+
+Zum **Entfernen einer einzelnen Koordinate** drücken Sie einfach die "kaputte Büroklammer" und die Zuordnung des Gebäudes verschwindet. Im Bsp. hier wird das Gebäude also anschließend rot.
+![grafik](https://user-images.githubusercontent.com/99329016/168282544-d87c7d8c-36b3-448e-bd4f-e7453f1eb8ce.png)
+
 
 
 ## Weitere Funktionen
