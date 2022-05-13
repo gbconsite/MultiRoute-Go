@@ -12,6 +12,7 @@ Hier erfolgt die Suche über den kompletten Straßenbestand von OpenStreetMap (O
 
 Die zweite Suchmöglichkeit ist das Suchen innerhalb Ihres Verbreitungsgebiets Dazu nutzen Sie die Adressverwaltung :fontawesome-solid-house:. 
 MultiRoute Go! filtert dann sofort aus den bekannten Adressen und hilft so bei der Suche mit:
+
 ![grafik](https://user-images.githubusercontent.com/99329016/159439198-8f9b6935-d615-41f6-8206-fedb003bdd23.png "Adresssuche in der Adressverwaltung")
 
 Über die Adressverwaltung ist es einfach, Adressen zu finden, um Bemerkungen zu hinterlegen. **Start**-/**End**- oder **Zustellhäuser** zu setzen oder neue Gebäude anzulegen.
@@ -23,6 +24,20 @@ Durch den wiederholten Klick auf das :fontawesome-solid-house: klappt sich die l
 Hin und wieder gibt es Neubaugebiete, in denen MultiRoute Go! noch keine Gebäude kennt. Diese können manuell per [Klick in die Karte](../tipps/#adressen-neu-anlegen) hinzugefügt werden.
 
 ![!](assets/Adressverwaltung2.png)
+
+## Anzeige Adressen
+
+Lassen Sie sich auch einfach mehr als die voreingestellten 5 Adressen anzeigen:
+
+![grafik](https://user-images.githubusercontent.com/99329016/168275309-0510484d-8d04-4887-8a55-7b891dac5a73.png)
+
+Hier finden Sie auch die Möglichkeit, sich **inaktive Adressen** anzeigen zu lassen.
+Adressen, die auf inaktiv gesetzt wurden, werden in blau angezeigt. Sie werden bei der Gehfolgenberechnung nicht berücksichtigt. **Der Status "inaktiv" wird in allen Ausgaben übernommen**. 
+
+## Farben der Adresspunkte
+
+Die [Bedeutung der Einfärbungen](../gebietsplanung/#bedeutung-der-punkteinfarbungen) hilft bei der Arbeit mit den einzelnen Gebäudepunkten.
+
 
 ## Weitere Tipps & Tricks
 Beachten Sie auch die [Hinweise von MultiRoute Tour!](https://tour.multiroute.de/handbuch/tipps/), wo mehr Adressen manuell nachbearbeitet werden.
