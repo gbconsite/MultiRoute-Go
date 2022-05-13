@@ -13,7 +13,7 @@ Kennen Sie die Bezirksnummer oder den Bezirksnamen, dann ist es ganz einfach: Si
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168274689-cc00db90-c23a-4c58-8f80-0367e496e244.png)
 
-Alternativ suchen Sie über die Karte nach dem Bezirk oder oben rechts in der Suche nach dem jeweiligen Ort.
+Alternativ suchen Sie über die Karte nach dem Bezirk oder oben rechts in der Suche nach dem jeweiligen Ort. Mit dem Klick auf die Bezirksnummer **aktivieren** Sie den Bezirk. Er ist blau hinterlegt und kann editiert werden.
 
 
 ## Manuelle Neuanlage von Verteilbezirken
@@ -38,7 +38,10 @@ Klicken Sie das ![grafik](https://user-images.githubusercontent.com/99329016/158
 ![grafik](https://user-images.githubusercontent.com/99329016/158331881-7aaed80d-00e7-4e11-aa94-873114d799f6.png "Gezeichnetes Polygon")
 
 Ist das Polygon noch nicht so wie gewünscht, können Sie **nacharbeiten**. Einfach mit gedrückter linker Maustaste an den weißen Stützpunkten ziehen. Zwischen zwei weißen Stützpunkten erscheint automatisch ein neuer weißer Stützpunkt, so dass Sie auch sehr fein und kleinräumig das Polygon so ziehen können, wie gewünscht.
-Zur exakten Digitalisierung, z.B. von Straßen, die in zwei Verteilbezirke gehören, erscheint die Hausnummer einer Gebäudekoordinate beim Überfahren des Mauskreuzes. 
+
+Ein Doppelklick auf einen weißen Stützpunkt entfernt diesen wieder.
+
+Zur exakten Digitalisierung, z.B. von Straßen, die in zwei Verteilbezirke gehören, erscheint als Hilfe die Hausnummer einer Gebäudekoordinate beim Überfahren des Mauskreuzes. 
 Erst der Klick auf :material-content-save: schließt die Bearbeitung ab.
 
 
@@ -90,6 +93,23 @@ Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168273860-a1724188-2dda-4919-ae00-e4d2d3d40568.png)
 
+## Bezirk teilen
+Um einen Bezirk teilen zu können, aktivieren Sie ihn einfach. Mit der Maus an eine beliebige Stelle im zu teilenden Bezirk klicken.. Das Gebietsbearbeitungsfenster erscheint. Im Fenster klickt man mit der Maus auf :scissors:. 
+Außerhalb des Bezirks setzen Sie den ersten weißen Stützpunkt und klicken mit der linken Maustaste auf weitere Punkte bis Sie außerhalb des Bezirks ankommen und mit Doppelklick abschließen. 
+Sie erhalten zwei Bezirke, die Sie nun neu benennen können:
+
+![grafik](https://user-images.githubusercontent.com/99329016/168276772-b400f9bc-c0f7-41cf-b5be-12f90ae7da09.png)
+
+Im Kartenmenü auf der linken Seite können Sie (von unten nach oben) ```Speichern```, ```Aktion rückgängig machen``` und die ```Infobox an-/ausschalten```.
+
+![grafik](https://user-images.githubusercontent.com/99329016/168276826-c5a5233a-37b5-439c-aaac-c8422ed4f0b8.png)
+
+Die "neuen" Bezirke können nun separat voneinander berechnet werden. Möglicherweise möchte Sie einen 
+
+## Bezirk umbenennen
+
+Gehen Sie auf ```Administration - Verteilberzirke``` und drücken Sie hier beim umzubenennenden Bezirk einfach auf ```Bearbeiten```. Sie können alle Anpassungen für diesen einen Bezirk nun machen und mit ```Speichern``` bestätigen.
+
 
 Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_circle: nach :red_circle: oder umgekehrt.
 
@@ -102,7 +122,7 @@ Einen Bezirk löschen Sie einfach durch Klick auf den :wastebasket:.
 
 Die im Polygon befindlichen Punkte wissen weiterhin, welchem Bezirk sie zugeordnet sind und sind weiterhin grün. Das Polygon dient nur als Hilfsmittel zur Visualisierung. Kontrollieren können Sie das, wenn Sie auf der linken Seite auf die Bezirksnummer klicken und den Bezirk aktivieren. Dort fehlt das Häkchen bei "Geometrie vorhanden", die Gebäudepunkte erscheinen aber auf der Karte mit grünem Kringel. 
 
-Sie können nun das Polygon automatisiert neu erzeugen lassen, in dem Sie auf ```Administration - Verteilbezirk``` gehen. Dort wählen Sie den gewünschten Bezirk aus und drücken unten auf 
+Sie können nun das Polygon automatisiert neu erzeugen lassen, in dem Sie auf ```Administration - Verteilbezirke``` gehen. Dort wählen Sie den gewünschten Bezirk aus und drücken unten auf 
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158540508-041f3dbc-b2ec-47c2-a916-0753fb3690fa.png)
 
@@ -113,6 +133,16 @@ Zurück in der **Gebietsplanung** ist das Polygon für den Bezirk voll automatis
 ![grafik](https://user-images.githubusercontent.com/99329016/158540878-4b87d58c-d804-4fe5-8be3-70e9f7d8cbb8.png "Automatisch erzeugtes Polygon")
 
 Bei den automatisch erzeugten Polygonen wird die Hülle wie ein Gummiband um die zugeordneten Punkte gelegt. Siehe hierzu unser Kapitel zum Arbeiten mit **Basispolygonen**.
+
+## Zusammenfassen von Gebieten
+Gebiete können wie folgt zusammengefasst werden:
+1. Das Gebiet, welches in Zukunft die Gebietsbezeichnung tragen soll wird aufgerufen und mittels des Kreuzes zentriert.
+2. Nach dem Zentrieren ruft man durch Anklicken des zweiten Gebietes das Gebietsbearbeitungsmenü auf. Dort drückt man den Button "Mit Verteilgebiet ... vereinigen".
+3. Nun sind die Gebiete vereinigt. Das neue Gebiet hat den Gebietsnamen des ersten Bezirks. Das zugeordnete Gebiet ist noch vorhanden. Es beinhaltet aber keine Gebäude mehr und hat kein Polygon. Es kann unter ```Administration - Verteilbezirke``` gelöscht werden.
+![grafik](https://user-images.githubusercontent.com/99329016/168277793-8290ac86-6ee0-4938-b1cf-4018ae04f052.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168277807-e4d8637b-ad7f-4e35-813e-75208858ed24.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168277832-ddd9b339-4dde-4291-838c-41c9f8e26538.png)
+
 
 
 ## Weitere Funktionen
