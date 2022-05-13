@@ -2,6 +2,20 @@
 
 In der Gebietsplanung sehen Sie die jeweiligen Trägerbezirke einer [Ausgabe](../MultiRoute-Go/definitionen/#ausgabe). Sie können neue Bezirke anlegen, bestehende Bezirke verändern oder löschen. 
 
+## Informationen Trägerbezirk
+Durch Klick auf ein Polygon erhalten Sie eine Zusammenfassung des Bezirks und ggf. einen ersten Anhaltspunkt zur Optimierung. 
+Die Anzahl der Haushalte + Gewerbebetriebe entspricht der Briefkästen in diesem Bezirk. Wenn gepflegt müssen Sie nur die Werbeverweigerer abziehen, um die Auflage des Bezirks herauszufinden.
+
+![grafik](https://user-images.githubusercontent.com/99329016/168274325-2e7a9afb-1f0d-4346-ad67-4e797195ebd1.png)
+
+## Bezirk suchen und finden
+Kennen Sie die Bezirksnummer oder den Bezirksnamen, dann ist es ganz einfach: Sie geben einfach die Nummer im Feld ```Filter``` (hier: 100) ein und MultiRoute Go! filtert nach allen passenden Ergbnissen.
+
+![grafik](https://user-images.githubusercontent.com/99329016/168274689-cc00db90-c23a-4c58-8f80-0367e496e244.png)
+
+Alternativ suchen Sie über die Karte nach dem Bezirk oder oben rechts in der Suche nach dem jeweiligen Ort.
+
+
 ## Manuelle Neuanlage von Verteilbezirken
 Folgendermaßen gehen Sie vor:
 
@@ -74,6 +88,9 @@ Zum Editieren des Bezirks drücken Sie :material-file-edit:.
 
 Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit gedrückter linker Maustaste ziehen können. Wenn Sie fertig sind mit dem Bearbeiten, drücken Sie auf :material-content-save:.
 
+![grafik](https://user-images.githubusercontent.com/99329016/168273860-a1724188-2dda-4919-ae00-e4d2d3d40568.png)
+
+
 Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_circle: nach :red_circle: oder umgekehrt.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539008-247181ef-470a-4fa2-96a5-d81f208df699.png)
@@ -83,13 +100,15 @@ Einen Bezirk löschen Sie einfach durch Klick auf den :wastebasket:.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539630-2c35bcbd-e28b-4bf0-a21b-8dd2925b39cb.png "Bezirk löschen")
 
-Die im Polygon befindlichen Punkte wissen weiterhin, welche Bezirk sie zugeordnet sind und sind weiterhin grün. Das Polygon dient nur als Hilfsmittel zur Visualisierung. Kontrollieren können Sie das, wenn Sie auf der linken Seite auf die Bezirksnummer klicken und den Bezirk aktivieren. Dort fehlt das Häkchen bei "Geometrie vorhanden", die Gebäudepunkte erscheinen aber auf der Karte mit grünem Kringel. Sie können nun das Polygon automatisiert neu erzeugen lassen, in dem Sie auf ```Administration - Verteilbezirk``` gehen. Dort wählen Sie den gewünschten Bezirk aus und drücken unten auf 
+Die im Polygon befindlichen Punkte wissen weiterhin, welchem Bezirk sie zugeordnet sind und sind weiterhin grün. Das Polygon dient nur als Hilfsmittel zur Visualisierung. Kontrollieren können Sie das, wenn Sie auf der linken Seite auf die Bezirksnummer klicken und den Bezirk aktivieren. Dort fehlt das Häkchen bei "Geometrie vorhanden", die Gebäudepunkte erscheinen aber auf der Karte mit grünem Kringel. 
+
+Sie können nun das Polygon automatisiert neu erzeugen lassen, in dem Sie auf ```Administration - Verteilbezirk``` gehen. Dort wählen Sie den gewünschten Bezirk aus und drücken unten auf 
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158540508-041f3dbc-b2ec-47c2-a916-0753fb3690fa.png)
 
 ```Markierte Verteilbezirke - Polygone erzeugen - Anwenden```
 
-Zurück in der Gebietsplanung ist das Polygon für den Bezirk voll automatisch gemalt.
+Zurück in der **Gebietsplanung** ist das Polygon für den Bezirk voll automatisch gemalt.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158540878-4b87d58c-d804-4fe5-8be3-70e9f7d8cbb8.png "Automatisch erzeugtes Polygon")
 
