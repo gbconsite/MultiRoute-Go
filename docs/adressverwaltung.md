@@ -1,5 +1,9 @@
 # **3. Adressverwaltung**
 
+Bei der Verwaltung vieler Adressen ist es häufig sinnvoll, nach einzelnen Adressen suchen zu können. Sei es, um Abonnenten/Nicht-Abonnenten zu verwalten, Werbeverweiger einzutragen oder die optimale Abladestelle zu finden.
+
+Auch ist es hier möglich, eine nicht korrekte Gebäudekoordinate zu "verschieben" und an die richtige Stelle zu setzen.
+
 ## Adresssuche OSM
 
 Grundsätzlich gibt es zwei Möglichkeiten nach Adressen zu suchen. Zum Einen gibt es das Suchfenster oben rechts in der Karte:
@@ -38,6 +42,15 @@ Adressen, die auf inaktiv gesetzt wurden, werden in blau angezeigt. Sie werden b
 
 Die [Bedeutung der Einfärbungen](../gebietsplanung/#bedeutung-der-punkteinfarbungen) hilft bei der Arbeit mit den einzelnen Gebäudepunkten.
 
+## Attribute von Adressen verändern
 
-## Weitere Tipps & Tricks
+Hinter jeder Adresse können Attribute liegen, die für die späteren Berechnungen von Bedeutung sind. Üblicherweise liefern wir Ihnen die Angaben zu Anzahl der Haushalte und Anzahl der Gewerbebetriebe bereits mit. Weitere Informationen zu Abonnenten oder Werbeverweigerern können sowohl manuell als auch über eine Schnittstelle angespielt werden.
+Einfach auf das entsprechende Gebäude klicken und dort auf :material-note-edit:. Im nachfolgenden Fenster können Sie Änderungen durchführen und anschließend mit ```Speichern``` bestätigen.
+![grafik](https://user-images.githubusercontent.com/99329016/168279002-e9c2432b-bafc-435e-9083-31d220d87d88.png)
+
+Möchten Sie für viele Gebäude auf einmal die Attribute ändern, so geht das auch. Einfach ein Polygon "malen" und es öffnet sich eine Liste der darin befindlichen Gebäude. Darin können bündelweise Eigenschaften verändert werden (z.B. eine Straßen-ID).
+![grafik](https://user-images.githubusercontent.com/99329016/168278913-20909be5-c3c8-4942-afe4-5296da7fdd79.png)
+
+
+## Weitere Tipps & Tricks zur manuellen Nachbearbeitung
 Beachten Sie auch die [Hinweise von MultiRoute Tour!](https://tour.multiroute.de/handbuch/tipps/), wo mehr Adressen manuell nachbearbeitet werden.
