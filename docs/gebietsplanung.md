@@ -143,6 +143,17 @@ Gebiete können wie folgt zusammengefasst werden:
 ![grafik](https://user-images.githubusercontent.com/99329016/168277807-e4d8637b-ad7f-4e35-813e-75208858ed24.png)
 ![grafik](https://user-images.githubusercontent.com/99329016/168277832-ddd9b339-4dde-4291-838c-41c9f8e26538.png)
 
+## Multipolygone, Teilflächen und Sonderformen
+
+Mit MultiRoute Go! ist es auch möglich, sog. Multipolygone als Geometrien der Verteilbezirke anzulegen. Man versteht darunter Flächen, die aus mehreren Teilen bestehen. Am Beispiel von Bauernschaften kann man sich die Situation besonders gut vorstellen:
+
+![grafik](https://user-images.githubusercontent.com/99329016/168278059-6d96d792-5fac-4ae3-a641-5fbd6765f39a.png)
+
+Anstelle eines, alle Bauernschaften überspannenden Polygons, können auch mehrere einzelne Polygone als ein Verteilbezirk gezeichnet werden. Hierzu verwendet man einfach die  [bekannte Funktion zum Zeichnen](/#manuelle-neuanlage-von-verteilbezirken). Das fertig gestellte Polygon **nicht** sofort speichern, sondern nach dem Fertigstellen per Doppelklick einfach die Zeichnungsfunktion erneut auswählen und ein weiteres Polygon erstellen usw. Mit ```Speichern``` erzeugen Sie ein Multipolygon.
+
+Als eine Sonderform der Polygone gibt es noch das "**Donut**" Polygon. Dazu im Bearbeitungsmenü den Kreis mit Punkt in der Mitte auswählen. Einfach in das bestehende Polygon klicken und Stützpunkte setzen mit der linken Maustaste. Für den nächsten Punkt erneut klicken, wie beim Polygone zeichnen. Am Ende per Doppelklick abschließen und ```Speichern```.
+
+![grafik](https://user-images.githubusercontent.com/99329016/168278374-af023d8b-967c-49ba-a272-f4ff6658ebef.png)
 
 
 ## Weitere Funktionen
