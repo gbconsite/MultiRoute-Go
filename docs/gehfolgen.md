@@ -32,21 +32,30 @@ Die Berechnung kann auch (aus der Gebietsplanung) über einen Klick auf den gew�
 Im Menü Gehfolgenberechnung alternativ einfach die gewünschte Bezirksnummer eintippen:
 ![grafik](https://user-images.githubusercontent.com/99329016/166661505-c77fcf7a-0600-4955-83e7-b6008b812928.png)
 
-Und mit ´´´´Berechnung starten```` den Berechnungsvorgang anstoßen.
+Und mit ```Berechnung starten``` den Berechnungsvorgang anstoßen.
 
 
 ## Parameter für die Gehfolgenberechnung 
 
-Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung einstellen können. Grundsätzlich bestimmen Sie *globale Werte* in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der Ausgabe andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen Bezirk abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
+Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie *globale Werte* in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der *Ausgabe* andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen *Bezirk* abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
 
-Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen einen gewählten Bezirk oder sogar für alle Bezirke der aktuellen Ausgabe, die die globalen Kundeneinstellungen übersteuern:
-
-![grafik](https://user-images.githubusercontent.com/99329016/168778910-a3738773-2c01-4228-9d8b-540d2c9b482d.png)
+## Globale Einstellungen
 
 Grundsätzlich ist eine Ausgabe vorab eingestellt als *Aboverteilung* oder *Resthaushaltsverteilung* oder *Vollverteilung*.
 In unserem Beispiel möchten wir eine Vollverteilung rechnen und lassen deswegen das Kästchen leer:
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168780491-6cb7a8ee-45fb-4e44-a8b9-23407b9786dc.png)
+
+###### Geschwindigkeiten und Steckzeiten
+
+![grafik](https://user-images.githubusercontent.com/99329016/168796891-3674ae8e-650d-4ad9-916d-407193944ec0.png)
+
+
+Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen einen gewählten Bezirk oder sogar für alle Bezirke der aktuellen Ausgabe, die die globalen Kundeneinstellungen übersteuern:
+
+![grafik](https://user-images.githubusercontent.com/99329016/168778910-a3738773-2c01-4228-9d8b-540d2c9b482d.png)
+
+
 
 
 ## Aufruf von berechneten Gehfolgen
