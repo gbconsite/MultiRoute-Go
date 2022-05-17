@@ -39,17 +39,18 @@ Und mit ```Berechnung starten``` den Berechnungsvorgang anstoßen.
 
 Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie **globale Werte** in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der **Ausgabe** andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen **Bezirk** abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
 
-
-## Einstellungen in der Administration
-
 Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen vornehmen zu können. Aber grundsätzlich können Sie die Angaben selbst administrieren. Wir geben Ihnen hier gerne weitere Erläuterungen, falls nötig.
 
 Grundsätzlich wird voreingestellt, ob es sich bei deiner Ausgabe um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt.
+Weitere wichtige Angaben sind:
 
-###### Geschwindigkeiten und Steckzeiten
+## Geschwindigkeiten und Steckzeiten
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168796891-3674ae8e-650d-4ad9-916d-407193944ec0.png)
 
+Mit den vorliegenden Zahlen decken Sie alle Möglichkeiten der Berechnung in MultiRoute Go! ab. 
+
+## Gehfolgenberechnung manuell anstoßen
 
 Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen einen gewählten Bezirk oder sogar für alle Bezirke der aktuellen Ausgabe, die die globalen Kundeneinstellungen übersteuern:
 
