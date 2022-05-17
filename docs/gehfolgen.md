@@ -37,14 +37,14 @@ Und mit ```Berechnung starten``` den Berechnungsvorgang anstoßen.
 
 ## Parameter für die Gehfolgenberechnung 
 
-Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie *globale Werte* in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der *Ausgabe* andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen *Bezirk* abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
+Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie **globale Werte** in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der **Ausgabe** andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen **Bezirk** abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
 
-## Globale Einstellungen
 
-Grundsätzlich ist eine Ausgabe vorab eingestellt als *Aboverteilung* oder *Resthaushaltsverteilung* oder *Vollverteilung*.
-In unserem Beispiel möchten wir eine Vollverteilung rechnen und lassen deswegen das Kästchen leer:
+## Einstellungen in der Administration
 
-![grafik](https://user-images.githubusercontent.com/99329016/168780491-6cb7a8ee-45fb-4e44-a8b9-23407b9786dc.png)
+Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen vornehmen zu können. Aber grundsätzlich können Sie die Angaben selbst administrieren. Wir geben Ihnen hier gerne weitere Erläuterungen, falls nötig.
+
+Grundsätzlich wird voreingestellt, ob es sich bei deiner Ausgabe um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt.
 
 ###### Geschwindigkeiten und Steckzeiten
 
@@ -55,7 +55,9 @@ Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen 
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168778910-a3738773-2c01-4228-9d8b-540d2c9b482d.png)
 
+In unserem Beispiel möchten wir eine Vollverteilung rechnen und lassen deswegen das Kästchen leer:
 
+![grafik](https://user-images.githubusercontent.com/99329016/168780491-6cb7a8ee-45fb-4e44-a8b9-23407b9786dc.png)
 
 
 ## Aufruf von berechneten Gehfolgen
