@@ -11,14 +11,16 @@ Der MultiRoute Go! Algorithmus erlaubt Berechnungen von mehreren hundert Adressp
 ## Einstellungen bei Gehfolgenberechnungen
 
 Grundsätzlich können Gehfolgen auf drei verschiedene Arten berechnet werden:
+
 - einfache Strecke: Von der [Abladestelle](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) die kürzest mögliche Strecke durch den Bezirk, kein fester Endpunkt
 - Rundweg: Start und Ende an der [Abladestelle](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen), auch wenn diese nicht im Bezirk selbst ist
-- Rundweg im Verteilbezirk: Start an der Abladestelle und w
+- Rundweg im Verteilbezirk: Start an der Abladestelle und zurück zur ersten Steckung im Verteilbezirk
 
 
 ## Abladestelle / Zustellerhaus
 
-Für jede Gehfolgenberechnung sollte vorab eine Abladestelle (Zustellerhaus) angegeben sein, damit der Start bekannt ist. 
+Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. 
+
 
 ## Berechnen von Gehfolgen
 
@@ -37,11 +39,41 @@ Und mit ```Berechnung starten``` den Berechnungsvorgang anstoßen.
 
 ## Parameter für die Gehfolgenberechnung 
 
-Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie **globale Werte** in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der **Ausgabe** andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen **Bezirk** abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
+Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie **globale Werte** in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der [Ausgabe](https://gbconsite.github.io/MultiRoute-Go/definitionen/#ausgabe) andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen **Bezirk** abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
 
 Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen vornehmen zu können. Aber grundsätzlich können Sie die Angaben selbst administrieren. Wir geben Ihnen hier gerne weitere Erläuterungen, falls nötig.
 
 Grundsätzlich wird voreingestellt, ob es sich bei deiner Ausgabe um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt.
+In unserem Beispiel möchten wir eine Vollverteilung rechnen und lassen deswegen das Kästchen leer:
+
+![grafik](https://user-images.githubusercontent.com/99329016/168780491-6cb7a8ee-45fb-4e44-a8b9-23407b9786dc.png)
+
+## Hauszugangsdistanz (HZD) und Hauszugangs-Suchradius
+
+MultiRoute Go! nutzt für die Berechnungen der Gehfolgen die Kartengrundlagen von Open Street Map (OSM). In OSM sind alle notwendigen Informationen enthalten für die optimale Gehfolge. Zur Zustellung gehört auch der Weg von der Straße (Straßenankerpunkt in rosa) bis zum Gebäude (blau). Diese Informationen zur Distanz oder zum physikalischen Weg von der Straße bis zum Gebäude/Briefkasten sind nirgendwo hinterlegt.
+
+MultiRoute Go! zeichnet eine direkte Linie zwischen dem Straßenankerpunkt und der Lage der Hauskoordinate. Im System selber kann vor der Berechnung ein Schwellenwert in Metern angegeben werden, ab welcher Entfernung der Wert in die Berechnung einbezogen wird. Ist zum Beispiel ein Wert von 10 Metern angegeben, so wird erst berechnet, wenn die Distanz größer 10 Meter ist. Diese 10 Meter werden dann von der Entfernung Straßenankerpunkt bis zur Hauskoordinate abgezogen.
+
+In der Darstellung wird zwischen blauen und gelben Linien unterschieden. Eine blaue Linie bedeutet, dass die Hauszugangsdistanz unter dem Schwellenwert liegt. Es kommen in der Summierung der Strecke keine extra Meter dazu. Die gelbe Linie beschreibt Hauszugangsdistanzen über dem Schwellenwert.
+
+![grafik](https://user-images.githubusercontent.com/99329016/168802809-ba4c96c0-451d-487b-9053-a69ff0789806.png)
+
+Diese über dem Schwellenwert befindlichen Meter können Sie in der Gehfolgenkonfiguration HIN und ZURÜCK zur Gesamtstrecke addieren.
+
+
+Der **Hauszugangssuchradius** hilft Ihnen, den richtigen Zugang von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
+
+Ein Beispiel:
+
+Links: HZD Grenzwert 15 m, Suchradius 0 m              Rechts: HZD Grenzwert 15 m, Suchradius 20 m
+![grafik](https://user-images.githubusercontent.com/99329016/168803038-8df73c96-ce06-400f-b35f-a109390c5193.png)
+
+
+
+![grafik](https://user-images.githubusercontent.com/99329016/168802418-0b849cf2-7035-4082-bbe2-a4a776b6b3bc.png)
+
+
+
 Weitere wichtige Angaben sind:
 
 ## Geschwindigkeiten und Steckzeiten
@@ -56,9 +88,7 @@ Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen 
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168778910-a3738773-2c01-4228-9d8b-540d2c9b482d.png)
 
-In unserem Beispiel möchten wir eine Vollverteilung rechnen und lassen deswegen das Kästchen leer:
 
-![grafik](https://user-images.githubusercontent.com/99329016/168780491-6cb7a8ee-45fb-4e44-a8b9-23407b9786dc.png)
 
 
 ## Aufruf von berechneten Gehfolgen
