@@ -14,14 +14,21 @@ Das Menü Gehfolgenberechnung wird über das Hauptmenü geöffnet. Das Symbol f�
 ![grafik](https://user-images.githubusercontent.com/99329016/166660795-0f6367e1-7dbc-45e7-83b7-2cec9fe632b7.png)
 
 Die Berechnung kann auch (aus der Gebietsplanung) über einen Klick auf den gewünschten Bezirk gestartet werden. Dort einfach auf den :fontawesome-solid-calculator: drücken.
+
 ![grafik](https://user-images.githubusercontent.com/99329016/166661323-4e0668fb-88f8-4ff3-a552-b2620e8d0a6d.png)
 
 Im Menü Gehfolgenberechnung alternativ einfach die gewünschte Bezirksnummer eintippen:
 ![grafik](https://user-images.githubusercontent.com/99329016/166661505-c77fcf7a-0600-4955-83e7-b6008b812928.png)
 
-Es ist auch möglich, alle Verteilbezirke der aktuellen Ausgabe auf einmal zu starten.
+Und mit ´´´´Berechnung starten````
 
 ## Parameter für die Gehfolgenberechnung
+
+Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung einstellen können.
+Beim Aufruf jeder einzelnen haben sie die Möglichkeiten hier noch einzugreifen:
+
+![grafik](https://user-images.githubusercontent.com/99329016/168778910-a3738773-2c01-4228-9d8b-540d2c9b482d.png)
+
 
 ## Aufruf von berechneten Gehfolgen
 
