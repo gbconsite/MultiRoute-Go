@@ -8,6 +8,15 @@ Die Ausreißer-Suche ist eine Erweiterung für die Routenberechnungs-Engine von 
 
 Der MultiRoute Go! Algorithmus erlaubt Berechnungen von mehreren hundert Adresspunkten je Gehfolge.
 
+Aus dem Hauptmenü können Sie:
+
+- Gehfolgenberechnungen starten
+- bereits berechnete Gehfolgenverwaltung aufrufen
+- Details zu Gehfolgen abrufen
+
+![grafik](https://user-images.githubusercontent.com/99329016/168812352-792d9e58-1c1c-44af-92ad-7865627dd38d.png)
+
+
 ## Einstellungen bei Gehfolgenberechnungen
 
 Grundsätzlich können Gehfolgen auf drei verschiedene Arten berechnet werden:
@@ -44,9 +53,7 @@ Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen
 Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen vornehmen zu können. Aber grundsätzlich können Sie die Angaben selbst administrieren. Wir geben Ihnen hier gerne weitere Erläuterungen, falls nötig.
 
 Grundsätzlich wird voreingestellt, ob es sich bei deiner Ausgabe um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt.
-In unserem Beispiel möchten wir eine Vollverteilung rechnen und lassen deswegen das Kästchen leer:
 
-![grafik](https://user-images.githubusercontent.com/99329016/168780491-6cb7a8ee-45fb-4e44-a8b9-23407b9786dc.png)
 
 ## Hauszugangsdistanz (HZD) und Hauszugangs-Suchradius
 
@@ -58,23 +65,18 @@ In der Darstellung wird zwischen blauen und gelben Linien unterschieden. Eine bl
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168802809-ba4c96c0-451d-487b-9053-a69ff0789806.png)
 
-Diese über dem Schwellenwert befindlichen Meter können Sie in der Gehfolgenkonfiguration HIN und ZURÜCK zur Gesamtstrecke addieren.
+Diese über dem Schwellenwert befindlichen Meter können Sie in der Gehfolgenkonfiguration HIN und ZURÜCK zur Gesamtstrecke addieren. Die Summe wird separat ausgegeben. 
 
-
-Der **Hauszugangssuchradius** hilft Ihnen, den richtigen Zugang von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
+Neben der HDZ hilft Ihnen der **Hauszugangssuchradius**, den richtigen Zugang von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
 
 Ein Beispiel:
 
-Links: HZD Grenzwert 15 m, Suchradius 0 m              Rechts: HZD Grenzwert 15 m, Suchradius 20 m
+Links: HZD Grenzwert 15 m, Suchradius 0 m              
+Rechts: HZD Grenzwert 15 m, Suchradius 20 m
 ![grafik](https://user-images.githubusercontent.com/99329016/168803038-8df73c96-ce06-400f-b35f-a109390c5193.png)
 
+In der Summe wird Ihnen das rechte Beispiel ein realistischeres Ergebnis geben.
 
-
-![grafik](https://user-images.githubusercontent.com/99329016/168802418-0b849cf2-7035-4082-bbe2-a4a776b6b3bc.png)
-
-
-
-Weitere wichtige Angaben sind:
 
 ## Geschwindigkeiten und Steckzeiten
 
