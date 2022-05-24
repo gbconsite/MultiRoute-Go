@@ -98,6 +98,11 @@ Kartendaten © 2021 COWI,GeoBasis-DE/BKG (©2009),Google
 <hr style="border:2px solid gray"> </hr>
 
 
+## Ausreißer identifizieren
+
+Die Ausreißer-Suche ist eine Erweiterung für die Routenberechnungs-Engine von MultiRoute Go!. Ausreißer eines Verteilbezirkes lassen sich identifizieren, wenn ihre Durchschnittsdistanz zu anderen Gebäuden desselben Verteilbezirkes markant hoch sind. Da hier aber die reine Durchschnittsdistanz zu den Gebäuden nicht als souveränes Maß verwendet werden kann (aufgrund der variablen Größe der Verteilbezirke), muss diese Angabe durch die Gesamtdurchschnittsdistanz aller Strecken der Distanzmatrix normiert werden. Auf diese Weise erhalten wir einen repräsentativen Wert um den Wert 1.0 für jedes Gebäude, der als "Durchschnitt-Zentralitätsmaß" interpretiert werden kann. Ausreißer erzielen dabei Werte größer 1.0. Gebäude, die sich eher im Zentrum befinden, besitzen dann einen Zentralitätswert kleiner 1.0. Mit Hilfe der Ausreißer-Suche können dann Gebäude identifiziert werden, bei denen die Zustellung besonders teuer ist. 
+Lösungsvorschläge: andere Zuordnung oder auf inaktiv setzen und aus der Zustellung nehmen.
+
 
 ## Kartenebenen an- und ausschalten 
 
