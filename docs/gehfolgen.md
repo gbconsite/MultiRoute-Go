@@ -107,7 +107,7 @@ Unter der Ergebnisliste sind Exportmöglichkeiten (als CSV) verfügbar.
 
 Mit jeder Gehfolgenberechnung wird automatisch ein Höhenprofil erzeugt.
 
-Dieses Höhenprofil ermöglicht es Ihnen, die sog. (Reliefenergie)[https://de.wikipedia.org/wiki/Reliefenergie] des jeweiligen Verteilbezirkes einzuschätzen.
+Dieses Höhenprofil ermöglicht es Ihnen, die sog. [Reliefenergie](https://de.wikipedia.org/wiki/Reliefenergie) des jeweiligen Verteilbezirkes einzuschätzen.
 
 Das Höhenprofil wird als interaktive Grafik auf der Karte oben rechts ausgegeben. Dort haben Sie die Möglichkeit, die Gehfolge mit der Maus virtuell abzufahren und für jeden Wegpunkt der Gehfolge die Höhe abzufragen. Zusätzlich finden Sie die Informationen zu höchstem und niedrigstem Punkt der Gehfolge sowie Aufstieg gesamt auch in den Detailinformationen zur Gehfolge auf der linken Seitenleiste:
 
@@ -115,7 +115,7 @@ Das Höhenprofil wird als interaktive Grafik auf der Karte oben rechts ausgegebe
 
 Diese Informationen zur Geländehöhe sind ebenfalls im Excel-Export und im GPX-Export enthalten.
 
-Die Daten für das Höhenprofil stammen aus der (Shuttle Radar Topography Mission (SRTM))[https://de.wikipedia.org/wiki/SRTM-Daten], einer NASA Mission im Jahr 2000. Die Höhendaten haben eine Auflösung von ca. 30 Metern und werden bei jeder Gehfolgenberechnung automatisch mit der Route der Gehfolge verknüpft.
+Die Daten für das Höhenprofil stammen aus der (Shuttle Radar Topography Mission (SRTM)](https://de.wikipedia.org/wiki/SRTM-Daten), einer NASA Mission im Jahr 2000. Die Höhendaten haben eine Auflösung von ca. 30 Metern und werden bei jeder Gehfolgenberechnung automatisch mit der Route der Gehfolge verknüpft.
 
 Mit SRTM wurden innerhalb von 11 Tagen selbst unwegsame Regionen der Erde erfasst und vermessen
 
