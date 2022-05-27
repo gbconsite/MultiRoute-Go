@@ -119,5 +119,3 @@ Die Daten für das Höhenprofil stammen aus der (Shuttle Radar Topography Missio
 
 Mit SRTM wurden innerhalb von 11 Tagen selbst unwegsame Regionen der Erde erfasst und vermessen
 
-
-## Trägerdokumente
