@@ -1,10 +1,11 @@
 # Preise 
 
-Die Preisstaffelung richtet sich nach Ihren individuellen Anforderungen. 
+Die Preisstaffelung richtet sich nach: 
+* der Größe Ihres Verbreitungsgebiets, bitte teilen Sie uns dieses mit Hilfe einer PLZ Liste mit.
+* der Anzahl Ihrer Trägerbezirke
+* der Anzahl der Verteilschienen
+* der Art der Installation (SaaS, InHouse-Server, dedizierter Server)
 
-* Einen Account zur täglichen Optimierung bis zu 3 Fahrzeugen, Auftrags-Zeitfenstern und Kapazitätsbeschränkungen gibt es **ab 92,50€**
-* Wochenplanungen für 5 Außendienstmitarbeiter und Zeitfenstern gibt es **ab 181€**
-* 10 LKW mit Kapazitätsbeschränkungen und besonderen Fahrer- und Fahrzeug-Skills gibt es ab **268,90€**
 
 Preise zzgl. Einrichtungspauschale abhängig von Ihrer individuellen Fragestellung und Komplexität.
 
