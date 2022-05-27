@@ -18,6 +18,7 @@ nav:
       - Webinare: webinare.md
       - Administration: administration.md
       - Begriffe: definitionen.md
+      - Changelog: changelog.md
 
     - API:
       - MRG! API: api-intro.md
