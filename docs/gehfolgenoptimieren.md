@@ -2,6 +2,14 @@
 
 
 Nach der Berechnung der Gehfolgen besteht in MultiRoute Go! die Möglichkeit die Gehfolgen zu optimieren. Ergänzend zu der Kartengrundlage OSM kann ein Blick auf die Luftbilder geworfen werden, um bspw. den besten Weg zu einem Gebäude zu finden.
+
+Vielleicht haben Sie auch einen GPS Track, den Sie einlesen möchten?
+Mit dem **schwarzes Ordnersymbol** können Sie GPS Tracks laden.
+Zur besseren Orientierung haben wir die Track-Linie mit einem Richtungspfeil versehen, sodass die Laufrichtung erkennbar ist.
+Geladene Tracks (mehrere gleichzeitig möglich) können einfach über die Layersteuerung ein- und ausgeschaltet werden, mit einem Klick auf die Linie erscheint ein PopUp, über das die Tracks auch wieder entfernt werden können.
+
+
+
 Folgende Optimierungen können in der MultiRoute Go! Gangfolge direkt vorgenommen werden:
 
 - Veränderung der Straßenankerpunkte
