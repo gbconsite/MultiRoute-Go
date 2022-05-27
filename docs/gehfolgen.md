@@ -94,5 +94,30 @@ Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen 
 
 
 ## Aufruf von berechneten Gehfolgen
+Der Aufruf der berechneten Gehfolgen **(weißes Ordnersymbol)** können Sie mit Hilfe des "Filers" gezielt nach Gehfolgen eines Verteilbezirks filtern oder nach einer bestimmten Gehfolgennummer. 
+Über den **blauen Pfeil** können Sie die Spalten selbst festlegen, die angezeigt werden sollen.
+
+![grafik](https://user-images.githubusercontent.com/99329016/170687969-7475d998-8da4-4cf0-b0af-cb08a5af17be.png)
+
+Bei den Aktionen stehen in der Kurzübersicht die Ergebnisse der Gehfolgen zur Verfügung und sie können gelöscht (Mülleimer) werden.
+
+Unter der Ergebnisliste sind Exportmöglichkeiten (als CSV) verfügbar.
+
+## Das Höhenprofil
+
+Mit jeder Gehfolgenberechnung wird automatisch ein Höhenprofil erzeugt.
+
+Dieses Höhenprofil ermöglicht es Ihnen, die sog. (Reliefenergie)[https://de.wikipedia.org/wiki/Reliefenergie] des jeweiligen Verteilbezirkes einzuschätzen.
+
+Das Höhenprofil wird als interaktive Grafik auf der Karte oben rechts ausgegeben. Dort haben Sie die Möglichkeit, die Gehfolge mit der Maus virtuell abzufahren und für jeden Wegpunkt der Gehfolge die Höhe abzufragen. Zusätzlich finden Sie die Informationen zu höchstem und niedrigstem Punkt der Gehfolge sowie Aufstieg gesamt auch in den Detailinformationen zur Gehfolge auf der linken Seitenleiste:
+
+![grafik](https://user-images.githubusercontent.com/99329016/170688820-3f3079d4-b464-48cb-b0e6-4bc2e275092c.png)
+
+Diese Informationen zur Geländehöhe sind ebenfalls im Excel-Export und im GPX-Export enthalten.
+
+Die Daten für das Höhenprofil stammen aus der (Shuttle Radar Topography Mission (SRTM))[https://de.wikipedia.org/wiki/SRTM-Daten], einer NASA Mission im Jahr 2000. Die Höhendaten haben eine Auflösung von ca. 30 Metern und werden bei jeder Gehfolgenberechnung automatisch mit der Route der Gehfolge verknüpft.
+
+Mit SRTM wurden innerhalb von 11 Tagen selbst unwegsame Regionen der Erde erfasst und vermessen
+
 
 ## Trägerdokumente
