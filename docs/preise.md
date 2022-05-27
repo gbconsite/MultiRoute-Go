@@ -1,10 +1,11 @@
 # Preise 
 
 Die Preisstaffelung richtet sich nach: 
-* der Größe Ihres Verbreitungsgebiets, bitte teilen Sie uns dieses mit Hilfe einer PLZ Liste mit.
-* der Anzahl Ihrer Trägerbezirke
-* der Anzahl der Verteilschienen
-* der Art der Installation (SaaS, InHouse-Server, dedizierter Server)
+
+- der Größe Ihres Verbreitungsgebiets, bitte teilen Sie uns dieses mit Hilfe einer PLZ Liste mit.
+- der Anzahl Ihrer Trägerbezirke
+- der Anzahl der Verteilschienen
+- der Art der Installation (SaaS, InHouse-Server, dedizierter Server)
 
 
 Preise zzgl. Einrichtungspauschale abhängig von Ihrer individuellen Fragestellung und Komplexität.
