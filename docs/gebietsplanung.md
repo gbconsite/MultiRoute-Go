@@ -28,7 +28,7 @@ Die erfolgreiche Anlage können Sie sich unter dem Menüpunkt **Gebietsplanung**
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158330870-34693ff6-1752-4bf2-8268-18ac2bdceda5.png "Neuanlage Trägerbezirk")
 
-:exclamation: Durch Klick auf den blauen Pfeil :arrow_down: haben Sie die Möglichkeit, **Spalten selbst zu definieren**, die Sie angezeigt bekommen möchten. Ein erneuter Klick auf :arrow_up: schließt dieses Menü wieder.
+:exclamation: Durch Klick auf den blauen Pfeil :material-arrow-down:{style="color:#0078A8"} haben Sie die Möglichkeit, **Spalten selbst zu definieren**, die Sie angezeigt bekommen möchten. Ein erneuter Klick auf :material-arrow-up:{style="color:#0078A8"} schließt dieses Menü wieder.
 
 Um nun selbst zeichnen zu können, wird der neu angelegte Bezirk aktiviert, indem Sie auf die Bezirksnummer klicken. In der Karte öffnet sich das **Menü zum Zeichnen**. 
 ![grafik](https://user-images.githubusercontent.com/99329016/158331422-1d536767-f2c5-476a-8497-45da8d97ec7a.png "Zeichnen aktivieren")
