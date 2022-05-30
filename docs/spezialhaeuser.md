@@ -5,8 +5,10 @@ Auf die verschiedenen Einfärbungen wurde schon in der [Gebietsplanung](..gebiet
 
 ## Zustellerhaus / Abladestelle anlegen/löschen
 Das **Zustellerhaus** kann sich innerhalb oder außerhalb eines Trägerbezirks befinden. Das **Starthaus** muss sich hingegen im Bezirk befinden. Hier helfen die verschiedenen Symbole in MultiRoute Go!. 
-Bsp. 
-Wir legen ein **Zustellerhaus** außerhalb des Bezirks an und fügen ein **Starthaus** ein:
+
+Bsp.
+
+Wir legen ein **Zustellerhaus** <span style="color: magenta;">&#x1f534;&#xfe0e;</span> außerhalb des Bezirks an und fügen ein **Starthaus** <span style="color: yellow;">&#x1f534;&#xfe0e;</span>ein:
 Der Bezirk, zu dem Sie Änderungen eingeben, muss **aktiv** sein. Siehe auch [Bezirke bearbeiten](../gebietsplanung/#bezirke-bearbeiten)
 
 Wenn Sie schon genau wissen, wo sich das Zustellerhaus befindet, können Sie auf der Karte dorthin navigieren. Alternativ geben Sie die entsprechende Adresse in der Adressverwaltung ein und drücken auf die OI:
