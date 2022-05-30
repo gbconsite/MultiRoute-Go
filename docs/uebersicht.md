@@ -1,6 +1,7 @@
 # Übersicht
 
 Seit dem 1.1.2015 gilt der Mindestlohn in Deutschland. Die Durchführungsverordnung zum Mindestlohngesetz gestattet der Verlags- und Zustellbranche, dass neben einer wöchentlichen Aufzeichnungspflicht der tatsächlichen Arbeitszeit des Arbeitnehmers vom Arbeitgeber eine Soll-Arbeitszeit zum Abgleich ermittelt werden kann. 
+Mit der Erhöhung des Mindestlohns lohnt sich ein Verlags-GIS noch mehr, um Optimierungen und damit Kostenersparnis in der Logistik durchzuführen. 
 
 MultiRoute Go! ist ein Tool für die:
 
