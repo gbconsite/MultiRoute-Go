@@ -14,16 +14,16 @@ Aus dem Hauptmenü können Sie:
 - bereits berechnete Gehfolgenverwaltung aufrufen
 - Details zu Gehfolgen abrufen
 
-![grafik](https://user-images.githubusercontent.com/99329016/168812352-792d9e58-1c1c-44af-92ad-7865627dd38d.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168812352-792d9e58-1c1c-44af-92ad-7865627dd38d.png "Übersicht Gehfolgen")
 
 
 ## Einstellungen bei Gehfolgenberechnungen
 
 Grundsätzlich können Gehfolgen auf drei verschiedene Arten berechnet werden:
 
-- einfache Strecke: Von der [Abladestelle](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) die kürzest mögliche Strecke durch den Bezirk, kein fester Endpunkt
-- Rundweg: Start und Ende an der [Abladestelle](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen), auch wenn diese nicht im Bezirk selbst ist
-- Rundweg im Verteilbezirk: Start an der Abladestelle und zurück zur ersten Steckung im Verteilbezirk
+- einfache Strecke: Von der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> die kürzest mögliche Strecke durch den Bezirk, kein fester Endpunkt
+- Rundweg: Start und Ende an der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> , auch wenn diese nicht im Bezirk selbst ist
+- Rundweg im Verteilbezirk: Start an der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> und zurück zur ersten Steckung im Verteilbezirk
 
 
 ## Abladestelle / Zustellerhaus
@@ -33,8 +33,9 @@ Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](.
 
 ## Berechnen von Gehfolgen
 
-Das Menü Gehfolgenberechnung wird über das Hauptmenü geöffnet. Das Symbol für die Gehfolgenberechnungen ist :fontawesome-solid-calculator:.
-![grafik](https://user-images.githubusercontent.com/99329016/166660795-0f6367e1-7dbc-45e7-83b7-2cec9fe632b7.png)
+Das Menü Gehfolgenberechnung wird über das Hauptmenü geöffnet. Das Symbol für die Gehfolgenberechnungen ist :fontawesome-solid-calculator:. Auch hier kann wieder mit einem zweiten Klick auf das Symbol das Menü ein-/ausgeklappt werden.
+
+![grafik](https://user-images.githubusercontent.com/99329016/166660795-0f6367e1-7dbc-45e7-83b7-2cec9fe632b7.png "zwei Wege führen in die Gehfolgenberechnung")
 
 Die Berechnung kann auch (aus der Gebietsplanung) über einen Klick auf den gewünschten Bezirk gestartet werden. Dort einfach auf den :fontawesome-solid-calculator: drücken.
 
@@ -52,7 +53,7 @@ Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen
 
 Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen vornehmen zu können. Aber grundsätzlich können Sie die Angaben selbst administrieren. Wir geben Ihnen hier gerne weitere Erläuterungen, falls nötig.
 
-Grundsätzlich wird voreingestellt, ob es sich bei deiner Ausgabe um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt.
+Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt wird von uns für Sie eingestellt.
 
 
 ## Hauszugangsdistanz (HZD) und Hauszugangs-Suchradius
@@ -63,11 +64,11 @@ MultiRoute Go! zeichnet eine direkte Linie zwischen dem Straßenankerpunkt und d
 
 In der Darstellung wird zwischen blauen und gelben Linien unterschieden. Eine blaue Linie bedeutet, dass die Hauszugangsdistanz unter dem Schwellenwert liegt. Es kommen in der Summierung der Strecke keine extra Meter dazu. Die gelbe Linie beschreibt Hauszugangsdistanzen über dem Schwellenwert.
 
-![grafik](https://user-images.githubusercontent.com/99329016/168802809-ba4c96c0-451d-487b-9053-a69ff0789806.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168802809-ba4c96c0-451d-487b-9053-a69ff0789806.png "Beispiel HZD")
 
 Diese über dem Schwellenwert befindlichen Meter können Sie in der Gehfolgenkonfiguration HIN und ZURÜCK zur Gesamtstrecke addieren. Die Summe wird separat ausgegeben. 
 
-Neben der HDZ hilft Ihnen der **Hauszugangssuchradius**, den richtigen Zugang von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
+Neben der HDZ hilft Ihnen der **Hauszugangssuchradius**, den richtigen Zugang (Ankerpunkt) von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
 
 Ein Beispiel:
 
@@ -80,7 +81,7 @@ In der Summe wird Ihnen das rechte Beispiel ein realistischeres Ergebnis geben.
 
 ## Geschwindigkeiten und Steckzeiten
 
-![grafik](https://user-images.githubusercontent.com/99329016/168796891-3674ae8e-650d-4ad9-916d-407193944ec0.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168796891-3674ae8e-650d-4ad9-916d-407193944ec0.png "Einstellmöglichkeiten für Geschwindigkeiten und Steckzeiten")
 
 Mit den vorliegenden Zahlen decken Sie alle Möglichkeiten der Berechnung in MultiRoute Go! ab. 
 
@@ -88,13 +89,13 @@ Mit den vorliegenden Zahlen decken Sie alle Möglichkeiten der Berechnung in Mul
 
 Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen einen gewählten Bezirk oder sogar für alle Bezirke der aktuellen Ausgabe, die die globalen Kundeneinstellungen übersteuern:
 
-![grafik](https://user-images.githubusercontent.com/99329016/168778910-a3738773-2c01-4228-9d8b-540d2c9b482d.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168778910-a3738773-2c01-4228-9d8b-540d2c9b482d.png "Gehfolgen manuell berechnen")
 
 
 
 
 ## Aufruf von berechneten Gehfolgen
-Der Aufruf der berechneten Gehfolgen **(weißes Ordnersymbol)** können Sie mit Hilfe des "Filers" gezielt nach Gehfolgen eines Verteilbezirks filtern oder nach einer bestimmten Gehfolgennummer. 
+Der Aufruf der berechneten Gehfolgen **(weißes Ordnersymbol)** können Sie mit Hilfe des "Filters" gezielt nach Gehfolgen eines Verteilbezirks filtern oder nach einer bestimmten Gehfolgennummer. 
 Über den **blauen Pfeil** können Sie die Spalten selbst festlegen, die angezeigt werden sollen.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/170687969-7475d998-8da4-4cf0-b0af-cb08a5af17be.png)
@@ -115,7 +116,5 @@ Das Höhenprofil wird als interaktive Grafik auf der Karte oben rechts ausgegebe
 
 Diese Informationen zur Geländehöhe sind ebenfalls im Excel-Export und im GPX-Export enthalten.
 
-Die Daten für das Höhenprofil stammen aus der (Shuttle Radar Topography Mission (SRTM)](https://de.wikipedia.org/wiki/SRTM-Daten), einer NASA Mission im Jahr 2000. Die Höhendaten haben eine Auflösung von ca. 30 Metern und werden bei jeder Gehfolgenberechnung automatisch mit der Route der Gehfolge verknüpft.
-
-Mit SRTM wurden innerhalb von 11 Tagen selbst unwegsame Regionen der Erde erfasst und vermessen
+Die Daten für das Höhenprofil stammen aus der [Shuttle Radar Topography Mission (SRTM)](https://de.wikipedia.org/wiki/SRTM-Daten), einer NASA Mission im Jahr 2000. Die Höhendaten haben eine Auflösung von ca. 30 Metern und werden bei jeder Gehfolgenberechnung automatisch mit der Route der Gehfolge verknüpft.
 
