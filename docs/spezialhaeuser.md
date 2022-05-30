@@ -1,6 +1,7 @@
 # **4. Spezialhäuser**
 
-Zum Berechnen der Gehfolgen wird ein Startpunkt benögigt. Das ist meistens die  **Abladestelle** oder das **Zustellerhaus**. Ergänzend dazu kann auch ein eigenes **Starthaus** definiert werden. Genau so wie es auch ein definiertes **Endhaus** geben kann.
+Zum Berechnen der Gehfolgen wird ein Startpunkt benögigt. Das ist meistens die  **Abladestelle** oder das **Zustellerhaus** <span style="color: magenta;">&#x1f534;&#xfe0e;</span>. Ergänzend dazu kann auch ein eigenes **Starthaus** <span style="color: yellow;">&#x1f534;&#xfe0e;</span> definiert werden. Genau so wie es auch ein definiertes **Endhaus** <span style="color: orange;">&#x1f534;&#xfe0e;</span> geben kann.
+Auf die verschiedenen Einfärbungen wurde schon in der [Gebietsplanung](..gebietsplanung/#bedeutung-der-punkteinfarbungen) eingegangen.
 
 ## Zustellerhaus / Abladestelle anlegen/löschen
 Das **Zustellerhaus** kann sich innerhalb oder außerhalb eines Trägerbezirks befinden. Das **Starthaus** muss sich hingegen im Bezirk befinden. Hier helfen die verschiedenen Symbole in MultiRoute Go!. 
@@ -20,7 +21,7 @@ Die Abladestelle wird nun als <span style="color: magenta;">&#x1f534;&#xfe0e;</s
 Beim Klick auf einen Bezirk kann ich nun immer kontrollieren, ob es ein **Zustellerhaus** gibt oder nicht:
 ![grafik](https://user-images.githubusercontent.com/99329016/161264032-8f6cc353-354e-4e92-999e-c2fa5124de0b.png)
 
-Durck Klick auf das weiße Männchen auf blauem Hintergrund hüpfe ich direkt zu meiner **Abladestelle**. Ein erneuter Klick hier auf das Symbol **löscht** die Abladestelle.
+Durck Klick auf das weiße Männchen auf blauem Hintergrund hüpfe ich direkt zu meiner **Abladestelle**. Ein *erneuter Klick* auf das Symbol **löscht** die Abladestelle.
 
 ## Start-/Endhaus festlegen
 Das Anlegen von **Starthaus** oder auch **Endhaus** funktioniert ähnlich. Beide müssen sich immer innerhalb des Trägerbezirks befinden. Einfach auf das entsprechende Gebäude klicken und mit dem **grünen Häuschen** auswählen:
@@ -32,7 +33,5 @@ Auf der Karte erscheinen das Starthaus <span style="color: yellow;">&#x1f534;&#x
 
 ## Depot anlegen
 Wenn Sie auch über das [Zusatzmodul "Nachladen"](../zusatzmodule/#nachladen-an-depots) verfügen, können Sie zusätzlich zum Zustellerhaus (Abladestelle) auch weitere Abladestellen, dann **Depots** genannt, anlegen. Ist das Zusatzmodul bei Ihnen aktiviert, gehen Sie wie oben beschrieben vor, setzen aber nicht das :person_pouting_tone3: Symbol, sondern :material-equal-box:.
-![grafik](https://user-images.githubusercontent.com/99329016/168281433-8978a6a8-9cac-43a1-b15a-e06bf8b5e77c.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168281433-8978a6a8-9cac-43a1-b15a-e06bf8b5e77c.png "Depot setzen als zusätzliche Abladestelle")
 
-## Alle farbigen Punkte
-[Alle Bedeutungen der eingefärbten Punkte](../gebietsplanung/#bedeutung-der-punkteinfarbungen).
