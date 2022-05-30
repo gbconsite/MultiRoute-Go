@@ -42,10 +42,11 @@ Sprechen Sie uns gerne an, wenn Sie weitere Informationen benötigen.
 
 Natürlich kann der Import auch automatisiert über eine Schnittstelle erfolgen. Zuvor ist das [Matching](../definitionen/#matching) nötig.
 Wir besprechen mit Ihnen die automatisierte tägliche Datenübernahme. 
+
 Alternativ: Datenimport wird manuell angestoßen
 
 
 ## Was passiert im Hintergrund?
 
-Im Hintergrund werden Ihren Adressen (Straßenabschnitten) Geokoordinaten zugeordnet. Durch die Zuordnung zu (Verteil-)Bezirken werden diese auf der Karte visualisiert. Wir legen die Polygone drumherum. Jeder Adresspunkt, der über den Straßenabschnitt definiert wurde, weiß nun, in welchen Bezirk er gehört. Auf der Karte wird dieser nun grün (oder schwarz) dargestellt. Rote Punkte wurden entweder nicht gefunden oder von Ihnen nicht definiert. Hier lohnt sich nochmal ein zweiter Blick in die Ursprungsdaten. 
+Im Hintergrund werden Ihren Adressen (Straßenabschnitten) Geokoordinaten zugeordnet. Durch die Zuordnung zu (Verteil-)Bezirken werden diese auf der Karte visualisiert. Wir legen die Polygone drumherum. Jeder Adresspunkt, der über den Straßenabschnitt definiert wurde, weiß nun, in welchen Bezirk er gehört. Auf der Karte wird dieser nun <span style="color: green;">&#x1f534;&#xfe0e;</span>  (oder <span style="color: black;">&#x1f534;&#xfe0e;</span> ) dargestellt. Wenn Sie auf der Karte <span style="color: red;">&#x1f534;&#xfe0e;</span> Punkte entdecken, dann wurden diese entweder nicht gefunden oder von Ihnen nicht definiert. Hier lohnt sich nochmal ein zweiter Blick in die Ursprungsdaten. 
 
