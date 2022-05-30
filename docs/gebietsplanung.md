@@ -136,9 +136,13 @@ Bei den automatisch erzeugten Polygonen wird die Hülle wie ein Gummiband um die
 
 ## Zusammenfassen von Gebieten
 Gebiete können wie folgt zusammengefasst werden:
+
 1. Das Gebiet, welches in Zukunft die Gebietsbezeichnung tragen soll wird aufgerufen und mittels des Kreuzes zentriert.
+
 2. Nach dem Zentrieren ruft man durch Anklicken des zweiten Gebietes das Gebietsbearbeitungsmenü auf. Dort drückt man den Button "Mit Verteilgebiet ... vereinigen".
+
 3. Nun sind die Gebiete vereinigt. Das neue Gebiet hat den Gebietsnamen des ersten Bezirks. Das zugeordnete Gebiet ist noch vorhanden. Es beinhaltet aber keine Gebäude mehr und hat kein Polygon. Es kann unter ```Administration - Verteilbezirke``` gelöscht werden.
+
 ![grafik](https://user-images.githubusercontent.com/99329016/168277793-8290ac86-6ee0-4938-b1cf-4018ae04f052.png)
 ![grafik](https://user-images.githubusercontent.com/99329016/168277807-e4d8637b-ad7f-4e35-813e-75208858ed24.png)
 ![grafik](https://user-images.githubusercontent.com/99329016/168277832-ddd9b339-4dde-4291-838c-41c9f8e26538.png)
