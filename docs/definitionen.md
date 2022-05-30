@@ -17,7 +17,7 @@ Die Strecke, die vom Straßenankerpunkt zum Gebäude zurückgelegt wird, bezeich
 ## Hauszugangs-Suchradius
 
 ## Koordinaten
-Wenn wir von Koordinaten sprechen, dann sind die Gebäude gemeint. Entweder über Datenpartner oder von Ihnen werden die Gebäude mit entsprechenden Koordinaten (Latitude, Longitude / x, y) direkt in MultiRoute Go! hinterlegt. 
+Wenn wir von Koordinaten sprechen, dann sind die Gebäude gemeint. Jede Adresse hat also eigene Koordinaten (Latitude, Longitude / x, y) und ist direkt in MultiRoute Go! hinterlegt. 
 
 ## Matching
 Unter Matching verstehen wir das eindeutige Zuordnen von Adressen zu Gebäudekoordinaten.
