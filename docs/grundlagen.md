@@ -44,6 +44,7 @@ Haben Sie weitere Daten in Ihrem Unternehmen erhoben, die wir berücksichtigen s
 ![grafik](https://user-images.githubusercontent.com/99329016/168080007-641d080d-4572-4395-bb77-d30cb7c403b9.png)
 
 Das Ein-/Ausschalten von Labels (Beschriftungen der Bezirke) oder das Einfärben kann für den richtigen Durchblick sorgen! Und noch ein Hinweis: ganz unten in der Karte können Sie die Transparenz der Einfärbungen regulieren über eine Schieberegler:
+
 ![grafik](https://user-images.githubusercontent.com/99329016/168080224-0fd8ed04-ad2a-4e03-a149-9ea02038412c.png)
 
 
