@@ -33,7 +33,7 @@ Die erfolgreiche Anlage können Sie sich unter dem Menüpunkt **Gebietsplanung**
 Um nun selbst zeichnen zu können, wird der neu angelegte Bezirk aktiviert, indem Sie auf die Bezirksnummer klicken. In der Karte öffnet sich das **Menü zum Zeichnen**. 
 ![grafik](https://user-images.githubusercontent.com/99329016/158331422-1d536767-f2c5-476a-8497-45da8d97ec7a.png "Zeichnen aktivieren")
 
-Klicken Sie das ![grafik](https://user-images.githubusercontent.com/99329016/158331572-df45c4e7-9ba6-4495-8494-4401e01bd0ef.png "Geometrie zu Verteilbezirk zeichnen") Symbol an. Nun können Sie mit Klick (linke Maustaste) weiße Stützpunkte setzen und ein Polygon aufziehen. Mit **Doppelklick** wird das Zeichnen beendet. 
+Klicken Sie das <img height="16px" src="assets/icons/polygon.svg" "Geometrie zu Verteilbezirk zeichnen"></img> Symbol an. Nun können Sie mit Klick (linke Maustaste) weiße Stützpunkte setzen und ein Polygon aufziehen. Mit **Doppelklick** wird das Zeichnen beendet. 
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158331881-7aaed80d-00e7-4e11-aa94-873114d799f6.png "Gezeichnetes Polygon")
 
