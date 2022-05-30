@@ -51,13 +51,13 @@ Der nachfolgende Dialog ist wichtig :exclamation:
 ![grafik](https://user-images.githubusercontent.com/99329016/158332914-8a0b833a-40a5-4851-9af2-e1538d129d14.png "Zuordnung aktualisieren")
 
 
-* *Schnittfrei speichern* beeinflusst nur die Ausprägung des Polygons. Die Umrisse von Polygonen werden aneinandergelegt.
+* *Schnittfrei speichern* beeinflusst nur die Ausprägung des Polygons. Die Umrisse von Polygonen werden aneinandergelegt. Zuordnungen ändern sich nicht.
 * *Nur Speichern* bedeutet, dass die Geometrie gespeichert wurde, aber nicht die Zuordnung der Adressen/Gebäude
 * *Zuordnung aktualisieren* ordnet Adressen dem Polygon und damit dem Verteilbezirk neu zu. Hauskoordinaten verfärben sich automatisch von rot nach grün (oder umgekehrt).
 
 Bei aneinanderliegenden Polygonen sind die Methoden **Nur speichern** und **Schnittfrei speichern** zu beachten, damit Polygone nicht übereinander liegen bzw. sich aneinander schmiegen.
 
-Wichtig ist hier auch das Häkchen bei **Zuordnung aktualisieren**. Hier gibt es noch weitere Varianten im Dialog. Wichtig ist jedoch zu bedenken, dass sich die Zuordnung der (roten) Gebäudepunkte verändern soll. Die Gebäude erhalten nun die Informationen, welchem Bezirk sie zugeordnet werden. Möchten Sie das **nicht**, dann lassen Sie das Häkchen weg. Ansonsten setzen Sie es.
+Wichtig ist hier auch das Häkchen bei **Zuordnung aktualisieren**. Hier gibt es noch weitere Varianten im Dialog. Wichtig ist jedoch zu bedenken, dass sich die Zuordnung der (roten) Gebäudepunkte verändern soll. Die Gebäude erhalten nun die Informationen, welchem Bezirk sie zugeordnet werden. Möchten Sie das **nicht**, dann lassen Sie das Häkchen weg. Ansonsten setzen Sie es. Es können so auch Zuordnungen gelöscht werden.
 
 Als Ergebnis erhalten Sie nun den ersten gemalten Bezirk:
 ![grafik](https://user-images.githubusercontent.com/99329016/158333577-c252812f-35c6-4e9c-a61c-b5f52fc20344.png "erster gemalter Verteilbezirk")
