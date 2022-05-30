@@ -24,9 +24,9 @@ Zusätzlich sind für Sie (je nach Installation und Lizenzierung) weitere Karten
 * [Mapquest](https://www.mapquest.com/) (Luftbilder)
 * amtliche Luftbilder (je nach Bundesland und Verfügbarkeit, teilweise mit weiteren Kosten - bitte fragen Sie nach!)
 
-Für die **Gebietsplanung** sind **Gebäudekoordinaten** nötig. Diese können auf drei verschiedenen Wege ins System gelangen:
+Für die **Gebietsplanung** sind **[Gebäudekoordinaten](../definitionen/#koordinaten)** nötig. Diese können auf drei verschiedenen Wege ins System gelangen:
 
-1. Wir stellen **amtliche [Koordinaten](../MultiRoute-Go/definitionen/#hauszugangsdistanz-hzd)** der Vermessungsverwaltungen (aktuell nur für Deutschland) für Sie ins System. gb consite bezieht diese Daten von der TomTom. Leider unterliegen diese Daten räumlichen Qualitätsschwankungen. Dies steht in Abhängigkeit mit den Aktualisierungszyklen der Verwaltung. 
+1. Wir stellen **amtliche [Koordinaten](../definitionen/#koordinaten)** der Vermessungsverwaltungen (aktuell nur für Deutschland) für Sie ins System. gb consite bezieht diese Daten von der TomTom. Leider unterliegen diese Daten räumlichen Qualitätsschwankungen. Dies steht in Abhängigkeit mit den Aktualisierungszyklen der Verwaltung. 
 An die Koordinaten spielen wir für Sie auch gleich die **Haushaltsdaten**. Dies beinhaltet die Anzahl der Haushalte und die Anzahl der Gewerbebetriebe. Die Daten werden von [infas360](https://www.infas360.de/) mittels statistischer Methoden aus sozio-demographischen Daten ermittelt. Wie bei den Koordinaten kann es zu räumlichen Schwankungen kommen. In Gebieten mit einer einheitlichen Struktur sind die Daten sehr genau. In gemischten Gebieten kann es zu Schwankungen kommen. Für gebietsplanerische Aufgaben sind die Daten sehr gut geeignet. Gebietsauflagen lassen sich damit gut abschätzen. 
 
 2. Die (nur wenigen) Adresspunkte werden beim Upload über [HERE](https://wego.here.com/) geokodiert.
