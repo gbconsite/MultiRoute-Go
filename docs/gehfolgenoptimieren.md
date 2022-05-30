@@ -1,4 +1,4 @@
-# **5. Gehfolgen optimieren**
+# **6. Optimierungen in der Gehfolgenberechnung**
 
 
 Nach der Berechnung der Gehfolgen besteht in MultiRoute Go! die Möglichkeit die Gehfolgen zu optimieren. Ergänzend zu der Kartengrundlage OSM kann ein Blick auf die Luftbilder geworfen werden, um bspw. den besten Weg zu einem Gebäude zu finden.
