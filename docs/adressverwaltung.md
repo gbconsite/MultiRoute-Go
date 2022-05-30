@@ -1,6 +1,6 @@
 # **3. Adressverwaltung**
 
-Bei der Verwaltung vieler Adressen ist es häufig sinnvoll, nach einzelnen Adressen suchen zu können. Sei es, um Abonnenten/Nicht-Abonnenten zu verwalten, Werbeverweiger einzutragen oder die optimale Abladestelle zu finden.
+Bei der Verwaltung vieler Adressen ist es häufig sinnvoll, nach einzelnen Adressen suchen zu können. Sei es, um Abonnenten/Nicht-Abonnenten zu verwalten, Werbeverweiger einzutragen oder die optimale Abladestelle zu finden. Das Symbol für die Adressverwaltung ist das kleine :fontawesome-solid-house: auf der linken Seite.
 
 Auch ist es hier möglich, eine nicht korrekte Gebäudekoordinate zu "<a href="https://tour.multiroute.de/handbuch/tipps/#adressen-umsetzen" target="_blank">verschieben</a>"  und an die richtige Stelle zu setzen.
 
@@ -27,16 +27,17 @@ Durch den wiederholten Klick auf das :fontawesome-solid-house: klappt sich die l
 
 Hin und wieder gibt es Neubaugebiete, in denen MultiRoute Go! noch keine Gebäude kennt. Diese können manuell per [Klick in die Karte](../tipps/#adressen-neu-anlegen) hinzugefügt werden.
 
-![!](assets/Adressverwaltung2.png)
+![!](assets/Adressverwaltung2.png "Adressen neu anlegen")
 
 ## Anzeige Adressen
 
 Lassen Sie sich auch einfach mehr als die voreingestellten 5 Adressen anzeigen:
 
-![grafik](https://user-images.githubusercontent.com/99329016/168275309-0510484d-8d04-4887-8a55-7b891dac5a73.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168275309-0510484d-8d04-4887-8a55-7b891dac5a73.png "Anzeige konfigurieren")
 
 Hier finden Sie auch die Möglichkeit, sich **inaktive Adressen** anzeigen zu lassen.
-Adressen, die auf inaktiv gesetzt wurden, werden in blau angezeigt. Sie werden bei der Gehfolgenberechnung nicht berücksichtigt. **Der Status "inaktiv" wird in allen Ausgaben übernommen**. 
+Adressen, die auf inaktiv gesetzt wurden, werden in <span style="color: blue;">&#x1f534;&#xfe0e;</span> angezeigt. Sie werden bei der Gehfolgenberechnung nicht berücksichtigt. **Der Status "inaktiv" wird in allen Ausgaben übernommen**. Ein inaktives Haus wird nie angegangen.
+
 
 ## Farben der Adresspunkte
 
@@ -46,10 +47,10 @@ Die [Bedeutung der Einfärbungen](../gebietsplanung/#bedeutung-der-punkteinfarbu
 
 Hinter jeder Adresse können Attribute liegen, die für die späteren Berechnungen von Bedeutung sind. Üblicherweise liefern wir Ihnen die Angaben zu Anzahl der Haushalte und Anzahl der Gewerbebetriebe bereits mit. Weitere Informationen zu Abonnenten oder Werbeverweigerern können sowohl manuell als auch über eine Schnittstelle angespielt werden.
 Einfach auf das entsprechende Gebäude klicken und dort auf :material-note-edit:. Im nachfolgenden Fenster können Sie Änderungen durchführen und anschließend mit ```Speichern``` bestätigen.
-![grafik](https://user-images.githubusercontent.com/99329016/168279002-e9c2432b-bafc-435e-9083-31d220d87d88.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168279002-e9c2432b-bafc-435e-9083-31d220d87d88.png "Adresseigenschaften eingeben")
 
 Möchten Sie für viele Gebäude auf einmal die Attribute ändern, so geht das auch. Einfach ein Polygon "malen" und es öffnet sich eine Liste der darin befindlichen Gebäude. Darin können bündelweise Eigenschaften verändert werden (z.B. eine Straßen-ID).
-![grafik](https://user-images.githubusercontent.com/99329016/168278913-20909be5-c3c8-4942-afe4-5296da7fdd79.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168278913-20909be5-c3c8-4942-afe4-5296da7fdd79.png "Massenbearbeitung von Adressinformationen")
 
 
 ## Weitere Tipps & Tricks zur manuellen Nachbearbeitung
