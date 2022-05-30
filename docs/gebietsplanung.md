@@ -42,7 +42,7 @@ Ist das Polygon noch nicht so wie gewünscht, können Sie **nacharbeiten**. Einf
 Ein Doppelklick auf einen weißen Stützpunkt entfernt diesen wieder.
 
 Zur exakten Digitalisierung, z.B. von Straßen, die in zwei Verteilbezirke gehören, erscheint als Hilfe die Hausnummer einer Gebäudekoordinate beim Überfahren des Mauskreuzes. 
-Erst der Klick auf :material-content-save: schließt die Bearbeitung ab.
+Erst der Klick auf :material-content-save:{style="color:#0078A8"} schließt die Bearbeitung ab.
 
 
 ## Zuordnungen aktualisieren
@@ -85,17 +85,19 @@ Nur ein **aktiver Bezirk** kann bearbeitet werden. Aktiv ist ein Bezirk dann, we
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158537426-a4614d34-850b-4d46-b1d2-156816d456b6.png "Bezirk aktivieren")
 
-Zum Editieren des Bezirks drücken Sie :material-file-edit:.
+Zum Editieren des Bezirks drücken Sie :material-file-edit:{style="color:#0078A8"}.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158537773-4bbd949b-c0c8-4e97-83ba-d85dd916dd22.png)
 
-Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit gedrückter linker Maustaste ziehen können. Wenn Sie fertig sind mit dem Bearbeiten, drücken Sie auf :material-content-save:.
+Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit gedrückter linker Maustaste ziehen können. Wenn Sie fertig sind mit dem Bearbeiten, drücken Sie auf :material-content-save:{style="color:#0078A8"}.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168273860-a1724188-2dda-4919-ae00-e4d2d3d40568.png)
 
 ## Bezirk teilen
-Um einen Bezirk teilen zu können, aktivieren Sie ihn einfach. Mit der Maus an eine beliebige Stelle im zu teilenden Bezirk klicken.. Das Gebietsbearbeitungsfenster erscheint. Im Fenster klickt man mit der Maus auf :scissors:. 
+Um einen Bezirk teilen zu können, aktivieren Sie ihn einfach. Mit der Maus an eine beliebige Stelle im zu teilenden Bezirk klicken.. Das Gebietsbearbeitungsfenster erscheint. Im Fenster klickt man mit der Maus auf :fontawesome-solid-scissors:{style="color:#0078A8"}. 
+
 Außerhalb des Bezirks setzen Sie den ersten weißen Stützpunkt und klicken mit der linken Maustaste auf weitere Punkte bis Sie außerhalb des Bezirks ankommen und mit Doppelklick abschließen. 
+
 Sie erhalten zwei Bezirke, die Sie nun neu benennen können:
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168276772-b400f9bc-c0f7-41cf-b5be-12f90ae7da09.png)
@@ -116,7 +118,7 @@ Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_
 ![grafik](https://user-images.githubusercontent.com/99329016/158539008-247181ef-470a-4fa2-96a5-d81f208df699.png)
 
 ## Bezirk löschen und neu erzeugen
-Einen Bezirk löschen Sie einfach durch Klick auf den :wastebasket:.
+Einen Bezirk löschen Sie einfach durch Klick auf den :wastebasket:{style="color:#0078A8"}.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539630-2c35bcbd-e28b-4bf0-a21b-8dd2925b39cb.png "Bezirk löschen")
 
@@ -150,13 +152,13 @@ Gebiete können wie folgt zusammengefasst werden:
 ## Multipolygone, Teilflächen und Sonderformen
 Mit MultiRoute Go! ist es auch möglich, sog. Multipolygone als Geometrien der Verteilbezirke anzulegen. Man versteht darunter Flächen, die aus mehreren Teilen bestehen. Am Beispiel von Bauernschaften kann man sich die Situation besonders gut vorstellen:
 
-![grafik](https://user-images.githubusercontent.com/99329016/168278059-6d96d792-5fac-4ae3-a641-5fbd6765f39a.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168278059-6d96d792-5fac-4ae3-a641-5fbd6765f39a.png "Multipolygone")
 
 Anstelle eines, alle Bauernschaften überspannenden Polygons, können auch mehrere einzelne Polygone als ein Verteilbezirk gezeichnet werden. Hierzu verwendet man einfach die  [bekannte Funktion zum Zeichnen](/#manuelle-neuanlage-von-verteilbezirken). Das fertig gestellte Polygon **nicht** sofort speichern, sondern nach dem Fertigstellen per Doppelklick einfach die Zeichnungsfunktion erneut auswählen und ein weiteres Polygon erstellen usw. Mit ```Speichern``` erzeugen Sie ein Multipolygon.
 
 Als eine Sonderform der Polygone gibt es noch das "**Donut**" Polygon. Dazu im Bearbeitungsmenü den Kreis mit Punkt in der Mitte auswählen. Einfach in das bestehende Polygon klicken und Stützpunkte setzen mit der linken Maustaste. Für den nächsten Punkt erneut klicken, wie beim Polygone zeichnen. Am Ende per Doppelklick abschließen und ```Speichern```.
 
-![grafik](https://user-images.githubusercontent.com/99329016/168278374-af023d8b-967c-49ba-a272-f4ff6658ebef.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168278374-af023d8b-967c-49ba-a272-f4ff6658ebef.png "Donut Polygon")
 
 ## Einzelne Adressen einem Bezirk hinzufügen oder entfernen
 Sollen mehrere Koordinaten auf einmal zugeordnet werden, muss das [Polygon für die Bearbeitung aktiviert (blau hinterlegt)](../#bezirke-bearbeiten) werden.
