@@ -12,9 +12,11 @@ Wir geben die Strecken einzeln aus, die Sie mit verschiedenen Geschwindigkeiten 
 - Hauszugangsdistanz (HZD)
 
 ## Hauszugangsdistanz (HZD)
-Die Strecke, die vom Straßenankerpunkt zum Gebäude zurückgelegt wird, bezeichnen wir als HZD.
+Die Strecke, die vom Straßenankerpunkt zum Gebäude zurückgelegt wird, bezeichnen wir als HZD. [Hier](../gehfolgen/#hauszugangsdistanz-hzd) im Kapitel zur Gehfolgenberechnung erklärt.
 
 ## Hauszugangs-Suchradius
+Ausführliche [Erläuterung](../gehfolgen/#hauszugangs-suchradius) im Kapitel zur Gehfolgenberechnung.
+
 
 ## Koordinaten
 Wenn wir von Koordinaten sprechen, dann sind die Gebäude gemeint. Jede Adresse hat also eigene Koordinaten (Latitude, Longitude / x, y) und ist direkt in MultiRoute Go! hinterlegt. 
