@@ -32,6 +32,7 @@ Wir unterscheiden eine Erste Steckung und Folgesteckungen mit Angaben in Sekunde
 
 ## Optimierungsmethode
 Drei Möglichkeiten:
+
 - Einfacher Durchgang (one-way-open-end)
 - Rundweg (egal wo die Abladestelle war, dorthin wieder zurück)
 - Rundweg im Verteilbezirk (falls Abladestelle außerhalb des Bezirks war, dann zurück zur 1. Steckung)
