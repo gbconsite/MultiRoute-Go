@@ -37,7 +37,7 @@ Mittels Manipulation der berechneten Straßenankerpunkte kann die Gehfolge zusä
 - Aus der Sicht auf das Luftbild
 - Aus der Sicht auf die OSM Karten
 
-Um Veränderungen durchführen zu können, muss die Gehfolge aufgerufen sein und auf der Karte erscheinen. Dann startet man den Vorgang über den im Schaubild markierten Button *Hauszugänge editieren'. Mit der Maus schiebt man den entsprechenden Straßenankerpunkt an die gewünschte Stelle (= neuer Straßenankerpunkt). Nach dem Speichern muss die Gehfolge neu berechnet werden.
+Um Veränderungen durchführen zu können, muss die Gehfolge aufgerufen sein und auf der Karte erscheinen. Dann startet man den Vorgang über den im Schaubild markierten Button **Hauszugänge editieren**. Mit der Maus schiebt man den entsprechenden Straßenankerpunkt an die gewünschte Stelle (= neuer Straßenankerpunkt). Nach dem Speichern muss die Gehfolge neu berechnet werden.
 ![grafik](https://user-images.githubusercontent.com/99329016/170689694-55cd35fa-9054-429e-8313-1e5b74266165.png)
 
 Die verschobenen Straßenankerpunkte sind nun gelb gefärbt. Die Hauszugangspunkte haben eine gelbe Umrandung, die auf die Veränderung hindeutet.
@@ -48,7 +48,7 @@ In unserem Beispiel müssen auch noch die Straßen in OSM angepasst werden, da d
 
 ## Passivschaltung (inaktiv) oder Löschen von Gebäudekoordinaten
 
-Ein Gebäude auf inaktiv zu setzen bedeutet nicht, dass das Gebäude aus der Verteilbezirkszuordnung entfernt wird. Es wird lediglich nicht in die Berechnung einbezogen. Es gibt verschiedene Gründe dies zu tun. Beispielsweise wenn aus der Betrachtung der Gehfolge absehbar ist, dass sich durch die Passivschaltung eine signifikant kürzere Gehfolge ergibt. Dabei ist es dann abzuwägen, ob eine Nichtbelieferung sinnvoll ist.
+Ein Gebäude auf inaktiv <span style="color: blue;">&#x1f534;&#xfe0e;</span> zu setzen bedeutet nicht, dass das Gebäude aus der Verteilbezirkszuordnung entfernt wird. Es wird lediglich nicht in die Berechnung einbezogen. Es gibt verschiedene Gründe dies zu tun. Beispielsweise wenn aus der Betrachtung der Gehfolge absehbar ist, dass sich durch die Passivschaltung eine signifikant kürzere Gehfolge ergibt. Dabei ist es dann abzuwägen, ob eine Nichtbelieferung sinnvoll ist.
 
 Da grundsätzlich alle Gebäude zunächst aktiv geschaltet sind muss zur Passivschaltung das "Haus aktiv" Feld ausgeschaltet werden. Danach muss die Gehfolge neu berechnet werden. Das Gebäude ist nicht mehr Bestandteil der Zustellung. 
 
