@@ -118,7 +118,7 @@ Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_
 ![grafik](https://user-images.githubusercontent.com/99329016/158539008-247181ef-470a-4fa2-96a5-d81f208df699.png)
 
 ## Bezirk löschen und neu erzeugen
-Einen Bezirk löschen Sie einfach durch Klick auf den :wastebasket:{style="color:#0078A8"}.
+Einen Bezirk löschen Sie einfach durch Klick auf den :fontawesome-regular-trash-can:{style="color:#0078A8"}.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539630-2c35bcbd-e28b-4bf0-a21b-8dd2925b39cb.png "Bezirk löschen")
 
