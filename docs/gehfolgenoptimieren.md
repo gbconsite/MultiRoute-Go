@@ -74,6 +74,7 @@ Sofern für Ihr Kundenprofil ein oder meherer OSM-Accounts vom gb consite Suppor
 Im Standard werden die Gehfolgenparameter in den Kundeneinstellungen festgelegt. Je Ausgabe und je Bezirk können diese übersteuert werden.
 
 Dazu gehören:
+
 - Optimierungsmethode (Rundweg, einfache Strecke, Rundweg im Verteilbezirk)
 - Geschwindigkeiten (separat für Hin-/Rückweg, im Bezirk, für Hauszugangsdistanz)
 - Steckzeiten
