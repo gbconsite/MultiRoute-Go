@@ -62,7 +62,7 @@ Veränderungen in OSM können prinzipiell mit verschiedenen Kartenbearbeitungspr
 Ab einer bestimmten Zoomstufe in MultiRoute Go! wird in der rechten unteren Ecke der Karte das Wort "JOSM" eingeblendet.
 ![grafik](https://user-images.githubusercontent.com/99329016/170690035-093cf305-b58a-46f6-8dd3-97bd864b9a29.png)
 
-Wenn Sie zuvor das Programm JOSM (Kostenloser Download unter https://josm.openstreetmap.de/wiki/De%3ADownload) gestartet haben, wird dieses nun genau mit dem Kartenausschnitt, den Sie derzeit in MultiRoute Go! sehen, geöffnet. Nun können Sie in JOSM (Voraussetzung ist ein Zugang von https://www.openstreetmap.org/login) z.B. Straßen und Wegeverläufe korrigieren und ergänzen oder einfach nur Schreibweisen von Straßennamen verbessern.
+Wenn Sie zuvor das Programm JOSM (Kostenloser Download unter (https://josm.openstreetmap.de/wiki/De%3ADownload)(https://josm.openstreetmap.de/wiki/De%3ADownload)) gestartet haben, wird dieses nun genau mit dem Kartenausschnitt, den Sie derzeit in MultiRoute Go! sehen, geöffnet. Nun können Sie in JOSM (Voraussetzung ist ein Zugang von [https://www.openstreetmap.org/login]) z.B. Straßen und Wegeverläufe korrigieren und ergänzen oder einfach nur Schreibweisen von Straßennamen verbessern.
 
 Weitere Informationen zur Einrichtung finden Sie in diesem PDF: https://www.zustellplaner.biz/handbuch/gehfolgenberechnung/Optimierung/Veränderungen_in_OSM/Zugang_Neu_OSM_JOSM.pdf.
 
