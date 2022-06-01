@@ -4,6 +4,11 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2022
 
+### v1.2691 30.05.2022
+- Polygone in mit Basisausgaben verbundenen Ausgaben aktualisieren
+
+### v1.2690 24.05.2022
+- Switch OI
 
 ### v1.2655-46 bis 25.04.2022
 - Anpassungen für Datenübernahmen
