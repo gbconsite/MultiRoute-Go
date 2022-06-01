@@ -3,33 +3,10 @@
 Tipps & Tricks bei der Arbeit mit MultiRoute Go! tauchen in den Texten auch zwischendurch auf und sind mit einem :exclamation: gekennzeichnet.
 
 ## Spalten anpassen ##
-Durch Klick auf den blauen Pfeil :arrow_down: haben Sie die Möglichkeit, **Spalten selbst zu definieren**, die Sie angezeigt bekommen möchten. Ein erneuter Klick auf :arrow_up: schließt dieses Menü wieder.
+Durch Klick auf den blauen Pfeil :material-arrow-down:{style="color:blue"} haben Sie die Möglichkeit, **Spalten selbst zu definieren**, die Sie angezeigt bekommen möchten. Ein erneuter Klick auf :material-arrow-up:{style="color:blue"} schließt dieses Menü wieder.
+
 ![grafik](https://user-images.githubusercontent.com/99329016/158330870-34693ff6-1752-4bf2-8268-18ac2bdceda5.png "Neuanlage Trägerbezirk")
 
-
-
-
-
-
-## Adressen neu anlegen
-
-In drei einfachen Schritten können Sie in MultiRoute Go! neue Adressen anlegen. Dies ist nützlich wenn Sie bspw. die Start- und Endadresse der Fahrzeuge verändern möchten. 
-
-1) Klicken Sie auf **2.Planung** und anschließend auf das kleine Häuschen in der linken Sidebar (Adressverwaltung). 
-
-![!](assets/Adressverwaltung_neue_Adr.png)
-
-2) Suchen Sie oben rechts in der Karte nach der gewünschten Adresse und klicken Sie diese an. Die Karte springt zur entsprechenden Adresse.
-
-![!](assets/osh_adr.png)
-
-3) Klicken Sie in der Karte auf die Pinnadel (gelb markiert) und setzen Sie das Fadenkreuz auf das entsprechende Gebäude. Falls nötig passen Sie die Adressinfos an und klicken Sie auf speichern. 
-
-![!](assets/osh_save.png)
-
-Fertig. Sie können diese Adresse nun in der Adressverwaltung finden und in der Flotte als Start- und Endadresse auswählen.
-
-<hr style="border:2px solid gray"> </hr>
 
 ## Adressen umsetzen 
 
