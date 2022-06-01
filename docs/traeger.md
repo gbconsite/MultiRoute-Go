@@ -8,6 +8,7 @@ Zu jeder berechneten Gehfolge gibt es einen Ergebnisbericht mit den Informatione
 ![grafik](https://user-images.githubusercontent.com/99329016/170692371-21ce7637-7197-4305-a5d7-b946af9b7923.png)
 
 Parallel zur Berechnung der Gehfolgen werden PDF Dokumente und Daten erzeugt:
+
 - Bezirkskarte
 - Gehfolge
 - Straßenliste
@@ -38,6 +39,7 @@ Alle Straßen des Verteilbezirks alphabetisch und mit aufsteigenden Hausnummern 
 ## Excel
 Eine Datei inklusive aller berechneter Faktoren und Zahlen. Wunderbar geeignet für die Dokumentation.
 Aufgeteilt auf zwei Reiter:
+
 1. Metainformationen
 2. Gehfolge mit allen Parametern
 
