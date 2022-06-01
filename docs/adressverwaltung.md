@@ -1,6 +1,6 @@
 # **3. Adressverwaltung**
 
-Bei der Verwaltung vieler Adressen ist es häufig sinnvoll, nach einzelnen Adressen suchen zu können. Sei es, um Abonnenten/Nicht-Abonnenten zu verwalten, Werbeverweiger einzutragen oder die optimale Abladestelle zu finden. Das Symbol für die Adressverwaltung ist das kleine :fontawesome-solid-house:{style="color:#0078A8"} auf der linken Seite.
+Bei der Verwaltung vieler Adressen ist es häufig sinnvoll, nach einzelnen Adressen suchen zu können. Sei es, um Abonnenten/Nicht-Abonnenten zu verwalten, Werbeverweiger einzutragen oder die optimale Abladestelle zu finden. Das Symbol für die Adressverwaltung ist das kleine :fontawesome-solid-house: auf der linken Seite.
 
 Auch ist es hier möglich, eine nicht korrekte Gebäudekoordinate zu "<a href="https://tour.multiroute.de/handbuch/tipps/#adressen-umsetzen" target="_blank">verschieben</a>"  und an die richtige Stelle zu setzen.
 
@@ -21,7 +21,7 @@ MultiRoute Go! filtert dann sofort aus den bekannten Adressen und hilft so bei d
 
 Über die Adressverwaltung ist es einfach, Adressen zu finden, um Bemerkungen zu hinterlegen. **Start**-/**End**- oder **Zustellhäuser** zu setzen oder neue Gebäude anzulegen.
 
-Durch den wiederholten Klick auf das :fontawesome-solid-house:{style="color:#0078A8"} klappt sich die linke Menüleiste ein und auch wieder aus.
+Durch den wiederholten Klick auf das :fontawesome-solid-house: klappt sich die linke Menüleiste ein und auch wieder aus.
 
 ## Neue Gebäude anlegen
 
