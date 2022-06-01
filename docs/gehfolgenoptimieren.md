@@ -4,7 +4,7 @@
 Nach der Berechnung der Gehfolgen besteht in MultiRoute Go! die Möglichkeit die Gehfolgen zu optimieren. Ergänzend zu der Kartengrundlage OSM kann ein Blick auf die Luftbilder geworfen werden, um bspw. den besten Weg zu einem Gebäude zu finden.
 
 Vielleicht haben Sie auch einen GPS Track, den Sie einlesen möchten?
-Mit dem **schwarzes Ordnersymbol** können Sie GPS Tracks laden.
+Mit dem :material-folder-open: können Sie GPS Tracks laden.
 Zur besseren Orientierung haben wir die Track-Linie mit einem Richtungspfeil versehen, sodass die Laufrichtung erkennbar ist.
 Geladene Tracks (mehrere gleichzeitig möglich) können einfach über die Layersteuerung ein- und ausgeschaltet werden, mit einem Klick auf die Linie erscheint ein PopUp, über das die Tracks auch wieder entfernt werden können.
 
@@ -18,9 +18,9 @@ Folgende Optimierungen können in der MultiRoute Go! Gangfolge direkt vorgenomme
 - Parameterveränderungen für Gehfolgen
 
 Zustellbesonderheiten wie "Briefkasten rechts um die Ecke". Oder "Achtung, bissiger Hund!", die für Zusteller in einem Botenbuch gesammelt werden, können Sie direkt am jeweiligen Haus im Feld "Bemerkungen" hinterlegen.
-Diese Bemerkungen tauchen dann auch in der Gehfolgenliste auf, so dass Springer/Aushilfsträger oder neue Zusteller es viel einfacher haben, sich zurecht zu finden. Mit Klick auf "Speichern" werden diese Informationen direkt an das Haus gehängt.
+Diese Bemerkungen tauchen dann auch in der Gehfolgenliste auf, so dass Springer/Aushilfsträger oder neue Zusteller es viel einfacher haben, sich zurecht zu finden. Mit Klick auf ```Speichern``` werden diese Informationen direkt an das Haus gehängt.
 
-Auf der Karte erkennbar mit einem kleinen Dreieck. Das Dreieck nimmt die passende Farbe an, die es auch als Kreis hätte. Ein schwarzes Dreieck bspw. ist ein Abonnent, bei dem Bemerkungen hinterlegt werden. Ein pinkes Dreieck entspricht einem Zustellerhaus mit Bemerkungen.
+Auf der Karte erkennbar mit einem kleinen Dreieck. Das Dreieck nimmt die passende Farbe an, die es auch als Kreis hätte. Ein :material-triangle: bspw. ist ein Abonnent, bei dem Bemerkungen hinterlegt werden. Ein :material-triangle:{style="color:magenta"} entspricht einem Zustellerhaus mit Bemerkungen.
 ![grafik](https://user-images.githubusercontent.com/99329016/170690319-edbe0da8-19fb-4e1d-aca6-1b2a5cdcb5fa.png)
 
 ![grafik](https://user-images.githubusercontent.com/99329016/170690311-f82f6c82-a274-443b-a651-81dde62c5d5f.png)
@@ -64,7 +64,7 @@ Ab einer bestimmten Zoomstufe in MultiRoute Go! wird in der rechten unteren Ecke
 
 Wenn Sie zuvor das Programm JOSM (Kostenloser Download unter (https://josm.openstreetmap.de/wiki/De%3ADownload)(https://josm.openstreetmap.de/wiki/De%3ADownload)) gestartet haben, wird dieses nun genau mit dem Kartenausschnitt, den Sie derzeit in MultiRoute Go! sehen, geöffnet. Nun können Sie in JOSM (Voraussetzung ist ein Zugang von [https://www.openstreetmap.org/login]) z.B. Straßen und Wegeverläufe korrigieren und ergänzen oder einfach nur Schreibweisen von Straßennamen verbessern.
 
-Weitere Informationen zur Einrichtung finden Sie in diesem PDF: https://www.zustellplaner.biz/handbuch/gehfolgenberechnung/Optimierung/Veränderungen_in_OSM/Zugang_Neu_OSM_JOSM.pdf.
+Weitere Informationen zur Einrichtung finden Sie in diesem PDF: (https://www.zustellplaner.biz/handbuch/gehfolgenberechnung/Optimierung/Veränderungen_in_OSM/Zugang_Neu_OSM_JOSM.pdf).
 
 Sofern für Ihr Kundenprofil ein oder meherer OSM-Accounts vom gb consite Support eingetragen wurde, können Sie über den OSM Monitor nun sehen, ob diese in JOSM durchgeführten Änderungen bereits in MultiRoute Go! verfügbar sind (siehe hierzu OSM Monitor).
 
