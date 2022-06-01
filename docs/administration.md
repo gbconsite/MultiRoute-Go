@@ -16,7 +16,7 @@ Grundsätzlich stehen folgende Menüpunkte zur Verfügung:
 Hier können berechtigte Nutzer verschiedene Optionen einstellen. Dazu gehören vor allem die grundlegenden Einstellungen für die Gehfolgenberechnung (Einfache Strecke, Rundweg, Rundweg im Verteilbezirk), die Einstellungen für die Trägerdokumente und Steckzeiten. Hier führen Sie auch die Voreinstellungen für Geschwindigkeiten und Hauszugangsdistanzen durch.
 
 ## Ausgaben ##
-Hier können Sie bestehende Ausgaben [Bearbeiten] oder neue Ausgaben anlegen. 
+Hier können Sie bestehende Ausgaben ```Bearbeiten``` oder neue Ausgaben anlegen. 
 Legen Sie hier die Parameter für die jeweilige Ausgabe fest für die Gehfolgenberechnungen. 
 
 ## Benutzer ##
@@ -30,11 +30,13 @@ Eine Übersicht aller berechneten Gehfolgen dieser Ausgabe.
 
 ## Upload ##
 Fast alles kann upgeloaded werden: 
+
 * Gebäude (Koordinaten)
 * Bezirkszuordnungen
 * Spezialhäuser
 
 Hier können Sie auch **Abonnenten verwalten** mit den Möglichkeiten:
+
 * löschen
 * kopieren
 * verschieben
