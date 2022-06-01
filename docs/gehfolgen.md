@@ -56,7 +56,7 @@ Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen 
 Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt wird von uns für Sie eingestellt.
 
 
-## Hauszugangsdistanz (HZD) und Hauszugangs-Suchradius
+## Hauszugangsdistanz (HZD) 
 
 MultiRoute Go! nutzt für die Berechnungen der Gehfolgen die Kartengrundlagen von Open Street Map (OSM). In OSM sind alle notwendigen Informationen enthalten für die optimale Gehfolge. Zur Zustellung gehört auch der Weg von der Straße (Straßenankerpunkt in rosa) bis zum Gebäude (blau). Diese Informationen zur Distanz oder zum physikalischen Weg von der Straße bis zum Gebäude/Briefkasten sind nirgendwo hinterlegt.
 
@@ -68,7 +68,9 @@ In der Darstellung wird zwischen blauen und gelben Linien unterschieden. Eine bl
 
 Diese über dem Schwellenwert befindlichen Meter können Sie in der Gehfolgenkonfiguration HIN und ZURÜCK zur Gesamtstrecke addieren. Die Summe wird separat ausgegeben. 
 
-Neben der HDZ hilft Ihnen der **Hauszugangssuchradius**, den richtigen Zugang (Ankerpunkt) von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
+## Hauszugangs-Suchradius
+
+Neben der HZD hilft Ihnen der **Hauszugangs-Suchradius**, den richtigen Zugang (Ankerpunkt) von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
 
 Ein Beispiel:
 
