@@ -21,6 +21,7 @@ Zustellbesonderheiten wie "Briefkasten rechts um die Ecke". Oder "Achtung, bissi
 Diese Bemerkungen tauchen dann auch in der Gehfolgenliste auf, so dass Springer/Aushilfsträger oder neue Zusteller es viel einfacher haben, sich zurecht zu finden. Mit Klick auf ```Speichern``` werden diese Informationen direkt an das Haus gehängt.
 
 Auf der Karte erkennbar mit einem kleinen Dreieck. Das Dreieck nimmt die passende Farbe an, die es auch als Kreis hätte. Ein :material-triangle: bspw. ist ein Abonnent, bei dem Bemerkungen hinterlegt werden. Ein :material-triangle:{style="color:magenta"} entspricht einem Zustellerhaus mit Bemerkungen.
+
 ![grafik](https://user-images.githubusercontent.com/99329016/170690319-edbe0da8-19fb-4e1d-aca6-1b2a5cdcb5fa.png)
 
 ![grafik](https://user-images.githubusercontent.com/99329016/170690311-f82f6c82-a274-443b-a651-81dde62c5d5f.png)
@@ -62,9 +63,9 @@ Veränderungen in OSM können prinzipiell mit verschiedenen Kartenbearbeitungspr
 Ab einer bestimmten Zoomstufe in MultiRoute Go! wird in der rechten unteren Ecke der Karte das Wort "JOSM" eingeblendet.
 ![grafik](https://user-images.githubusercontent.com/99329016/170690035-093cf305-b58a-46f6-8dd3-97bd864b9a29.png)
 
-Wenn Sie zuvor das Programm JOSM (Kostenloser Download unter (https://josm.openstreetmap.de/wiki/De%3ADownload)(https://josm.openstreetmap.de/wiki/De%3ADownload)) gestartet haben, wird dieses nun genau mit dem Kartenausschnitt, den Sie derzeit in MultiRoute Go! sehen, geöffnet. Nun können Sie in JOSM (Voraussetzung ist ein Zugang von [https://www.openstreetmap.org/login]) z.B. Straßen und Wegeverläufe korrigieren und ergänzen oder einfach nur Schreibweisen von Straßennamen verbessern.
+Wenn Sie zuvor das Programm JOSM (Kostenloser Download unter: [https://josm.openstreetmap.de/wiki/De%3ADownload](https://josm.openstreetmap.de/wiki/De%3ADownload)) gestartet haben, wird dieses nun genau mit dem Kartenausschnitt, den Sie derzeit in MultiRoute Go! sehen, geöffnet. Nun können Sie in JOSM (Voraussetzung ist ein Zugang von [https://www.openstreetmap.org/login](https://www.openstreetmap.org/login)) z.B. Straßen und Wegeverläufe korrigieren und ergänzen oder einfach nur Schreibweisen von Straßennamen verbessern.
 
-Weitere Informationen zur Einrichtung finden Sie in diesem PDF: (https://www.zustellplaner.biz/handbuch/gehfolgenberechnung/Optimierung/Veränderungen_in_OSM/Zugang_Neu_OSM_JOSM.pdf).
+Weitere Informationen zur Einrichtung finden Sie in diesem PDF: [https://www.zustellplaner.biz/handbuch/gehfolgenberechnung/Optimierung/Veränderungen_in_OSM/Zugang_Neu_OSM_JOSM.pdf](https://www.zustellplaner.biz/handbuch/gehfolgenberechnung/Optimierung/Veränderungen_in_OSM/Zugang_Neu_OSM_JOSM.pdf).
 
 Sofern für Ihr Kundenprofil ein oder meherer OSM-Accounts vom gb consite Support eingetragen wurde, können Sie über den OSM Monitor nun sehen, ob diese in JOSM durchgeführten Änderungen bereits in MultiRoute Go! verfügbar sind (siehe hierzu OSM Monitor).
 
