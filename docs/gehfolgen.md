@@ -95,8 +95,8 @@ Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen 
 
 
 ## Aufruf von berechneten Gehfolgen
-Der Aufruf der berechneten Gehfolgen **(weißes Ordnersymbol)** können Sie mit Hilfe des "Filters" gezielt nach Gehfolgen eines Verteilbezirks filtern oder nach einer bestimmten Gehfolgennummer. 
-Über den **blauen Pfeil** können Sie die Spalten selbst festlegen, die angezeigt werden sollen.
+Der Aufruf der berechneten Gehfolgen :material-folder-open-outline: können Sie mit Hilfe des "Filters" gezielt nach Gehfolgen eines Verteilbezirks filtern oder nach einer bestimmten Gehfolgennummer. 
+Über den :material-arrow-up:{style="color:#0078A8"} können Sie die Spalten selbst festlegen, die angezeigt werden sollen.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/170687969-7475d998-8da4-4cf0-b0af-cb08a5af17be.png)
 
