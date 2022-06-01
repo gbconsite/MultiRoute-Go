@@ -51,7 +51,8 @@ Mehrere Abladestellen (Depots) möglich.
 
 ##Resthaushalte##
 
-Für die Resthaushaltsverteilung ist es wichtig, dass möglichst alle Gebäude, die sich innerhalb eines Trägerbezirks befinden, auch zugeordnet (grün) sind. Die Resthaushaltsverteilung ist gemäß unserer Definition:
+Für die Resthaushaltsverteilung ist es wichtig, dass möglichst alle Gebäude, die sich innerhalb eines Trägerbezirks befinden, auch zugeordnet <span style="color: green;">&#x1f534;&#xfe0e;</span>  sind. Die Resthaushaltsverteilung ist gemäß unserer Definition:
+
 Vollverteilung minus Abos minus Werbeverweigerer = Resthaushalte 
 
 Bei besonders gut gepflegten Haushaltshaltszahlen wird auch berücksichtigt, dass bspw. in einem Mehrfamilienhaus, in dem es 6 Haushalte und davon 4 Werbeverweiger gibt, noch 2x gesteckt wird.
@@ -60,6 +61,7 @@ Bei besonders gut gepflegten Haushaltshaltszahlen wird auch berücksichtigt, das
 ##Tracking##
 
 Auf der Karte können Sie entweder live oder historisch verfolgen, wie sich ein Tracker bewegt hat. Das Tracking läuft entweder mit Hilfe eines mobilen Endgeräts (Traccar App) oder eines Trackers, den wir Ihnen zur Verfügung stellen. Bitte sprechen Sie den Vertrieb an!
+
 Die App ist geeignet für die Verwendung in Fahrzeugen, aber auch Zusteller, die zu Fuß unterwegs sind, können darüber getrackt werden.
 
 
