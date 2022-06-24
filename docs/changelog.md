@@ -4,6 +4,24 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2022
 
+### v1.2705 21.06.2022
+- kml, kmz Export bei Bezirk
+
+### v1.2704 21.06.2022
+- Geom Sync bei Basisausgaben
+
+### v1.2703 21.06.2022
+- Anpassungen bei tägl. Datenübernahme
+
+### v1.2702 14.06.2022
+- Einzelbäume ebenfalls nicht drucken
+
+### v1.2701 14.06.2022
+- barrier=gate rausgenommen, altes xml mit gate = multiroutego_with_gates.xml
+
+### v1.2698 09.06.2022
+- Filter bei Gehfolhenübersicht einzeln
+
 ### v1.2691 30.05.2022
 - Polygone in mit Basisausgaben verbundenen Ausgaben aktualisieren
 
