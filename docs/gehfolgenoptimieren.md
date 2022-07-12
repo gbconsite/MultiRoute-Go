@@ -12,7 +12,7 @@ Geladene Tracks (mehrere gleichzeitig möglich) können einfach über die Layers
 
 Folgende Optimierungen können in der MultiRoute Go! Gangfolge direkt vorgenommen werden:
 
-- Veränderung der Straßenankerpunkte
+- Veränderung der Straßenankerpunkte (Anbindung, Hauszugang)
 - Passivschaltung (inaktiv) oder Löschen von Gebäudekoordinaten
 - Veränderungen in OSM vornehmen
 - Parameterveränderungen für Gehfolgen
