@@ -12,7 +12,7 @@ Wir geben die Strecken einzeln aus, die Sie mit verschiedenen Geschwindigkeiten 
 - Hauszugangsdistanz (HZD)
 
 ## Hauszugangsdistanz (HZD)
-Die Strecke, die vom Straßenankerpunkt zum Gebäude zurückgelegt wird, bezeichnen wir als HZD. [Hier](../gehfolgen/#hauszugangsdistanz-hzd) im Kapitel zur Gehfolgenberechnung erklärt.
+Die Strecke, die vom Straßenankerpunkt (Anbindung) zum Gebäude zurückgelegt wird, bezeichnen wir als HZD. [Hier](../gehfolgen/#hauszugangsdistanz-hzd) im Kapitel zur Gehfolgenberechnung erklärt.
 
 ## Hauszugangs-Suchradius
 Ausführliche [Erläuterung](../gehfolgen/#hauszugangs-suchradius) im Kapitel zur Gehfolgenberechnung.
@@ -22,7 +22,7 @@ Ausführliche [Erläuterung](../gehfolgen/#hauszugangs-suchradius) im Kapitel zu
 Wenn wir von Koordinaten sprechen, dann sind die Gebäude gemeint. Jede Adresse hat also eigene Koordinaten (Latitude, Longitude / x, y) und ist direkt in MultiRoute Go! hinterlegt. 
 
 ## Matching
-Unter Matching verstehen wir das eindeutige Zuordnen von Adressen zu Gebäudekoordinaten.
+Unter Matching verstehen wir das eindeutige Zuordnen von Adressen oder Straßen-IDs zu Gebäudekoordinaten.
 
 ## Rüstzeit
 Eine pauschale Angabe in Minuten. Kann von Ihnen per API nach berechneter Formel übergeben werden.
@@ -37,6 +37,17 @@ Drei Möglichkeiten:
 - Rundweg (egal wo die Abladestelle war, dorthin wieder zurück)
 - Rundweg im Verteilbezirk (falls Abladestelle außerhalb des Bezirks war, dann zurück zur 1. Steckung)
 
+## Zustellerhaus
+In der Regel die "normale" Abladestelle. Der Name Zustellerhaus leitet sich von der Tatsache ab, dass gerade bei Wochenblättern die Gebinde an den Wohnort des Zustellers geliefert werden.
+Das Zustellerhaus kann außerhalb des Verteilbezirkes sein und hat in diesem Fall auch keine Zuordnung zu diesem. Am Zustellerhaus wird in diesem Fall nicht gesteckt.
 
+## Starthaus
+Gebäudepunkt mit dem ersten Steckvorgang. Wird standardmäßig automatisch ermittelt, kann aber auch manuell festgelegt werden (z.B. um den Platz für den Abstellort des Zusteller-KFZ zu bestimmen)
+
+## Endhaus
+Gebäudepunkt mit dem letzten Steckvorgang. Wird standardmäßig automatisch ermittelt, kann aber auch manuell festgelegt werden.
+
+## Depot
+Zusätzliche Abladestelle(n) eines Verteilbezirkes (nur verfügbar mit dem Zusatzmodul "Nachladen").
 
 
