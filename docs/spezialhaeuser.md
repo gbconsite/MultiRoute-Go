@@ -34,6 +34,6 @@ Für das **Endhaus** wird das **rote Zielfähnchen** ausgewählt.
 Auf der Karte erscheinen das Starthaus <span style="color: yellow;">&#x1f534;&#xfe0e;</span> und das Endhaus <span style="color: orange;">&#x1f534;&#xfe0e;</span>.
 
 ## Depot anlegen
-Wenn Sie auch über das [Zusatzmodul "Nachladen"](../zusatzmodule/#nachladen-an-depots) verfügen, können Sie zusätzlich zum Zustellerhaus (Abladestelle) auch weitere Abladestellen, dann **Depots** genannt, anlegen. Ist das Zusatzmodul bei Ihnen aktiviert, gehen Sie wie oben beschrieben vor, setzen aber nicht das :fontawesome-sold-user:{style="color:blue"} Symbol, sondern :material-equal-box:{style="color:blue"}.
+Wenn Sie auch über das [Zusatzmodul "Nachladen"](../zusatzmodule/#nachladen-an-depots) verfügen, können Sie zusätzlich zum Zustellerhaus (Abladestelle) auch weitere Abladestellen, dann **Depots** genannt, anlegen. Ist das Zusatzmodul bei Ihnen aktiviert, gehen Sie wie oben beschrieben vor, setzen aber nicht das :fontawesome-solid-user:{style="color:blue"} Symbol, sondern :material-equal-box:{style="color:blue"}.
 ![grafik](https://user-images.githubusercontent.com/99329016/168281433-8978a6a8-9cac-43a1-b15a-e06bf8b5e77c.png "Depot setzen als zusätzliche Abladestelle")
 
