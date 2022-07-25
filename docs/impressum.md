@@ -2,9 +2,9 @@
 
 ## Kontakt und Support für MultiRoute Tour!
 
-|Vertrieb|Technischer Support|
-|---|---|
-|**Alina Erke<br>[alina.erke@gbconsite.de](mailto:alina.erke@gbconsite.de)<br>Telefon: +49 89 / 309 052 975**|**Dominik Weckmüller<br>[dominik.weckmueller@gbconsite.de](mailto:dominik.weckmueller@gbconsite.de)<br>Telefon: +49 89 / 309 052 974**|
+|Vertrieb|
+|---|
+|**Alina Erke<br>[alina.erke@gbconsite.de](mailto:alina.erke@gbconsite.de)<br>Telefon: +49 89 / 309 052 975**|
 
 
 **Kontaktieren Sie uns für Ihre kostenlose Demoversion! 
