@@ -4,6 +4,24 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2022
 
+### v1.2721 21.07.2022
+- Manuelles Sortieren der Gehfolgen.
+
+### v1.2719 19.07.2022
+- mehr Information bei json export einer Gehfolge.
+
+### v1.2715 15.07.2022
+- Hilfe und Layout anpassen
+
+### v1.2712 11.07.2022
+- Fähren ignorieren
+
+### v1.2711 06.07.2022 	
+- Ignoriertes Endhaus
+
+### v1.2706 22.06.2022	
+- Zustellerhäuser bei Datenübernahme
+- 
 ### v1.2705 21.06.2022
 - kml, kmz Export bei Bezirk
 
