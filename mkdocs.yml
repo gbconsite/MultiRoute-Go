@@ -17,7 +17,7 @@ nav:
 #       - Tipps & Tricks: tipps.md
       - Webinare: webinare.md
       - Administration: administration.md
-      - Benutzer: user.md
+#      - Benutzer: user.md
       - Begriffe: definitionen.md
       - Changelog: changelog.md
 
