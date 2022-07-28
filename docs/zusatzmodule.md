@@ -48,6 +48,12 @@ Mit diesem Zusatzumodul wird berücksichtigt wie viel Gewicht (oder Stück) der 
 Ein realistischer Weg, der das Nachladen abbildet.
 Mehrere Abladestellen (Depots) möglich.
 
+So funktioniert es (manuell):
+In der Bezirkseinstellung (Ausgabe) einstellen, wie viel Stück/Gewicht ein Träger auf einmal mitnehmen kann. Bsp. 30 kg Gewicht in Taschen. Bei Gewicht auch noch definieren, wie schwer 1 Stück ist. 
+In der Gebietsplanung auch ein (oder mehrere) Depot(s) anlegen (zusätzlich zur Abladestelle, gleiche Vorgehensweise). Bei der Berechnung Häkchen nicht vergessen!
+![grafik](https://user-images.githubusercontent.com/99329016/181526036-eda10285-0c0e-4be1-a2aa-face92a8eee0.png)
+
+
 
 ##Resthaushalte##
 
