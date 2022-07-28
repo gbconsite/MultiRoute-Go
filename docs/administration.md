@@ -20,7 +20,7 @@ Hier können Sie bestehende Ausgaben ```Bearbeiten``` oder neue Ausgaben anlegen
 Legen Sie hier die Parameter für die jeweilige Ausgabe fest für die Gehfolgenberechnungen. 
 
 ## Benutzer ##
-In der Benutzerverwaltung werden alle registrierten Benutzer aufgeführt, Passwörter geändert und Benutzerrechte festgelegt.
+In der [Benutzerverwaltung](../user) werden alle registrierten Benutzer aufgeführt, Passwörter geändert und Benutzerrechte festgelegt.
 
 ## Verteilbezirke ##
 Für einzelne Verteilbezirke der ausgewählten Ausgabe, in der Sie sich gerade befinden, können Sie Änderungen - abweichend zu den übergeordneten Ebenen -  an den Parametern zur Gehfolgenberechnung durchführen. Verteilbezirke können auch bearbeitet (bspw. umbenannt) werden.
