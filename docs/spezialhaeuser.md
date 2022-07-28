@@ -1,7 +1,7 @@
 # **4. Spezialhäuser**
 
 Zum Berechnen der Gehfolgen wird ein Startpunkt benögigt. Das ist meistens die  **Abladestelle** oder das **Zustellerhaus** <span style="color: magenta;">&#x1f534;&#xfe0e;</span>. Ergänzend dazu kann auch ein eigenes **Starthaus** <span style="color: yellow;">&#x1f534;&#xfe0e;</span> definiert werden. Genau so wie es auch ein definiertes **Endhaus** <span style="color: orange;">&#x1f534;&#xfe0e;</span> geben kann.
-Auf die verschiedenen Einfärbungen wurde schon in der [Gebietsplanung](..gebietsplanung/#bedeutung-der-punkteinfarbungen) eingegangen.
+Auf die verschiedenen Einfärbungen wurde schon in der [Gebietsplanung](../gebietsplanung/#bedeutung-der-punkteinfarbungen) eingegangen.
 
 ## Zustellerhaus / Abladestelle anlegen/löschen
 Das **Zustellerhaus** kann sich innerhalb oder außerhalb eines Trägerbezirks befinden. Das **Starthaus** muss sich hingegen im Bezirk befinden. Hier helfen die verschiedenen Symbole in MultiRoute Go!. 
