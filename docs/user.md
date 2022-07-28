@@ -13,16 +13,16 @@ Ein User mit diesen Rechten darf auch an den Kundeneinstellungen Änderungen vor
 Ein User Admin darf weitere Benutzer anlegen und einrichten.
 
 ## GPS-Tracking ##
-Diese User sehen im Menü "Administration" auch den Punkt "GPS-Tracking" (wenn das Zusatzmodul beauftragt ist).
+Diese User sehen im Menü "Administration" auch den Punkt "GPS-Tracking" (wenn das [Zusatzmodul]((../zusatzmodule/#tracking) beauftragt ist).
 
 ## Adressen löschen ##
 Nicht nur eigene gesetzte (GBC) Adressen können gelöscht werden, sondern auch die amtlichen Koordinaten.
 
 ## Sortier ##
-Ein spezielles Nutzerprofil passend zum Zusatzmodul [Gebiets-Adressliste für die Briefverteilung](#gebiets-adressliste-fur-die-briefverteilung).
+Ein spezielles Nutzerprofil passend zum Zusatzmodul [Gebiets-Adressliste für die Briefverteilung](../zusatzmodule/#gebiets-adressliste-fur-die-briefverteilung).
 
 ## Straßenanpassung ##
-Diese User dürfen Anpassungen an den Straßen vornehmen (wenn Zusatzmodul [Straßenanpassungen](#straenanpassungen) beauftragt).
+Diese User dürfen Anpassungen an den Straßen vornehmen (wenn Zusatzmodul [Straßenanpassungen](../zusatzmodule/#straenanpassungen) beauftragt).
 
 
 # Rollen Gebiet #
