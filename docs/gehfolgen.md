@@ -85,7 +85,10 @@ In der Summe wird Ihnen das rechte Beispiel ein realistischeres Ergebnis geben.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168796891-3674ae8e-650d-4ad9-916d-407193944ec0.png "Einstellmöglichkeiten für Geschwindigkeiten und Steckzeiten")
 
-Mit den vorliegenden Zahlen decken Sie alle Möglichkeiten der Berechnung in MultiRoute Go! ab. 
+Mit den vorliegenden Zahlen decken Sie alle Möglichkeiten der Berechnung in MultiRoute Go! ab.
+Geschwindigkeiten lassen sich für jede Ausgabe und jeden Verteilbezirk anpassen.
+Hier wird bspw. bei einem Mehrfamilienhaus für die erste Steckung mit 6,3 Sekunden gerechnet. Die nachfolgenden Steckungen sind etwas schneller mit 4,2 Sekunden.
+
 
 ## Gehfolgenberechnung manuell anstoßen
 
