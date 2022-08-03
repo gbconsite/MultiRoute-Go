@@ -4,6 +4,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2022
 
+### v1.2724 02.08.2022
+- Titel-Differenzierung bei Klick auf Verteilbezirk.
+
 ### v1.2721 21.07.2022
 - Manuelles Sortieren der Gehfolgen.
 
