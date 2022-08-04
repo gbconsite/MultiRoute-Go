@@ -24,7 +24,7 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ### v1.2706 22.06.2022	
 - Zustellerhäuser bei Datenübernahme
-- 
+
 ### v1.2705 21.06.2022
 - kml, kmz Export bei Bezirk
 
