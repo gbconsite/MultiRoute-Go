@@ -51,7 +51,7 @@ Der nachfolgende Dialog ist wichtig :exclamation:
 ![grafik](https://user-images.githubusercontent.com/99329016/158332914-8a0b833a-40a5-4851-9af2-e1538d129d14.png "Zuordnung aktualisieren")
 
 
-* *Schnittfrei speichern* beeinflusst nur die Ausprägung des Polygons. Die Umrisse von Polygonen werden aneinandergelegt. Zuordnungen ändern sich nicht.
+* *Schnittfrei speichern* beeinflusst nur die Ausprägung des Polygons. Die Umrisse von Polygonen werden aneinandergelegt. Zuordnungen ändern sich nicht. Die überlappte Greneze, die man it einer neuen Polylinie überzieht, bleibt dabei bestehen.
 * *Nur Speichern* bedeutet, dass die Geometrie gespeichert wurde, aber nicht die Zuordnung der Adressen/Gebäude
 * *Zuordnung aktualisieren* ordnet Adressen dem Polygon und damit dem Verteilbezirk neu zu. Hauskoordinaten verfärben sich automatisch von rot nach grün (oder umgekehrt).
 
