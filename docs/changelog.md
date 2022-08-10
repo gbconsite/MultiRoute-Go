@@ -4,6 +4,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2022
 
+### v1.2730 09.08.2022
+- Erweiterung Datenübernahme
+
+### v1.2728 03.08.2022
+- Steckzeit Fix.
+
 ### v1.2724 02.08.2022
 - Titel-Differenzierung bei Klick auf Verteilbezirk.
 
