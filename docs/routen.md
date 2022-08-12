@@ -963,7 +963,7 @@ Parameter (optional):
 | geojson | Geojson Feature                                           |
 
 Beispiel Rückgabe:
-<http://localhost:3000/fernsteuerung/gebiet/?nr=1200,1300,1400&ausgabe=default>
+<http://domain/fernsteuerung/gebiet/?nr=1200,1300,1400&ausgabe=default>
 
     [{
         "nr": "1200",
