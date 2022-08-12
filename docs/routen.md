@@ -1002,7 +1002,7 @@ privathaushalte, gewerbebetriebe, werbeverweigerer, abonnenten
 limit_plz  
 starthaus, zustellerhaus, endhaus (Gebäude ID (oi))
 
-Beispiel mit geojson:
+Beispiel mit option:
 <http://domain/fernsteuerung/gebiet/?nr=test2&ausgabe=default&option=true>
 
     [{
