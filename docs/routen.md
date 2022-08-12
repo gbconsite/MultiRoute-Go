@@ -959,8 +959,11 @@ Parameter (optional):
 | limit   | Limit                                                     |
 | offset  | Offset                                                    |
 | ausgabe | Name der Ausgabe (default=Aktuelle Ausgabe des Benutzers) |
+| option  | Optionen Parameter                                        |
+| geojson | Geojson Feature                                           |
 
-Rückgabe:
+Beispiel Rückgabe:
+<http://localhost:3000/fernsteuerung/gebiet/?nr=1200,1300,1400&ausgabe=default>
 
     [{
         "nr": "1200",
@@ -993,11 +996,132 @@ Rückgabe:
         "zustellerhaus": null,
         "endhaus": null
     }]
-
+    
 Optionale Ausgabe wenn in Kundenverwaltung ausgewählt:  
 privathaushalte, gewerbebetriebe, werbeverweigerer, abonnenten  
 limit_plz  
 starthaus, zustellerhaus, endhaus (Gebäude ID (oi))
+
+Beispiel mit geojson:
+<http://domain/fernsteuerung/gebiet/?nr=test2&ausgabe=default&option=true>
+
+    [{
+        "nr": "test2",
+        "name": "",
+        "privathaushalte": 0,
+        "gewerbebetriebe": 0,
+        "abonnenten": 0,
+        "starthaus": "2464801",
+        "zustellerhaus": "24079601",
+        "endhaus": null,
+        "wegnetz_laenge": "",
+        "option": {
+            "kfz": null,
+            "hauszugangsdistanz": null,
+            "strassen_name": null,
+            "starthaus": null,
+            "steckzeit_erste": null,
+            "steckzeit_folgende": null,
+            "optimierung": "",
+            "geschwindigkeit": 70,
+            "car_profile_fuer_zustellerhaus": true,
+            "ruestzeit": null,
+            "nullhaushalte": null,
+            "osrm_schwelldistanz": null,
+            "depot": false,
+            "austraeger_kg": false,
+            "austraeger_start_capacity": 50,
+            "austraeger_capacity": 50,
+            "austraeger_start_capacity_kg": null,
+            "austraeger_capacity_kg": null,
+            "mediengewicht": null
+        }
+    }]
+
+Beispiel mit geojson:
+<http://domain/fernsteuerung/gebiet/?nr=test2&ausgabe=default&geojson=true>
+
+    [{
+        "nr": "test2",
+        "name": "",
+        "privathaushalte": 0,
+        "gewerbebetriebe": 0,
+        "abonnenten": 0,
+        "starthaus": "2464801",
+        "zustellerhaus": "24079601",
+        "endhaus": null,
+        "wegnetz_laenge": "",
+        "geojson": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [8.173963, 52.231681],
+                        [8.17392353099216, 52.23171560874612],
+                        [8.173319231411217, 52.23177219638712],
+                        [8.173292809392441, 52.23174228707541],
+                        [8.172802044818699, 52.23184869266271],
+                        [8.172249231411216, 52.23184419638712],
+                        [8.172202196387119, 52.23181276858879],
+                        [8.171935284271246, 52.23188771572875],
+                        [8.171293955181302, 52.231996692662705],
+                        [8.1702830448187, 52.23208469266271],
+                        [8.169846715728752, 52.232168715728754],
+                        [8.169695777190679, 52.232313741215506],
+                        [8.169285222809322, 52.23221974121551],
+                        [8.1692260448187, 52.23223769266271],
+                        [8.169023777190679, 52.23241074121551],
+                        [8.168438, 52.23237],
+                        [8.16776615831024, 52.23244770503202],
+                        [8.166211715728753, 52.232728715728754],
+                        [8.165591304129428, 52.23260324064874],
+                        [8.165559876331093, 52.232634668447076],
+                        [8.165583800405015, 52.23267942724126],
+                        [8.165513196387119, 52.233156768588785],
+                        [8.165481768588783, 52.23320380361288],
+                        [8.165669741215508, 52.23343477719068],
+                        [8.165674715728754, 52.23348528427125],
+                        [8.165725222809321, 52.23349025878449],
+                        [8.166131741215507, 52.23393077719068],
+                        [8.166131741215507, 52.23397522280932],
+                        [8.166312307337295, 52.2340879551813],
+                        [8.166672741215507, 52.23454177719068],
+                        [8.166683777190679, 52.23459725878449],
+                        [8.166734284271246, 52.234592284271244],
+                        [8.167082692662705, 52.2348539551813],
+                        [8.167388715728753, 52.234834284271244],
+                        [8.168430803612882, 52.235379231411216],
+                        [8.168698196387119, 52.23511923141122],
+                        [8.168972307337295, 52.2351679551813],
+                        [8.16936, 52.23478],
+                        [8.169762371209346, 52.23466496343907],
+                        [8.170116307337295, 52.2344569551813],
+                        [8.170751369206673, 52.23424438760029],
+                        [8.171241715728753, 52.23403028427124],
+                        [8.171285307337294, 52.2340389551813],
+                        [8.17142822280932, 52.23384325878449],
+                        [8.171960715728753, 52.233674284271245],
+                        [8.172004307337295, 52.2336829551813],
+                        [8.172203974045564, 52.233565876364345],
+                        [8.172358590196875, 52.233326779416835],
+                        [8.172638777190679, 52.23327525878449],
+                        [8.17326070939186, 52.232912203143435],
+                        [8.173622222809321, 52.23276325878449],
+                        [8.173783598950585, 52.23260618511437],
+                        [8.173779258784492, 52.23257077719068],
+                        [8.174297777190679, 52.23209325878449],
+                        [8.1745309551813, 52.23194230733729],
+                        [8.174509307337294, 52.2318900448187],
+                        [8.174307, 52.231992],
+                        [8.173963, 52.231681]
+                    ]
+                ]
+            },
+            "properties": {},
+            "id": "test2"
+        }
+    }]
 
 #### Gebiet Hinzufügen/Updaten
 
