@@ -65,7 +65,7 @@ Ab einer bestimmten Zoomstufe in MultiRoute Go! wird in der rechten unteren Ecke
 
 Wenn Sie zuvor das Programm JOSM (Kostenloser Download unter: [https://josm.openstreetmap.de/wiki/De%3ADownload](https://josm.openstreetmap.de/wiki/De%3ADownload)) gestartet haben, wird dieses nun genau mit dem Kartenausschnitt, den Sie derzeit in MultiRoute Go! sehen, geöffnet. Nun können Sie in JOSM (Voraussetzung ist ein Zugang von [https://www.openstreetmap.org/login](https://www.openstreetmap.org/login)) z.B. Straßen und Wegeverläufe korrigieren und ergänzen oder einfach nur Schreibweisen von Straßennamen verbessern.
 
-Weitere Informationen zur Einrichtung finden Sie in diesem PDF: [https://www.zustellplaner.biz/handbuch/gehfolgenberechnung/Optimierung/Veränderungen_in_OSM/Zugang_Neu_OSM_JOSM.pdf](https://gbconsite.de/wp-content/uploads/2022/08/Zugang_Neu_OSM_JOSM.pdf).
+Weitere Informationen zur Einrichtung finden Sie in diesem PDF: [https://gbconsite.de/wp-content/uploads/2022/08/Zugang_Neu_OSM_JOSM.pdf](https://gbconsite.de/wp-content/uploads/2022/08/Zugang_Neu_OSM_JOSM.pdf).
 
 Sofern für Ihr Kundenprofil ein oder meherer OSM-Accounts vom gb consite Support eingetragen wurde, können Sie über den OSM Monitor nun sehen, ob diese in JOSM durchgeführten Änderungen bereits in MultiRoute Go! verfügbar sind (siehe hierzu OSM Monitor).
 
