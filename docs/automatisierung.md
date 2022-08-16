@@ -5,6 +5,7 @@
 
 
 Bei täglicher Datenübernahme sind das:
+
 - Abladestellen [Zustellerhäuser](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen)
 - Abonnenten
 - Bezirksänderungen
