@@ -6,7 +6,7 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ### v1.2736 10.08.2022
 - GMaps & Apple Maps Dark Mode
--
+
 ### v1.2730-35 09./10.08.2022
 - Erweiterung Datenübernahme
 
