@@ -16,4 +16,4 @@ Bei den Datenübernahme-Definitionen besprechen wir mit Ihnen, ob nur Tageszeitu
 
 ## Hybrid-Zustellung
 
-Bei automatisierter Datenübernahme können wir die von MultiRoute Go! erzeugten Gebietspolygone weglassen und von Ihnen hübsch gezeichneten Basispolygone verwenden. Dafür empfiehlt es sich in einer dafür vorgesehenen Ausgabe die Polygone rein zu zeichnen.
+Bei automatisierter Datenübernahme können wir die von MultiRoute Go! erzeugten Gebietspolygone weglassen und von Ihnen hübsch gezeichneten Basispolygone verwenden. Dafür empfiehlt es sich in einer dafür vorgesehenen Ausgabe die Polygone rein zu zeichnen. Die Basispolygone können später auch weiterverwendet werden in anderen Produkten der gb consite, wie bspw. dem [WhiteSpot! Mediaplaner](https://gbconsite.de/standortsuche-white-spot-mediaplanung/).
