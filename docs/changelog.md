@@ -4,6 +4,18 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2022
 
+### v1.2754 26.08.2022
+- auch defekte Geometrien ausliefern
+
+### v1.2740 18.08.2022
+- Fehlermeldungen bei Titeldifferenzierungen
+
+### v1.2739 17.08.2022
+- Datenübernahme zusie sync Verbesserungen
+- 
+### v1.2737 17.08.2022
+- Datenübernahme valid_from und valid_to hinzugefügt.
+
 ### v1.2736 10.08.2022
 - GMaps & Apple Maps Dark Mode
 
