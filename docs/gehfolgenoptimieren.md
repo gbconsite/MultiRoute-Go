@@ -51,7 +51,7 @@ In unserem Beispiel müssen auch noch die Straßen in OSM angepasst werden, da d
 
 Ein Gebäude auf inaktiv <span style="color: blue;">&#x1f534;&#xfe0e;</span> zu setzen bedeutet nicht, dass das Gebäude aus der Verteilbezirkszuordnung entfernt wird. Es wird lediglich nicht in die Berechnung einbezogen. Es gibt verschiedene Gründe dies zu tun. Beispielsweise wenn aus der Betrachtung der Gehfolge absehbar ist, dass sich durch die Passivschaltung eine signifikant kürzere Gehfolge ergibt. Dabei ist es dann abzuwägen, ob eine Nichtbelieferung sinnvoll ist.
 
-Da grundsätzlich alle Gebäude zunächst aktiv geschaltet sind muss zur Passivschaltung das "Haus aktiv" Feld ausgeschaltet werden. Danach muss die Gehfolge neu berechnet werden. Das Gebäude ist nicht mehr Bestandteil der Zustellung. 
+Da grundsätzlich alle Gebäude zunächst aktiv geschaltet sind muss zur Passivschaltung das "Haus aktiv" Feld ausgeschaltet werden. Danach muss die Gehfolge neu berechnet werden. Das Gebäude ist nicht mehr Bestandteil der Zustellung. Das "inaktiv" Schalten wirkt sich auf ALLE Ausgaben aus.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/170689864-2a9f4777-fbbe-42ba-ace3-013876a50c58.png)
 
