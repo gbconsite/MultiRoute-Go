@@ -4,6 +4,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2022
 
+### v1.2760 15.09.2022
+- Manuelles Sortieren der Gehfolgen.
+
+### v1.2759 14.09.2022
+- ruby Update 2.4.10 rails Update auf 4.2.11 wegen Ubuntu 20.04
+
 ### v1.2754 26.08.2022
 - auch defekte Geometrien ausliefern
 
