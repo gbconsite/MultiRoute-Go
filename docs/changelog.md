@@ -18,7 +18,7 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ### v1.2739 17.08.2022
 - Datenübernahme zusie sync Verbesserungen
-- 
+
 ### v1.2737 17.08.2022
 - Datenübernahme valid_from und valid_to hinzugefügt.
 
