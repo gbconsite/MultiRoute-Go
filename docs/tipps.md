@@ -40,9 +40,9 @@ Kartendaten © 2021 COWI,GeoBasis-DE/BKG (©2009),Google
 ## Ausreißer identifizieren
 Exportieren Sie die berechneten Gehfolgen. Mit Hilfe einer Pivot-Tabelle können Sie exakt ermitteln, welche Adressen die teuersten in jedem Bezirk sind und sich diese näher anschauen. Hier zwei Videos, die Ihnen helfen:
 
-Wie bekomme ich die Gehfolgen zu Excel?
+[Wie bekomme ich die Gehfolgen zu Excel?](https://youtu.be/Ncu99z_hUEQ)
 
-Wie ermittele ich "teure Adressen" mithilfe der Pivot-Funktion?
+[Wie ermittele ich "teure Adressen" mithilfe der Pivot-Funktion?)(https://youtu.be/1mqFSzEmlVw)
 
 
 ## Kartenebenen an- und ausschalten 
