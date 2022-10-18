@@ -35,13 +35,15 @@ Kartendaten © 2021 COWI,GeoBasis-DE/BKG (©2009),Google
 
 5) Speichern Sie. Die Adresse ist nun auch für weitere Uploads an der richtigen Koordinate gespeichert. 
 
-<hr style="border:2px solid gray"> </hr>
 
 
 ## Ausreißer identifizieren
 Exportieren Sie die berechneten Gehfolgen. Mit Hilfe einer Pivot-Tabelle können Sie exakt ermitteln, welche Adressen die teuersten in jedem Bezirk sind und sich diese näher anschauen. Hier zwei Videos, die Ihnen helfen:
+
 Wie bekomme ich die Gehfolgen zu Excel?
+
 Wie ermittele ich "teure Adressen" mithilfe der Pivot-Funktion?
+
 
 ## Kartenebenen an- und ausschalten 
 
