@@ -42,7 +42,7 @@ Exportieren Sie die berechneten Gehfolgen. Mit Hilfe einer Pivot-Tabelle können
 
 [Wie bekomme ich die Gehfolgen zu Excel?](https://youtu.be/Ncu99z_hUEQ)
 
-[Wie ermittele ich "teure Adressen" mithilfe der Pivot-Funktion?)(https://youtu.be/1mqFSzEmlVw)
+[Wie ermittele ich "teure Adressen" mithilfe der Pivot-Funktion?](https://youtu.be/1mqFSzEmlVw)
 
 
 ## Kartenebenen an- und ausschalten 
