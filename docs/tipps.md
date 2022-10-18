@@ -8,43 +8,7 @@ Durch Klick auf den blauen Pfeil :material-arrow-down:{style="color:blue"} haben
 ![grafik](https://user-images.githubusercontent.com/99329016/158330870-34693ff6-1752-4bf2-8268-18ac2bdceda5.png "Neuanlage Trägerbezirk")
 
 
-## Adressen umsetzen 
 
-Wenn Sie feststellen, dass eine Adresse nicht optimal gesetzt wurde, können Sie diese jederzeit umsetzen. 
-
-Dies ist z.B. bei großen Gebäuden oder Hintereingängen nützlich, sodass die Zusteller direkt den richtigen Eingang finden. 
-
-1) Klicken Sie unter **2. Planung** auf den gewünschten Punkt auf der Karte. Es öffnet sich ein kleines Popup. Klicken Sie auf die Pinnadel (gelb markiert).
-
-![!](assets/osh_umsetzen_v2.png)
-
-2) Setzen Sie die die Adresse nun mit dem Fadenkreuz auf die richtige Stelle. Falls Sie exakte Koordinaten eingeben möchten, können Sie dies hier tun, ansonsten speichern Sie lediglich.
-
-![!](assets/osm_umgs.png)
-
-Fertig. Die Adresse ist umgesetzt. Bei weiteren Uploads bleibt diese Adresse auch für die Zukunft umgesetzt, wenn Sie sie nicht löschen. 
-
-<hr style="border:2px solid gray"> </hr>
-
-## Adressen korrigieren mit Google Maps
-
-Wenn es beim Hochladen Ihrer Datei Adressen gab, für die keine Koordinate gefunden werden konnte, können Sie diese ganz einfach mithilfe einer Suche über Google Maps korrigieren. 
-
-1) Zeigen Sie sich unter **2.Planung -> Adressverwaltung (kleines Ordnersymbol)** und einem Klick auf die Checkbox **"Adressen ohne Koordinaten"**alle Adressen an, die nicht korrigiert werden konnten.
-
-2) Hier sehen Sie zwei kleine Buttons. Die Pinnadel sucht die Adresse direkt in der Karte. Kann diese hier nicht gefunden werden, suchen Sie Ihre Adresse mit einem Klick auf das Google-Logo. Dieser öffnet einen neuen Tab in Ihrem Browser und sucht Ihre Adresse. 
-
-![!](assets/photon-google1.png)
-
-3) In Google Maps klicken Sie mit der rechten Maustaste auf den Punkt, wo Ihre Adresse liegt und kopieren sich mit einem Rechtsklick die Koordinate in den Zwischenspeicher.
-
-![!](assets/muc-center.png)
-
-4) In MRT! klicken Sie in der Spalte "OI" auf die entsprechende Adresse. Ein kleines Fenster öffnet sich, wo Sie nun die Koordinate mit STRG+V einfügen. Klicken Sie auf OK. Fertig! Die Koordinate ist nun für die Adresse übernommen worden. 
-
-![!](assets/muc-korr-g.png)
-
-<hr style="border:2px solid gray"> </hr>
 
 ## Adressen korrigieren über die Karte
 
