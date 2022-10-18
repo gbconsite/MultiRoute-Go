@@ -12,7 +12,7 @@ Durch Klick auf den blauen Pfeil :material-arrow-down:{style="color:blue"} haben
 
 Wenn Sie feststellen, dass eine Adresse nicht optimal gesetzt wurde, können Sie diese jederzeit umsetzen. 
 
-Dies ist z.B. bei großen Fabrikgeländen oder Hintereingängen nützlich, sodass die Fahrer direkt zum richtigen Eingang navigiert werden. 
+Dies ist z.B. bei großen Gebäuden oder Hintereingängen nützlich, sodass die Zusteller direkt den richtigen Eingang finden. 
 
 1) Klicken Sie unter **2. Planung** auf den gewünschten Punkt auf der Karte. Es öffnet sich ein kleines Popup. Klicken Sie auf die Pinnadel (gelb markiert).
 
