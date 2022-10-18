@@ -9,10 +9,9 @@ Durch Klick auf den blauen Pfeil :material-arrow-down:{style="color:blue"} haben
 
 
 
-
 ## Adressen korrigieren über die Karte
 
-Wenn es beim Hochladen Ihrer Datei Adressen gab, für die keine Koordinate gefunden werden konnte, gibt es zwei Möglichkeiten diese zu korrigieren. 
+Falls Sie neue Gebäude anlegen oder korrigieren müssen, geht das ganz einfach:
 
 - Am besten ist es, wenn Sie die entsprechenden Adressen überprüfen. Eine einfache Google-Suche offenbart bereits schon, wo der Fehler lag. In diesem Falle korrigieren Sie die Adresse am besten gleich in Ihrer Ursprungssoftware, sodass in Zukunft die richtige Adresse exportiert wird. 
 
@@ -40,10 +39,9 @@ Kartendaten © 2021 COWI,GeoBasis-DE/BKG (©2009),Google
 
 
 ## Ausreißer identifizieren
-
-Die Ausreißer-Suche ist eine Erweiterung für die Routenberechnungs-Engine von MultiRoute Go!. Ausreißer eines Verteilbezirkes lassen sich identifizieren, wenn ihre Durchschnittsdistanz zu anderen Gebäuden desselben Verteilbezirkes markant hoch sind. Da hier aber die reine Durchschnittsdistanz zu den Gebäuden nicht als souveränes Maß verwendet werden kann (aufgrund der variablen Größe der Verteilbezirke), muss diese Angabe durch die Gesamtdurchschnittsdistanz aller Strecken der Distanzmatrix normiert werden. Auf diese Weise erhalten wir einen repräsentativen Wert um den Wert 1.0 für jedes Gebäude, der als "Durchschnitt-Zentralitätsmaß" interpretiert werden kann. Ausreißer erzielen dabei Werte größer 1.0. Gebäude, die sich eher im Zentrum befinden, besitzen dann einen Zentralitätswert kleiner 1.0. Mit Hilfe der Ausreißer-Suche können dann Gebäude identifiziert werden, bei denen die Zustellung besonders teuer ist. 
-Lösungsvorschläge: andere Zuordnung oder auf inaktiv setzen und aus der Zustellung nehmen.
-
+Exportieren Sie die berechneten Gehfolgen. Mit Hilfe einer Pivot-Tabelle können Sie exakt ermitteln, welche Adressen die teuersten in jedem Bezirk sind und sich diese näher anschauen. Hier zwei Videos, die Ihnen helfen:
+Wie bekomme ich die Gehfolgen zu Excel?
+Wie ermittele ich "teure Adressen" mithilfe der Pivot-Funktion?
 
 ## Kartenebenen an- und ausschalten 
 
