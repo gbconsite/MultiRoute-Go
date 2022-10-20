@@ -16,7 +16,8 @@ Der modulare Aufbau von MultiRoute Go! ermöglicht das Anpassen an verlagseigene
     
 ##Abo-Titeldifferenzierung##
 
-:fontawesome-solid-file-pdf: https://gbconsite.de/wp-content/uploads/2019/10/Abo-Titeldifferenzierung-MRGo-Zusatzmodul.pdf
+:fontawesome-solid-file-pdf: [Abo-/Titeldifferenzierung)(https://gbconsite.de/wp-content/uploads/2019/10/Abo-Titeldifferenzierung-MRGo-Zusatzmodul.pdf)
+
 Wichtig für jede Tageszeitung, damit die Zusteller genau wissen, welchen Titel Sie in welchen Briefkasten zustellen müssen. 
 
 Info für Zusteller OHNE Zusatzmodul: 2 Abonnenten = 2 Steckvorgänge.
