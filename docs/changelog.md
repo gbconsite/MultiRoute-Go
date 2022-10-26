@@ -4,6 +4,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2022
 
+### v1.2771 21.10.2022
+- Bugfix im Zusatzmodul "Straßenanpassung"
+
+### v1.2769 20.10.2022
+- Farbanpassungen im Zusatzmodul "Straßenanpassung"
+
+### v1.2766 30.09.2022
+- Gehfolge nach Tag (Datum) filtern
+
 ### v1.2760 15.09.2022
 - Manuelles Sortieren der Gehfolgen.
 
