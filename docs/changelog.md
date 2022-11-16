@@ -4,6 +4,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2022
 
+### v1.2776 16.11.2022
+- Srid von 900913 auf 3857.	
+
+### v1.2775 11.11.2022
+- Daten für alle Verteilbezirke neu ermitteln.
+
 ### v1.2771 21.10.2022
 - Bugfix im Zusatzmodul "Straßenanpassung"
 
