@@ -62,7 +62,7 @@ theme:
     
   font: false
   icon:  # from .icons path. Add to theme override for custom logo.
-    logo: Briefkasten  # top left header logo
+    logo: briefkasten  # top left header logo
     repo: fontawesome/brands/git-alt
   favicon: assets/favicon.ico #browser tab logo
 
