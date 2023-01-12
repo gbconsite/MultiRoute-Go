@@ -14,7 +14,7 @@ Der Bezirk, zu dem Sie Änderungen eingeben, muss **aktiv** sein. Siehe auch [Be
 Wenn Sie schon genau wissen, wo sich das Zustellerhaus befindet, können Sie auf der Karte dorthin navigieren. Alternativ geben Sie die entsprechende Adresse in der Adressverwaltung ein und drücken auf die OI:
 ![grafik](https://user-images.githubusercontent.com/99329016/161263040-7bf1e58a-d4f8-442d-b324-66ff0a066a6e.png)
 
-Nun können Sie im Menü des Gebäudes die **Abladestelle** definieren in dem Sie auf das :fontawesome-sold-user:{style="color:blue"} klicken.
+Nun können Sie im Menü des Gebäudes die **Abladestelle** definieren in dem Sie auf das :fontawesome-solid-user:{style="color:blue"} klicken.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/161263193-baf56f65-057e-484c-a5f8-2bf304947920.png)
 
