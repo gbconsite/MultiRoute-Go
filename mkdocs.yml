@@ -60,6 +60,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - content.action.edit
+    - content.code.copy
     
   font: false
   logo: briefkasten.svg  # top left header logo
