@@ -51,7 +51,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   # Don't include MkDocs' JavaScript
-  include_search_page: false
+  include_search_page: true
   search_index_only: true
   # Default values, taken from mkdocs_theme.yml
   language: en
