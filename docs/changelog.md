@@ -4,112 +4,112 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
-### v1.2781 24.01.2023
+### v1.2781 vom 24.01.2023
 - Neue Hintergrundkarte Basemap als Ersatz für WebAtlas.DE
 
 
 ## 2022
 
-### v1.2776 16.11.2022
+### v1.2776 vom 16.11.2022
 - Srid von 900913 auf 3857.	
 
-### v1.2775 11.11.2022
+### v1.2775 vom 11.11.2022
 - Daten für alle Verteilbezirke neu ermitteln.
 
-### v1.2771 21.10.2022
+### v1.2771 vom 21.10.2022
 - Bugfix im Zusatzmodul "Straßenanpassung"
 
-### v1.2769 20.10.2022
+### v1.2769 vom 20.10.2022
 - Farbanpassungen im Zusatzmodul "Straßenanpassung"
 
-### v1.2766 30.09.2022
+### v1.2766 vom 30.09.2022
 - Gehfolge nach Tag (Datum) filtern
 
-### v1.2760 15.09.2022
+### v1.2760 vom 15.09.2022
 - Manuelles Sortieren der Gehfolgen.
 
-### v1.2759 14.09.2022
+### v1.2759 vom 14.09.2022
 - ruby Update 2.4.10 rails Update auf 4.2.11 wegen Ubuntu 20.04
 
-### v1.2754 26.08.2022
+### v1.2754 vom 26.08.2022
 - auch defekte Geometrien ausliefern
 
-### v1.2740 18.08.2022
+### v1.2740 vom 18.08.2022
 - Fehlermeldungen bei Titeldifferenzierungen
 
-### v1.2739 17.08.2022
+### v1.2739 vom 17.08.2022
 - Datenübernahme zusie sync Verbesserungen
 
-### v1.2737 17.08.2022
+### v1.2737 vom 17.08.2022
 - Datenübernahme valid_from und valid_to hinzugefügt.
 
-### v1.2736 10.08.2022
+### v1.2736 vom 10.08.2022
 - GMaps & Apple Maps Dark Mode
 
-### v1.2730-35 09./10.08.2022
+### v1.2730-35 vom 09./10.08.2022
 - Erweiterung Datenübernahme
 
-### v1.2728 03.08.2022
+### v1.2728 vom 03.08.2022
 - Steckzeit Fix.
 
-### v1.2724 02.08.2022
+### v1.2724 vom 02.08.2022
 - Titel-Differenzierung bei Klick auf Verteilbezirk.
 
-### v1.2721 21.07.2022
+### v1.2721 vom 21.07.2022
 - Manuelles Sortieren der Gehfolgen.
 
-### v1.2719 19.07.2022
+### v1.2719 vom 19.07.2022
 - mehr Information bei json export einer Gehfolge.
 
-### v1.2715 15.07.2022
+### v1.2715 vom 15.07.2022
 - Hilfe und Layout anpassen
 
-### v1.2712 11.07.2022
+### v1.2712 vom 11.07.2022
 - Fähren ignorieren
 
-### v1.2711 06.07.2022 	
+### v1.2711 vom 06.07.2022 	
 - Ignoriertes Endhaus
 
-### v1.2706 22.06.2022	
+### v1.2706 vom 22.06.2022	
 - Zustellerhäuser bei Datenübernahme
 
-### v1.2705 21.06.2022
+### v1.2705 vom 21.06.2022
 - kml, kmz Export bei Bezirk
 
-### v1.2704 21.06.2022
+### v1.2704 vom 21.06.2022
 - Geom Sync bei Basisausgaben
 
-### v1.2703 21.06.2022
+### v1.2703 vom 21.06.2022
 - Anpassungen bei tägl. Datenübernahme
 
-### v1.2702 14.06.2022
+### v1.2702 vom 14.06.2022
 - Einzelbäume ebenfalls nicht drucken
 
-### v1.2701 14.06.2022
+### v1.2701 vom 14.06.2022
 - barrier=gate rausgenommen, altes xml mit gate = multiroutego_with_gates.xml
 
-### v1.2698 09.06.2022
+### v1.2698 vom 09.06.2022
 - Filter bei Gehfolhenübersicht einzeln
 
-### v1.2691 30.05.2022
+### v1.2691 vom 30.05.2022
 - Polygone in mit Basisausgaben verbundenen Ausgaben aktualisieren
 
-### v1.2690 24.05.2022
+### v1.2690 vom 24.05.2022
 - Switch OI
 
 ### v1.2655-46 bis 25.04.2022
 - Anpassungen für Datenübernahmen
 
-### v1.2642 06.04.2022
+### v1.2642 vom 06.04.2022
 - Filter bei Koordinatenänderungen (API)
 
-### v1.2641 05.04.2022
+### v1.2641 vom 05.04.2022
 - Neuer Link für AvD Karte
 
-### v1.2640 04.04.2022
+### v1.2640 vom 04.04.2022
 - Anpassungen für Datenübernahmen
 
-### v1.2633 23.03.2022
+### v1.2633 vom 23.03.2022
 - Neue Basislayer AvD
 
 ### v1.2628 vom 22.03.2022
