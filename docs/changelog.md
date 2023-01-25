@@ -2,6 +2,12 @@
 
 Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt.
 
+## 2023
+
+### v1.2781 24.01.2023
+- Neue Hintergrundkarte Basemap als Ersatz für WebAtlas.DE
+
+
 ## 2022
 
 ### v1.2776 16.11.2022
