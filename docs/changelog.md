@@ -4,8 +4,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
+### v1.2792 vom 27.01.2023
+- Links für Apple und Google Maps vereinheitlichen
+
+### v1.2791 vom 26.01.2023
+- Multiple Sortierung und manuelle Gehfolge
+
 ### v1.2781 vom 24.01.2023
 - Neue Hintergrundkarte Basemap als Ersatz für WebAtlas.DE
+- TomTom Luftbilder 
 
 
 ## 2022
