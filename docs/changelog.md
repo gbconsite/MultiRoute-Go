@@ -4,6 +4,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
+### v1.2795 vom 30.01.2023
+- Manuelles Sortieren der Gehfolgen
+
+### v1.2793 vom 28.01.2023
+- Zusätzliches Kartenmaterial
+
 ### v1.2792 vom 27.01.2023
 - Links für Apple und Google Maps vereinheitlichen
 
