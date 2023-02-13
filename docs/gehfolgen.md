@@ -68,6 +68,19 @@ In der Darstellung wird zwischen blauen und gelben Linien unterschieden. Eine bl
 
 Diese über dem Schwellenwert befindlichen Meter können Sie in der Gehfolgenkonfiguration HIN und ZURÜCK zur Gesamtstrecke addieren. Die Summe wird separat ausgegeben. 
 
+
+## Hauszugänge verändern
+
+Manchmal geht es nicht anders und Sie müssen manuell eingreifen und MultiRoute Go! erklären, von welcher Seite ein Haus angegangen werden soll.
+Dazu gehen Sie in eine bereits berechnete Gehfolge und drücken oben links auf den Editieren-Button.
+![grafik](https://user-images.githubusercontent.com/99329016/218477409-ebaff57a-2d5f-431a-b356-7e77e9f3a665.png "Hauszugänge editieren")
+Sie können nun mit gedrückter linker Maustaste die rosanen Punkte (auf der Straße) an die richtige Stelle verschieben. Dies wiederholen Sie für alle Punkte, die das betrifft. Wenn Sie fertig sind, speichern Sie die Änderungen ab.
+![grafik](https://user-images.githubusercontent.com/99329016/218477780-f39c202b-4085-4267-86d1-83fef9d2ab13.png "veränderte Hauszugänge abspeichern") mit der Diskette.
+
+Die Punkte sind nun gelb hinterlegt. Ein Klick darauf kann die Veränderungen rückgängig machen. Bitte beachten Sie, dass diese Veränderung für alle Gehfolgen nun so verändert ist.
+
+
+
 ## Hauszugangs-Suchradius
 
 Neben der HZD hilft Ihnen der **Hauszugangs-Suchradius**, den richtigen Zugang (Ankerpunkt) von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
