@@ -4,6 +4,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
+### v1.2796 vom 01.02.2023
+- Fix für Option Gehfolgenberechnung Kfz bei Ausgabe und Verteilbezirk
+- 
 ### v1.2795 vom 30.01.2023
 - Manuelles Sortieren der Gehfolgen
 
