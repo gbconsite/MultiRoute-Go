@@ -4,7 +4,13 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
-### v1.2776 vom 26.02.2023
+### v1.2802 vom 13.03.2023
+- Koordinateneingabe bei Suche und zentrieren
+
+### v1.2801 vom 09.03.2023
+- bei Strecke auch HZD Info anzeigen
+
+### v1.2797 vom 26.02.2023
 - Fix zur Behebung Druck und Bezirkskarte
 
 ### v1.2796 vom 01.02.2023
