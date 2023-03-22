@@ -25,6 +25,9 @@ Beim Klick auf einen Bezirk kann ich nun immer kontrollieren, ob es ein **Zustel
 
 Durck Klick auf das weiße Männchen auf blauem Hintergrund hüpfe ich direkt zu meiner **Abladestelle**. Ein *erneuter Klick* auf das Symbol **löscht** die Abladestelle.
 
+❗ Beim Zustellerhaus wird nicht gesteckt! Soll dies geschehen, bitte **nur** als Starthaus festlegen.
+
+
 ## Start-/Endhaus festlegen
 Das Anlegen von **Starthaus** oder auch **Endhaus** funktioniert ähnlich. Beide müssen sich immer innerhalb des Trägerbezirks befinden. Einfach auf das entsprechende Gebäude klicken und mit dem **grünen Häuschen** auswählen:
 ![grafik](https://user-images.githubusercontent.com/99329016/161265379-28d7ab48-6fd6-4b37-b172-d3781c862cc8.png)
