@@ -9,7 +9,7 @@ Auch ist es hier möglich, eine nicht korrekte Gebäudekoordinate zu "<a href="h
 Grundsätzlich gibt es zwei Möglichkeiten nach Adressen zu suchen. Zum Einen gibt es das Suchfenster oben rechts in der Karte:
 ![grafik](https://user-images.githubusercontent.com/99329016/159438382-7b4b98d8-f872-4868-a1b6-1f15d8f7da1f.png "OSM Suche")
 
-Hier erfolgt die Suche über den kompletten Straßenbestand von OpenStreetMap (OSM), den wir wöchentlich für Sie aktualisiert einspielen. Es können also auch Adressen außerhalb Ihres Verbreitsgebiets gesucht und gefunden werden.
+Hier erfolgt die Suche über den kompletten Straßenbestand von OpenStreetMap (OSM), den wir wöchentlich für Sie aktualisiert einspielen. Es können hier auch Adressen außerhalb Ihres Verbreitsgebiets gesucht und gefunden werden. Bei der Eingabe können Sie entweder die postalische Adresse (wie bei Google Maps bekannt) eingeben oder Koordinaten (mit Punkt und kommasepariert, bspw: 48.26014796334538, 11.558914102107815) eingeben.  
 
 
 ## Adresssuche im Verbreitungsgebiet
