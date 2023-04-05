@@ -1,3 +1,7 @@
+---
+description: Einstellungen für Power-User und Administratoren
+---
+
 Das Menü Administration stellt sich Nutzern je nach Zugriffsrechten in MultiRoute Go! unterschiedlich dar.
 
 Reine Anwendungsnutzer sehen anstelle des Menüs "Administration" nur das Menü "Verteilbezirke", Nutzer ohne Bearbeitungsrechte sehen das Menü gar nicht.
