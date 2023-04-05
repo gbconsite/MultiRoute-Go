@@ -1,3 +1,7 @@
+---
+description: Verschiedene Exportmöglichkeiten, die es dem Zusteller/Springer leichter machen die Zustellung so einfach wie möglich zu erledigen
+---
+
 # **7. Trägerdokumente**
 
 Zu jeder berechneten Gehfolge gibt es einen Ergebnisbericht mit den Informationen zur Gehfolge.
