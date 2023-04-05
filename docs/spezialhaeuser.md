@@ -1,3 +1,7 @@
+---
+description: Gebäude mit besonderen Aufgaben sind Spezialhäuser, dazu gehören Abladestellen/Zustellerhäuser und definierte Start- und Endhäuser
+---
+
 # **4. Spezialhäuser**
 
 Zum Berechnen der Gehfolgen wird ein Startpunkt benötigt. Das ist meistens die  **Abladestelle** oder das **Zustellerhaus** <span style="color: magenta;">&#x1f534;&#xfe0e;</span>. Ergänzend dazu kann auch ein eigenes **Starthaus** <span style="color: yellow;">&#x1f534;&#xfe0e;</span> definiert werden. Genau so wie es auch ein definiertes **Endhaus** <span style="color: orange;">&#x1f534;&#xfe0e;</span> geben kann.
