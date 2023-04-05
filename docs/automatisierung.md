@@ -1,4 +1,8 @@
 
+---
+description: Per API kann MultiRoute Go! komplett gesteuert werden
+---
+
 # **Automatisierung**
 
 Über die [API](../api-intro/) können sämtliche Funktionen angesteuert werden.
