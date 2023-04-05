@@ -1,3 +1,7 @@
+---
+description: Übersicht über die aktuellsten Versionen und Features in MultiRoute Go!, wird ständig aktualisiert
+---
+
 # Changelog
 
 Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt.
