@@ -1,3 +1,7 @@
+---
+description: Adressen suchen in OpenStreetMap und Adresssuche in MultiRoute Go!
+---
+
 # **3. Adressverwaltung**
 
 Bei der Verwaltung vieler Adressen ist es häufig sinnvoll, nach einzelnen Adressen suchen zu können. Sei es, um Abonnenten/Nicht-Abonnenten zu verwalten, Werbeverweiger einzutragen oder die optimale Abladestelle zu finden. Das Symbol für die Adressverwaltung ist das kleine :fontawesome-solid-house: auf der linken Seite.
