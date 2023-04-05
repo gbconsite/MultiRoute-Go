@@ -1,3 +1,7 @@
+---
+description: Begriffe und Definitionen, die in MultiRoute Go! verwendet werden
+---
+
 # Begriffe und Definitionen
 
 
