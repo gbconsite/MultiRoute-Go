@@ -1,3 +1,7 @@
+---
+description: Einführung in das Verlags-GIS MultiRoute Go! Gesetzliche Grundlage bei Zustellorganisationen, Verlagshäusern und Briefzustellung
+---
+
 # Übersicht
 
 Seit dem 1.1.2015 gilt der Mindestlohn in Deutschland. Die Durchführungsverordnung zum Mindestlohngesetz gestattet der Verlags- und Zustellbranche, dass neben einer wöchentlichen Aufzeichnungspflicht der tatsächlichen Arbeitszeit des Arbeitnehmers vom Arbeitgeber eine Soll-Arbeitszeit zum Abgleich ermittelt werden kann. 
