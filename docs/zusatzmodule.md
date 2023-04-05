@@ -1,3 +1,7 @@
+---
+description: Durch den modularen Aufbau von MultiRoute Go! können die Bedürfnisse und Aufgabenstellungen der Verlage und Zustellorganisationen abgebildet werden
+---
+
 # ** 8. Zusatzmodule**
 
 Der modulare Aufbau von MultiRoute Go! ermöglicht das Anpassen an verlagseigene Prozesse. Derzeit sind als Zusatzmodule verfügbar:
