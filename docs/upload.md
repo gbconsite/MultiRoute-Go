@@ -1,3 +1,7 @@
+---
+description: Wie kommen die Daten in MultiRoute Go! ? Die verschiedenen Uploadmöglichkeiten
+---
+
 # **1. Datenintegration**
 
 Ihre Bezirkseinheiten sind noch nicht digital vorhanden? Dann lesen Sie weiter unter "[Bezirke manuell anlegen](../gebietsplanung/#manuelle-neuanlage-von-verteilbezirken)".
