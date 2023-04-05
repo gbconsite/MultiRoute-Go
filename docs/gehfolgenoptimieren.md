@@ -1,3 +1,7 @@
+---
+description: Digitales Zustellbuch wird in der Gangfolge berücksichtigt
+---
+
 # **6. Optimierungen in der Gehfolgenberechnung**
 
 
