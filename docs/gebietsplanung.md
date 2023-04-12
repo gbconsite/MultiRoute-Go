@@ -75,6 +75,7 @@ Die Farbgebung in MultiRoute Go! sagt einen Blick etwas über die Bedeutung eine
 |  <span style="color: red;">&#x1f534;&#xfe0e;</span> | Gebäudepunkt ohne Zuordnung  |
 |  <span style="color: lightgreen;">&#x1f534;&#xfe0e;</span>  | Gebäudepunkt mit Zuordnung |
 |  <span style="color: black;">&#x1f534;&#xfe0e;</span>  | Abonnent/Briefempfänger |
+|  <span style="color: grey;">&#x1f534;&#xfe0e;</span>  | Abonnent/Briefempfänger ohne Zuordnung|
 | <span style="color: magenta;">&#x1f534;&#xfe0e;</span> | Abladestelle/Zustellerhaus |
 |  <span style="color: yellow;">&#x1f534;&#xfe0e;</span>  | Starthaus |
 |  <span style="color: orange;">&#x1f534;&#xfe0e;</span> | Endhaus |
