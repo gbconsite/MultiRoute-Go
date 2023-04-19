@@ -8,6 +8,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
+### v1.2808 vom 27.03.2023
+- Aktualisierung WMS-Dienst DOP Niedersachsen
+
+### v1.2804 vom 17.03.2023
+- Hilfe-Link bei Adresssuche
+ 
 ### v1.2802 vom 13.03.2023
 - Koordinateneingabe bei Suche und zentrieren
 
