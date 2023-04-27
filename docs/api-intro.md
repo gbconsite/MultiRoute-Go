@@ -10,7 +10,7 @@ MultiRoute Go! lässt sich nicht nur über die graphische Benutzeroberfläche, s
 
 MultiRoute Go! bieten wir als System as a Service (SaaS) an oder als InHouse-Variante für komplexe Berechnungen.
 
-Unsere SaaS finden Sie unter [https://go.multiroute.de](https://go.multiroute.de). Die InHouse-Variante kann unter jeder beliebigen Domain laufen.
+Unsere SaaS (Public Cloud) finden Sie unter [https://go.multiroute.de](https://go.multiroute.de). Die InHouse-Variante (Private Cloud oder On Premise) kann unter jeder beliebigen Domain laufen.
 
 Bei Fragen wenden Sie sich an:
 
