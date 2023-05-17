@@ -8,6 +8,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
+### v1.2824 vom 12.05.2023
+- Anpassungen GPX-Export
+
 ### v1.2808 vom 27.03.2023
 - Aktualisierung WMS-Dienst DOP Niedersachsen
 
