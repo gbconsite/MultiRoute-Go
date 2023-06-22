@@ -47,7 +47,7 @@ Der Trend geht bei vielen Verlagen dazu, kleinere Untereinheiten von Trägerbezi
 
 Zeichenlösung:
 
-Eine neue Gebietsausgabe anlegen, die Gebiete in kleine Zellen/Waben anlegen und in einer Liste festlegen, welche Gebiete in einen Bezirk zugeordnet werden sollen. Dies kann dann per Upload in die Bezirksebene gespielt werden.
+Eine neue Gebietsausgabe anlegen, die Gebiete in kleine Zellen/Waben anlegen und in einer Liste festlegen, welche Gebiete in einen Bezirk zugeordnet werden sollen. Dies kann dann per Upload in die Bezirksebene gespielt werden. Die Liste muss nur zwei Spalten enthalten: Bezirksnummern und die dazugehörigen Gebietsnummern.
 
 
 ##Nachladen an „Depots“##
