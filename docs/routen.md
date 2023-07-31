@@ -1383,6 +1383,11 @@ Optionale Adresse Params:
 Es wird eine Karte mit den Umrissen eines Trägerbezirkes als Bilddatei erzeugt (JPG-Format).
 Die Auswahl der Hintergrundkarte in den Kundeneinstellungen (z.B. basemap.de) wird berücksichtigt.
 
+Bekannte Fehlermeldungen:
+
+    {"text":"Ausgabe nicht gefunden","status":500}
+    {"text":"Bezirk nicht gefunden","status":404}
+
 ### Bezirke
 
 Der Bezirk (= Trägerbezirk) ist die übergeordnete Ebene, wenn zwei
@@ -1515,6 +1520,11 @@ Bekannte Fehlermeldungen:
 
 Es wird eine Karte mit den Umrissen eines Trägerbezirkes der übergeordneten Ebene als Bilddatei erzeugt (JPG-Format).
 Die Auswahl der Hintergrundkarte in den Kundeneinstellungen (z.B. basemap.de) wird berücksichtigt.
+
+Bekannte Fehlermeldungen:
+
+    {"text":"Ausgabe nicht gefunden","status":500}
+    {"text":"Bezirk nicht gefunden","status":404}
 
 ### Datenübernahme (individuell konfiguriert)
 
