@@ -1376,6 +1376,13 @@ Optionale Adresse Params:
     Reihenfolge wenn nr_von = nr_bis
     {  "adresse": [{"street_oi": "x11", "nr_von": "20",  "nr_bis": "20", "nrzusatz_von": "B", "nrzusatz_bis": "" }]} => x (keine Zuordnung)
 
+#### Gebiete als Bild exportieren (Gebietskarten)
+
+<http://domain/fernsteuerung/gebiet/image?nr=B421902002&ausgabe=default>
+
+Es wird eine Karte mit den Umrissen eines Trägerbezirkes als Bilddatei erzeugt (JPG-Format).
+Die Auswahl der Hintergrundkarte in den Kundeneinstellungen (z.B. basemap.de) wird berücksichtigt.
+
 ### Bezirke
 
 Der Bezirk (= Trägerbezirk) ist die übergeordnete Ebene, wenn zwei
@@ -1501,6 +1508,13 @@ Bekannte Fehlermeldungen:
     {"text":"Kein Gebiet übergeben","status":500}
     {"text":"Kein Bezirk übergeben","status":500}
     {"text":"Daten wurden nicht übernommen","status":500}
+
+#### Bezirke als Bild exportieren (Bezirkskarten)
+
+<http://domain/fernsteuerung/bezirk/image?nr=Bezirk%2011&ausgabe=2.%20Bezirk>
+
+Es wird eine Karte mit den Umrissen eines Trägerbezirkes der übergeordneten Ebene als Bilddatei erzeugt (JPG-Format).
+Die Auswahl der Hintergrundkarte in den Kundeneinstellungen (z.B. basemap.de) wird berücksichtigt.
 
 ### Datenübernahme (individuell konfiguriert)
 
