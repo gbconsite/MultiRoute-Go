@@ -1380,7 +1380,7 @@ Optionale Adresse Params:
 
 <http://domain/fernsteuerung/gebiet/image?nr=B421902002&ausgabe=default>
 
-Gebiets-Nr. und Name der der Ausgabe müssen URL-encoded übergeben werden.
+Gebiets-Nr. und Name der Ausgabe müssen URL-encoded übergeben werden.
 
 Es wird eine Karte mit den Umrissen eines Trägerbezirkes als Bilddatei erzeugt (JPG-Format).
 Die Auswahl der Hintergrundkarte in den Kundeneinstellungen (z.B. basemap.de) wird berücksichtigt.
@@ -1520,7 +1520,7 @@ Bekannte Fehlermeldungen:
 
 <http://domain/fernsteuerung/bezirk/image?nr=Bezirk%2011&ausgabe=2.%20Bezirk>
 
-Bezirks-Nr. und Name der der Ausgabe müssen URL-encoded übergeben werden.
+Bezirks-Nr. und Name der Ausgabe müssen URL-encoded übergeben werden.
 
 Es wird eine Karte mit den Umrissen eines Trägerbezirkes der übergeordneten Ebene als Bilddatei erzeugt (JPG-Format).
 Die Auswahl der Hintergrundkarte in den Kundeneinstellungen (z.B. basemap.de) wird berücksichtigt.
