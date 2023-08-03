@@ -30,6 +30,8 @@ nav:
 #    - Referenzen: 14.md
     - Preise: preise.md
     - News: newsarchiv.md
+    - Blog:
+      - blog/index.md
     - Impressum: impressum.md
     - Datenschutz: datenschutz.md
 
@@ -108,3 +110,4 @@ plugins:
   - search:
       lang: de
   - glightbox
+  - blog
