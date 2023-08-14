@@ -14,4 +14,4 @@ Gerne können Sie sich unverbindlich dafür [anmelden](https://gbconsite.de/news
 
 <!-- more -->
 
-Eine [Übersicht der letzten erschienen MultiRoute Go! News](https://gbconsite.de/?s=multiroute+Go%21) finden Sie auch auf unserer Webseite.
+Eine [Übersicht der letzten erschienen MultiRoute Go! News](https://gbconsite.de/?s=Multiroute+go%21+news) finden Sie auch auf unserer Webseite.
