@@ -1,6 +1,6 @@
 # Impressum
 
-## Kontakt und Support für MultiRoute Tour!
+## Kontakt und Support für MultiRoute Go!
 
 |Vertrieb|
 |---|
@@ -8,7 +8,7 @@
 
 
 **Kontaktieren Sie uns für Ihre kostenlose Demoversion! 
-Gerne klären wir in einem unverbindlichen Erstgespräch Ihre Anforderungen und die Eignung von MultiRoute Tour! für Ihre Fragestellung ab.**
+Gerne klären wir in einem unverbindlichen Erstgespräch Ihre Anforderungen und die Eignung von MultiRoute Go! für Ihre Fragestellung ab.**
 
 ## Impressum
 gb consite GmbH Geomarketing Software & Beratung<br>
