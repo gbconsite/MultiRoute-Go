@@ -44,7 +44,7 @@ Haben Sie weitere Daten in Ihrem Unternehmen erhoben, die wir berücksichtigen s
 ## Layer
 Über den Button für die Kartenauswahl und Detaildarstellungen können je nach Bearbeitungsart Karten, Informationen und Layer an- und abgeschaltet werden.
 
-![grafik](https://user-images.githubusercontent.com/99329016/168080007-641d080d-4572-4395-bb77-d30cb7c403b9.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168080007-641d080d-4572-4395-bb77-d30cb7c403b9.png){ align=left }
 
 Das Ein-/Ausschalten von Labels (Beschriftungen der Bezirke) oder das Einfärben kann für den richtigen Durchblick sorgen! Und noch ein Hinweis: ganz unten in der Karte können Sie die Transparenz der Einfärbungen regulieren über eine Schieberegler:
 
