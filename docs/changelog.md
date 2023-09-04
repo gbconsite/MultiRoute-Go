@@ -8,6 +8,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
+### v1.2852 vom 15.08.2023
+- GPS-Tracking: Events auf der Karte anzeigen
+
+### v1.2839 vom 20.07.2023
+- Image per API vom Verteilbezirk
+  
 ### v1.2827 vom 21.05.2023
 - Anpassungen bei Datenübernahmen
 
