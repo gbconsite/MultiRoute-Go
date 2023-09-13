@@ -8,6 +8,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
+### v1.2862 vom 05.09.2023
+- Korrekturen bei Click Maps
+  
 ### v1.2852 vom 15.08.2023
 - GPS-Tracking: Events auf der Karte anzeigen
 
