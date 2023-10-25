@@ -8,6 +8,18 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
+### v1.2893 vom 19.10.2023
+- Korrekturen bei zusie
+
+### v1.2876 vom 29.09.2023
+- Korrekturen bei zusie
+  
+### v1.2874 vom 29.09.2023
+- Korrekturen Datenübernahmen
+
+### v1.2869 vom 07.09.2023
+- Korrekturen Datenübernahmen
+  
 ### v1.2862 vom 05.09.2023
 - Korrekturen bei Click Maps
   
