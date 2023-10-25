@@ -1,5 +1,5 @@
 ---
-description: Durch den modularen Aufbau von MultiRoute Go! können die Bedürfnisse und Aufgabenstellungen der Verlage und Zustellorganisationen abgebildet werden
+description: Durch den modularen Aufbau von MultiRoute Go! können die Bedürfnisse und Aufgabenstellungen der Verlage und Zustellorganisationen abgebildet werden. Die Zusatzmodule sind optional und jederzeit zubuchbar.
 ---
 
 # **8. Zusatzmodule**
@@ -115,6 +115,7 @@ Unser beliebtestes Zusatzmodul!
 Nur für Kunden mit InHouse-Lizenz oder dediziertem Server. Machen Sie Anpassungen in den OpenStreetMap (OSM) Daten, die nur für Sie gelten. Also bspw. Straßen, die vorübergehend gesperrt sind markieren oder Fußwege, die im Winter zu matschig werden, rausnehmen. 
 
 
-##Manuelles Eingreifen in Gehfolgen##
+##Manuelles Eingreifen in Gehfolgen## 🆕
 
-Zur Zeit noch im Test! Mit diesem Zusatzmodul können Sie manuell in die optimierte Gehfolge eingreifen. Wenn beispielsweise die optimierte Gehfolge Ihre Straßenabschnitte zerteilt, Sie aber aus Gründen der Sortierung unbedingt den kompletten Straßenabschnitt am Stück abgehen möchten. Dann haben Sie die Möglichkeit dies manuell anzupassen.
+MultiRoute Go! hat die beste Route gefunden, es gibt aber Gründe, die diese optimale Route verhindern? Auch kein Problem mehr!  Mit diesem Zusatzmodul können Sie manuell in die optimierte Gehfolge eingreifen. Wenn beispielsweise die optimierte Gehfolge Ihre Straßenabschnitte zerteilt, Sie aber aus Gründen der Sortierung unbedingt den kompletten Straßenabschnitt am Stück abgehen möchten. Dann haben Sie nun die Möglichkeit dies manuell anzupassen.
+
