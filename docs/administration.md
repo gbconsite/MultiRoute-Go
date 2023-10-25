@@ -23,6 +23,16 @@ Hier können berechtigte Nutzer verschiedene Optionen einstellen. Dazu gehören 
 Hier können Sie bestehende Ausgaben ```Bearbeiten``` oder neue Ausgaben anlegen. 
 Legen Sie hier die Parameter für die jeweilige Ausgabe fest für die Gehfolgenberechnungen. 
 
+Häufig wird eine eigene Ausgabe zu Planungszwecken erstellt. Dazu gehen Sie folgendermaßen vor:
+Administration - Ausgaben - 'Neue Ausgabe'
+
+Diese können Sie anschließend mit Informationen aus einer anderen Ausgabe befüllen. Dazu einfach auf `Verteilbezirke` gehen und die gewünschten Verteilbezirke markieren. 
+Ganz unten dann auf 
+Markierte Verteilbezirke in Ausgabe 'Neue Ausgabe' kopieren oder verschieben. Nur noch auf ```Anwenden``` drücken und schon haben Sie die gewünschten Polygone in der neuen Ausgabe.
+
+Möchten Sie auch noch **Abonnenten** mit kopieren? Dies finden Sie unter UPLOAD auf der linken Seite.
+
+
 ## Benutzer ##
 In der [Benutzerverwaltung](../user) werden alle registrierten Benutzer aufgeführt, Passwörter geändert und Benutzerrechte festgelegt.
 
