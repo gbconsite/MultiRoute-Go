@@ -49,7 +49,6 @@ PIPE als Trennzeichen eingeben!
 Unter ERWEITERT noch Punkt und Komma tauschen.
 
 4. Fertig stellen.
-
 5. Nun können Sie alle Auswertungen in Excel mit korrekter Formatierung durchführen.
 
 
