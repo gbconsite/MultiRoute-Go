@@ -4,7 +4,7 @@ description: Exportmöglichkeiten für Auswertungen in Reports
 
 # 9. Exporte
 
-Manuell Exportmöglichkeiten bietet MultiRoute Go! an den verschiedensten Stellen. 
+Manuelle Exportmöglichkeiten bietet MultiRoute Go! an den verschiedensten Stellen. 
 
 ## Adressverwaltung 
 
