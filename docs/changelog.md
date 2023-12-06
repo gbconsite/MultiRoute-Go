@@ -8,6 +8,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
+### v1.2932-2940 vom 27.11.-29.11.2023
+- Anpassung zur Weitergabe an zusie
+- 
+### v1.2911-2922 vom 03.11.-22.11.2023
+- Anpassung zur Weitergabe an zusie
+  
 ### v1.2906-2910 vom 31.10.2023
 - Anti-Zick-Zack Tests
   
