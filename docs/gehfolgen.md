@@ -34,6 +34,9 @@ Grundsätzlich können Gehfolgen auf drei verschiedene Arten berechnet werden:
 
 Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. 
 
+## Start- /Endhaus
+
+Manchmal ist es nötig, dass Sie in die Gehfolge eingreifen. Sie können ein Starthaus definieren, bei dem die erste Steckung im Bezirk vorgenommen wird. Und genau so ein Endhaus, bei dem zuletzt gesteckt wird.
 
 ## Berechnen von Gehfolgen
 
