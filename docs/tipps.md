@@ -58,10 +58,3 @@ Wenn Sie auf das Fragezeichen und anschließend in die Karte klicken, können Si
 ![!](assets/layersteuerung.png)
 
 
-## Sicherheitskopie gezeichneter Bezirke
-
-MultiRoute Go! kann jederzeit für Sie automatisiert die Polygone der Trägerbezirke neu erzeugen. Haben Sie sich aber die Mühe gemacht und alle Trägerbezirke besonders "hübsch" gezeichnet, dann empfehlen wir, diese von Zeit zu Zeit zu sichern!
-Einfach in der entsprechenden Ausgabe auf Administration - Verteilbezirke gehen. 
-Hier als kml oder kmz sichern:
-![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/bb118e97-8e23-4563-958a-e5fab6729276)
-
