@@ -10,4 +10,5 @@ Hier für Sie zum Anschauen:
 - BVDA Webinar: [Bezirksoptimierung und Wegstreckenminimierung](https://www.bvda.de/akademie/seminare-2021/webinar-bezirksoptimierung-und-wegstreckenminimierung.html)
 - BVDA Webinar: [Sollzeitberechnung mit schwankenden Gewichten](https://www.bvda.de/akademie/seminare-2020/online-seminar-sollzeitberechnung.html)
 
-Die Termine für aktuelle Online-Anwendertreffen finden Sie [hier](https://gbconsite.de/tag/multiroute-go-anwendertreffen/).
+Auf aktuelle Webinartermine weisen wir in unserem [Blog](https://go.multiroute.de/handbuch/blog/) hin.
+
