@@ -14,7 +14,8 @@ Dazu in der Originalausgabe alle gewünschten Verteilbezirke anhaken und unten r
 ![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/506ddd66-5cea-4dcf-8719-236177c5fa9a)
 
 Anwenden.
-Zugewiesene Abladestellen (Zustellerhäuser) werden mit kopiert.
+
+Zugeordnete Abladestellen (Zustellerhäuser) werden mit kopiert.
 
 
 3. Abonnenten kopieren:
