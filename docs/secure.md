@@ -15,7 +15,7 @@ Dazu in der Originalausgabe alle gewünschten Verteilbezirke anhaken und unten r
 
 Anwenden.
 
-3. Abonnenten kopieren
+3. Abonnenten kopieren:
 Dazu auf  ```Administration``` - ```Upload``` gehen.
 Unten auswählen:
 
