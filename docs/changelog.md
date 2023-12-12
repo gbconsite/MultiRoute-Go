@@ -8,6 +8,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
+### v1.2945 vom 06.12.2023
+- Fix Upload von Verteilbezirksoptionen
+  
 ### v1.2932-2940 vom 27.11.-29.11.2023
 - Anpassung zur Weitergabe an zusie
 
