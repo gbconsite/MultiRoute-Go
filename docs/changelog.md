@@ -8,6 +8,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2023
 
+### v1.2949 vom 13.12.2023
+- Hausnummernzusätze bereinigen
+
+### v1.2947 vom 13.12.2023
+- Lagezusatz bei Datenübernahme an zusie
+
 ### v1.2945 vom 06.12.2023
 - Fix Upload von Verteilbezirksoptionen
   
