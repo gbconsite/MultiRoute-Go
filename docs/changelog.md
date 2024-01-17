@@ -6,6 +6,17 @@ description: Übersicht über die aktuellsten Versionen und Features in MultiRou
 
 Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt.
 
+## 2024
+
+### v1.2962-64 vom 16.01.2024
+- Straßenseite beibehalten
+  
+### v1.2957 vom 12.01.2024
+- experimentelles Anti-Zick-Zack
+
+- ### v1.2955 vom 08.01.2024
+- zusie Synchronisation
+
 ## 2023
 
 ### v1.2949 vom 13.12.2023
