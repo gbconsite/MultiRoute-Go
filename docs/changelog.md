@@ -14,7 +14,7 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 ### v1.2957 vom 12.01.2024
 - experimentelles Anti-Zick-Zack
 
-- ### v1.2955 vom 08.01.2024
+### v1.2955 vom 08.01.2024
 - zusie Synchronisation
 
 ## 2023
