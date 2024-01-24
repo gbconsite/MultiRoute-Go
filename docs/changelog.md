@@ -8,6 +8,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.2966 vom 23.01.2024
+- Gewerbebetriebe nicht summieren wenn ausgeschaltet
+
 ### v1.2962-64 vom 16.01.2024
 - Straßenseite beibehalten
   
