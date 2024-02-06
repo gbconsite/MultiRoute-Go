@@ -35,9 +35,11 @@ oder mit festem Endpunkt:
 
 
 - **Rundweg**: Start und Ende an der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> , auch wenn diese nicht im Bezirk selbst ist
+- 
 ![Rundweg](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/0d83ffea-92e4-42a0-8086-7d94d4ab4e95){ width="200" }
 
 - **Rundweg im Verteilbezirk**: Start an der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> und zurück zur ersten Steckung im Verteilbezirk
+- 
 ![Rundweg im Verteilbezirk](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/14101711-3993-42ba-8826-7528adfc4220){ width="200" }
 
 
