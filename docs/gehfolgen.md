@@ -30,6 +30,7 @@ Grundsätzlich können Gehfolgen auf **drei verschiedene Arten** (mit Varianten)
 ![Einfache Strecke](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/7f235bc3-e0dd-4b0f-8350-51a25bde64a3){ width="200" }
 
 oder mit festem Endpunkt:
+
 ![Einfache Strecke mit festem Endhaus](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/ac3f7227-6744-44d8-b036-752a1731df53){ width="200" }
 
 
