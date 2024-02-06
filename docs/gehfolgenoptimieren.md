@@ -46,9 +46,11 @@ Um Veränderungen durchführen zu können, muss die Gehfolge aufgerufen sein und
 ![grafik](https://user-images.githubusercontent.com/99329016/170689694-55cd35fa-9054-429e-8313-1e5b74266165.png)
 
 Die Gebäudekoordinaten, an denn der Straßenankerpunkt verschoben wurde, haben nun einen gelben Kringel. 
+
 ![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/295d3db0-bee8-40f9-b3c8-94c44e993a34)
 
 Die Straßenpunkte sind gelb markiert, so dass sofort ersichtlich ist, dass hier manuell eingegriffen wurde. Mit Klick auf einen gelben Punkt können Sie die Änderungen auch wieder zurücksetzen.
+
 ![grafik](https://user-images.githubusercontent.com/99329016/170689703-9c87dddd-0423-4d55-9286-d11946acb0b0.png)
 
 In unserem Beispiel müssen auch noch die Straßen in OSM angepasst werden, da diese noch nicht digitalisiert wurden. 
