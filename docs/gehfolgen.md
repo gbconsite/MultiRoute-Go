@@ -30,14 +30,14 @@ Grundsätzlich können Gehfolgen auf **drei verschiedene Arten** (mit Varianten)
 ![Einfache Strecke](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/7f235bc3-e0dd-4b0f-8350-51a25bde64a3){ width="200" }
 
 oder mit festem Endpunkt:
-![Einfache Strecke mit festem Endhaus](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/ac3f7227-6744-44d8-b036-752a1731df53)
+![Einfache Strecke mit festem Endhaus](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/ac3f7227-6744-44d8-b036-752a1731df53){ width="200" }
 
 
 - **Rundweg**: Start und Ende an der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> , auch wenn diese nicht im Bezirk selbst ist
-![Rundweg](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/0d83ffea-92e4-42a0-8086-7d94d4ab4e95)
+![Rundweg](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/0d83ffea-92e4-42a0-8086-7d94d4ab4e95){ width="200" }
 
 - **Rundweg im Verteilbezirk**: Start an der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> und zurück zur ersten Steckung im Verteilbezirk
-![Rundweg im Verteilbezirk](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/14101711-3993-42ba-8826-7528adfc4220)
+![Rundweg im Verteilbezirk](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/14101711-3993-42ba-8826-7528adfc4220){ width="200" }
 
 
 
