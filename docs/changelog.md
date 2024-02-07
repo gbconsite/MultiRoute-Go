@@ -8,6 +8,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.2972-76 vom 31.01./01.02.2024
+- zusie Präfixe und Transportarten
+  
 ### v1.2966 vom 23.01.2024
 - Gewerbebetriebe nicht summieren wenn ausgeschaltet
 
