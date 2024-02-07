@@ -64,6 +64,7 @@ Da grundsätzlich alle Gebäude zunächst aktiv geschaltet sind muss zur Passivs
 
 ![grafik](https://user-images.githubusercontent.com/99329016/170689864-2a9f4777-fbbe-42ba-ace3-013876a50c58.png)
 
+Abonennten, die sich in passiven Gebäuden befinden werden NICHT in der Gehfolge berücksichtigt! Bei der Aufsummierung bei Klick auf den Trägerbezirk werden inaktive Gebäude sowohl mit Anzahl Haushalte, Gewerbebetriebe und Abonnenten NICHT mitgezählt.
 
 ## Veränderungen in OSM vornehmen 
 
