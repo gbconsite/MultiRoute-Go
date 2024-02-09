@@ -7,6 +7,7 @@ description: Durch den modularen Aufbau von MultiRoute Go! können die Bedürfni
 Der modulare Aufbau von MultiRoute Go! ermöglicht das Anpassen an verlagseigene Prozesse. Derzeit sind als Zusatzmodule verfügbar:
 
 - [Abo-/Titeldifferenzierung](#abo-titeldifferenzierung)
+- [Abo-Optimierungsbooster](#abo-optimierungsbooster)
 - [Bezirksplanung](#bezirksplanung)
 - [Nachladen an „Depots“](#nachladen-an-depots)
 - [Resthaushalte](#resthaushalte)
@@ -35,6 +36,14 @@ Info für Zusteller MIT Zusatzmodul: Frau Mustermann erhält eine Zeitung und ei
 ![grafik](https://user-images.githubusercontent.com/99329016/167623220-48f5dec6-5d71-409d-ad18-5bde2256427a.png)
 
 :exclamation: Nur verfügbar bei InHouse-Kunden oder bei dediziertem Server auf Grund der DSGVO.
+
+
+
+##Abo-Optimierungsbooster##
+
+🆕 Infos zum neuesten Zusatzmodul in Kürze! 
+[Hier erste Infos!](https://go.multiroute.de/handbuch/blog/2023/12/14/multiroute-go-news-nr-052023/#abo-optimierungsbooster)
+
 
 
 ##Bezirksplanung##
