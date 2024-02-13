@@ -8,6 +8,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.2983 vom 12.02.2024
+- Geschwindigkeiten bei täglicher Datenübernahme
+  
+### v1.2981 vom 06.02.2024
+- Starthaus für Abladestelle
+
 ### v1.2972-76 vom 31.01./01.02.2024
 - zusie Präfixe und Transportarten
   
