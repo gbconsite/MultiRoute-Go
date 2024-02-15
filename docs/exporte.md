@@ -53,4 +53,7 @@ Unter ERWEITERT noch Punkt und Komma tauschen.
 
 
 
+## Industriezeit
+
+In vielen Exporten gibt MultiRoute Go! die berechnete Zeit in Industriestunden aus. Wie Sie das wieder in "normale Zeit" umrechnen können oder wie genau das zu lesen ist, finden Sie auch hier: [https://de.wikipedia.org/wiki/Industrieminute](https://de.wikipedia.org/wiki/Industrieminute)
 
