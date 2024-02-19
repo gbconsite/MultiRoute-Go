@@ -19,7 +19,7 @@ Der Import erfolgt in der Regel über das Excel-Format. Aus Ihrer Software herau
 
    * Strasse
    * Hausnummer
-   * (Straßenabschnitt von bis; gerade/ungerade)
+   * (Straßenabschnitt von-bis; gerade/ungerade)
    * PLZ
    * Ortsteil
    * Ort
@@ -52,5 +52,5 @@ Alternativ: Datenimport wird manuell angestoßen
 
 ## Was passiert im Hintergrund?
 
-Im Hintergrund werden Ihren Adressen (Straßenabschnitten) Geokoordinaten zugeordnet. Durch die Zuordnung zu (Verteil-)Bezirken werden diese auf der Karte visualisiert. Wir legen die Polygone drumherum. Jeder Adresspunkt, der über den Straßenabschnitt definiert wurde, weiß nun, in welchen Bezirk er gehört. Auf der Karte wird dieser nun <span style="color: green;">&#x1f534;&#xfe0e;</span>  (oder <span style="color: black;">&#x1f534;&#xfe0e;</span> ) dargestellt. Wenn Sie auf der Karte <span style="color: red;">&#x1f534;&#xfe0e;</span> Punkte entdecken, dann wurden diese entweder nicht gefunden oder von Ihnen nicht definiert. Hier lohnt sich nochmal ein zweiter Blick in die Ursprungsdaten. 
+Im Hintergrund werden Ihren Adressen (Straßenabschnitten) Geokoordinaten zugeordnet. Durch die Zuordnung zu (Verteil-)Bezirken werden diese auf der Karte visualisiert. Wir legen die Polygone drumherum. Jeder Adresspunkt, der über den Straßenabschnitt definiert wurde, weiß nun, in welchen Bezirk er gehört/zu welchem Bezirk er zugeordnet ist. Auf der Karte wird dieser nun <span style="color: green;">&#x1f534;&#xfe0e;</span>  (oder <span style="color: black;">&#x1f534;&#xfe0e;</span> ) dargestellt. Wenn Sie auf der Karte <span style="color: red;">&#x1f534;&#xfe0e;</span> Punkte entdecken, dann wurden diese entweder nicht gefunden oder von Ihnen nicht definiert. Hier lohnt sich nochmal ein zweiter Blick in die Ursprungsdaten. Häufige Fehler treten auf bei unterschiedlichen Schreibeweisen bei Straßen mit Bindestrichen.
 
