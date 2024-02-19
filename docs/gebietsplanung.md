@@ -4,7 +4,7 @@ description: Bezirke bearbeiten, vergrößern, zuschneiden, aktualisieren, umben
 
 # **2. Gebietsplanung**
 
-In der Gebietsplanung sehen Sie die jeweiligen Trägerbezirke einer [Ausgabe](../MultiRoute-Go/definitionen/#ausgabe). Sie können neue Bezirke anlegen, bestehende Bezirke verändern oder löschen. 
+In der Gebietsplanung sehen Sie die jeweiligen Trägerbezirke einer [Ausgabe](https://go.multiroute.de/handbuch/definitionen/#ausgabe). Sie können neue Bezirke anlegen, bestehende Bezirke verändern oder löschen. 
 
 ## Informationen Trägerbezirk
 Durch Klick auf ein Polygon erhalten Sie eine Zusammenfassung des Bezirks und ggf. einen ersten Anhaltspunkt zur Optimierung. 
