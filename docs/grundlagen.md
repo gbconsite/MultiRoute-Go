@@ -23,9 +23,9 @@ Die Berechnung der Gehfolgen basiert auf Karten von [OpenStreetMap](https://www.
 Zusätzlich sind für Sie (je nach Installation und Lizenzierung) weitere Kartendienste frei. Sie wählen zwischen den Hintergrundkartendiensten mit Klick auf :material-layers-triple: auf der rechten Seite im Kartenfenster von MultiRoute Go!. Aktuell sind möglich:
 
 * [BING Maps](https://www.bing.com/maps) (Luftbilder)
-* Basemap als amtliche Karte vom Bundesamt für Kartografie und Geodäsie (ersetzt den [WebAtlas.DE](https://gdz.bkg.bund.de/))
+* [Basemap](https://basemap.de/viewer/) als amtliche Karte vom Bundesamt für Kartografie und Geodäsie
 * [Mapquest](https://www.mapquest.com/) (Luftbilder)
-* amtliche Luftbilder (je nach Bundesland und Verfügbarkeit, teilweise mit weiteren Kosten - bitte fragen Sie nach!)
+* amtliche Luftbilder (je nach Bundesland und Verfügbarkeit, teilweise mit weiteren Kosten - wir beraten Sie gerne!)
 
 Für die **Gebietsplanung** sind **[Gebäudekoordinaten](../definitionen/#koordinaten)** nötig. Diese können auf drei verschiedenen Wege ins System gelangen:
 
@@ -38,7 +38,7 @@ An die Koordinaten spielen wir für Sie auch gleich die **Haushaltsdaten**. Dies
 
 ## Zusätzliche Daten
 
-Haben Sie weitere Daten in Ihrem Unternehmen erhoben, die wir berücksichtigen sollen? Sprechen Sie uns gerne an! Daten zu **Werbeverweigerern**, Werbestopps, die Sie bereits erhoben haben, sind zu wertvoll, um sie nicht zu verwenden! Auch Ihre Haushaltsdatenbank kann eine Alternativ zu den von uns angespielten Haushaltsdaten sein. 
+Haben Sie weitere Daten in Ihrem Unternehmen erhoben, die wir berücksichtigen sollen? Sprechen Sie uns gerne an! Daten zu **Werbeverweigerern**, Werbestopps, die Sie bereits erhoben haben, sind zu wertvoll, um sie nicht zu verwenden! Auch Ihre Haushaltsdatenbank kann eine Alternative zu den von uns angespielten Haushaltsdaten sein. 
 
 
 ## Layer
