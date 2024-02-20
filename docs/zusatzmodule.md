@@ -88,7 +88,7 @@ Bei besonders gut gepflegten Haushaltshaltszahlen wird auch berücksichtigt, das
 
 ##Tracking##
 
-:fontawesome-solid-file-pdf: [Tracking](https://gbconsite.de/wp-content/uploads/2024/01/Tracking-MRGo-Zusatzmodul.pdf)
+:fontawesome-solid-file-pdf: [Tracking](https://gbconsite.de/wp-content/uploads/2024/02/Tracking-MRGo-Zusatzmodul.pdf)
 
 Auf der Karte können Sie entweder live oder historisch verfolgen, wie sich ein Tracker bewegt hat. Das Tracking läuft entweder mit Hilfe eines mobilen Endgeräts (Traccar App) oder eines Trackers, den wir Ihnen zur Verfügung stellen. Bitte sprechen Sie den Vertrieb an!
 
