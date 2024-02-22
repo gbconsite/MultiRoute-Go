@@ -41,8 +41,19 @@ Info für Zusteller MIT Zusatzmodul: Frau Mustermann erhält eine Zeitung und ei
 
 ##Abo-Optimierungsbooster##
 
-🆕 Infos zum neuesten Zusatzmodul in Kürze! 
-[Hier erste Infos!](https://go.multiroute.de/handbuch/blog/2023/12/14/multiroute-go-news-nr-052023/#abo-optimierungsbooster)
+🆕 :fontawesome-solid-file-pdf: [Abo-Optimierungsbooster](https://gbconsite.de/wp-content/uploads/2024/02/Abo-Optimierungsbooster.pdf)
+
+Unsere Heuristik liefert für Sie mit Hilfe eines kartografischen Dashboards die Möglichkeit schnelle, faktenbasierte Entscheidungen zu Ihren Abonnenten zu treffen. 
+Wo sind besonders "teure Abos"? Wie gehe ich damit um?
+Wo sollten Abos in einen Nachbarbezirk gelegt werden?
+Dabei berechnen wir für Sie:
+- lange (unproduktive) Verbindungsstrecken (Zeit) zwischen Abos
+- Abos mit geringem Deckungsbeitrag bezogen auf Weg/Zeit
+- Abopunkte mit Verdacht auf "falscher Bezirk"
+- Verteilbezirke mit Wegzeit-Umsatz-Score
+
+Für die Berechnungen ist einiges an Informationen nötig, das wir nicht in MultiRoute Go! vorhalten. Bitte sprechen Sie uns an, wir können Musterlisten liefern, die alle Informationen beinhalten, die wir für die Berechnungen benötigen.
+
 
 
 
