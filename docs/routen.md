@@ -1564,17 +1564,18 @@ Parameter:
 |------------------|--------------------------------------------------------------------|
 | click_map        | Nummern der Gebiete                                                |
 | verteilbezirk_nr | Nummern der Verteilbezirke                                         |
+| gehfolgen_id     | Id einer Gehfolge (optional: verteilbezirk_nr wird nicht angegeben)|
 | ausgabe          | Name der Ausgabe (optional: defaul=Aktuelle Ausgabe des Benutzers) |
 
 click_map Objekt:
 
 |               |                             |                                                                                                                                  |
 |---------------|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| one_bezirk    | true/false (default: false) |                                                                                                                                  |
+| one_bezirk    | true/false (default: false) | (default: true bei gehfolgen_id)                                                                                                 |
 | one_bezirk    | true                        | für einen Verteilbezirk mit/ohne Adresspunkte (Es wird für jeden angegebenen Verteilbezirk eine eigene Clickable Map angelegt)   |
 | one_bezirk    | false                       | für mehrere Verteilbezirk ohne Adresspunkte (Es wird für alle angegebenen Verteilbezirke eine gemeinsame Clickable Map angelegt) |
 | show_adressen | true/false (default: false) | Adressen werden auch angezeigt (funktioniert nur bei one_bezirk: true)                                                           |
-| show_gehfolge | true/false (default: false) | Aktuellste Gehfolge wird auch angezeigt (funktioniert nur bei one_bezirk: true)                                                  |
+| show_gehfolge | true/false (default: false) | Aktuellste Gehfolge wird auch angezeigt (funktioniert nur bei one_bezirk: true (default: true bei gehfolgen_id))                 |
 | use_once      | true/false (default: false) | Einweg-Link (Link kann nur einmal aufgerufen werden)                                                                             |
 
     {
@@ -1592,6 +1593,14 @@ one_bezirk:true Rückgabewert ist ein JSON Array:
 one_bezirk:false Rückgabewert ist ein JSON Object:  
 
     {"url":"http://domain/klick_karte/23/d6aad99591c06d6e242f19ea44933f78"}
+
+gehfolgen_id
+
+  {
+  "click_map": {"show_adressen": true, "use_once": true}, 
+  "gehfolgen_id": 1
+  }
+ 
 
 ## Zusie
 
