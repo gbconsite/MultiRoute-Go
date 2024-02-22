@@ -1596,10 +1596,10 @@ one_bezirk:false Rückgabewert ist ein JSON Object:
 
 gehfolgen_id
 
-  {
-  "click_map": {"show_adressen": true, "use_once": true}, 
-  "gehfolgen_id": 1
-  }
+    {
+    "click_map": {"show_adressen": true, "use_once": true}, 
+    "gehfolgen_id": 1
+    }
  
 
 ## Zusie
