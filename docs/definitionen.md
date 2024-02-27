@@ -26,16 +26,17 @@ Ausführliche [Erläuterung](../gehfolgen/#hauszugangs-suchradius) im Kapitel zu
 Wenn wir von Koordinaten sprechen, dann sind die Gebäude gemeint. Jede Adresse hat also eigene Koordinaten (Latitude, Longitude / x, y) und ist direkt in MultiRoute Go! hinterlegt. 
 
 ## Matching
-Unter Matching verstehen wir das eindeutige Zuordnen von Adressen oder Straßen-IDs zu Gebäudekoordinaten.
+Unter Matching verstehen wir das eindeutige Zuordnen von Adressen oder Gebäude-/ Straßen-IDs zu Gebäudekoordinaten.
 
 ## Rüstzeit
-Eine pauschale Angabe in Minuten. Kann von Ihnen per API nach berechneter Formel übergeben werden.
+Eine pauschale Angabe in Minuten. Kann von Ihnen per API nach berechneter Formel (bspw. X Sekunden je Stück) übergeben werden.
 
 ## Steckzeit
 Wir unterscheiden eine Erste Steckung und Folgesteckungen mit Angaben in Sekunden.
+Eine Unterscheidung nach Produkten (Brief, Zeitung, Paket etc.) haben wir aktuell noch nicht umgesetzt.
 
 ## Optimierungsmethode
-Drei Möglichkeiten:
+[Drei Möglichkeiten](https://go.multiroute.de/handbuch/gehfolgen/#einstellungen-bei-gehfolgenberechnungen):
 
 - Einfacher Durchgang (one-way-open-end)
 - Rundweg (egal wo die Abladestelle war, dorthin wieder zurück)
