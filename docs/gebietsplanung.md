@@ -10,12 +10,12 @@ In der Gebietsplanung sehen Sie die jeweiligen Trägerbezirke einer [Ausgabe](ht
 Durch Klick auf ein Polygon erhalten Sie eine Zusammenfassung des Bezirks und ggf. einen ersten Anhaltspunkt zur Optimierung. 
 Die Anzahl der Haushalte + Gewerbebetriebe entspricht der Briefkästen in diesem Bezirk. Wenn gepflegt müssen Sie nur die Werbeverweigerer abziehen, um die Auflage des Bezirks herauszufinden.
 
-![grafik](https://user-images.githubusercontent.com/99329016/168274325-2e7a9afb-1f0d-4346-ad67-4e797195ebd1.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168274325-2e7a9afb-1f0d-4346-ad67-4e797195ebd1.png "Überblick bei Klick auf Verteilbezirk")
 
 ## Bezirk suchen und finden
 Kennen Sie die Bezirksnummer oder den Bezirksnamen, dann ist es ganz einfach: Sie geben einfach die Nummer im Feld ```Filter``` (hier: 100) ein und MultiRoute Go! filtert nach allen passenden Ergbnissen.
 
-![grafik](https://user-images.githubusercontent.com/99329016/168274689-cc00db90-c23a-4c58-8f80-0367e496e244.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168274689-cc00db90-c23a-4c58-8f80-0367e496e244.png "Beispiel für Suche per Filter in der Gebietsplanung")
 
 Alternativ suchen Sie über die Karte nach dem Bezirk oder oben rechts in der Suche nach dem jeweiligen Ort. Mit dem Klick auf die Bezirksnummer **aktivieren** Sie den Bezirk. Er ist blau hinterlegt und kann editiert werden.
 
@@ -83,7 +83,7 @@ Die Farbgebung in MultiRoute Go! sagt einen Blick etwas über die Bedeutung eine
 | <span style="color: darkgreen;">&#x1f534;&#xfe0e;</span>  | doppelt zugeordnetes Gebäude |
 
 
-![grafik](https://user-images.githubusercontent.com/99329016/161265829-4d7e3cc2-28f8-43e2-ab77-0fda8391596c.png)
+![grafik](https://user-images.githubusercontent.com/99329016/161265829-4d7e3cc2-28f8-43e2-ab77-0fda8391596c.png "Beispiele für Punkteinfärbungen in MultiRoute Go!")
 
 ## Bezirke bearbeiten
 Nur ein **aktiver Bezirk** kann bearbeitet werden. Aktiv ist ein Bezirk dann, wenn er **blau** hinterlegt ist. Die Gebäudepunkte haben einen **grünen Kringel** (statt  schwarzem Kringel). Sie aktivieren einen Bezirk entweder durch Anklicken auf der Karte oder über die Suche auf der linken Seite, in dem Sie bei Filter die Bezirksnummer (oder -name) eingeben.
@@ -92,11 +92,11 @@ Nur ein **aktiver Bezirk** kann bearbeitet werden. Aktiv ist ein Bezirk dann, we
 
 Zum Editieren des Bezirks drücken Sie :material-file-edit:{style="color:#0078A8"}.
 
-![grafik](https://user-images.githubusercontent.com/99329016/158537773-4bbd949b-c0c8-4e97-83ba-d85dd916dd22.png)
+![grafik](https://user-images.githubusercontent.com/99329016/158537773-4bbd949b-c0c8-4e97-83ba-d85dd916dd22.png "Verteilgebiets-Geometrie bearbeiten")
 
 Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit gedrückter linker Maustaste ziehen können. Wenn Sie fertig sind mit dem Bearbeiten, drücken Sie auf :material-content-save:{style="color:#0078A8"}.
 
-![grafik](https://user-images.githubusercontent.com/99329016/168273860-a1724188-2dda-4919-ae00-e4d2d3d40568.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168273860-a1724188-2dda-4919-ae00-e4d2d3d40568.png "weiße Stützpunkte zum Verschieben")
 
 ## Bezirk teilen
 Um einen Bezirk teilen zu können, aktivieren Sie ihn einfach. Mit der Maus an eine beliebige Stelle im zu teilenden Bezirk klicken.. Das Gebietsbearbeitungsfenster erscheint. Im Fenster klickt man mit der Maus auf :fontawesome-solid-scissors:{style="color:#0078A8"}. 
@@ -105,11 +105,11 @@ Außerhalb des Bezirks setzen Sie den ersten weißen Stützpunkt und klicken mit
 
 Sie erhalten zwei Bezirke, die Sie nun neu benennen können:
 
-![grafik](https://user-images.githubusercontent.com/99329016/168276772-b400f9bc-c0f7-41cf-b5be-12f90ae7da09.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168276772-b400f9bc-c0f7-41cf-b5be-12f90ae7da09.png "Teilen von Trägerbezirken")
 
 Im Kartenmenü auf der linken Seite können Sie (von unten nach oben) ```Speichern```, ```Aktion rückgängig machen``` und die ```Infobox an-/ausschalten```.
 
-![grafik](https://user-images.githubusercontent.com/99329016/168276826-c5a5233a-37b5-439c-aaac-c8422ed4f0b8.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168276826-c5a5233a-37b5-439c-aaac-c8422ed4f0b8.png "Menü zum Editieren")
 
 Die "neuen" Bezirke können nun separat voneinander berechnet werden. Möglicherweise möchte Sie einen 
 
@@ -120,7 +120,7 @@ Gehen Sie auf ```Administration - Verteilberzirke``` und drücken Sie hier beim 
 
 Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_circle: nach :red_circle: oder umgekehrt.
 
-![grafik](https://user-images.githubusercontent.com/99329016/158539008-247181ef-470a-4fa2-96a5-d81f208df699.png)
+![grafik](https://user-images.githubusercontent.com/99329016/158539008-247181ef-470a-4fa2-96a5-d81f208df699.png "Zuordnungen aktualisieren beim Zeichnen")
 
 ## Bezirk löschen und neu erzeugen
 Einen Bezirk löschen Sie einfach durch Klick auf den :fontawesome-regular-trash-can:{style="color:#0078A8"}.
@@ -131,7 +131,7 @@ Die im Polygon befindlichen Punkte wissen weiterhin, welchem Bezirk sie zugeordn
 
 Sie können nun das Polygon automatisiert neu erzeugen lassen, in dem Sie auf ```Administration - Verteilbezirke``` gehen. Dort wählen Sie den gewünschten Bezirk aus und drücken unten auf 
 
-![grafik](https://user-images.githubusercontent.com/99329016/158540508-041f3dbc-b2ec-47c2-a916-0753fb3690fa.png)
+![grafik](https://user-images.githubusercontent.com/99329016/158540508-041f3dbc-b2ec-47c2-a916-0753fb3690fa.png "Auswahl von Verteilbezirken in der Administration")
 
 ```Markierte Verteilbezirke - Polygone erzeugen - Anwenden```
 
@@ -146,13 +146,18 @@ Gebiete können wie folgt zusammengefasst werden:
 
 1. Das Gebiet, welches in Zukunft die Gebietsbezeichnung tragen soll wird aufgerufen und mittels des Kreuzes zentriert.
 
+   ![grafik](https://user-images.githubusercontent.com/99329016/168277793-8290ac86-6ee0-4938-b1cf-4018ae04f052.png "Trägerbezirk aktivieren")
+   
+
 2. Nach dem Zentrieren ruft man durch Anklicken des zweiten Gebietes das Gebietsbearbeitungsmenü auf. Dort drückt man den Button "Mit Verteilgebiet ... vereinigen".
+   
+   ![grafik](https://user-images.githubusercontent.com/99329016/168277807-e4d8637b-ad7f-4e35-813e-75208858ed24.png "Mit anderem Verteilbezirk vereinigen")
 
 3. Nun sind die Gebiete vereinigt. Das neue Gebiet hat den Gebietsnamen des ersten Bezirks. Das zugeordnete Gebiet ist noch vorhanden. Es beinhaltet aber keine Gebäude mehr und hat kein Polygon. Es kann unter ```Administration - Verteilbezirke``` gelöscht werden.
 
-![grafik](https://user-images.githubusercontent.com/99329016/168277793-8290ac86-6ee0-4938-b1cf-4018ae04f052.png)
-![grafik](https://user-images.githubusercontent.com/99329016/168277807-e4d8637b-ad7f-4e35-813e-75208858ed24.png)
-![grafik](https://user-images.githubusercontent.com/99329016/168277832-ddd9b339-4dde-4291-838c-41c9f8e26538.png)
+   ![grafik](https://user-images.githubusercontent.com/99329016/168277832-ddd9b339-4dde-4291-838c-41c9f8e26538.png "Aus zwei Trägerbezirken ist ein neuer Bezirk entstanden")
+
+
 
 ## Multipolygone, Teilflächen und Sonderformen
 Mit MultiRoute Go! ist es auch möglich, sog. Multipolygone als Geometrien der Verteilbezirke anzulegen. Man versteht darunter Flächen, die aus mehreren Teilen bestehen. Am Beispiel von Bauernschaften kann man sich die Situation besonders gut vorstellen:
@@ -171,15 +176,17 @@ Sollen mehrere Koordinaten auf einmal zugeordnet werden, muss das [Polygon für 
 Alle Koordinaten, die sich nun innerhalb des blau gewordenen Polyongs befinden, können gleichzeitig zugeordnet werden. Deshalb sollte man nun die Polygonstützpunkte entsprechend verschieben, so dass es nicht zu Überlappungen und doppelten Zuordnungen kommt. Mit ```Speichern``` abschließen und entsprechende Option wählen.
 
 Einzelne Koordinaten lassen sich **zuordnen**, in dem im aktivieren Polygon die entsprechenden Koordinaten angeklickt werden und die Koordinate mit dem Polygon verknüpft wird.
-![grafik](https://user-images.githubusercontent.com/99329016/168282417-dd028266-582a-4c60-a7fa-58a171f5f0ae.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168282417-dd028266-582a-4c60-a7fa-58a171f5f0ae.png "Manuelles Zuordnen")
 
 Zum **Entfernen einer einzelnen Koordinate** drücken Sie einfach die "kaputte Büroklammer" und die Zuordnung des Gebäudes verschwindet. Im Bsp. hier wird das Gebäude also anschließend rot.
-![grafik](https://user-images.githubusercontent.com/99329016/168282544-d87c7d8c-36b3-448e-bd4f-e7453f1eb8ce.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168282544-d87c7d8c-36b3-448e-bd4f-e7453f1eb8ce.png "Manuell Zuordnung löschen")
 
 
 
 ## Weitere Funktionen
 Alle weiteren Funktionen finden Sie unter der Auflistung Ihrer Verteilbezirke:
-![grafik](https://user-images.githubusercontent.com/99329016/168077138-e3775e43-b597-4518-af6c-879c23d1a02e.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168077138-e3775e43-b597-4518-af6c-879c23d1a02e.png "Weitere Funktionen in der Adminstration von Verteilgebieten")
 
 Achten Sie immer darauf, dass Sie die richtige Ausgabe gewählt haben:exclamation:
+
+
