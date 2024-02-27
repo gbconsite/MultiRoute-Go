@@ -1,5 +1,5 @@
 ---
-description: Sicherheitskopien erstellen
+description: Sicherheitskopien erstellen und Abonnenten in andere Ausgabe kopieren bzw. verschieben
 ---
 
 # Ausgaben kopieren
