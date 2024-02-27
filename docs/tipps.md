@@ -25,17 +25,17 @@ Hierzu gehen Sie wie folgt vor:
 
 1) Suchen Sie die Adresse auf Google Maps und klicken Sie mit der rechten Maustaste auf das Gebäude bzw. die Adresse, für die Sie die Koordinate in MultiRoute Go! übernehmen möchten. Kopieren Sie die Koordinate mit einem Klick in Ihren Zwischenspeicher.
 
-![!](assets/muc-center.png)
+![!](assets/muc-center.png "Kartenausschnitt wählen bei Google Maps")
 
 Kartendaten © 2021 COWI,GeoBasis-DE/BKG (©2009),Google
 
 2) Klicken Sie in MultiRoute Go! auf die Adresse, die Sie korrigieren möchten. Es öffnet sich ein Korrekturfenster. Bestätigen Sie.
 
-![!](assets/mod.png)
+![!](assets/mod.png "Ja diese Adresse soll bearbeitet werden")
 
 3) Klicken Sie mit dem Fadenkreuz in die Karte. Hier können Sie nun entweder manuell die Adresse in der Karte suchen oder Sie kopieren die Koordinaten in das Eingabefenster. Zuerst die kleinere (Longitude), dann die größere Zahl (Latitude).
 
-![!](assets/muc-korr.png)
+![!](assets/muc-korr.png "Lat/Lon bzw X/Y Koordinaten für Lage und Breite richtig eingeben")
 
 4) Speichern Sie. Die Adresse ist nun auch für weitere Uploads an der richtigen Koordinate gespeichert. 
 
@@ -55,6 +55,6 @@ In der Karte finden Sie oben rechts die sogenannte Layersteuerung. Hier können 
 
 Wenn Sie auf das Fragezeichen und anschließend in die Karte klicken, können Sie sich zusätzlich die Postleitzahl und Ort für einen beliebigen Punkt anzeigen lassen. 
 
-![!](assets/layersteuerung.png)
+![!](assets/layersteuerung.png "Layer an- und ausstellen")
 
 
