@@ -27,20 +27,20 @@ Grundsätzlich können Gehfolgen auf **drei verschiedene Arten** (mit Varianten)
 
 - **einfache Strecke**: Von der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> die kürzest mögliche Strecke durch den Bezirk, kein fester Endpunkt:
 
-![Einfache Strecke](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/7f235bc3-e0dd-4b0f-8350-51a25bde64a3){ width="200" }
+![Einfache Strecke](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/7f235bc3-e0dd-4b0f-8350-51a25bde64a3 "One Way open End") { width="200" }
 
 oder mit festem Endpunkt:
 
-![Einfache Strecke mit festem Endhaus](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/ac3f7227-6744-44d8-b036-752a1731df53){ width="200" }
+![Einfache Strecke mit festem Endhaus](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/ac3f7227-6744-44d8-b036-752a1731df53 "fester Endpunkt"){ width="200" }
 
 
 - **Rundweg**: Start und Ende an der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> , auch wenn diese nicht im Bezirk selbst ist
 
-![Rundweg](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/0d83ffea-92e4-42a0-8086-7d94d4ab4e95){ width="200" }
+![Rundweg](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/0d83ffea-92e4-42a0-8086-7d94d4ab4e95 "Rundweg"){ width="200" }
 
 - **Rundweg im Verteilbezirk**: Start an der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> und zurück zur ersten Steckung im Verteilbezirk
 
-![Rundweg im Verteilbezirk](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/14101711-3993-42ba-8826-7528adfc4220){ width="200" }
+![Rundweg im Verteilbezirk](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/14101711-3993-42ba-8826-7528adfc4220 "Rundweg nur im Verteilbezirk am ersten Punkt im Bezirk wieder ankommen"){ width="200" }
 
 
 
@@ -60,10 +60,10 @@ Das Menü Gehfolgenberechnung wird über das Hauptmenü geöffnet. Das Symbol f�
 
 Die Berechnung kann auch (aus der Gebietsplanung) über einen Klick auf den gewünschten Bezirk gestartet werden. Dort einfach auf den :fontawesome-solid-calculator: drücken.
 
-![grafik](https://user-images.githubusercontent.com/99329016/166661323-4e0668fb-88f8-4ff3-a552-b2620e8d0a6d.png)
+![grafik](https://user-images.githubusercontent.com/99329016/166661323-4e0668fb-88f8-4ff3-a552-b2620e8d0a6d.png "Gehfolge berechnen mit Taschenrechner starten")
 
 Im Menü Gehfolgenberechnung alternativ einfach die gewünschte Bezirksnummer eintippen:
-![grafik](https://user-images.githubusercontent.com/99329016/166661505-c77fcf7a-0600-4955-83e7-b6008b812928.png)
+![grafik](https://user-images.githubusercontent.com/99329016/166661505-c77fcf7a-0600-4955-83e7-b6008b812928.png "Bezirksnummer eingeben um Gehfolgenberechnung zu starten")
 
 Und mit ```Berechnung starten``` den Berechnungsvorgang anstoßen.
 
@@ -98,7 +98,7 @@ Ein Beispiel:
 
 Links: HZD Grenzwert 15 m, Suchradius 0 m              
 Rechts: HZD Grenzwert 15 m, Suchradius 20 m
-![grafik](https://user-images.githubusercontent.com/99329016/168803038-8df73c96-ce06-400f-b35f-a109390c5193.png)
+![grafik](https://user-images.githubusercontent.com/99329016/168803038-8df73c96-ce06-400f-b35f-a109390c5193.png "Anbindung für den Haussuchradius mit unterschiedlichen Grenzwerten")
 
 In der Summe wird Ihnen das rechte Beispiel ein realistischeres Ergebnis geben.
 
@@ -125,7 +125,7 @@ Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen 
 Der Aufruf der berechneten Gehfolgen :material-folder-open-outline: können Sie mit Hilfe des "Filters" gezielt nach Gehfolgen eines Verteilbezirks filtern oder nach einer bestimmten Gehfolgennummer. 
 Über den :material-arrow-up:{style="color:#0078A8"} können Sie die Spalten selbst festlegen, die angezeigt werden sollen.
 
-![grafik](https://user-images.githubusercontent.com/99329016/170687969-7475d998-8da4-4cf0-b0af-cb08a5af17be.png)
+![grafik](https://user-images.githubusercontent.com/99329016/170687969-7475d998-8da4-4cf0-b0af-cb08a5af17be.png "Spalten definieren beim Aufruf von berechneten Gehfolgen")
 
 Bei den Aktionen stehen in der Kurzübersicht die Ergebnisse der Gehfolgen zur Verfügung und sie können gelöscht (Mülleimer) werden.
 
@@ -139,7 +139,7 @@ Dieses Höhenprofil ermöglicht es Ihnen, die sog. [Reliefenergie](https://de.wi
 
 Das Höhenprofil wird als interaktive Grafik auf der Karte oben rechts ausgegeben. Dort haben Sie die Möglichkeit, die Gehfolge mit der Maus virtuell abzufahren und für jeden Wegpunkt der Gehfolge die Höhe abzufragen. Zusätzlich finden Sie die Informationen zu höchstem und niedrigstem Punkt der Gehfolge sowie Aufstieg gesamt auch in den Detailinformationen zur Gehfolge auf der linken Seitenleiste:
 
-![grafik](https://user-images.githubusercontent.com/99329016/170688820-3f3079d4-b464-48cb-b0e6-4bc2e275092c.png)
+![grafik](https://user-images.githubusercontent.com/99329016/170688820-3f3079d4-b464-48cb-b0e6-4bc2e275092c.png "Detailinformationen zum Höhenprofil eines Zeitungsbezirks")
 
 Diese Informationen zur Geländehöhe sind ebenfalls im Excel-Export und im GPX-Export enthalten.
 
