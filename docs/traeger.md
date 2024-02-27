@@ -9,7 +9,7 @@ Zu jeder berechneten Gehfolge gibt es einen Ergebnisbericht mit den Informatione
 - Die Steckzeiten für die erste Steckung und die Folgesteckungen werden vorab definiert und hier berechnet. Die Steckzeiten werden extra ausgegeben und als Gesamtsumme mit der Streckenzeit. Je Ausgabe/Bezirk können die Steckzeiten angepasst werden.
 - Die Summe der Strecke für die Hauszugangsdistanzen wird separat angegeben. Diese kann durch Aktivierung der Gesamtdauer hinzugefügt werden. Die entsprechenden Werte verändern sich dann.
 
-![grafik](https://user-images.githubusercontent.com/99329016/170692371-21ce7637-7197-4305-a5d7-b946af9b7923.png)
+![grafik](https://user-images.githubusercontent.com/99329016/170692371-21ce7637-7197-4305-a5d7-b946af9b7923.png "Details der Gehfolgenberechnung")
 
 Parallel zur Berechnung der Gehfolgen werden PDF Dokumente und Daten erzeugt:
 
@@ -20,7 +20,7 @@ Parallel zur Berechnung der Gehfolgen werden PDF Dokumente und Daten erzeugt:
 - GPX 
 - QR Codes für Google Maps/Apple Maps
 
-![grafik](https://user-images.githubusercontent.com/99329016/170691421-7769c0df-8c51-4de1-94e9-ca69e1352f6f.png)
+![grafik](https://user-images.githubusercontent.com/99329016/170691421-7769c0df-8c51-4de1-94e9-ca69e1352f6f.png "Übersicht der zur Laufzeit erzeugten Gangfolgendokumente")
 
 
 Diese Dokumente können aus dem Gehfolgenmenü heraus abgerufen und lokal gespeichert werden.
