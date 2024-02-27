@@ -44,11 +44,13 @@ Haben Sie weitere Daten in Ihrem Unternehmen erhoben, die wir berücksichtigen s
 ## Layer
 Über den Button für die Kartenauswahl und Detaildarstellungen können je nach Bearbeitungsart Karten, Informationen und Layer an- und abgeschaltet werden.
 
-![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/3090a288-8d03-44d6-99df-04edfaabd5e6)
+![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/3090a288-8d03-44d6-99df-04edfaabd5e6 "Layerübersicht")
 
 
-![grafik](https://user-images.githubusercontent.com/99329016/168080224-0fd8ed04-ad2a-4e03-a149-9ea02038412c.png){ align=right }
+![grafik](https://user-images.githubusercontent.com/99329016/168080224-0fd8ed04-ad2a-4e03-a149-9ea02038412c.png "Transparenzregler"){ align=right }
 Das Ein-/Ausschalten von Labels (Beschriftungen der Bezirke) oder das Einfärben kann für den richtigen Durchblick sorgen! Und noch ein Hinweis: ganz unten in der Karte können Sie die Transparenz der Einfärbungen regulieren über eine Schieberegler:
+
+
 
 
 
