@@ -8,6 +8,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.2999 vom 23.02.2024
+- Click Map mit Gehfolgen ID
+  
 ### v1.2983 vom 12.02.2024
 - Geschwindigkeiten bei täglicher Datenübernahme
   
