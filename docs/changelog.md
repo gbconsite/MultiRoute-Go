@@ -8,6 +8,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3010 vom 04.03.2024
+- Gehfolgen ID an zusie
+
 ### v1.2999 vom 23.02.2024
 - Click Map mit Gehfolgen ID
   
