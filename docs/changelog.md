@@ -8,6 +8,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3019 vom 11.03.2024
+- Anpassungen bei Datenübernahmen
+
+### v1.3017 vom 07.03.2024
+- Korrekturen bei Zeitberechnungen, Verteilbezirke ohne Häuser entfallen
+
+### v1.3015 vom 06.03.2024
+- Option "Straßenseite beibehalten"
+  
 ### v1.3010 vom 04.03.2024
 - Gehfolgen ID an zusie
 
