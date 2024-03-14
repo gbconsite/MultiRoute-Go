@@ -115,3 +115,4 @@ plugins:
       lang: de
   - glightbox
   - blog
+  - social
