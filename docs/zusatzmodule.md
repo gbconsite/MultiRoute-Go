@@ -67,7 +67,7 @@ Für die Berechnungen ist einiges an Informationen nötig, das wir nicht in Mult
 
 Der Trend geht bei vielen Verlagen dazu, kleinere Untereinheiten von Trägerbezirken zu erstellen und diese dann je nach Trägerverfügbarkeit zusammen zu stellen. Wir unterstützen das flexible Zusammensetzen und sprechen von kleinen Gebieten (Waben, Zellen, Segmenten etc.), die zu einem Trägerbezirk (Bezirk, Cluster o.a.) zusammengefasst werden. 
 
-![grafik](https://user-images.githubusercontent.com/99329016/166670122-780d45a7-e1d7-4db6-ba07-d0add5704588.png "gleichfarbige kleine Einheiten gehören zu einer gemeinsamen größeren Einheit und werden gemeinsam und/oder einzeln berechnet)
+![grafik](https://user-images.githubusercontent.com/99329016/166670122-780d45a7-e1d7-4db6-ba07-d0add5704588.png "gleichfarbige kleine Einheiten gehören zu einer gemeinsamen größeren Einheit und werden gemeinsam und/oder einzeln berechnet")
 
 Zeichenlösung:
 
