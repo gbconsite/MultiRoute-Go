@@ -8,6 +8,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3037 vom 21.03.2024
+- Anpassung Datum alter Gehfolgen an neuen Verteiltag bei Synchronisation
+  
+### v1.3032-34 vom 20.03.2024
+- Anpassung Synchronisierung nach zusie für Kfz und Fuß nacheinander
+
 ### v1.3019 vom 11.03.2024
 - Anpassungen bei Datenübernahmen
 
