@@ -1,5 +1,6 @@
 ---
-description: Übersicht über die aktuellsten Versionen und Features in MultiRoute Go!, wird fortlaufend aktualisiert
+title: Übersicht über die aktuellsten Versionen und Features in MultiRoute Go!, wird fortlaufend aktualisiert
+description: Mit welcher Version von MultiRoute Go! ist was dazu gekommen? Wann ist mein Wunsch dran und wie aktuell ist die im Haus eingesetze Version? Hier der Überblick.
 ---
 
 # Changelog
