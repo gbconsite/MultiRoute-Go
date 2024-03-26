@@ -1,5 +1,6 @@
 ---
-description: Gebäude mit besonderen Aufgaben sind Spezialhäuser, dazu gehören Abladestellen/Zustellerhäuser und definierte Start- und Endhäuser
+title: Gebäude mit besonderen Aufgaben sind Spezialhäuser, dazu gehören Abladestellen/Zustellerhäuser und definierte Start- und Endhäuser
+description: Abladestellen im oder außerhalb des Bezirks anlegen und ändern, Route beeinflussen durch Starthäuser und Endhäuser; Adressen in der Adressverwaltung weiter bearbeiten
 ---
 
 # **4. Spezialhäuser**
