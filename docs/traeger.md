@@ -1,5 +1,6 @@
 ---
-description: Verschiedene Exportmöglichkeiten, die es dem Zusteller/Springer leichter machen die Zustellung so einfach wie möglich zu erledigen
+title: Verschiedene Exportmöglichkeiten, die es dem Zusteller/Springer leichter machen die Zustellung so einfach wie möglich zu erledigen
+description: Für Freunde des Papiers werden optimierte Gangfolgen als PDF ausgegeben. Kann dem Packzettel beigefügt werden. Springern erleichtert die berechnete Gehfolge die Arbeit. Per API auch Weitergabe an Zusteller-App möglich.
 ---
 
 # **7. Trägerdokumente**
