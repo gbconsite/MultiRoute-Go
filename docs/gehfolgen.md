@@ -1,5 +1,6 @@
 ---
-description: Die optimale Gangfolge ist das Herzstück von MultiRoute Go! Reihenfolge zu Fuß oder mit einem Fahrzeug
+title: Die optimale Gangfolge ist das Herzstück von MultiRoute Go! Reihenfolge zu Fuß oder mit einem Fahrzeug
+description: Wie ist die optimale Laufreihenfolge für den Zusteller? MultiRoute Go! rechnet täglich neu und spart damit viele unnötige Meter und Zeit. Gangfolgen werden innerhalb weniger Sekunden gerechnet. Für ein ganzes Verbreitungsgebiet problemlos über Nacht.
 ---
 
 # **5. Gehfolgenberechnung**
