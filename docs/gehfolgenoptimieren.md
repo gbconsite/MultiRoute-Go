@@ -1,5 +1,6 @@
 ---
-description: Digitales Zustellbuch wird in der Gangfolge berücksichtigt
+titel: Digitales Zustellbuch wird in der Gangfolge berücksichtigt
+description: MultiRoute Go! bietet von Anfang an viele Hilfestellungen, um die bestmögliche Reihenfolge der Zustellungen zu berechnen. Dazu gehören eigene Geschwindigkeiten bei Gebäudestrecken und Steckstrecken, manuelle Anbindungsmöglichkeit von Gebäuden an Straßen
 ---
 
 # **6. Optimierungen in der Gehfolgenberechnung**
