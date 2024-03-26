@@ -1,3 +1,8 @@
+---
+title: MultiRoute Go! API Dokumentation
+description: Technische Dokumentation mit Routen & Endpunkten zur Programmierung der MultiRoute Go! API
+---
+
 # Routen & Endpunkte 
 
 ## Authentifizierung 
