@@ -1,3 +1,8 @@
+---
+title: Impressum für MultiRoute Go! von gb consite GmbH
+description: Wie nehmen Sie am schnellsten Kontakt auf zu MultiRoute Go! 
+---
+
 # Impressum
 
 ## Kontakt und Support für MultiRoute Go!
