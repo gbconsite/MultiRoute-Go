@@ -1,6 +1,6 @@
 ---
 title: Aufgezeichnete Webinare von/mit Kunden zu bestimmten Themen
-description: Im Zusammenspiel mit dem BVDA wurden schon logistische Themen zur Bezirksoptimierung und Sollzeitberechnung besprochen. Aufzeichnungen davon sind hier noch verfügbar:
+description: Im Zusammenspiel mit dem BVDA wurden schon logistische Themen zur Bezirksoptimierung und Sollzeitberechnung besprochen. Aufzeichnungen davon sind hier noch verfügbar
 ---
 
 # Webinare
