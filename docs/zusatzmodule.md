@@ -1,5 +1,6 @@
 ---
-description: Durch den modularen Aufbau von MultiRoute Go! können die Bedürfnisse und Aufgabenstellungen der Verlage und Zustellorganisationen abgebildet werden. Die Zusatzmodule sind optional und jederzeit zubuchbar.
+title: Zusatzmodule unterstreichen den modularen Aufbau von MultiRoute Go! zur Abbildung Ihrer Prozesse
+description: Durch den modularen Aufbau von MultiRoute Go! können die Bedürfnisse und Aufgabenstellungen der Verlage und Zustellorganisationen abgebildet werden. Die Zusatzmodule sind optional und jederzeit zubuchbar. Egal, ob Anzeigenblatt oder Hybrid-Zustellung. Mit MultiRoute Go! lässt sich alles abbilden - täglich aktualisiert.
 ---
 
 # **8. Zusatzmodule**
