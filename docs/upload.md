@@ -1,5 +1,6 @@
 ---
-description: Wie kommen die Daten in MultiRoute Go! ? Die verschiedenen Uploadmöglichkeiten
+title: Wie kommen die Daten in MultiRoute Go! ? Die verschiedenen Uploadmöglichkeiten
+description: Manuelles Zeichnen und Planen in MultiRoute Go! und tägliche Übernahme von Abonnenteninformationen und Briefzustellungen zur gemeinsamen Gehfolgenberechnung 
 ---
 
 # **1. Datenintegration**
