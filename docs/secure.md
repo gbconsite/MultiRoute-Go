@@ -1,5 +1,6 @@
 ---
-description: Sicherheitskopien erstellen und Abonnenten in andere Ausgabe kopieren bzw. verschieben
+title: Sicherheitskopien erstellen und Abonnenten in andere Ausgabe kopieren bzw. verschieben
+description: Hin und wieder schadet es nicht, eine Sicherheitskopie der geplanten neuen Bezirke zu erstellen. Wie das geht wird hier ganz leicht erklärt. So geht nichts verloren.
 ---
 
 # Ausgaben kopieren
