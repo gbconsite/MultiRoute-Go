@@ -1,5 +1,6 @@
 ---
-description: Der Aufbau von MultiRoute Go! in Gebietsplanung und Gehfolgenberechnung
+title: Der Aufbau von MultiRoute Go! in Gebietsplanung und Gehfolgenberechnung
+description:  Von Gebäudekoordinaten über Planungsansichten bis hin zur Berechnung der optimalen Gangfolge innerhalb eines Zustellbezirks - MultiRoute Go! bringt alles mit oder lässt sich individuell anpassen
 ---
 
 ## Aufbau 
