@@ -1,5 +1,6 @@
 ---
-description: Einführung in das Verlags-GIS MultiRoute Go! Gesetzliche Grundlage bei Zustellorganisationen, Verlagshäusern und Briefzustellung
+title: MultiRoute Go! als Verlags-GIS in Zustellorganisationen
+description: Einführung in das Verlags-GIS MultiRoute Go! zur Lohnberechnung bei Zustellorganisationen, Verlagshäusern und Briefzustellung bei optimaler Gangfolge
 ---
 
 # Übersicht
