@@ -1,5 +1,6 @@
 ---
-description: Begriffe und Definitionen, die in MultiRoute Go! verwendet werden
+title: Begriffe und Definitionen, die in MultiRoute Go! verwendet werden
+description: Manche Begriffe kennen Sie schon in anderem Zusammenhang. Was genau meint Gehfolge, Gangfolge, Route? Oder Steckstrecke, Gebäudestrecke, Anbindung? Hier erhalten Sie Klarheit.
 ---
 
 # Begriffe und Definitionen
@@ -17,6 +18,7 @@ Wir geben die Strecken einzeln aus, die Sie mit verschiedenen Geschwindigkeiten 
 
 ## Hauszugangsdistanz (HZD)
 Die Strecke, die vom Straßenankerpunkt (Anbindung) zum Gebäude zurückgelegt wird, bezeichnen wir als HZD. [Hier](../gehfolgen/#hauszugangsdistanz-hzd) im Kapitel zur Gehfolgenberechnung erklärt.
+Auch Gebäudestrecke oder Steckstrecke genannt.
 
 ## Hauszugangs-Suchradius
 Ausführliche [Erläuterung](../gehfolgen/#hauszugangs-suchradius) im Kapitel zur Gehfolgenberechnung.
@@ -33,14 +35,14 @@ Eine pauschale Angabe in Minuten. Kann von Ihnen per API nach berechneter Formel
 
 ## Steckzeit
 Wir unterscheiden eine Erste Steckung und Folgesteckungen mit Angaben in Sekunden.
-Eine Unterscheidung nach Produkten (Brief, Zeitung, Paket etc.) haben wir aktuell noch nicht umgesetzt.
+Eine Unterscheidung nach Produkten (Brief, Zeitung, Paket etc.) haben wir aktuell noch nicht umgesetzt. Sie haben Interesse daran? Lassen Sie uns das gerne wissen!
 
 ## Optimierungsmethode
 [Drei Möglichkeiten](https://go.multiroute.de/handbuch/gehfolgen/#einstellungen-bei-gehfolgenberechnungen):
 
 - Einfacher Durchgang (one-way-open-end)
 - Rundweg (egal wo die Abladestelle war, dorthin wieder zurück)
-- Rundweg im Verteilbezirk (falls Abladestelle außerhalb des Bezirks war, dann zurück zur 1. Steckung)
+- Rundweg im Verteilbezirk (falls Abladestelle außerhalb des Bezirks war, dann zurück zur 1. Steckung im Verteilbezirk)
 
 ## Zustellerhaus
 In der Regel die "normale" Abladestelle. Der Name Zustellerhaus leitet sich von der Tatsache ab, dass gerade bei Wochenblättern die Gebinde an den Wohnort des Zustellers geliefert werden.
@@ -53,6 +55,6 @@ Gebäudepunkt mit dem ersten Steckvorgang. Wird standardmäßig automatisch ermi
 Gebäudepunkt mit dem letzten Steckvorgang. Wird standardmäßig automatisch ermittelt, kann aber auch manuell festgelegt werden.
 
 ## Depot
-Zusätzliche Abladestelle(n) eines Verteilbezirkes (nur verfügbar mit dem Zusatzmodul "Nachladen").
+Zusätzliche Abladestelle(n) eines Verteilbezirkes (nur verfügbar mit dem Zusatzmodul "Nachladen"). Hierhin kehrt der Zusteller zum Nachladen zurück. Wir können mehrere "Depots" in einem Verteilbezirk definieren.
 
 
