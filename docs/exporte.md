@@ -1,5 +1,6 @@
 ---
-description: Exportmöglichkeiten für Auswertungen in Reports
+title: Exportmöglichkeiten für Auswertungen in Reports
+description: Für Fans von Excel gibt es auch zahlreiche Auswertungsmöglichkeiten der täglich generierten Berechnungen. Per Export erhalten Sie Zusammenfassungen aller Gehfolgen eines Verteiltages oder einer Verteilschiene. Direkt passend für die Lohnabrechnung.
 ---
 
 # 9. Exporte
