@@ -1,5 +1,6 @@
 ---
-description: Kleine Hinweise, die die Arbeit mit MultiRoute Go! leichter machen
+title: Kleine Hinweise, die die Arbeit mit MultiRoute Go! leichter machen
+description: Auch GIS-Profis finden hier Hinweise auf Kleinigkeiten, die die Arbeit mit dem Verlags-GIS erleichtern. Von Filtern, über angepasste Spalten, Adresskorrekturen und verschiedenen Hintergrundkarten und Luftbildern
 ---
 
 # Tipps & Tricks 
