@@ -1,5 +1,6 @@
 ---
-description: Bezirke bearbeiten, vergrößern, zuschneiden, aktualisieren, umbenennen
+title: Zustellbezirke bearbeiten, vergrößern, zuschneiden, aktualisieren, umbenennen
+description: Bezirke optimieren um Kosten zu senken. Zeichnerisch lassen sich schnell Szenarien abbilden und umsetzen. Farbige Punkte erleichtern die Arbeit.
 ---
 
 # **2. Gebietsplanung**
