@@ -1,3 +1,8 @@
+---
+title: MultiRoute Go! Preisindikation
+description: Der Preis von MultiRoute Go! ist gestaffelt nach Ihrer Größe. Hier gibt es Hinweise, was wir für die Kalkulation eines Angebots von Ihnen wissen müssen.
+---
+
 # Preise 
 
 Die Preisstaffelung richtet sich nach: 
