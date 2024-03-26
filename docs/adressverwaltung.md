@@ -1,6 +1,6 @@
 ---
-title: Adressen suchen, finden und verwalten in MultiRoute Go!, dem Verlags-GIS
-description: Adressen suchen in OpenStreetMap und Adresssuche in MultiRoute Go!
+title: Adressen suchen, finden und verwalten in MultiRoute Go!, dem Verlags-GIS mit Anbindung an OpenStreetMap
+description: Erläuterung und Bedeutung von Objekt-IDs, Straßen-IDs und die Möglichkeiten der Suche im eigenen Verbreitungsgebiet vs. OpenStreetMap Bestand. Anlage von Werbeverweigerern und Zustellbesonderheiten.
 
 ---
 
