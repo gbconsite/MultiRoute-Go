@@ -1,5 +1,6 @@
 ---
-description: Per API kann MultiRoute Go! komplett gesteuert werden
+title: Per API kann MultiRoute Go! komplett gesteuert werden
+description: Die Stärke von MultiRoute Go! ist die Schnelligkeit. Hybrid und OneRoute Berechnungen innerhalb kürzester Zeit. Damit wird die nächtliche Neuberechnung zum Kinderspiel. Wir besprechen gerne mit Ihnen die Voruassetzungen.
 ---
 
 # **Automatisierung**
