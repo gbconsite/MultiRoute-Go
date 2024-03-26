@@ -1,5 +1,6 @@
 ---
-description: MultiRoute Go! API Dokumentation
+title: MultiRoute Go! API Dokumentation
+description: MultiRoute Go! lässt sich komplett per API fernsteuern. Holen Sie sich einfach die aktuellste Gehfolgenberechnung bei Bedarf in Ihr ERP und rechnen die Sollzeit ab. Oder unterstützen Sie die Zusteller mit aktuellen Click-Maps in App oder Portal.
 ---
 
 # MultiRoute Go! API 
