@@ -1,5 +1,6 @@
 ---
-description: Einstellungen für Power-User und Administratoren
+title: Einstellungen für Power-User und Administratoren
+description: Das Menü eröffnet die Möglichkeit, Rechte und Rollen von Anwendern zu definieren. Wer darf was sehen, wie wird welcher Bezirk gerechnet? Alles einstellbar und konfigurierbar. 
 ---
 
 Das Menü Administration stellt sich Nutzern je nach Zugriffsrechten in MultiRoute Go! unterschiedlich dar.
