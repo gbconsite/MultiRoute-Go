@@ -1,3 +1,8 @@
+---
+title: MultiRoute Go! Datenschutz
+description: Ihre Daten sind uns wichtig! Wir halten uns an die DSGVO und stimmen gerne mit Ihnen die nötigen Dokumente ab.
+---
+
 # Datenschutzerklärung gb consite GmbH
 
 Es ist uns wichtig, personenbezogene Daten zu schützen.
