@@ -9,8 +9,14 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3042+43 vom 26.03.2024
+- Farben und Pop-Ups von importierten KMLs
+  
+### v1.3040+41 vom 25.03.2024
+- zusie Fehlerbehandlung
+  
 ### v1.3037 vom 21.03.2024
-- Anpassung Datum alter Gehfolgen an neuen Verteiltag bei Synchronisation
+- Anpassung Datum alter Gehfolgen an neuen Verteiltag bei Synchronisation mit zusie
   
 ### v1.3032-34 vom 20.03.2024
 - Anpassung Synchronisierung nach zusie für Kfz und Fuß nacheinander
