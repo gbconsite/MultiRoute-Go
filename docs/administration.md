@@ -1,5 +1,5 @@
 ---
-title: Einstellungen für Power-User und Administratoren
+title: Einstellungen für Power-User und Administratoren von MultiRoute Go!
 description: Das Menü eröffnet die Möglichkeit, Rechte und Rollen von Anwendern zu definieren. Wer darf was sehen, wie wird welcher Bezirk gerechnet? Alles einstellbar und konfigurierbar. 
 ---
 
@@ -48,7 +48,7 @@ Fast alles kann upgeloaded werden:
 
 * Gebäude (Koordinaten)
 * Bezirkszuordnungen
-* Spezialhäuser
+* [Spezialhäuser](../upload)
 
 Hier können Sie auch **Abonnenten verwalten** mit den Möglichkeiten:
 
