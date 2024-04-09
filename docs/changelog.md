@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3049 vom 04.04.2024
+- PDF Fix Gebietsplanung editieren
+
+### v1.3045 vom 28.03.2024
+- Anpassungen bei Löschen von Gehfolgen über API
+  
 ### v1.3042+43 vom 26.03.2024
 - Farben und Pop-Ups von importierten KMLs
   
