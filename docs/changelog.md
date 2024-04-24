@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3054 vom 16.04.2024
+- Verbesserungen für Endhausoptimierung
+
 ### v1.3049 vom 04.04.2024
 - PDF Fix Gebietsplanung editieren
 
