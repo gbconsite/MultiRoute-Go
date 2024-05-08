@@ -9,6 +9,18 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3072 vom 06.05.2024
+- KML Import als Benutzerrolle
+  
+### v1.3069 vom 03.05.2024
+- Fehlerkorrektur Bezirkskarte (ohne Anzahl Gewerbebetriebe)
+  
+### v1.3066-68 vom 30.04.-02.05.2024
+- Anpassung Datenübernahmen
+  
+### v1.3059 vom 19.04.2024
+- Anpassung Datenübernahmen
+  
 ### v1.3054 vom 16.04.2024
 - Verbesserungen für Endhausoptimierung
 
