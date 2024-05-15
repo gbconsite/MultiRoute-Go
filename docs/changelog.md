@@ -9,6 +9,18 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3090 vom 14.05.2024
+- Bugfixes Abo-Booster
+
+### v1.3085 vom 13.05.2024
+- zusie Fehlermeldungen
+  
+### v1.3083 vom 13.05.2024
+- Deckungsbeitragsoptimierung
+
+### v1.3079 vom 08.05.2024
+- Änderungen "Straßenseite beibehalten"
+  
 ### v1.3072 vom 06.05.2024
 - KML Import als Benutzerrolle
   
