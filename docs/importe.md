@@ -1,6 +1,6 @@
 ---
 title: Import von Shapes, KML oder CSV oder Excel nach MultiRoute Go!
-description: Daten aus Fremdsystemen in MultiRoute Go! integrieren per Upload: KML oder Shape oder CSV
+description: Daten aus Fremdsystemen in MultiRoute Go! integrieren per Upload - KML oder Shape oder CSV
 ---
 
 # 10. Importe
