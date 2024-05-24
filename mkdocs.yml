@@ -21,7 +21,7 @@ nav:
       - 10. Importe: importe.md
       - Sicherheit: secure.md
       - Tipps & Tricks: tipps.md
-      - Webinare: webinare.md
+ #     - Webinare: webinare.md
       - Administration: administration.md
       - Automatisierung: automatisierung.md
 #      - Benutzer: user.md
