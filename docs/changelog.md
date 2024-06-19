@@ -15,6 +15,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 ### v1.3135-38 vom 17.06.2024
 - Anpassung Datenübernahme
   
+### v1.3124 vom 06.06.2024
+- Verbesserungen KML Import Funktion
+
 ### v1.3123 vom 03.06.2024
 - Google Maps Export Fix
 
