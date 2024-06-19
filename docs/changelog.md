@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3139 vom 18.06.2024
+- Anpassung Datenübernahme
+
+### v1.3135-38 vom 17.06.2024
+- Anpassung Datenübernahme
+  
 ### v1.3123 vom 03.06.2024
 - Google Maps Export Fix
 
