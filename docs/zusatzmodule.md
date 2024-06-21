@@ -75,6 +75,29 @@ Zeichenlösung:
 Eine neue Gebietsausgabe anlegen, die Gebiete in kleine Zellen/Waben anlegen und in einer Liste festlegen, welche Gebiete in einen Bezirk zugeordnet werden sollen. Dies kann dann per Upload in die Bezirksebene gespielt werden. Die Liste muss nur zwei Spalten enthalten: Bezirksnummern und die dazugehörigen Gebietsnummern.
 
 
+Genau so können Sie auch vorgehen, wenn Sie den aktuellen **Besetzungsstatus** Ihrer Trägerezirke darstellen möchten:
+offen / besetzt / Warteschlange
+
+Beispiel:
+Sie legen eine "neue Ausgabe/Planung" an und nennen diese "Zusteller".
+![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/762c293e-5a11-4964-baa7-5c3724fb8456)
+
+Als "Gebiet" geben Sie die Ausgabe an, in der sich die einzelnen (kleinen Einheiten) Trägerbezirke befinden (hier: Testausgabe).
+
+Nun legen Sie einfach Verteilbezirke an, die den Status widergeben:
+offen / besetzt / Warteschlange
+
+Per Upload (*.csv, *.xlsx etc.) mit nur zwei Spalten 
+![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/a838b84d-ebcc-4d9e-ab5b-012829d3698d)
+
+![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/e7f18028-1a33-488c-a4f8-e62bd6133f6d)
+
+werden die Trägerbezirke mit ihrem jeweiligen Status abgebildet. 
+
+![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/0fc0268e-b47a-4f78-893a-10d08d1d8dd6)
+
+
+
 ##Nachladen an „Depots“##
 
 :fontawesome-solid-file-pdf: [Nachladen an „Depots“](https://gbconsite.de/wp-content/uploads/2019/10/Abladeoptimierung-MRGo-Zusatzmodul.pdf)
