@@ -88,6 +88,7 @@ Nun legen Sie einfach Verteilbezirke an, die den Status widergeben:
 offen / besetzt / Warteschlange
 
 Per Upload (*.csv, *.xlsx etc.) mit nur zwei Spalten 
+
 ![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/a838b84d-ebcc-4d9e-ab5b-012829d3698d)
 
 ![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/e7f18028-1a33-488c-a4f8-e62bd6133f6d)
