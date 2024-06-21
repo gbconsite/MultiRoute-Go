@@ -70,7 +70,7 @@ Der Trend geht bei vielen Verlagen dazu, kleinere Untereinheiten von Trägerbezi
 
 ![grafik](https://user-images.githubusercontent.com/99329016/166670122-780d45a7-e1d7-4db6-ba07-d0add5704588.png "gleichfarbige kleine Einheiten gehören zu einer gemeinsamen größeren Einheit und werden gemeinsam und/oder einzeln berechnet")
 
-Zeichenlösung:
+So geht es:
 
 Eine neue Gebietsausgabe anlegen, die Gebiete in kleine Zellen/Waben anlegen und in einer Liste festlegen, welche Gebiete in einen Bezirk zugeordnet werden sollen. Dies kann dann per Upload in die Bezirksebene gespielt werden. Die Liste muss nur zwei Spalten enthalten: Bezirksnummern und die dazugehörigen Gebietsnummern.
 
@@ -96,6 +96,8 @@ Per Upload (*.csv, *.xlsx etc.) mit nur zwei Spalten
 werden die Trägerbezirke mit ihrem jeweiligen Status abgebildet. 
 
 ![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/0fc0268e-b47a-4f78-893a-10d08d1d8dd6)
+
+Einzelne Trägerbezirke können Sie per "Zuordnung entfernen" aus einem der Verteilbezirke "offen", "besetzt", "Warteschlange" entfernen oder hinzufügen. Der Status (und die Farbe) passt sich entsprechend an.
 
 
 
