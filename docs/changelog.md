@@ -9,6 +9,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3155 vom 02.07.2024
+- Datenübernahmen
+
+### v1.3154 vom 28.06.2024
+- "Schnittfrei speichern" nicht mehr default.
+
+### v1.3148-51 vom 27.06.2024
+- Datenübernahmen
+
 ### v1.3143 vom 20.06.2024
 - Bayern DOP40
 
