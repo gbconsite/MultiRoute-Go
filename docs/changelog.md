@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3158-62 vom 08.07.2024
+- Datenübernahmen
+
 ### v1.3155 vom 02.07.2024
 - Datenübernahmen
 
