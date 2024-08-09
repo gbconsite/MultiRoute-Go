@@ -24,7 +24,7 @@ In Ihrer aktuellen, aktiven Ausgabe können Sie auch jederzeit die Gehfolgen exp
 ## Arbeiten mit Gehfolgenexport
 Sie erhalten zwei Dateien. 
 
-![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/7e10ce7d-0407-40b0-892e-f6966c1d6282 "zwei Export Dateien der Gangfolgenberechnung)
+![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/7e10ce7d-0407-40b0-892e-f6966c1d6282 "zwei Export Dateien der Gangfolgenberechnung")
 
 In "gehfolgen" erhalten Sie ALLE Informationen inklusive aller Steckpunkte zu ALLEN Gehfolgen der anzeigten Ausgabe.
 In "gehfolgen-zusammenfassung" nur die Summierung der Zeiten/Strecken. 
