@@ -508,7 +508,7 @@ Rückgabewert ist ein JSON Object:
 
 ### Beispiele
 
-PHP-Beispiel letzte berechnete Gehfolge für bestimmen
+PHP-Beispiel letzte berechnete Gehfolge für bestimmten
 Verteilbezirk
 
 Klasse
