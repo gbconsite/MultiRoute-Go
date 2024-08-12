@@ -508,8 +508,142 @@ Rückgabewert ist ein JSON Object:
 
 ### Beispiele
 
-[PHP-Beispiel letzte berechnete Gehfolge für bestimmen
-Verteilbezirk](PHP-Beispiel_letzte_berechnete_Gehfolge_für_bestimmen_Verteilbezirk.html)
+PHP-Beispiel letzte berechnete Gehfolge für bestimmen
+Verteilbezirk
+
+Klasse
+
+```php
+<?php
+/**
+ *  
+ *  MultiRoute Go! Beispielklasse für API-Abfrage
+ *  Abfrage der letzten erfolgreich berechneten Gehfolge für einen bestimmten Verteilbezirk
+ *  Rückgabe aller erforderlichen Informationen als (mehrdimensionales) Array
+ *  
+ *  Benutzung:
+ *  
+ *  require 'abruf_mrg_gehfolge_class.php';
+ *  $gehfolge = new AbrufGehfolgeInfoMRG($benutzer, $pass, $protokoll, $url);
+ *  $gehfolge_info = $gehfolge->getLastGehfolge($verteilbezirk);
+ *  var_dump($gehfolge_info);
+ *  
+ *  2015-10-14 
+ *  Author: Frank Durstewitz, gbconsite GmbH
+ *   
+ */
+
+class AbrufGehfolgeInfoMRG {
+  private $basis_url;
+  private $verteilbezirk;
+  private $gehfolge;
+  private $infos;
+  private $user;
+  private $pass;
+
+  function __construct($user, $pass, $protokoll, $url){
+    $this->basis_url = sprintf("%s://%s:%s@%s/fernsteuerung/", $protokoll, $user, $pass, $url);
+    $this->user = $user;
+    $this->pass = $pass;
+    $this->infos = array();
+  }
+
+  public function getLastGehfolge($verteilbezirk){
+    $this->verteilbezirk = urlencode(trim($verteilbezirk));
+    $url = $this->basis_url . 'gehfolgen/success?limit=1&verteilbezirk=' . $this->verteilbezirk;
+    $result = file_get_contents($url);
+    if ($result){
+      $json = json_decode($result);
+      $this->gehfolge = $json[0]->id;
+      $this->getMeta();
+      $this->getDetails();
+      $this->getPaths();
+      return $this->infos;
+    } else {
+      return false;
+    }
+  }
+
+  private function getMeta(){
+    $url = $this->basis_url . 'gehfolge/' . $this->gehfolge . '/zusammenfassung';
+    $string = file_get_contents($url);
+    $lines = explode("\n", $string);
+    $field_names = explode('|', array_shift($lines));
+    $field_values = explode('|', array_shift($lines));
+    $this->infos['meta'] = array();
+    for ($i = 0; $i < count($field_names); $i++){
+      $this->infos['meta'][$field_names[$i]] = $field_values[$i];
+    }
+  }
+
+  private function getDetails(){
+    $url = $this->basis_url . 'gehfolge/' . $this->gehfolge . '/detail';
+    $string = file_get_contents($url);
+    $lines = explode("\n", $string);
+    $field_names = explode('|', array_shift($lines));
+    $this->infos['details'] = array();
+    for ($i = 0; $i < count($lines); $i++){
+      if (empty($lines[$i])){
+        continue;
+      }
+      $array = array();
+      $field_values = explode('|', $lines[$i]);
+      for ($y = 0; $y < count($field_names); $y++){
+        $array[$field_names[$y]] = $field_values[$y];
+      }
+      array_push($this->infos['details'], $array);
+    }
+  }
+
+  private function getPaths(){
+    $this->infos['pfade_mit_credentials'] = array();
+    $this->infos['pfade_ohne_credentials'] = array();
+    $array = array('gpx', 'excel', 'image', 'strassenliste', 'bezirkskarte', 'gehfolge', 'detail', 'zusammenfassung');
+    $url_mit = $this->basis_url . 'gehfolge/' . $this->gehfolge . '/';
+    $suche = $this->user . ':' . $this->pass . '@';
+    $replace = '';
+    $url_ohne = str_replace($suche, $replace, $url_mit);
+    foreach($array as $a){
+      $this->infos['pfade_mit_credentials'][$a] = $url_mit . $a;
+      $this->infos['pfade_ohne_credentials'][$a] = $url_ohne . $a;
+    }
+  }
+}
+```
+
+Anwendung 
+
+```php
+<?php
+/**
+ *  MultiRoute Go! API-Beispielabfrage
+ *  
+ *  $benutzer: Ein gültiger "Anmelde"-Benutzername
+ *  $pass: zugehöriges Passwort
+ *  $verteilbezirk: für welchen Verteilbezirk die letzte berechnete Gehfolge angerufen werden soll
+ *  $protokoll: "http" oder "https" 
+ *  $url: Wo MultiRoute Go! erreichbar ist, ohne Protokoll, ohne Backslash am Ende 
+ *  
+ *  Gibt ein mehrdimensionales Array zurück
+ *  
+ *  2015-10-14 
+ *  Author: Frank Durstewitz, gbconsite GmbH
+ *  
+ */
+
+require 'abruf_mrg_gehfolge_class.php';
+
+$benutzer = '???';
+$pass = '???';
+$verteilbezirk = '???';
+$protokoll = 'http';
+$url = 'mrg-bp.ovb.local';  
+
+$gehfolge = new AbrufGehfolgeInfoMRG($benutzer, $pass, $protokoll, $url);
+$gehfolge_info = $gehfolge->getLastGehfolge($verteilbezirk);
+
+var_dump($gehfolge_info);
+```
 
 ## Datenaustausch (JSON)
 
