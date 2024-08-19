@@ -44,17 +44,21 @@ Info für Zusteller MIT Zusatzmodul: Frau Mustermann erhält eine Zeitung und ei
 
 🆕 :fontawesome-solid-file-pdf: [Abo-Optimierungsbooster](https://gbconsite.de/wp-content/uploads/2024/02/Abo-Optimierungsbooster.pdf)
 
+Über einen zusätzlichen Schieberegler kann der Abo-Booster für relevante User an-/ausgeschaltet werden.
+![grafik](https://github.com/user-attachments/assets/0b76d629-2aa7-4932-bd95-726e4fc8653e title="Abo-Booster per Schieberegler aktivieren")
+
 Unsere Heuristik liefert für Sie mit Hilfe eines kartografischen Dashboards die Möglichkeit schnelle, faktenbasierte Entscheidungen zu Ihren Abonnenten zu treffen. 
 
 Wo sind besonders "teure Abos"? Wie gehe ich damit um?
 Wo sollten Abos in einen Nachbarbezirk gelegt werden?
 
-Dabei berechnen wir für Sie:
+Dabei berechnen wir für Sie analog demSchulnoten-System von 1-5 und entsprechend eingefärbt (grün=sehr gut bis hin zu rot=mangelhaft):
 
-- lange (unproduktive) Verbindungsstrecken (Zeit) zwischen Abos
-- Abos mit geringem Deckungsbeitrag bezogen auf Weg/Zeit
-- Abopunkte mit Verdacht auf "falscher Bezirk"
-- Verteilbezirke mit Wegzeit-Umsatz-Score
+- Wegzeit-Score (Betrachtung einer Aboadresse nur aufgrund der Erreichbarkeit mit dem für den Bezirk festgelegten Verkehrsmittel und den dazu passenden Wege-Verbindungen)
+- Wegzeit-Umsatz-Score (zusätzlich Einbeziehung der von Ihnen festgelegten Umsätze je Druckerzeugnis)
+- Verdacht falscher Bezirk (eigener Layer mit blauen Punkt-Umrandungen bei größerer Nähe zu Punkten anderer Verteilbezirke)
+- Sehr schlechter Wegzeit-Score (eigener Layer mit roten Punkt-Umrandungen bei Werten von 4 und 5)
+- Lange Verbindungen im Bezirk (rote Umrandung der Polygone bei Zwischenstrecken größer 10 Minuten mit dem für den Bezirk festgelegten Verkehrsmittel und der dafür festgelegten Geschwindigkeit)
 
 
 Für die Berechnungen ist einiges an Informationen nötig, das wir nicht in MultiRoute Go! vorhalten. Bitte sprechen Sie uns an, wir können Musterlisten liefern, die alle Informationen beinhalten, die wir für die Berechnungen benötigen.
