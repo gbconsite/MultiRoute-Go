@@ -45,7 +45,7 @@ Info für Zusteller MIT Zusatzmodul: Frau Mustermann erhält eine Zeitung und ei
 🆕 :fontawesome-solid-file-pdf: [Abo-Optimierungsbooster](https://gbconsite.de/wp-content/uploads/2024/02/Abo-Optimierungsbooster.pdf)
 
 Über einen zusätzlichen Schieberegler kann der Abo-Booster für relevante User an-/ausgeschaltet werden.
-![grafik](https://github.com/user-attachments/assets/0b76d629-2aa7-4932-bd95-726e4fc8653e title="Abo-Booster per Schieberegler aktivieren")
+![grafik](https://github.com/user-attachments/assets/0b76d629-2aa7-4932-bd95-726e4fc8653e "Abo-Booster per Schieberegler aktivieren")
 
 Unsere Heuristik liefert für Sie mit Hilfe eines kartografischen Dashboards die Möglichkeit schnelle, faktenbasierte Entscheidungen zu Ihren Abonnenten zu treffen. 
 
