@@ -19,7 +19,7 @@ Ein Klick auf das aktive Symbol (z. B. :material-earth: für die Gebietsplanung)
 
 ## Grundlagen der Gehfolgenberechnung
 
-Die Gehfolgenberechnung basiert auf Karten von [OpenStreetMap (OSM)](https://www.openstreetmap.org). Oben rechts im Kartenfenster können Sie im gesamten OSM-Kartenbestand suchen. Diese Karten werden wöchentlich aktualisiert und in Ihr MultiRoute Go! integriert. Ihre Anpassungen an Gebäuden und Wegen stehen somit innerhalb weniger Tage für neue Gehfolgenberechnungen zur Verfügung. Für InHouse-Kunden ermöglicht das Zusatzmodul "[Straßenanpassungen](../zusatzmodule/#straenanpassungen)" zusätzliche Eingriffsmöglichkeiten.
+Die [Gehfolgenberechnung](../gehfolgen) basiert auf Karten von [OpenStreetMap (OSM)](https://www.openstreetmap.org). Oben rechts im Kartenfenster können Sie im gesamten OSM-Kartenbestand suchen. Diese Karten werden wöchentlich aktualisiert und in Ihr MultiRoute Go! integriert. Ihre Anpassungen an Gebäuden und Wegen stehen somit innerhalb weniger Tage für neue Gehfolgenberechnungen zur Verfügung. Für InHouse-Kunden ermöglicht das Zusatzmodul "[Straßenanpassungen](../zusatzmodule/#straenanpassungen)" zusätzliche Eingriffsmöglichkeiten.
 
 Je nach Installation und Lizenzierung stehen Ihnen weitere Kartendienste zur Verfügung. Mit einem Klick auf :material-layers-triple: im Kartenfenster können Sie zwischen verschiedenen Hintergrundkartendiensten wählen, darunter:
 
