@@ -28,7 +28,7 @@ Grundsätzlich können Gehfolgen auf **drei verschiedene Arten** (mit Varianten)
 
 - **einfache Strecke**: Von der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> die kürzest mögliche Strecke durch den Bezirk, kein fester Endpunkt:
 
-![Einfache Strecke](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/7f235bc3-e0dd-4b0f-8350-51a25bde64a3 "One Way open End") { width="200" }
+![Einfache Strecke](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/7f235bc3-e0dd-4b0f-8350-51a25bde64a3 "One Way open End"){ width="200" }
 
 oder mit festem Endpunkt:
 
