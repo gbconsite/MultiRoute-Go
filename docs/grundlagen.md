@@ -1,58 +1,52 @@
 ---
-title: Der Aufbau von MultiRoute Go! in Gebietsplanung und Gehfolgenberechnung
-description:  Von Gebäudekoordinaten über Planungsansichten bis hin zur Berechnung der optimalen Gangfolge innerhalb eines Zustellbezirks - MultiRoute Go! bringt alles mit oder lässt sich individuell anpassen
+title: Der Aufbau von MultiRoute Go! - Effiziente Gebietsplanung und Gehfolgenberechnung
+description: MultiRoute Go! bietet umfassende Funktionen zur Gebietsplanung und Gehfolgenberechnung. Erfahren Sie, wie Sie von Gebäudekoordinaten über Planungsansichten bis zur optimalen Gangfolge innerhalb eines Zustellbezirks alles individuell anpassen können.
+keywords: MultiRoute Go, Gebietsplanung, Gehfolgenberechnung, Tourenoptimierung, Gebäudekoordinaten, Zustellbezirke, Logistiksoftware
 ---
 
-## Aufbau 
+# Aufbau von MultiRoute Go!
 
-MultiRoute Go! lässt sich in die beiden Hauptbereiche gliedern:
+MultiRoute Go! ist in zwei Hauptbereiche gegliedert:
 
-1. [Gebietsplanung](../gebietsplanung) - :material-earth: Träger-/Verteilbezirke neu planen oder bestehende Einheiten verändern
-2.  [Gehfolgenberechnung](../gehfolgen) - :fontawesome-solid-calculator: Berechnung eines Bezirks nur für Abonnenten (Briefe/Zählpunkte etc.), Resthaushalte oder Vollabdeckung (bsp. Anzeigen-/Gemeindeblätter)
+1. **[Gebietsplanung](../gebietsplanung)** - :material-earth: Planen Sie Träger- und Verteilbezirke neu oder passen Sie bestehende Einheiten an.
+2. **[Gehfolgenberechnung](../gehfolgen)** - :fontawesome-solid-calculator: Berechnen Sie die optimale Gehfolge für Abonnenten, Resthaushalte oder Vollabdeckungen wie Anzeigen- oder Gemeindeblätter.
 
-![grafik](https://user-images.githubusercontent.com/99329016/158179701-085bf8a2-27f9-46cc-8b4b-60d599353bc9.png "Menüpunkte Gebietsplanung und Gehfolgenberechnung")
+![Menüpunkte Gebietsplanung und Gehfolgenberechnung](https://user-images.githubusercontent.com/99329016/158179701-085bf8a2-27f9-46cc-8b4b-60d599353bc9.png "Menüpunkte Gebietsplanung und Gehfolgenberechnung")
 
-Grundsätzlich befindet sich in MultiRoute Go! immer auf der rechten Seite die Karte, in der Sie sehen, wo Sie gerade arbeiten. Auf der Karte können Sie schieben und zoomen. Auf der linken Seite können Sie nach Bezirken oder Gehfolgen suchen (filtern) oder Metainformationen ansehen. 
+In MultiRoute Go! finden Sie auf der rechten Seite immer eine Karte, die Ihren aktuellen Arbeitsbereich zeigt. Sie können die Karte verschieben und zoomen. Auf der linken Seite können Sie nach Bezirken oder Gehfolgen suchen, filtern oder Metainformationen anzeigen.
 
-Ein Klick auf das aktive Symbol (hier die :material-earth: für die Gebietsplanung) vergrößert die Karte auf Bildschirmbreite. Ein erneuter Klick öffnet wieder das Menü auf der linken Seite.
+Ein Klick auf das aktive Symbol (z. B. :material-earth: für die Gebietsplanung) maximiert die Karte auf die volle Bildschirmbreite. Ein erneuter Klick öffnet wieder das Menü auf der linken Seite.
 
+## Grundlagen der Gehfolgenberechnung
 
-## Grundlagen
+Die Gehfolgenberechnung basiert auf Karten von [OpenStreetMap (OSM)](https://www.openstreetmap.org). Oben rechts im Kartenfenster können Sie im gesamten OSM-Kartenbestand suchen. Diese Karten werden wöchentlich aktualisiert und in Ihr MultiRoute Go! integriert. Ihre Anpassungen an Gebäuden und Wegen stehen somit innerhalb weniger Tage für neue Gehfolgenberechnungen zur Verfügung. Für InHouse-Kunden ermöglicht das Zusatzmodul "[Straßenanpassungen](../zusatzmodule/#straenanpassungen)" zusätzliche Eingriffsmöglichkeiten.
 
-Die Berechnung der Gehfolgen basiert auf Karten von [OpenStreetMap](https://www.openstreetmap.org) (OSM). Oben rechts im Kartenfenster ist die Suche im gesamten hinterlegten OSM-Kartenbestand möglich. Diese werden von uns wöchentlich aktualisiert in Ihr MultiRoute Go! eingespielt. Ihre Anpassungen und Änderungen an Gebäuden und Wegen/Straßen, die für das Routing verwendet werden, stehen also immer nach wenigen Tagen direkt für neue Gehfolgenberechnungen zur Verfügung. Bei InHouse Kunden ermöglicht  das  Zusatzmodul "[Straßenanpassungen](../zusatzmodule/#straenanpassungen)" weitere Möglichkeiten zum Eingreifen.
+Je nach Installation und Lizenzierung stehen Ihnen weitere Kartendienste zur Verfügung. Mit einem Klick auf :material-layers-triple: im Kartenfenster können Sie zwischen verschiedenen Hintergrundkartendiensten wählen, darunter:
 
-Zusätzlich sind für Sie (je nach Installation und Lizenzierung) weitere Kartendienste frei. Sie wählen zwischen den Hintergrundkartendiensten mit Klick auf :material-layers-triple: auf der rechten Seite im Kartenfenster von MultiRoute Go!. Aktuell sind möglich:
+- [BING Maps](https://www.bing.com/maps) (Luftbilder)
+- [Basemap](https://basemap.de/viewer/) - amtliche Karte des Bundesamts für Kartografie und Geodäsie
+- [Mapquest](https://www.mapquest.com/) (Luftbilder)
+- Amtliche Luftbilder (je nach Bundesland und Verfügbarkeit, teilweise mit zusätzlichen Kosten - wir beraten Sie gerne!)
 
-* [BING Maps](https://www.bing.com/maps) (Luftbilder)
-* [Basemap](https://basemap.de/viewer/) als amtliche Karte vom Bundesamt für Kartografie und Geodäsie
-* [Mapquest](https://www.mapquest.com/) (Luftbilder)
-* amtliche Luftbilder (je nach Bundesland und Verfügbarkeit, teilweise mit weiteren Kosten - wir beraten Sie gerne!)
+## Gebäudekoordinaten für die Gebietsplanung
 
-Für die **Gebietsplanung** sind **[Gebäudekoordinaten](../definitionen/#koordinaten)** nötig. Diese können auf drei verschiedenen Wege ins System gelangen:
+Für die **[Gebietsplanung](../gebietsplanung)** benötigen Sie **[Gebäudekoordinaten](../definitionen/#koordinaten)**, die auf drei verschiedene Arten ins System gelangen können:
 
-1. Wir stellen **amtliche [Koordinaten](../definitionen/#koordinaten)** der Vermessungsverwaltungen (aktuell nur für Deutschland) für Sie ins System. gb consite bezieht diese Daten von der TomTom. Leider unterliegen diese Daten räumlichen Qualitätsschwankungen. Dies steht in Abhängigkeit mit den Aktualisierungszyklen der Verwaltung. 
-An die Koordinaten spielen wir für Sie auch gleich die **Haushaltsdaten**. Dies beinhaltet die Anzahl der Haushalte und die Anzahl der Gewerbebetriebe. Die Daten werden von [infas360](https://www.infas360.de/) mittels statistischer Methoden aus sozio-demographischen Daten ermittelt. Wie bei den Koordinaten kann es zu räumlichen Schwankungen kommen. In Gebieten mit einer einheitlichen Struktur sind die Daten sehr genau. In gemischten Gebieten kann es zu Schwankungen kommen. Für gebietsplanerische Aufgaben sind die Daten sehr gut geeignet. Gebietsauflagen lassen sich damit gut abschätzen. 
+1. **Amtliche Koordinaten**: Wir stellen Ihnen amtliche [Koordinaten](../definitionen/#koordinaten) der Vermessungsverwaltungen (aktuell nur für Deutschland) zur Verfügung, bezogen von TomTom. Die räumliche Genauigkeit dieser Daten kann schwanken, abhängig von den Aktualisierungszyklen der Verwaltung. Die **Haushaltsdaten** werden von [infas360](https://www.infas360.de/) statistisch ermittelt und den Koordinaten zugeordnet.
 
-2. Die (nur wenigen) Adresspunkte werden beim Upload über [HERE](https://wego.here.com/) geokodiert.
+2. **Geokodierung über HERE**: Wenige Adresspunkte werden beim Upload über [HERE](https://wego.here.com/) geokodiert.
 
-3. Sie haben bereits **Geokoordinaten** (Latitude, Longitude) und wir können Ihre Koordinaten für das System übernehmen. Gerne auch mit Ihren selbst erfassten Haushaltszahlen für eine exakte Auflage.
+3. **Eigene Geokoordinaten**: Wenn Sie bereits **Geokoordinaten** (Latitude, Longitude) besitzen, können wir diese übernehmen, inklusive Ihrer eigenen Haushaltszahlen für eine präzise Planung.
 
-## Zusätzliche Daten
+## Zusätzliche Daten und Layer
 
-Haben Sie weitere Daten in Ihrem Unternehmen erhoben, die wir berücksichtigen sollen? Sprechen Sie uns gerne an! Daten zu **Werbeverweigerern**, Werbestopps, die Sie bereits erhoben haben, sind zu wertvoll, um sie nicht zu verwenden! Auch Ihre Haushaltsdatenbank kann eine Alternative zu den von uns angespielten Haushaltsdaten sein. 
+Wenn Sie weitere Daten wie **Werbeverweigerer** oder eigene Haushaltsdaten in die Planung einbeziehen möchten, sprechen Sie uns an! Diese wertvollen Informationen können nahtlos in MultiRoute Go! integriert werden.
 
+Über den Button zur Kartenauswahl und Detaildarstellung können Sie je nach Bearbeitungsart verschiedene Karten, Informationen und Layer an- und ausschalten.
 
-## Layer
-Über den Button für die Kartenauswahl und Detaildarstellungen können je nach Bearbeitungsart Karten, Informationen und Layer an- und abgeschaltet werden.
+![Layerübersicht](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/3090a288-8d03-44d6-99df-04edfaabd5e6 "Layerübersicht")
 
-![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/3090a288-8d03-44d6-99df-04edfaabd5e6 "Layerübersicht")
+![Transparenzregler](https://user-images.githubusercontent.com/99329016/168080224-0fd8ed04-ad2a-4e03-a149-9ea02038412c.png "Transparenzregler"){ align=right }
 
-
-![grafik](https://user-images.githubusercontent.com/99329016/168080224-0fd8ed04-ad2a-4e03-a149-9ea02038412c.png "Transparenzregler"){ align=right }
-Das Ein-/Ausschalten von Labels (Beschriftungen der Bezirke) oder das Einfärben kann für den richtigen Durchblick sorgen! Und noch ein Hinweis: ganz unten in der Karte können Sie die Transparenz der Einfärbungen regulieren über eine Schieberegler:
-
-
-
-
-
+Das Ein- und Ausschalten von Labels (Beschriftungen der Bezirke) oder das Einfärben kann Ihnen helfen, den Überblick zu behalten. Unten in der Karte können Sie die Transparenz der Einfärbungen über einen Schieberegler anpassen.
 
