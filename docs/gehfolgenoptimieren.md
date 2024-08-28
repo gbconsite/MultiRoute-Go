@@ -29,6 +29,7 @@ Auf der Karte erkennbar mit einem kleinen Dreieck. Das Dreieck nimmt die passend
 
 ![grafik](https://user-images.githubusercontent.com/99329016/170690319-edbe0da8-19fb-4e1d-aca6-1b2a5cdcb5fa.png "Bemerkungen gespeichert am jeweiligen Gebäude")
 
+
 ![grafik](https://user-images.githubusercontent.com/99329016/170690311-f82f6c82-a274-443b-a651-81dde62c5d5f.png "Dreicke als Symbole weisen auf Bemerkungen hin")
 
 
@@ -65,13 +66,14 @@ Da grundsätzlich alle Gebäude zunächst aktiv geschaltet sind muss zur Passivs
 
 ![grafik](https://user-images.githubusercontent.com/99329016/170689864-2a9f4777-fbbe-42ba-ace3-013876a50c58.png "Status des Hauses ist inaktiv")
 
-Abonennten, die sich in passiven Gebäuden befinden werden NICHT in der Gehfolge berücksichtigt! Bei der Aufsummierung bei Klick auf den Trägerbezirk werden inaktive Gebäude sowohl mit Anzahl Haushalte, Gewerbebetriebe und Abonnenten NICHT mitgezählt.
+❗Abonennten, die sich in passiven Gebäuden befinden werden NICHT in der Gehfolge berücksichtigt! Bei der Aufsummierung bei Klick auf den Trägerbezirk werden inaktive Gebäude sowohl mit Anzahl Haushalte, Gewerbebetriebe und Abonnenten NICHT mitgezählt.
 
 ## Veränderungen in OSM vornehmen 
 
 Veränderungen in OSM können prinzipiell mit verschiedenen Kartenbearbeitungsprogrammen vorgenommen werden. Besonders bequem ist dies mit JOSM, einem sog. Fat Client.
 
 Ab einer bestimmten Zoomstufe in MultiRoute Go! wird in der rechten unteren Ecke der Karte das Wort "JOSM" eingeblendet.
+
 ![grafik](https://user-images.githubusercontent.com/99329016/170690035-093cf305-b58a-46f6-8dd3-97bd864b9a29.png "direkte Verlinkung zum JOSM Editor aus MRGo")
 
 Wenn Sie zuvor das Programm JOSM (Kostenloser Download unter: [https://josm.openstreetmap.de/wiki/De%3ADownload](https://josm.openstreetmap.de/wiki/De%3ADownload)) gestartet haben, wird dieses nun genau mit dem Kartenausschnitt, den Sie derzeit in MultiRoute Go! sehen, geöffnet. Nun können Sie in JOSM (Voraussetzung ist ein Zugang von [https://www.openstreetmap.org/login](https://www.openstreetmap.org/login)) z.B. Straßen und Wegeverläufe korrigieren und ergänzen oder einfach nur Schreibweisen von Straßennamen verbessern.
