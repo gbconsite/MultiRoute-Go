@@ -8,19 +8,20 @@ description: Manche Begriffe kennen Sie schon in anderem Zusammenhang. Was genau
 
 ## Ausgabe ##
 Verlage nutzen typischerweise die Ausgaben, um unterschiedliche Verteilschemata/Verteilschienen im Verbreitungsgebiet parallel zu verwalten (z.B. Mittwochs und Samstags oder Tageszeitung/Anzeigenblatt). Die Ausgaben können aber ebenso genutzt werden, um regionale Ausgaben voneinander getrennt zu verwalten. Außerdem können Ausgaben auch Planungszwecken dienen, d.h. man führt eine Ausgabe mit dem Ist-Zustand und eine weitere mit dem Soll-Zustand (Planungsausgabe), an dem man derzeit arbeitet. Kunden mit Schnittstellen können automatisiert je Verteiltag eine Ausgabe befüllen.
-Die Module Gebietsplanung und Gehfolgenberechnung arbeiten immer innerhalb der gewählten, aktuellen Ausgabe. Sie sehen oben im Menü immer, in welcher Ausgabe Sie gerade arbeiten.
+Die Module Gebietsplanung und Gehfolgenberechnung arbeiten immer innerhalb der gewählten, aktuellen Ausgabe. Sie sehen oben im Menü immer oben rechts, in welcher Ausgabe Sie gerade arbeiten.
 
 ## Geschwindigkeit 
 Wir geben die Strecken einzeln aus, die Sie mit verschiedenen Geschwindigkeiten belegen können:
+
 - Hin- und Rückweg in den Bezirk
 - Strecke im Bezirk
 - Hauszugangsdistanz (HZD)
 
-## Hauszugangsdistanz (HZD)
+## [Hauszugangsdistanz (HZD)](../gehfolgen/#hauszugangsdistanz-hzd)
 Die Strecke, die vom Straßenankerpunkt (Anbindung) zum Gebäude zurückgelegt wird, bezeichnen wir als HZD. [Hier](../gehfolgen/#hauszugangsdistanz-hzd) im Kapitel zur Gehfolgenberechnung erklärt.
 Auch Gebäudestrecke oder Steckstrecke genannt.
 
-## Hauszugangs-Suchradius
+## [Hauszugangs-Suchradius](../gehfolgen/#hauszugangs-suchradius)
 Ausführliche [Erläuterung](../gehfolgen/#hauszugangs-suchradius) im Kapitel zur Gehfolgenberechnung.
 
 
