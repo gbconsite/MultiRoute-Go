@@ -141,6 +141,8 @@ Auf der Karte können Sie entweder live oder historisch verfolgen, wie sich ein 
 
 Die App ist geeignet für die Verwendung in Fahrzeugen, aber auch Zusteller, die zu Fuß unterwegs sind, können darüber getrackt werden.
 
+Mehr Tipps zur Einrichtung der App finden Sie auch direkt im Handbuch von MultiRoute Tour! zum Zusatzmodul [Tracking](https://tour.multiroute.de/handbuch/zusatzmodule/#tracking).
+
 
 ##Wegnetzlängen##
 
