@@ -32,7 +32,9 @@ Bei *Bezirkskarte* und *Gehfolgen* können wir Veränderungen in der Legende unw
 
 ## Bezirkskarte
 Zwei mögliche Varianten als PDF:
+
 - rot umrandet der Trägerbezirk mit allen Gebäuden, in denen gesteckt wird als schwarzer Punkt ohne berechnete Route
+- 
 - wie oben nur mit Route und Markierung für jedes 10. Gebäude
 
 ## Gehfolge
