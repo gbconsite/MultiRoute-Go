@@ -8,7 +8,7 @@ description: Erläuterung und Bedeutung von Objekt-IDs, Straßen-IDs und die Mö
 
 Bei der Verwaltung vieler Adressen ist es häufig sinnvoll, nach einzelnen Adressen suchen zu können. Sei es, um Abonnenten/Nicht-Abonnenten zu verwalten, Werbeverweiger einzutragen oder die optimale Abladestelle zu finden. Das Symbol für die Adressverwaltung ist das kleine :fontawesome-solid-house: auf der linken Seite.
 
-Auch ist es hier möglich, eine nicht korrekte Gebäudekoordinate zu "<a href="https://tour.multiroute.de/handbuch/tipps/#adressen-umsetzen" target="_blank">verschieben</a>" und damit an die richtige Stelle zu setzen.
+Auch ist es hier möglich, eine nicht korrekte Gebäudekoordinate zu "<a href="https://tour.multiroute.de/handbuch/tipps/#adressen-umsetzen" target="_blank">verschieben</a>" und an die richtige Stelle zu setzen.
 
 ## Adresssuche OSM
 
