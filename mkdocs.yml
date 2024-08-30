@@ -67,6 +67,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
+    - navigation.sections
     - content.action.edit
     - content.code.copy
     - search.highlight
@@ -89,6 +90,9 @@ extra_css:
 repo_url: https://github.com/gbconsite/MultiRoute-Go
 repo_name: gbconsite/MultiRoute-Go
 edit_uri: ./edit/main/docs
+
+# Copyright
+copyright: Copyright &copy; gb consite GmbH
 
 markdown_extensions:
   - attr_list
