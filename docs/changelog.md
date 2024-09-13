@@ -9,6 +9,27 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3217 vom 09.09.2024
+- Rüstzeiteingabe
+
+### v1.3216 vom 06.09.2024
+- Gehfolgen Excel-Export mit Gesamtstrecke (auch ohne Hinweg)
+  
+### v1.3205/06 vom 22.08.2024
+- Datenübernahmen
+
+### v1.3197 vom 09.08.2024
+- Datenübernahmen mit Basispolygonen
+  
+### v1.3187 vom 24.07.2024
+- zusie Erweiterung: Wochenblatt (Abladestellen)
+  
+### v1.3177/78 vom 23.07.2024
+- Datenübernahmen mit Basispolygonen
+  
+### v1.3167 vom 15.07.2024
+- Image und Höhenprofil
+
 ### v1.3158-62 vom 08.07.2024
 - Datenübernahmen
 
