@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3220 vom 23.09.2024
+- Rüstzeiten mit zwei Nachkommastellen
+
 ### v1.3217 vom 09.09.2024
 - Rüstzeiteingabe
 
