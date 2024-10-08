@@ -1,0 +1,14 @@
+---
+date: 2024-09-24
+description: >
+  Mit MultiRoute Go! freie Zustellbezirke abbilden
+categories:
+  - Blog
+---
+
+# Freie Zustellbezirke abbilden?
+
+Mit dem Zusatzmodul "[Bezirksplanung](https://go.multiroute.de/handbuch/zusatzmodule/#bezirksplanung)" für MultiRoute Go! geht das ganz schnell und einfach. 🚀 
+Nutzen Sie Einfärbungen und laden Sie CSV- oder Excel-Tabellen hoch, um offene 🔴 und besetzte 🟢 Bezirke schnell zuzuordnen. So behalten Sie den Überblick und können Bezirke flexibel verwalten.
+
+
