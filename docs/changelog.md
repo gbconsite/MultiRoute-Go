@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3242&43 vom 18.10.2024
+- Fix Tooltips beim Editieren von Verteilbezirken
+
+### v1.3223 vom 01.10.2024
+- Rüstzeiten je Medium Upload
+
 ### v1.3220 vom 23.09.2024
 - Rüstzeiten mit zwei Nachkommastellen
 
