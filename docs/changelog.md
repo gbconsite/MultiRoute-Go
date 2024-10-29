@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3250 vom 24.10.2024
+- Endhausoptimierungen
+
 ### v1.3242&43 vom 18.10.2024
 - Fix Tooltips beim Editieren von Verteilbezirken
 
