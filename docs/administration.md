@@ -1,6 +1,6 @@
 ---
 title: Einstellungen für Power-User und Administratoren von MultiRoute Go!
-description: Das Menü eröffnet die Möglichkeit, Rechte und Rollen von Anwendern zu definieren. Wer darf was sehen, wie wird welcher Bezirk gerechnet? Alles einstellbar und konfigurierbar. 
+description: Das Menü eröffnet die Möglichkeit, Rechte und Rollen von Anwendern zu definieren. Wer darf was sehen, wie wird welcher Verteilbezirk gerechnet? Alles einstellbar und konfigurierbar. 
 ---
 
 Das Menü Administration stellt sich Nutzern je nach Zugriffsrechten in MultiRoute Go! unterschiedlich dar.
@@ -29,9 +29,12 @@ Administration - Ausgaben - 'Neue Ausgabe'
 
 Diese können Sie anschließend mit Informationen aus einer anderen Ausgabe befüllen. Dazu einfach auf `Verteilbezirke` gehen und die gewünschten Verteilbezirke markieren. 
 Ganz unten dann auf 
-Markierte Verteilbezirke in Ausgabe 'Neue Ausgabe' kopieren oder verschieben. Nur noch auf ```Anwenden``` drücken und schon haben Sie die gewünschten Polygone in der neuen Ausgabe.
+"Markierte Verteilbezirke" in Ausgabe 'Neue Ausgabe' kopieren oder verschieben. Nur noch auf ```Anwenden``` drücken und schon haben Sie die gewünschten Polygone in der neuen Ausgabe.
+Hinterlegte Abladestellen kopieren Sie so übrigens gleich mit!
 
 Möchten Sie auch noch **Abonnenten** mit kopieren? Dies finden Sie unter UPLOAD auf der linken Seite.
+
+Wichtig: Nicht jeder User hat diese Rechte. Sollten Sie das nicht sehen, sprechen Sie Ihren MultiRoute Go! Administrator an oder melden Sie sich bei uns.
 
 
 ## Benutzer ##
