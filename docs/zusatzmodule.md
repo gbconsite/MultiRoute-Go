@@ -104,6 +104,7 @@ werden die Trägerbezirke mit ihrem jeweiligen Status abgebildet.
 
 Einzelne Trägerbezirke können Sie per "Zuordnung entfernen" aus einem der Verteilbezirke "offen", "besetzt", "Warteschlange" entfernen oder hinzufügen. Der Status (und die Farbe) passt sich entsprechend an.
 
+Die manuelle Arbeit mit Bezirken funktioniert ansonsten sehr ähnlich mit Gebieten, siehe [Gebietsplanung](https://go.multiroute.de/handbuch/gebietsplanung/).
 
 
 ##Nachladen an „Depots“##
