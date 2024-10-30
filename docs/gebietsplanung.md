@@ -1,24 +1,24 @@
 ---
 title: Zustellbezirke bearbeiten, vergrößern, zuschneiden, aktualisieren, umbenennen
-description: Bezirke optimieren um Kosten zu senken. Zeichnerisch lassen sich schnell Szenarien abbilden und umsetzen. Farbige Punkte erleichtern die Arbeit.
+description: Verteilbezirke optimieren um Kosten zu senken. Zeichnerisch lassen sich schnell Szenarien abbilden und umsetzen. Farbige Punkte erleichtern die Arbeit.
 ---
 
 # **2. Gebietsplanung**
 
-In der Gebietsplanung sehen Sie die jeweiligen Trägerbezirke einer [Ausgabe](https://go.multiroute.de/handbuch/definitionen/#ausgabe). Sie können neue Bezirke anlegen, bestehende Bezirke verändern oder löschen. 
+In der Gebietsplanung sehen Sie die jeweiligen Trägerbezirke einer [Ausgabe](https://go.multiroute.de/handbuch/definitionen/#ausgabe). Sie können neue Gebiete anlegen, bestehende Gebiete verändern oder löschen. 
 
 ## Informationen Trägerbezirk
-Durch Klick auf ein Polygon erhalten Sie eine Zusammenfassung des Bezirks und ggf. einen ersten Anhaltspunkt zur Optimierung. 
-Die Anzahl der Haushalte + Gewerbebetriebe entspricht der Briefkästen in diesem Bezirk. Wenn gepflegt müssen Sie nur die Werbeverweigerer abziehen, um die Auflage des Bezirks herauszufinden.
+Durch Klick auf ein Polygon erhalten Sie eine Zusammenfassung des Gebiets und ggf. einen ersten Anhaltspunkt zur Optimierung. 
+Die Anzahl der Haushalte + Gewerbebetriebe entspricht der Briefkästen in diesem Bezirk. Wenn gepflegt müssen Sie nur die Werbeverweigerer abziehen, um die Auflage des Gebiets herauszufinden.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168274325-2e7a9afb-1f0d-4346-ad67-4e797195ebd1.png "Überblick bei Klick auf Verteilbezirk")
 
-## Bezirk suchen und finden
-Kennen Sie die Bezirksnummer oder den Bezirksnamen, dann ist es ganz einfach: Sie geben einfach die Nummer im Feld ```Filter``` (hier: 100) ein und MultiRoute Go! filtert nach allen passenden Ergbnissen.
+## Gebiete suchen und finden
+Kennen Sie die Gebietsnummer oder den Gebietsnamen, dann ist es ganz einfach: Sie geben einfach die Nummer im Feld ```Filter``` (hier: 100) ein und MultiRoute Go! filtert nach allen passenden Ergbnissen.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168274689-cc00db90-c23a-4c58-8f80-0367e496e244.png "Beispiel für Suche per Filter in der Gebietsplanung")
 
-Alternativ suchen Sie über die Karte nach dem Bezirk oder oben rechts in der Suche nach dem jeweiligen Ort. Mit dem Klick auf die Bezirksnummer **aktivieren** Sie den Bezirk. Er ist blau hinterlegt und kann editiert werden.
+Alternativ suchen Sie über die Karte nach dem Gebiet oder oben rechts in der Suche nach dem jeweiligen Ort. Mit dem Klick auf die Gebietsnummer **aktivieren** Sie das Gebiet. Es ist blau hinterlegt und kann editiert werden.
 
 
 ## Manuelle Neuanlage von Verteilbezirken
@@ -35,7 +35,7 @@ Die erfolgreiche Anlage können Sie sich unter dem Menüpunkt **Gebietsplanung**
 
 :exclamation: Durch Klick auf den blauen Pfeil :material-arrow-down:{style="color:#0078A8"} haben Sie die Möglichkeit, **Spalten selbst zu definieren**, die Sie angezeigt bekommen möchten. Ein erneuter Klick auf :material-arrow-up:{style="color:#0078A8"} schließt dieses Menü wieder.
 
-Um nun selbst zeichnen zu können, wird der neu angelegte Bezirk aktiviert, indem Sie auf die Bezirksnummer klicken. In der Karte öffnet sich das **Menü zum Zeichnen**. 
+Um nun selbst zeichnen zu können, wird der neu angelegte Bezirk aktiviert, indem Sie auf die Gebietsnummer klicken. In der Karte öffnet sich das **Menü zum Zeichnen**. 
 ![grafik](https://user-images.githubusercontent.com/99329016/158331422-1d536767-f2c5-476a-8497-45da8d97ec7a.png "Zeichnen aktivieren")
 
 Klicken Sie das <img src="../assets/icons/polygon.svg" style="height:16px !important" "Geometrie zu Verteilbezirk zeichnen"></img> Symbol an. Nun können Sie mit Klick (linke Maustaste) weiße Stützpunkte setzen und ein Polygon aufziehen. Mit **Doppelklick** wird das Zeichnen beendet. 
@@ -86,12 +86,12 @@ Die Farbgebung in MultiRoute Go! sagt einen Blick etwas über die Bedeutung eine
 
 ![grafik](https://user-images.githubusercontent.com/99329016/161265829-4d7e3cc2-28f8-43e2-ab77-0fda8391596c.png "Beispiele für Punkteinfärbungen in MultiRoute Go!")
 
-## Bezirke bearbeiten
-Nur ein **aktiver Bezirk** kann bearbeitet werden. Aktiv ist ein Bezirk dann, wenn er **blau** hinterlegt ist. Die Gebäudepunkte haben einen **grünen Kringel** (statt  schwarzem Kringel). Sie aktivieren einen Bezirk entweder durch Anklicken auf der Karte oder über die Suche auf der linken Seite, in dem Sie bei Filter die Bezirksnummer (oder -name) eingeben.
+## Gebiete bearbeiten
+Nur ein **aktives Gebiet** kann bearbeitet werden. Aktiv ist ein Gebiet dann, wenn es **blau** hinterlegt ist. Die Gebäudepunkte haben einen **grünen Kringel** (statt  schwarzem Kringel). Sie aktivieren ein Gebiet entweder durch Anklicken auf der Karte oder über die Suche auf der linken Seite, in dem Sie bei Filter die Gebietsnummer (oder -name) eingeben.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158537426-a4614d34-850b-4d46-b1d2-156816d456b6.png "Bezirk aktivieren")
 
-Zum Editieren des Bezirks drücken Sie :material-file-edit:{style="color:#0078A8"}.
+Zum Editieren des Gebiets drücken Sie :material-file-edit:{style="color:#0078A8"}.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158537773-4bbd949b-c0c8-4e97-83ba-d85dd916dd22.png "Verteilgebiets-Geometrie bearbeiten")
 
@@ -99,12 +99,12 @@ Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168273860-a1724188-2dda-4919-ae00-e4d2d3d40568.png "weiße Stützpunkte zum Verschieben")
 
-## Bezirk teilen
-Um einen Bezirk teilen zu können, aktivieren Sie ihn einfach. Mit der Maus an eine beliebige Stelle im zu teilenden Bezirk klicken.. Das Gebietsbearbeitungsfenster erscheint. Im Fenster klickt man mit der Maus auf :fontawesome-solid-scissors:{style="color:#0078A8"}. 
+## Gebietteilen
+Um ein Gebiet teilen zu können, aktivieren Sie ihn einfach. Mit der Maus an eine beliebige Stelle im zu teilenden Gebiet klicken.. Das Gebietsbearbeitungsfenster erscheint. Im Fenster klickt man mit der Maus auf :fontawesome-solid-scissors:{style="color:#0078A8"}. 
 
-Außerhalb des Bezirks setzen Sie den ersten weißen Stützpunkt und klicken mit der linken Maustaste auf weitere Punkte bis Sie außerhalb des Bezirks ankommen und mit Doppelklick abschließen. 
+Außerhalb des Gebiets setzen Sie den ersten weißen Stützpunkt und klicken mit der linken Maustaste auf weitere Punkte bis Sie außerhalb des Gebiets ankommen und mit Doppelklick abschließen. 
 
-Sie erhalten zwei Bezirke, die Sie nun neu benennen können:
+Sie erhalten zwei Gebiete, die Sie nun neu benennen können:
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168276772-b400f9bc-c0f7-41cf-b5be-12f90ae7da09.png "Teilen von Trägerbezirken")
 
@@ -112,31 +112,31 @@ Im Kartenmenü auf der linken Seite können Sie (von unten nach oben) ```Speiche
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168276826-c5a5233a-37b5-439c-aaac-c8422ed4f0b8.png "Menü zum Editieren")
 
-Die "neuen" Bezirke können nun separat voneinander berechnet werden. Möglicherweise möchte Sie einen 
+Die "neuen" Gebiete können nun separat voneinander berechnet werden. Möglicherweise möchte Sie einen 
 
-## Bezirk umbenennen
+## Gebiet umbenennen
 
-Gehen Sie auf ```Administration - Verteilberzirke``` und drücken Sie hier beim umzubenennenden Bezirk einfach auf ```Bearbeiten```. Sie können alle Anpassungen für diesen einen Bezirk nun machen und mit ```Speichern``` bestätigen.
+Gehen Sie auf ```Administration - Verteilberzirke``` und drücken Sie hier beim umzubenennenden Gebiet einfach auf ```Bearbeiten```. Sie können alle Anpassungen für diesen ein Gebiet nun machen und mit ```Speichern``` bestätigen.
 
 
 Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_circle: nach :red_circle: oder umgekehrt.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539008-247181ef-470a-4fa2-96a5-d81f208df699.png "Zuordnungen aktualisieren beim Zeichnen")
 
-## Bezirk löschen und neu erzeugen
-Einen Bezirk löschen Sie einfach durch Klick auf den :fontawesome-regular-trash-can:{style="color:#0078A8"}.
+## Gebiet löschen und neu erzeugen
+Ein Gebiet löschen Sie einfach durch Klick auf den :fontawesome-regular-trash-can:{style="color:#0078A8"}.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539630-2c35bcbd-e28b-4bf0-a21b-8dd2925b39cb.png "Bezirk löschen")
 
-Die im Polygon befindlichen Punkte wissen weiterhin, welchem Bezirk sie zugeordnet sind und sind weiterhin grün. Das Polygon dient nur als Hilfsmittel zur Visualisierung. Kontrollieren können Sie das, wenn Sie auf der linken Seite auf die Bezirksnummer klicken und den Bezirk aktivieren. Dort fehlt das Häkchen bei "Geometrie vorhanden", die Gebäudepunkte erscheinen aber auf der Karte mit grünem Kringel. 
+Die im Polygon befindlichen Punkte wissen weiterhin, welchem Gebiet sie zugeordnet sind und sind weiterhin grün. Das Polygon dient nur als Hilfsmittel zur Visualisierung. Kontrollieren können Sie das, wenn Sie auf der linken Seite auf die Gebietsnummer klicken und den Gebiet aktivieren. Dort fehlt das Häkchen bei "Geometrie vorhanden", die Gebäudepunkte erscheinen aber auf der Karte mit grünem Kringel. 
 
-Sie können nun das Polygon automatisiert neu erzeugen lassen, in dem Sie auf ```Administration - Verteilbezirke``` gehen. Dort wählen Sie den gewünschten Bezirk aus und drücken unten auf 
+Sie können nun das Polygon automatisiert neu erzeugen lassen, in dem Sie auf ```Administration - Verteilbezirke``` gehen. Dort wählen Sie das gewünschte Gebiet aus und drücken unten auf 
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158540508-041f3dbc-b2ec-47c2-a916-0753fb3690fa.png "Auswahl von Verteilbezirken in der Administration")
 
 ```Markierte Verteilbezirke - Polygone erzeugen - Anwenden```
 
-Zurück in der **Gebietsplanung** ist das Polygon für den Bezirk voll automatisch gemalt.
+Zurück in der **Gebietsplanung** ist das Polygon für das Gebiet voll automatisch gemalt.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158540878-4b87d58c-d804-4fe5-8be3-70e9f7d8cbb8.png "Automatisch erzeugtes Polygon")
 
@@ -171,8 +171,8 @@ Als eine Sonderform der Polygone gibt es noch das "**Donut**" Polygon. Dazu im B
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168278374-af023d8b-967c-49ba-a272-f4ff6658ebef.png "Donut Polygon")
 
-## Einzelne Adressen einem Bezirk hinzufügen oder entfernen
-Sollen mehrere Koordinaten auf einmal zugeordnet werden, muss das [Polygon für die Bearbeitung aktiviert (blau hinterlegt)](../#bezirke-bearbeiten) werden.
+## Einzelne Adressen einem Gebiet hinzufügen oder entfernen
+Sollen mehrere Koordinaten auf einmal zugeordnet werden, muss das [Polygon für die Bearbeitung aktiviert (blau hinterlegt)](../#gebiete-bearbeiten) werden.
 
 Alle Koordinaten, die sich nun innerhalb des blau gewordenen Polyongs befinden, können gleichzeitig zugeordnet werden. Deshalb sollte man nun die Polygonstützpunkte entsprechend verschieben, so dass es nicht zu Überlappungen und doppelten Zuordnungen kommt. Mit ```Speichern``` abschließen und entsprechende Option wählen.
 
