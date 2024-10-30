@@ -58,4 +58,11 @@ Wenn Sie auf das Fragezeichen und anschließend in die Karte klicken, können Si
 
 ![!](assets/layersteuerung.png "Layer an- und ausstellen")
 
+## Mehr Platz auf der Karte
+
+Einfach auf das gerade aktive Symbol links drücken (:material-earth:, :fontawesome-solid-house:, :fontawesome-solid-calculator: etc.), und die Karte wird maximiert! Nochmals drücken, und das Menü kehrt zurück. 
+
+![aufklappen](https://github.com/user-attachments/assets/1d1dbab0-6df7-4e32-9605-4c07c6ae0f43 "Aufklappen und Zuklappen")
+
+![aufklappen2](https://github.com/user-attachments/assets/4d8fe649-a216-4d60-9db4-ac93cfeb072b "Aufklappen und Zuklappen")
 
