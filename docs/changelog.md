@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3259+60 vom 28.10.2024
+- Feste, vorgegebene Reihenfolge bei Gehfolgen
+  
 ### v1.3250 vom 24.10.2024
 - Endhausoptimierungen
 
