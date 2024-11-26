@@ -42,7 +42,7 @@ Info für Zusteller MIT Zusatzmodul: Frau Mustermann erhält eine Zeitung und ei
 
 ##Abo-Optimierungsbooster##
 
-🆕 :fontawesome-solid-file-pdf: [Abo-Optimierungsbooster](https://gbconsite.de/wp-content/uploads/2024/02/Abo-Optimierungsbooster.pdf)
+🆕 :fontawesome-solid-file-pdf: [Abo-Optimierungsbooster](https://gbconsite.de/wp-content/uploads/2024/11/Abo-Optimierungsbooster.pdf)
 
 Über einen zusätzlichen Schieberegler kann der Abo-Booster für relevante User an-/ausgeschaltet werden.
 
