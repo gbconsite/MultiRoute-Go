@@ -66,3 +66,12 @@ Einfach auf das gerade aktive Symbol links drücken (:material-earth:, :fontawes
 
 ![aufklappen2](https://github.com/user-attachments/assets/4d8fe649-a216-4d60-9db4-ac93cfeb072b "Aufklappen und Zuklappen")
 
+## Was kann denn eigentlich das Fragezeichen ❔ rechts in der Karte?
+
+Durch Aktivieren des Fragezeichens ❔rechts in der Karte haben Sie die Möglichkeit sich schnell zu orientieren.
+
+![image](https://github.com/user-attachments/assets/4605ffc6-1671-43ef-9717-559d9a17b058 "Fragezeichen gibt Infos über administrative oder postalische Zuordnung")
+
+Ein Klick auf die Karte liefert eine schnelle Orientierungshilfe:
+
+![image](https://github.com/user-attachments/assets/03c59b7d-9d9c-4191-aaaf-0a67e721e57a "Schnelle Orientierungshilfe")
