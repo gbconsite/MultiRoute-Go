@@ -9,6 +9,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3289 vom 21.11.2024
+- Trägerdokumente PDF: Auflage bei Depot-Optimierung Fehler gefixt
+
+### v1.3288 vom 20.11.2024
+- Auflage ohne Werbeverweigerer bei Trägerdokumenten
+
+### v1.3281 vom 18.11.2024
+- Rüstzeit gerundet
+
 ### v1.3259+60 vom 28.10.2024
 - Feste, vorgegebene Reihenfolge bei Gehfolgen
   
