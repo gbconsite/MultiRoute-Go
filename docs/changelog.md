@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3301 vom 29.11.2024
+- Steckstrecken
+
+### v1.3300 vom 29.11.2024
+- Export Straßenabschnitte
+
 ### v1.3291 vom 22.11.2024
 - Anbindung LMO Score
 
