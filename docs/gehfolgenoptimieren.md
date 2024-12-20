@@ -108,6 +108,7 @@ Die passende Musterdatei dazu finden Sie hier:
 [Import-Parameter Bezirkseigenschaften.xlsx](https://github.com/user-attachments/files/18206637/Import-Parameter.Bezirkseigenschaften.xlsx)
 
 Ändern Sie nur für die Gebietsnummern die Werte, die abweichend von den globen Werten/Ausgabenwerten sind. Dann gehen Sie folgendermaßen vor:
+
 1. IN DER RICHTIGEN AUSGABE auf "Upload" gehen und die Datei auswählen.
 2. Auf "Weitere Optionen" gehen und "Verteilbezirk updaten" auswählen:
    
