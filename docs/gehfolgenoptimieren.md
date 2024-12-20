@@ -111,7 +111,7 @@ Die passende Musterdatei dazu finden Sie hier:
 
 1. IN DER RICHTIGEN AUSGABE auf "Upload" gehen und die Datei auswählen.
 2. Auf "Weitere Optionen" gehen und "Verteilbezirk updaten" auswählen:
-   
+
 ![grafik](https://github.com/user-attachments/assets/b82081aa-ed0a-4923-90b1-592bf41fb8c9)
 
 3. Spalten zuweisen, Adressen ab Zeile 1 (damit Sie die Überschriften nicht importieren) und auf UPLOAD drücken.
