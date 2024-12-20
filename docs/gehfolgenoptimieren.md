@@ -99,3 +99,23 @@ Dazu gehören:
 - Steckzeiten
 - Hauszugangsdistanzen
 - Hauszugangssuchradius
+
+## Parameter ändern per Import
+Natürlich müssen Sie nicht jedes Gebiet einzeln durchklicken und Änderungen am jeweligen Bezirk abspeichern.
+Sie können das auch elegant per Upload lösen für eine ganze Ausgabe.
+Die passende Musterdatei dazu finden Sie hier:
+
+[Import-Parameter Bezirkseigenschaften.xlsx](https://github.com/user-attachments/files/18206637/Import-Parameter.Bezirkseigenschaften.xlsx)
+
+Ändern Sie nur für die Gebietsnummern die Werte, die abweichend von den globen Werten/Ausgabenwerten sind. Dann gehen Sie folgendermaßen vor:
+1. IN DER RICHTIGEN AUSGABE auf "Upload" gehen und die Datei auswählen.
+2. Auf "Weitere Optionen" gehen und "Verteilbezirk updaten" auswählen:
+   
+![grafik](https://github.com/user-attachments/assets/b82081aa-ed0a-4923-90b1-592bf41fb8c9)
+
+3. Spalten zuweisen, Adressen ab Zeile 1 (damit Sie die Überschriften nicht importieren) und auf UPLOAD drücken.
+
+Jetzt haben alle Gebiete/Bezirke die von Ihnen zugewiesenen Parameter in dieser Ausgabe.
+
+So können Sie auch gut die Parameter für Bezirke für einen Montag ganz anders hinterlegen als für einen Samstag.
+
