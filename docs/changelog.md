@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2024
 
+### v1.3325 vom 17.12.2024
+- Zusätzliches Kartenmaterial
+  
 ### v1.3301 vom 29.11.2024
 - Steckstrecken
 
