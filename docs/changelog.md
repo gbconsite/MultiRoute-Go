@@ -7,6 +7,14 @@ description: Mit welcher Version von MultiRoute Go! ist was dazu gekommen? Wann 
 
 Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt.
 
+## 2025
+
+### v1.3356 vom 22.01.2025
+- Meldung beim Kopieren/Verschieben
+ 
+### v1.3343 vom 16.01.2025
+- CSV Exporte mit BOM
+
 ## 2024
 
 ### v1.3325 vom 17.12.2024
