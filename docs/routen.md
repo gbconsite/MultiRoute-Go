@@ -1287,6 +1287,7 @@ immer die gleiche Anzahl der Parameter angegeben werden):
 | starthaus     | oi Starthaus oder Objekt (optional)                |
 | zustellerhaus | oi Zustellerhaus oder Objekt (optional)            |
 | endhaus       | oi Endhaus oder Objekt (optional)                  |
+| depots        | Array [oi Endhaus oder Objekt] (optional) [r3367]  |
 
 Start- Zusteller- Endhaus als Objekt
 ([r2417](/redmine/projects/multiroute-go/repository/revisions/2417 "CS: #4871 API Gehfolge erweitert. API Zusteller-, Start- und Endhaus mit street_oi möglich."))
@@ -1406,6 +1407,50 @@ Beispiel Zustellerhaus mit Straßenabschnitts-ID
       ]
     }
 
+Beispiel Debpot (vorhanden Depots werden gelöscht!)
+
+    {
+      "gebiet": [
+        {
+          "nr": "B421902002",
+          "depots": ["1", "2"]
+        }
+      ]
+    }
+
+Beispiel alle Debpots löschen
+
+    {
+      "gebiet": [
+        {
+          "nr": "B421902002",
+          "depots": []
+        }
+      ]
+    }    
+
+Beispiel Debpots mit Straßenabschnitts-ID  
+
+    {
+      "gebiet": [
+        {
+          "nr": "B421902002",
+          "zustellerhaus": [
+          {
+            "street_oi": "304207",
+            "hausnummer": "7",
+            "hausnummer_zusatz": "" 
+          },
+          {
+            "street_oi": "304207",
+            "hausnummer": "20",
+            "hausnummer_zusatz": "" 
+          }
+          ]
+        }
+      ]
+    }
+    
 #### Gebiet löschen
 
 <http://domain/fernsteuerung/gebiet/delete>
@@ -1575,13 +1620,14 @@ Parameter:
 Bezirk Parameter (Achtung: beim Einfügen von mehreren Bezirken muss
 immer die gleiche Anzahl der Parameter angegeben werden):
 
-|               |                                         |
-|---------------|-----------------------------------------|
-| nr            | Bezirknummer                            |
-| name          | Bezirkname (optional)                   |
-| starthaus     | oi Starthaus oder Objekt (optional)     |
-| zustellerhaus | oi Zustellerhaus oder Objekt (optional) |
-| endhaus       | oi Endhaus oder Objekt (optional)       |
+|               |                                                    |
+|---------------|----------------------------------------------------|
+| nr            | Bezirknummer                                       |
+| name          | Bezirkname (optional)                              |
+| starthaus     | oi Starthaus oder Objekt (optional)                |
+| zustellerhaus | oi Zustellerhaus oder Objekt (optional)            |
+| endhaus       | oi Endhaus oder Objekt (optional)                  |
+| depots        | Array [oi Endhaus oder Objekt] (optional) [r3367]  |
 
 Start- Zusteller- Endhaus als Objekt
 ([r2417](/redmine/projects/multiroute-go/repository/revisions/2417 "CS: #4871 API Gehfolge erweitert. API Zusteller-, Start- und Endhaus mit street_oi möglich."))
