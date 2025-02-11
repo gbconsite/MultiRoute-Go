@@ -9,7 +9,16 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
-### v1.3356 vom 22.01.2025
+### v1.3367 vom 04.02.2025
+- API für Depots
+  
+### v1.3365 vom 31.01.2025
+- Fix: Depot setzen und entfernen
+  
+### v1.3361 vom 30.01.2025
+- Rheinland-Pfalz DOP von DOP40 auf DOP20 umgestellt
+
+ ### v1.3356 vom 22.01.2025
 - Meldung beim Kopieren/Verschieben
  
 ### v1.3343 vom 16.01.2025
