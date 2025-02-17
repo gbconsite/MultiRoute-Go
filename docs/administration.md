@@ -11,7 +11,7 @@ Grundsätzlich stehen folgende Menüpunkte zur Verfügung:
 
 * *Kunden (nicht in der SaaS-Version von MultiRoute Go! verfügbar)*
 * Ausgaben
-* Geschäftsstellen (nicht für alle sichtbar)
+* Geschäftsstellen (nicht für alle im Standard sichtbar)
 * Benutzer
 * Verteilbezirke
 * Gehfolgen
