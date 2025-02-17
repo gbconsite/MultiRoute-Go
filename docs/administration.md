@@ -36,6 +36,11 @@ Möchten Sie auch noch **Abonnenten** mit kopieren? Dies finden Sie unter UPLOAD
 
 Wichtig: Nicht jeder User hat diese Rechte. Sollten Sie das nicht sehen, sprechen Sie Ihren MultiRoute Go! Administrator an oder melden Sie sich bei uns.
 
+## Geschäftsstelle ##
+❗ Achtung! Nicht im Standard enthalten - bitte sprechen Sie uns an!
+Vielleicht möchten Sie, dass der Lesermarkt oder der Betriebsrat nur auf bestimmte Ausgaben zugreifen darf? Dann können Sie über Geschäftsstellen eingrenzen, wer welche Ausgabe sehen darf und auch hier noch, welche Rechte der einzelne Benutzer hat. Änderungen an Gebieten vornehmen ja/nein oder Gehfolgen ansehen/berechnen ja/nein.
+Ein Benutzer kann dabei mehreren Geschäftsstellen zugehörig sein.
+
 
 ## Benutzer ##
 In der [Benutzerverwaltung](../user) werden alle registrierten Benutzer aufgeführt, Passwörter geändert und Benutzerrechte festgelegt.
