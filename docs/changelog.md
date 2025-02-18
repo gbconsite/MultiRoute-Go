@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3373-77 vom 10.-12.02.2025
+- Festgelegte Reihenfolge
+  
 ### v1.3367 vom 04.02.2025
 - API für Depots
   
