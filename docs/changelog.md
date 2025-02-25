@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3378-83 vom 17.-19.02.2025
+- Verbesserungen zusie Synchronisierung
+
 ### v1.3373-77 vom 10.-12.02.2025
 - Festgelegte Reihenfolge
   
