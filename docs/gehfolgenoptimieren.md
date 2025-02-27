@@ -88,6 +88,25 @@ Weitere Informationen zur Einrichtung finden Sie in diesem PDF: [https://gbconsi
 
 Sofern für Ihr Kundenprofil ein oder meherer OSM-Accounts vom gb consite Support eingetragen wurde, können Sie über den OSM Monitor nun sehen, ob diese in JOSM durchgeführten Änderungen bereits in MultiRoute Go! verfügbar sind (siehe hierzu OSM Monitor).
 
+## Manuelle Gehfolgensortierung
+Trotz aller Optimierungen kann es Gründe geben, warum die Reihenfolge der Gehfolge verändert werden muss. Dafür haben wir das Zusatzmodul "[Manuelles Eingreifen in die Gehfolgen](https://go.multiroute.de/handbuch/zusatzmodule/#manuelles-eingreifen-in-gehfolgen)". Ist dieses Zusatzmodul aktiivert, haben Sie in bereits berechneten Gehfolgen die Möglichkeit, manuell einzugreifen.
+
+![grafik](https://github.com/user-attachments/assets/4b7e17fa-62cc-41fa-946e-0d85c0c21aeb "Schaltfläche um Reihenfolge per drag & drop zu verändern")
+
+Sie können nun ganz einfach per drag & drop Gebäude an einen anderen Punkt in der Liste verschieben. Oder Sie klicken in der Karte und geben einen neuen Reihenfolgeindexwert an:
+
+![grafik](https://github.com/user-attachments/assets/5e87e3f3-ab44-4785-910b-d98f9d986e7d "Index verändern")
+
+Ihre veränderten Punkte erkennen Sie durch die orangene Einfärbung.
+Anschließend können Sie die nun aktuellen Strecken und Zeiten von MultiRoute Go! berechnen lassen. Sind Sie mit dem Ergebnis zufrieden, können Sie die "Reihenfolge speichern" für zukünftige Berechnungen.
+
+## Festgelegte Reihenfolge hochladen
+Es gibt schon eine festgelegte Reihenfolge von Ihnen (vom Zusteller) und die soll unbedingt eingehalten werden? Vielleicht liegt es auch an der (Brief-)Sortierung?
+Auch das kann MultiRoute Go! mit dem 🆕 Zusatzmodul "[Festgelegte Reihenfolge](https://go.multiroute.de/handbuch/zusatzmodule/#festgelegte-reihenfolge)" nun berücksichtigen.
+Sie benötigen nur einen Reihenfolge-Index und können diesen dann mit uploaden.
+Upload - Weitere Optionen:
+
+![grafik](https://github.com/user-attachments/assets/e27623f4-f085-4f1d-82db-06370cd15d03 "Upload Sortierreihenfolge")
 
 ## Parameterveränderungen für Gehfolgen
 Im Standard werden die Gehfolgenparameter in den Kundeneinstellungen festgelegt. Je Ausgabe und je Bezirk können diese übersteuert werden.
