@@ -178,7 +178,8 @@ Nur für Kunden mit InHouse-Lizenz oder dediziertem Server. Machen Sie Anpassung
 ##Manuelles Eingreifen in Gehfolgen##
 
  🆕 MultiRoute Go! hat die kürzeste Route gefunden, es gibt aber Gründe, die diese optimale Route verhindern? Auch kein Problem mehr!  Mit diesem Zusatzmodul können Sie manuell in die optimierte Gehfolge eingreifen. Wenn beispielsweise die optimierte Gehfolge Ihre Straßenabschnitte zerteilt, Sie aber aus Gründen der Sortierung unbedingt den kompletten Straßenabschnitt am Stück abgehen möchten. Oder wenn der Zusteller darauf besteht, dass seine Route besser ist. Einfach mal "nachbauen" und dann auch den Zusteller überzeugen, dass es anders kürzer geht.
+ [Und so geht es](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#manuelle-gehfolgensortierung).
 
 ##Festgelegte Reihenfolge##
 
- 🆕 Haben Sie sich aus Ihren logistischen Gründen selbst zusammengebastelte Route überlegt und möchten diese nun weiterhin nutzen? Mit dem neuen Zusatzmoodul "Festgelegte Reihenfolge" verwenden wir IHRE Reihenfolge und optimieren gar nicht mehr. 
+ 🆕 Haben Sie sich aus Ihren logistischen Gründen selbst zusammengebastelte Route überlegt und möchten diese nun weiterhin nutzen? Mit dem neuen Zusatzmoodul "Festgelegte Reihenfolge" verwenden wir IHRE Reihenfolge und optimieren gar nicht mehr. Einfach per [Upload](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#festgelegte-reihenfolge-hochladen).
