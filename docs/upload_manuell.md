@@ -13,7 +13,7 @@ Achtung! Falls Sie nicht sicher sind, fragen Sie gerne nochmal nach, wir begleit
 Hier gibt es verschiedene Modi, die beim Upload wichtig zu beachten sind:
 1. **hinzufügen**: die Zuordnung wird einfach hinzuügefügt, Überlappungen mit anderen Gebieten sind möglich.
 2. **überschreiben**: Die gesamte alte Zuordnung des Gebietes wird als gelöscht. Dann wird die neue Zuordnung geladen. Überlappungen mit anderen Gebieten sind möglich.
-3. **ersetzen**: BBei neuer Zuordnung werden bisherige Zuordnungen zu anderen Verteilbezirken gelöscht.
+3. **ersetzen**: Bei neuer Zuordnung werden bisherige Zuordnungen zu anderen Verteilbezirken gelöscht.
 4. **überschreiben und ersetzen**: Die gesamte alte Zuordnung des Gebietes wird gelöscht. Alle Zuordnungen der Adressen zu anderen Gebieten werden gelöscht. Dann wird die neue Zuordnung geladen. Keine Überlappungen.
 
 
