@@ -10,7 +10,8 @@ Achtung! Falls Sie nicht sicher sind, fragen Sie gerne nochmal nach, wir begleit
 ## Upload ##
 * Gebäude (Koordinaten)
 * Bezirkszuordnungen
-* Spezialhäuser
+* *Spezialhäuser*
+  
   Hier am Beispiel der Zustellerhäuser:
   Administration - Upload
   WEITERE OPTIONEN
