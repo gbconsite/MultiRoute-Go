@@ -57,7 +57,7 @@ Fast alles kann upgeloaded werden:
 
 * Gebäude (Koordinaten)
 * Bezirkszuordnungen
-* [Spezialhäuser](../upload_manuell.md)
+* [Spezialhäuser](../upload_manuell)
 
 Hier können Sie auch **Abonnenten verwalten** mit den Möglichkeiten:
 
