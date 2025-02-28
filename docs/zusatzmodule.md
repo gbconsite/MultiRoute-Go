@@ -152,6 +152,7 @@ Gerade bei Neuplanungen und Optimierungen von Bezirken bietet Ihnen dieses Modul
 
 ![grafik](https://github.com/user-attachments/assets/24abf587-a324-4518-978c-c2335fa7942a "Schnelle Übersicht über Strecken innerhalb des Polygons")
 
+Für eine erste Einschätzung kann man auch hier schon an den Geschwindigkeiten spielen.
 
 ##Gebiets-Adressliste für die Briefverteilung##
 
