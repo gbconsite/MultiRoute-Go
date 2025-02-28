@@ -3,7 +3,7 @@ title: Uploads bei MultiRoute Go! für Administrationen
 description: Manuelle Uploads, Datenübernahmen automatisch
 ---
 
-Wenn Sie MultiRoute Go! mit täglicher Datenübernahme nutzen, müssen Sie sich um nichts kümmern. Aus Ihrem ERP-System (SAP, JJK, VI&VA, HUP, Funkinform etc.) werden täglich Daten bereit gestellt und von MultiRoute Go! verarbeitet gemäß der abgestimmten Prozesse.
+Wenn Sie MultiRoute Go! mit täglicher Datenübernahme nutzen, müssen Sie sich um nichts kümmern. Aus Ihrem ERP-System (SAP, JJK, VI&VA, HUP, Funkinform, Anygraaf etc.) werden täglich Daten bereit gestellt und von MultiRoute Go! verarbeitet gemäß der abgestimmten Prozesse.
 Aber manchmal möchte man etwas manuell Ausprobieren oder Planen. Es gibt noch Möglichkeiten, wie Sie manuell uploaden können.
 Achtung! Falls Sie nicht sicher sind, fragen Sie gerne nochmal nach, wir begleiten Sie.
 
