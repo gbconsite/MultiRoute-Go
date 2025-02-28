@@ -148,9 +148,9 @@ Mehr Tipps zur Einrichtung der App finden Sie auch direkt im Handbuch von MultiR
 
 ##Wegnetzlängen##
 
-:fontawesome-solid-file-pdf: [Wegnetzlängen](https://gbconsite.de/wp-content/uploads/2019/10/Wegnetzl%C3%A4nge-MRGo-Zusatzmodul.pdf)
+Gerade bei Neuplanungen und Optimierungen von Bezirken bietet Ihnen dieses Modul eine schnelle Übersicht über die vorhandenen Strecken und die ungefähre Dauer ohne eine exakte Gehfolgenberechnung anzustoßen. Alle innerhalb eines Polygons befindlichen Streckenlängen werden addiert. 
 
-Alle innerhalb eines Polygons befindlichen Streckenlängen werden addiert. Besonders gut bei Neuplanungen und Optimierungen von Bezirken.
+![grafik](https://github.com/user-attachments/assets/24abf587-a324-4518-978c-c2335fa7942a "Schnelle Übersicht über Strecken innerhalb des Polygons")
 
 
 ##Gebiets-Adressliste für die Briefverteilung##
