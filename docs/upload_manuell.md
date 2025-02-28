@@ -10,11 +10,13 @@ Achtung! Falls Sie nicht sicher sind, fragen Sie gerne nochmal nach, wir begleit
 ## Upload ##
 * Gebäude (Koordinaten)
 * Bezirkszuordnungen
-* *Spezialhäuser*
+* **Spezialhäuser**
+  Hier am Beispiel der *Zustellerhäuser*:
   
-  Hier am Beispiel der Zustellerhäuser:
   Administration - Upload
+  
   WEITERE OPTIONEN
+  
   für einen erfolgreichen Upload benötigen Sie im abgestimmten System nur die Eindeutige ID (OI) und die Bezirksnummer:
   ![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/643526b5-c9bb-4bca-a9f1-11929637a808)
 
