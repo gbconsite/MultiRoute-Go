@@ -17,13 +17,3 @@ Hier gibt es verschiedene Modi, die beim Upload wichtig zu beachten sind:
 4. **überschreiben und ersetzen**: Die gesamte alte Zuordnung des Gebietes wird gelöscht. Alle Zuordnungen der Adressen zu anderen Gebieten werden gelöscht. Dann wird die neue Zuordnung geladen. Keine Überlappungen.
 
 
-* **Spezialhäuser**
-  Hier am Beispiel der *Zustellerhäuser*:
-  
-  Administration - Upload
-  
-  WEITERE OPTIONEN
-  
-  für einen erfolgreichen Upload benötigen Sie im abgestimmten System nur die Eindeutige ID (OI) und die Bezirksnummer:
-  ![grafik](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/643526b5-c9bb-4bca-a9f1-11929637a808)
-
