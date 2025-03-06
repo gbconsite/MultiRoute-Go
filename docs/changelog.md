@@ -9,6 +9,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3392 vom 26.02.2025
+- Abonnenten zwischen Gebiet und Bezirk kopieren
+
+### v1.3389 vom 26.02.2025
+- Sidebar Breite ändern
+  
+### v1.3384/85 vom 24.02.2025
+- festgelegte Reihenfolge
+
 ### v1.3378-83 vom 17.-19.02.2025
 - Verbesserungen zusie Synchronisierung
 
