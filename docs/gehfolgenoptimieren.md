@@ -18,6 +18,8 @@ Geladene Tracks (mehrere gleichzeitig möglich) können einfach über die Layers
 
 Dies ist nicht nur in der "Gehfolgenberechnung", sondern auch in der "Gebietsplanung" einsetzbar.
 
+❗Hilft besonders, wenn Sie sich mit "Perlenketten" beschäftigen und Ihre Fahrtouren mit Zustelltouren kombinieren möchten.
+
 
 ## Optimierungen
 
