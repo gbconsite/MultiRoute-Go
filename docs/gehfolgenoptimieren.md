@@ -110,6 +110,14 @@ Upload - Weitere Optionen:
 
 ![grafik](https://github.com/user-attachments/assets/e27623f4-f085-4f1d-82db-06370cd15d03 "Upload Sortierreihenfolge")
 
+## Straßenseite beibehalten (Zusatzmodul)
+Eine weitere Möglichkeit - und besonders beliebt bei der Briefzustellung - ist die Möglichkeit MultiRoute Go! zu "zwingen" für eine bestimmte Straße oder innerhalb eines Ortsteils die "Straßenseite beizubehalten". Also nicht die Straßenseite zu wechseln. Bei der Sortierung von Briefen hilt das, aber auch wenn es weitere logistische Gründe gibt.
+Nach Aktivierung dieses Zusatzmoduls können Sie die bestimmten Gebäude/Straßen in der Gebietsplanung mit dem Lasso auswählen und in der Adressliste explizit für "Straßenseite beibehalten" auswählen:
+
+![grafik](https://github.com/user-attachments/assets/c80f06e8-873b-460f-979e-e9f9021e274a "Anti-Zick-Zack Zustellung")
+
+
+
 ## Parameterveränderungen für Gehfolgen
 Im Standard werden die Gehfolgenparameter in den Kundeneinstellungen festgelegt. Je Ausgabe und je Bezirk können diese übersteuert werden.
 
