@@ -100,7 +100,7 @@ Sie können nun ganz einfach per drag & drop Gebäude an einen anderen Punkt in 
 Ihre veränderten Punkte erkennen Sie durch die orangene Einfärbung.
 Anschließend können Sie die nun aktuellen Strecken und Zeiten von MultiRoute Go! berechnen lassen. Sind Sie mit dem Ergebnis zufrieden, können Sie die "Reihenfolge speichern" für zukünftige Berechnungen.
 
-## Festgelegte Reihenfolge hochladen
+## Festgelegte Reihenfolge hochladen (Zusatzmodul)
 Es gibt schon eine festgelegte Reihenfolge von Ihnen (vom Zusteller) und die soll unbedingt eingehalten werden? Vielleicht liegt es auch an der (Brief-)Sortierung?
 Auch das kann MultiRoute Go! mit dem 🆕 Zusatzmodul "[Festgelegte Reihenfolge](https://go.multiroute.de/handbuch/zusatzmodule/#festgelegte-reihenfolge)" nun berücksichtigen.
 Sie benötigen nur einen Reihenfolge-Index und können diesen dann mit uploaden.
@@ -116,6 +116,7 @@ Dazu gehören:
 - Optimierungsmethode (Rundweg, einfache Strecke, Rundweg im Verteilbezirk)
 - Geschwindigkeiten (separat für Hin-/Rückweg, im Bezirk, für Hauszugangsdistanz)
 - Steckzeiten
+- Rüstzeiten
 - Hauszugangsdistanzen
 - Hauszugangssuchradius
 
