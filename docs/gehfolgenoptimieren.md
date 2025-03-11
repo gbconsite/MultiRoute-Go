@@ -116,7 +116,7 @@ Nach Aktivierung dieses Zusatzmoduls können Sie die bestimmten Gebäude/Straße
 
 ![grafik](https://github.com/user-attachments/assets/c80f06e8-873b-460f-979e-e9f9021e274a "Anti-Zick-Zack Zustellung")
 
-
+💡Kann auch für den ganzen Verteilbezirk auf einmal eingestellt werden.
 
 ## Parameterveränderungen für Gehfolgen
 Im Standard werden die Gehfolgenparameter in den Kundeneinstellungen festgelegt. Je Ausgabe und je Bezirk können diese übersteuert werden.
