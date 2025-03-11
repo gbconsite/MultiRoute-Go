@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3394 vom 04.03.2025
+- Korrekturen zum Export von Straßenabschnitten
+
 ### v1.3392 vom 26.02.2025
 - Abonnenten zwischen Gebiet und Bezirk kopieren
 
