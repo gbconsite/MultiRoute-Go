@@ -19,7 +19,7 @@ Der modulare Aufbau von MultiRoute Go! ermöglicht das Anpassen an verlagseigene
 - [Straßenanpassungen](#straenanpassungen)
 - [Manuelle Gehfolgensortierung](#manuelles-eingreifen-in-gehfolgen)
 - [Festgelegte Reihenfolge](#festgelegte-reihenfolge)
-- Straßenseite beibehalten
+- [Straßenseite beibehalten](#straenseite-beibehalten)
 
     
 ##Abo-Titeldifferenzierung##
