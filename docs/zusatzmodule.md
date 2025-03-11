@@ -19,6 +19,7 @@ Der modulare Aufbau von MultiRoute Go! ermöglicht das Anpassen an verlagseigene
 - [Straßenanpassungen](#straenanpassungen)
 - [Manuelle Gehfolgensortierung](#manuelles-eingreifen-in-gehfolgen)
 - [Festgelegte Reihenfolge](#festgelegte-reihenfolge)
+- Straßenseite beibehalten
 
     
 ##Abo-Titeldifferenzierung##
@@ -184,3 +185,8 @@ Nur für Kunden mit InHouse-Lizenz oder dediziertem Server. Machen Sie Anpassung
 ##Festgelegte Reihenfolge##
 
  🆕 Haben Sie sich aus Ihren logistischen Gründen selbst zusammengebastelte Route überlegt und möchten diese nun weiterhin nutzen? Mit dem neuen Zusatzmoodul "Festgelegte Reihenfolge" verwenden wir IHRE Reihenfolge und optimieren gar nicht mehr. Einfach per [Upload](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#festgelegte-reihenfolge-hochladen).
+
+##Straßenseite beibehalten##
+
+Soll aus logistischen Gründen (bpsw. auf Grund der Briefsortierung) möglichst eine ganze Straßenseite ohne Straßenseitenwechsel am Stück gelaufen werden, kann ich das in der Gebietsplanung auch schon für Straßen festlegen und muss nicht manuell eingreifen.
+Dazu mehr im Kapitel [Optimierungen in der Gehfolgenberechnung](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#straenseite-beibehalten-zusatzmodul).
