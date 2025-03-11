@@ -88,8 +88,8 @@ Weitere Informationen zur Einrichtung finden Sie in diesem PDF: [https://gbconsi
 
 Sofern für Ihr Kundenprofil ein oder meherer OSM-Accounts vom gb consite Support eingetragen wurde, können Sie über den OSM Monitor nun sehen, ob diese in JOSM durchgeführten Änderungen bereits in MultiRoute Go! verfügbar sind (siehe hierzu OSM Monitor).
 
-## Manuelle Gehfolgensortierung
-Trotz aller Optimierungen kann es Gründe geben, warum die Reihenfolge der Gehfolge verändert werden muss. Dafür haben wir das Zusatzmodul "[Manuelles Eingreifen in die Gehfolgen](https://go.multiroute.de/handbuch/zusatzmodule/#manuelles-eingreifen-in-gehfolgen)". Ist dieses Zusatzmodul aktiivert, haben Sie in bereits berechneten Gehfolgen die Möglichkeit, manuell einzugreifen.
+## Manuelle Gehfolgensortierung (Zusatzmodul)
+Trotz aller Optimierungen kann es Gründe geben, warum die Reihenfolge der Gehfolge verändert werden muss. Dafür haben wir das Zusatzmodul "[Manuelles Eingreifen in die Gehfolgen](https://go.multiroute.de/handbuch/zusatzmodule/#manuelles-eingreifen-in-gehfolgen)". Ist dieses Zusatzmodul aktiviert, haben Sie in bereits berechneten Gehfolgen die Möglichkeit, manuell einzugreifen.
 
 ![grafik](https://github.com/user-attachments/assets/4b7e17fa-62cc-41fa-946e-0d85c0c21aeb "Schaltfläche um Reihenfolge per drag & drop zu verändern")
 
