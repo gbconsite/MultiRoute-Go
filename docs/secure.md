@@ -3,7 +3,7 @@ title: Sicherheitskopien erstellen und Abonnenten in andere Ausgabe kopieren bzw
 description: Hin und wieder schadet es nicht, eine Sicherheitskopie der geplanten neuen Bezirke zu erstellen. Wie das geht wird hier ganz leicht erklärt. So geht nichts verloren.
 ---
 
-# Ausgaben kopieren
+## Ausgaben kopieren
 
 Sie möchte eine Ausgabe mit allen Informationen kopieren, damit Sie damit verschiedene Szenarien durchtesten können? Dann gehen Sie folgendermaßen vor:
 [Sollten Sie bestimmte Punkte nicht sehen, dann fehlen Ihnen möglicherweise die nötigen Berechtigungen. Sprechen Sie uns gerne an!]
