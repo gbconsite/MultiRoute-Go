@@ -9,6 +9,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3414 vom 08.04.2025
+- Anpassungen zusie Synchronisierung Hauszugangsdistanzen
+  
+### v1.3412 vom 01.04.2025
+- Anpassungen zusie Synchronisierung
+
+### v1.3411 vom 01.04.2025
+- Bugfix: Löschen Zustellerhaus
+
 ### v1.3401 vom 14.03.2025
 - Korrekturen fixe Sortierung
 
