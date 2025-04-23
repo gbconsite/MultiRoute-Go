@@ -9,6 +9,18 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3434 vom 16.04.2025
+- Highlighten von Bezirken mit Starthäusern (wenn kein Zustellerhaus zugeordnet ist)
+  
+### v1.3433 vom 15.04.2025
+- Upload "Depots"
+  
+### v1.3419 vom 10.04.2025
+- Tippfehler aus "verschoben" wird "kopiert"
+
+### v1.3418 vom 09.04.2025
+- Anpassungen "fixe Gehfolge"
+
 ### v1.3414 vom 08.04.2025
 - Anpassungen zusie Synchronisierung Hauszugangsdistanzen
   
