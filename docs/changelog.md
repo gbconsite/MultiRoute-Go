@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3434 vom 09.05.2025
+- Verteilbezirk "Name" updaten
+  
 ### v1.3434 vom 16.04.2025
 - Highlighten von Bezirken mit Starthäusern (wenn kein Zustellerhaus zugeordnet ist)
   
