@@ -99,7 +99,7 @@ Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168273860-a1724188-2dda-4919-ae00-e4d2d3d40568.png "weiße Stützpunkte zum Verschieben")
 
-## Gebietteilen
+## Gebiete teilen
 Um ein Gebiet teilen zu können, aktivieren Sie ihn einfach. Mit der Maus an eine beliebige Stelle im zu teilenden Gebiet klicken.. Das Gebietsbearbeitungsfenster erscheint. Im Fenster klickt man mit der Maus auf :fontawesome-solid-scissors:{style="color:#0078A8"}. 
 
 Außerhalb des Gebiets setzen Sie den ersten weißen Stützpunkt und klicken mit der linken Maustaste auf weitere Punkte bis Sie außerhalb des Gebiets ankommen und mit Doppelklick abschließen. 
