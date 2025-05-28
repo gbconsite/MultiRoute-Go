@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3461 vom 27.05.2025
+- Fehler bei Depotupload gefixt
+
+### v1.3452 vom 13.05.2025
+- Geometrieüberprüfung Fehler beseitigt
+
 ### v1.3434 vom 09.05.2025
 - Verteilbezirk "Name" updaten
   
