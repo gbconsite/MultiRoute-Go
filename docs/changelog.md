@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3464 vom 02.06.2025
+- Ortsteil und Ortszusatz von nächstgelegenem Vorschlag in Eingabe direkt übernehmen
+
 ### v1.3461 vom 27.05.2025
 - Fehler bei Depotupload gefixt
 
