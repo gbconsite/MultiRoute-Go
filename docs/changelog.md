@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3479 vom 13.06.2025
+- Zwischenstrecken
+
+### v1.3477 vom 11.06.2025
+- Routinginseln Fix
+  
 ### v1.3464 vom 02.06.2025
 - Ortsteil und Ortszusatz von nächstgelegenem Vorschlag in Eingabe direkt übernehmen
 
