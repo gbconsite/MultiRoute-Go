@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3483 vom 18.06.2025
+- Teilupdate Routinginseln
+  
 ### v1.3479 vom 13.06.2025
 - Zwischenstrecken
 
