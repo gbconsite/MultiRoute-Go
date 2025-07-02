@@ -140,9 +140,9 @@ Bei besonders gut gepflegten Haushaltshaltszahlen wird auch berücksichtigt, das
 
 :fontawesome-solid-file-pdf: [Tracking](https://gbconsite.de/wp-content/uploads/2024/02/Tracking-MRGo-Zusatzmodul.pdf)
 
-Auf der Karte können Sie entweder live oder historisch verfolgen, wie sich ein Tracker bewegt hat. Das Tracking läuft entweder mit Hilfe eines mobilen Endgeräts (Traccar App) oder eines Trackers, den wir Ihnen zur Verfügung stellen. Bitte sprechen Sie den Vertrieb an!
+Auf der Karte können Sie entweder live oder historisch verfolgen, wie sich ein Tracker bewegt hat. Das Tracking läuft entweder mit Hilfe eines mobilen Endgeräts (siehe auch: [Traccar App](https://gbconsite.de/wp-content/uploads/2025/07/Rundum-Sorglos-Paket_Aktion.pdf)) oder eines [Trackers](https://gbconsite.de/wp-content/uploads/2025/07/Rundum-Sorglos-Paket_Aktion.pdf), den wir Ihnen zur Verfügung stellen. Bitte sprechen Sie den Vertrieb an!
 
-Die App ist geeignet für die Verwendung in Fahrzeugen, aber auch Zusteller, die zu Fuß unterwegs sind, können darüber getrackt werden.
+Die App ist geeignet für die Verwendung in Fahrzeugen, aber auch Zusteller, die zu Fuß unterwegs sind, können darüber getrackt werden. Die Qualität der aufgezeichneten Tracks hängt hier vom jeweiligen Mobiltelefon ab.
 
 Mehr Tipps zur Einrichtung der App finden Sie auch direkt im Handbuch von MultiRoute Tour! zum Zusatzmodul [Tracking](https://tour.multiroute.de/handbuch/zusatzmodule/#tracking).
 
