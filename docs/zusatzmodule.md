@@ -20,7 +20,7 @@ Der modulare Aufbau von MultiRoute Go! ermöglicht das Anpassen an verlagseigene
 - [Manuelle Gehfolgensortierung](#manuelles-eingreifen-in-gehfolgen)
 - [Festgelegte Reihenfolge](#festgelegte-reihenfolge)
 - [Straßenseite beibehalten](#straenseite-beibehalten)
-- [Straßenabschnitte exportieren](#straenaschnitte-exportieren)
+- [Straßenabschnitte exportieren](#straenabschnitte-exportieren)
 
     
 ##Abo-Titeldifferenzierung##
@@ -192,7 +192,7 @@ Nur für Kunden mit InHouse-Lizenz oder dediziertem Server. Machen Sie Anpassung
 Soll aus logistischen Gründen (bpsw. auf Grund der Briefsortierung) möglichst eine ganze Straßenseite ohne Straßenseitenwechsel am Stück gelaufen werden, kann ich das in der Gebietsplanung auch schon für Straßen festlegen und muss nicht manuell eingreifen.
 Dazu mehr im Kapitel [Optimierungen in der Gehfolgenberechnung](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#straenseite-beibehalten-zusatzmodul).
 
-##Straßenaschnitte exportieren##
+##Straßenabschnitte exportieren##
 
 Leider gibt es noch nicht für alle Verlagssysteme auch eine "Rückschnittstelle". Also Sie optimieren in MultiRoute Go! und die optimierten Gebiete fließen aus einer automatisch zurück.
 Ihr Verlagssystem (HUP, SAP etc.) benötigt den extra dafür angefertigten Straßenabschnittsexport.
