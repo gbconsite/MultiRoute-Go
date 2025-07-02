@@ -196,12 +196,15 @@ Dazu mehr im Kapitel [Optimierungen in der Gehfolgenberechnung](https://go.multi
 
 Leider gibt es noch nicht für alle Verlagssysteme auch eine "Rückschnittstelle". Also Sie optimieren in MultiRoute Go! und die optimierten Gebiete fließen aus einer automatisch zurück.
 Ihr Verlagssystem (HUP, SAP etc.) benötigt den extra dafür angefertigten Straßenabschnittsexport.
+
 Wichtig: Unsere Straßenabschnitte werden bis zum letzten existierenden Gebäude geliefert.
 
 Bsp.: In der "Hauptstraße" existieren Gebäude bis Hausnummer 53, dann bekommen Sie von uns:
 
 Hauptstraße 1-53 ungerade
+
 Hauptstraße 2-52 gerade
+
 und NICHT: 1-999(0) und 2-99(9)8.
 
 
