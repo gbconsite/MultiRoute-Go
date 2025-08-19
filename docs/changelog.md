@@ -9,7 +9,13 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
-### v1.3484-3490 vom 23.06-07.07.2025
+### v1.3498 vom 31.07.2025
+- Fix für Google Maps URLs (ohne Inhalt)
+  
+### v1.3497 vom 28.07.2025
+- Fix bei Export für Trennung Hausnummer und Zusatz
+
+### v1.3484-3490 vom 23.06.-07.07.2025
 - Zwischenstrecken
   
 ### v1.3483 vom 18.06.2025
