@@ -9,6 +9,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3506 vom 20.08.2025
+- Druck: Adressen wenn eingeschaltet
+  
+### v1.3505 vom 20.08.2025
+- Abladestellen-ID: falsche Spalte
+
+### v1.3499 vom 31.07.2025
+- Korrekturen Trägerdokument Excel (Zwischenstrecken)
+
 ### v1.3498 vom 31.07.2025
 - Fix für Google Maps URLs (ohne Inhalt)
   
