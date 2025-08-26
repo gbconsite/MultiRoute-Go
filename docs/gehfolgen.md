@@ -77,6 +77,11 @@ Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen 
 
 Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt wird von uns für Sie eingestellt.
 
+Haben Sie die Parameter für die Gehfolgenberechnung schon in Excel/CSV vorliegen, können diese auch importiert werden (falls Sie über die entsprechenden Rechte verfüggen). Dazu **in der entsprechenden Ausgabe** auf Administration - Upload gehen und die Datei mit Bezirkseigenschaften auswählen:
+
+<img width="1477" height="592" alt="grafik" src="https://github.com/user-attachments/assets/8b6da97a-3454-4c5c-aa83-6829e4a0abd0" />
+
+Zum Exportieren von Parametern siehe [Export](../exporte/#eigenschaften-der-verteilgebiete).
 
 ## Hauszugangsdistanz (HZD) 
 
