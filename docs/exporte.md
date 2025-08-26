@@ -58,3 +58,11 @@ Unter ERWEITERT noch Punkt und Komma tauschen.
 
 In vielen Exporten gibt MultiRoute Go! die berechnete Zeit in Industriestunden aus. Wie Sie das wieder in "normale Zeit" umrechnen können oder wie genau das zu lesen ist, finden Sie auch hier: [https://de.wikipedia.org/wiki/Industrieminute](https://de.wikipedia.org/wiki/Industrieminute)
 
+## Eigenschaften der Verteilgebiete
+
+Die gesetzten Parameter an den einzelnen Trägerbezirken können Sie sich auch exportieren. Beispielsweise aus einer Planungsausgabe mit Vorgaben für eine andere Ausgabe. Dazu einfach auf Administration - Verteilbezirke gehen.
+Ganz unten über den *.CSV-Export erhalten Sie die Eigenschaften gebündelt zurück:
+
+<img width="276" height="68" alt="grafik" src="https://github.com/user-attachments/assets/c3d576f0-8214-45a9-a4ec-bcb576f61f1b" />
+
+Diese können dann in eine andere Ausgabe importiert werden.
