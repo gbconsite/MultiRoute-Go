@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3508 vom 22.08.2025
+- User Rolle OSRM Debug
+  
 ### v1.3506 vom 20.08.2025
 - Druck: Adressen wenn eingeschaltet
   
