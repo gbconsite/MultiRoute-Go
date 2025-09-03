@@ -167,24 +167,37 @@ Noch häufiger hängen die Probleme nicht mit MultiRoute Go! selbst zusammen, so
 
 Um diese Fehler zu erkennen können (berechtige User) rechts im Menü zwei Layer aktivieren:
 
-<img width="307" height="452" alt="grafik" src="https://github.com/user-attachments/assets/6660c1cd-58e1-402d-9adc-560bf3cbf8c9" />
+<img width="304" height="456" alt="grafik" src="https://github.com/user-attachments/assets/f7a8f770-1a6d-4c6d-9ceb-695fa31168cd" />
+
 
 Diese zusätzlichen Ebenen geben einen Hinweis, wo es aufgrund fehlerhafter OSM-Daten zu Routingproblemen kommt.
 
 Die Farben:
 
 **Zu Fuß:**
+
 **<span style="color:#FF37EF">PINK</span>**: "Insel"
+
 **<span style="color:#ff0000">ROT</span>**: Geschwindigkeit 0 km/h
-**<span style="color:#dcffdc">BLASSES GRÜN</span>**: Geschwindigkeit > 0 km/h
+
+**BLASSES<span style="color:#dcffdc">GRÜN</span>**: Geschwindigkeit > 0 km/h
+
 **<span style="color:#90ee90">HELLGRÜN</span>**: Geschwindigkeit > 2 km/h
+
 **<span style="color:#3cb371">GRÜN</span>**: Geschwindigkeit > 4 km/h
+
 **<span style="color:#006400">DUNKELGRÜN</span>**: Geschwindigkeit > 6 km/h
 
 **Kfz:**
+
 **<span style="color:#FF37EF">PINK</span>**: "Insel"
+
 **<span style="color:#ff0000">ROT</span>**: Geschwindigkeit 0 km/h
-**<span style="color:#dcffdc">HELLGRÜN</span>**: Geschwindigkeit > 0 km/h
+
+**<span style="color:#66c2a5">HELLGRÜN</span>**: Geschwindigkeit > 0 km/h
+
 **<span style="color:#47dda4">GRÜN</span>**: Geschwindigkeit > 25 km/h
+
 **<span style="color:#3cb371">ORANGE</span>**: Geschwindigkeit > 50 km/h
+
 **<span style="color:#9e0142">DUNKELROT</span>**: Geschwindigkeit > 100 km/h
