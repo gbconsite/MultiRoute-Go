@@ -176,30 +176,25 @@ Diese zusätzlichen Ebenen geben einen Hinweis, wo es aufgrund fehlerhafter OSM-
 
 Die Farben:
 
-**Zu Fuß:**
+**Zu Fuß**
 
-**<span style="color:#FF37EF">PINK</span>**: "Insel"
+| Farbe | Bedeutung |
+|-------|-----------|
+| **<span style="color:#FF37EF">PINK</span>** | "Insel" |
+| **<span style="color:#ff0000">ROT</span>** | Geschwindigkeit 0 km/h |
+| **BLASSES <span style="color:#dcffdc">GRÜN</span>** | Geschwindigkeit > 0 km/h |
+| **<span style="color:#90ee90">HELLGRÜN</span>** | Geschwindigkeit > 2 km/h |
+| **<span style="color:#3cb371">GRÜN</span>** | Geschwindigkeit > 4 km/h |
+| **<span style="color:#006400">DUNKELGRÜN</span>** | Geschwindigkeit > 6 km/h |
 
-**<span style="color:#ff0000">ROT</span>**: Geschwindigkeit 0 km/h
+**Kfz**
 
-**BLASSES<span style="color:#dcffdc">GRÜN</span>**: Geschwindigkeit > 0 km/h
+| Farbe | Bedeutung |
+|-------|-----------|
+| **<span style="color:#FF37EF">PINK</span>** | "Insel" |
+| **<span style="color:#ff0000">ROT</span>** | Geschwindigkeit 0 km/h |
+| **<span style="color:#66c2a5">HELLGRÜN</span>** | Geschwindigkeit > 0 km/h |
+| **<span style="color:#47dda4">GRÜN</span>** | Geschwindigkeit > 25 km/h |
+| **<span style="color:#f46d43">ORANGE</span>** | Geschwindigkeit > 50 km/h |
+| **<span style="color:#9e0142">DUNKELROT</span>** | Geschwindigkeit > 100 km/h |
 
-**<span style="color:#90ee90">HELLGRÜN</span>**: Geschwindigkeit > 2 km/h
-
-**<span style="color:#3cb371">GRÜN</span>**: Geschwindigkeit > 4 km/h
-
-**<span style="color:#006400">DUNKELGRÜN</span>**: Geschwindigkeit > 6 km/h
-
-**Kfz:**
-
-**<span style="color:#FF37EF">PINK</span>**: "Insel"
-
-**<span style="color:#ff0000">ROT</span>**: Geschwindigkeit 0 km/h
-
-**<span style="color:#66c2a5">HELLGRÜN</span>**: Geschwindigkeit > 0 km/h
-
-**<span style="color:#47dda4">GRÜN</span>**: Geschwindigkeit > 25 km/h
-
-**<span style="color:#f46d43">ORANGE</span>**: Geschwindigkeit > 50 km/h
-
-**<span style="color:#9e0142">DUNKELROT</span>**: Geschwindigkeit > 100 km/h
