@@ -128,6 +128,7 @@ Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen 
 
 
 ## Aufruf von berechneten Gehfolgen
+
 Der Aufruf der berechneten Gehfolgen :material-folder-open-outline: können Sie mit Hilfe des "Filters" gezielt nach Gehfolgen eines Verteilbezirks filtern oder nach einer bestimmten Gehfolgennummer. 
 Über den :material-arrow-up:{style="color:#0078A8"} können Sie die Spalten selbst festlegen, die angezeigt werden sollen.
 
@@ -136,6 +137,7 @@ Der Aufruf der berechneten Gehfolgen :material-folder-open-outline: können Sie 
 Bei den Aktionen stehen in der Kurzübersicht die Ergebnisse der Gehfolgen zur Verfügung und sie können gelöscht (Mülleimer) werden.
 
 Unter der Ergebnisliste sind Exportmöglichkeiten (als CSV) verfügbar.
+
 
 ## Das Höhenprofil
 
@@ -151,3 +153,38 @@ Diese Informationen zur Geländehöhe sind ebenfalls im Excel-Export und im GPX-
 
 Die Daten für das Höhenprofil stammen aus der [Shuttle Radar Topography Mission (SRTM)](https://de.wikipedia.org/wiki/SRTM-Daten), einer NASA Mission im Jahr 2000. Die Höhendaten haben eine Auflösung von ca. 30 Metern und werden bei jeder Gehfolgenberechnung automatisch mit der Route der Gehfolge verknüpft.
 
+
+## Fehler bei der Gehfolgenberechnung
+
+Die häufigsten Fehler:
+- Es sind **keine Abos** vorhanden, Sie haben aber die **Aboberechnung** aktiviert.
+- Ihr Verteilbezirk enthält nur **eine** Adresse, sodass keine Route berechnet werden kann.
+
+Noch häufiger hängen die Probleme nicht mit MultiRoute Go! selbst zusammen, sondern mit den zugrunde liegenden OSM-Daten (OpenStreetMap):
+- **Falsch gesetzte Sperren** – es wird eine Straße blockiert, die eigentlich befahrbar oder begehbar ist.
+- **Fehlerhafte Einbahnstraßen-Attribute** – eine Straße ist nur in eine Richtung freigegeben, obwohl das in der Realität nicht stimmt oder vielleicht ist auch nur die falsche Richtung angegeben.
+- **Fehlende Anbindungen ans Straßennetz** – einzelne Straßenabschnitte sind nicht mit dem restlichen Netzwerk verbunden. Dadurch entstehen kleine „Inseln“, die von außen nicht erreichbar sind.
+
+Um diese Fehler zu erkennen können (berechtige User) rechts im Menü zwei Layer aktivieren:
+
+<img width="307" height="452" alt="grafik" src="https://github.com/user-attachments/assets/6660c1cd-58e1-402d-9adc-560bf3cbf8c9" />
+
+Diese zusätzlichen Ebenen geben einen Hinweis, wo es aufgrund fehlerhafter OSM-Daten zu Routingproblemen kommt.
+
+Die Farben:
+
+**Zu Fuß:**
+**<span style="color:#FF37EF">PINK</span>**: "Insel"
+**<span style="color:#ff0000">ROT</span>**: Geschwindigkeit 0 km/h
+**<span style="color:#dcffdc">BLASSES GRÜN</span>**: Geschwindigkeit > 0 km/h
+**<span style="color:#90ee90">HELLGRÜN</span>**: Geschwindigkeit > 2 km/h
+**<span style="color:#3cb371">GRÜN</span>**: Geschwindigkeit > 4 km/h
+**<span style="color:#006400">DUNKELGRÜN</span>**: Geschwindigkeit > 6 km/h
+
+**Kfz:**
+**<span style="color:#FF37EF">PINK</span>**: "Insel"
+**<span style="color:#ff0000">ROT</span>**: Geschwindigkeit 0 km/h
+**<span style="color:#dcffdc">HELLGRÜN</span>**: Geschwindigkeit > 0 km/h
+**<span style="color:#47dda4">GRÜN</span>**: Geschwindigkeit > 25 km/h
+**<span style="color:#3cb371">ORANGE</span>**: Geschwindigkeit > 50 km/h
+**<span style="color:#9e0142">DUNKELROT</span>**: Geschwindigkeit > 100 km/h
