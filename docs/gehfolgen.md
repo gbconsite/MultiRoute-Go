@@ -158,17 +158,14 @@ Die Daten für das Höhenprofil stammen aus der [Shuttle Radar Topography Missio
 
 **Die häufigsten Fehler:**
 
-- Es sind **keine Abos** vorhanden, Sie haben aber die **Aboberechnung** aktiviert.
-- 
+-Es sind **keine Abos** vorhanden, Sie haben aber die **Aboberechnung** aktiviert.
 - Ihr Verteilbezirk enthält nur **eine** Adresse, sodass keine Route berechnet werden kann.
 
-Noch häufiger hängen die Probleme nicht mit MultiRoute Go! selbst zusammen, sondern mit den zugrunde liegenden OSM-Daten (OpenStreetMap):
+Noch häufiger hängen die Probleme nicht mit MultiRoute Go! selbst zusammen, sondern mit den zugrunde liegenden OSM-Daten (OpenStreetMap). Beispiele:
 
-- **Falsch gesetzte Sperren** – es wird eine Straße blockiert, die eigentlich befahrbar oder begehbar ist.
-- 
+- **Falsch gesetzte Sperren** – es wird eine Straße blockiert, die eigentlich befahrbar oder begehbar ist.  
 - **Fehlerhafte Einbahnstraßen-Attribute** – eine Straße ist nur in eine Richtung freigegeben, obwohl das in der Realität nicht stimmt oder vielleicht ist auch nur die falsche Richtung angegeben.
-- 
-- **Fehlende Anbindungen ans Straßennetz** – einzelne Straßenabschnitte sind nicht mit dem restlichen Netzwerk verbunden. Dadurch entstehen kleine „Inseln“, die von außen nicht erreichbar sind.
+- **Fehlende Anbindungen ans Straßennetz** – einzelne Straßenabschnitte sind nicht mit dem restlichen Netzwerk verbunden. Dadurch entstehen kleine „Inseln“, die von außen nicht erreichbar sind.  
 
 Um diese Fehler zu erkennen können (berechtige User) rechts im Menü zwei Layer aktivieren:
 
