@@ -203,6 +203,6 @@ Die Farben:
 
 **<span style="color:#47dda4">GRÜN</span>**: Geschwindigkeit > 25 km/h
 
-**<span style="color:#3cb371">ORANGE</span>**: Geschwindigkeit > 50 km/h
+**<span style="color:#f46d43">ORANGE</span>**: Geschwindigkeit > 50 km/h
 
 **<span style="color:#9e0142">DUNKELROT</span>**: Geschwindigkeit > 100 km/h
