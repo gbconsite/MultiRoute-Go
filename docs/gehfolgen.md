@@ -158,7 +158,7 @@ Die Daten für das Höhenprofil stammen aus der [Shuttle Radar Topography Missio
 
 **Die häufigsten Fehler:**
 
--Es sind **keine Abos** vorhanden, Sie haben aber die **Aboberechnung** aktiviert.
+- Es sind **keine Abos** vorhanden, Sie haben aber die **Aboberechnung** aktiviert.
 - Ihr Verteilbezirk enthält nur **eine** Adresse, sodass keine Route berechnet werden kann.
 
 Noch häufiger hängen die Probleme nicht mit MultiRoute Go! selbst zusammen, sondern mit den zugrunde liegenden OSM-Daten (OpenStreetMap). Beispiele:
