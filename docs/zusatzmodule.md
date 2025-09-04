@@ -74,9 +74,11 @@ Für die Berechnungen ist einiges an Informationen nötig, das wir nicht in Mult
 
 :fontawesome-solid-file-pdf:  [Bezirksplanung](https://gbconsite.de/wp-content/uploads/2019/10/Bezirksplanung-MRGo-Zusatzmodul.pdf)
 
-Der Trend geht bei vielen Verlagen dazu, kleinere Untereinheiten von Trägerbezirken zu erstellen und diese dann je nach Trägerverfügbarkeit zusammen zu stellen. Wir unterstützen das flexible Zusammensetzen und sprechen von kleinen Gebieten (Waben, Zellen, Segmenten etc.), die zu einem Trägerbezirk (Bezirk, Cluster o.a.) zusammengefasst werden. 
+Der Trend geht bei vielen Verlagen dazu, kleinere Untereinheiten von Trägerbezirken zu erstellen und diese dann je nach Trägerverfügbarkeit zusammen zu stellen. Wir unterstützen das flexible Zusammensetzen und sprechen von kleinen Gebieten (Waben, Zellen, Segmenten, Arbeitspakete etc.), die zu einem Trägerbezirk (Bezirk, Cluster, Lieferrunde o.a.) zusammengefasst werden. 
 
 ![grafik](https://user-images.githubusercontent.com/99329016/166670122-780d45a7-e1d7-4db6-ba07-d0add5704588.png "gleichfarbige kleine Einheiten gehören zu einer gemeinsamen größeren Einheit und werden gemeinsam und/oder einzeln berechnet")
+
+Sehen Sie auf einen Blick, welche Gebiete von **einem Zusteller** getragen werden und wie sich diese räumlich verteilen. Mit den passend definierten "Zwischenstrecken" erhalten Sie durch die **Berechnung der Gehfolgen** so realistische Arbeitszeiten, bei denen eine Verteilung IM Verteilbezirk zu Fuß erfolgen kann und lange Wege mit der Auto-Geschwindigkeit berechnet werden. Im Export auch voneinander getrennt, so dass Sie genau sehen, was mit der Arbeitszeit und wo wieviel Kilometergeld zu zahlen ist.
 
 So geht es:
 
@@ -84,7 +86,11 @@ Eine neue BEZIRKsausgabe anlegen, die Gebiete in kleine Zellen/Waben anlegen und
 
 
 Genau so können Sie auch vorgehen, wenn Sie den aktuellen **Besetzungsstatus** Ihrer Trägerezirke darstellen möchten:
+
 offen / besetzt / Warteschlange
+
+oder:
+Gebietsnummer (kleine Einheiten) und die jeweiligen Zustellernamen als "Bezirksnummer" oder "-name"
 
 Beispiel:
 Sie legen eine "neue Ausgabe/Planung" an und nennen diese "Zusteller".
@@ -206,5 +212,6 @@ Hauptstraße 1-53 ungerade
 Hauptstraße 2-52 gerade
 
 und NICHT: 1-999(0) und 2-99(9)8.
+
 
 
