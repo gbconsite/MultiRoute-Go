@@ -9,6 +9,13 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3513 vom 01.09.2025
+- Bug Fixes zusie Übergabe
+
+### v1.3510 vom 27.08.2025
+- Bug Fixes OSRM Debug
+- Bug Fixes Zwischenstrecken Geschwindigkeit
+
 ### v1.3508 vom 22.08.2025
 - User Rolle OSRM Debug
   
