@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3524 vom 12.09.2025
+- Fehler bei Zwischenstrecken korrigiert
+
+### v1.3516 vom 03.09.2025
+- Bug Fixes bei Polygonerzeugung
+  
 ### v1.3513 vom 01.09.2025
 - Bug Fixes zusie Übergabe
 
