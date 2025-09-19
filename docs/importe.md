@@ -17,3 +17,7 @@ Unter ```Administration - Ausgaben``` wählen Sie "Anzeigen". Ganz unten auf der
 Wir unterstützen bspw. KML (number / description), aber auch weitere Formate. Bitte sprechen Sie uns an!
 
 Im nächsten Schritt gehen Sie nur noch in ```Administration - Verteilbezirke```, wählen ALLE aus und gehen ganz unten auf "Zuordnung erzeugen". 
+
+## GPX
+
+Oder Sie möchten Ihre getrackten Routen/Touren, die als *.gpx vorliegen direkt [über die Gehfolge](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#tracks-touren-routen-abbilden) legen. Das erklären wir auch bei [Optimierungen in der Gehfolgenberechung](https://go.multiroute.de/handbuch/gehfolgenoptimieren/).
