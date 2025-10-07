@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3528 vom 30.09.2025
+- zusie: deposition_id
+
 ### v1.3524 vom 12.09.2025
 - Fehler bei Zwischenstrecken korrigiert
 
