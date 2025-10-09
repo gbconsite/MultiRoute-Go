@@ -24,9 +24,9 @@ Aus dem Hauptmenü können Sie:
 
 ## Einstellungen bei Gehfolgenberechnungen
 
-Grundsätzlich können Gehfolgen auf **drei verschiedene Arten** (mit Varianten) berechnet werden:
+Grundsätzlich kann als Optimierungsmethode für die Gehfolgenberechnung zwischen **drei verschiedene Arten** (mit Varianten) gewählt werden:
 
-- **einfache Strecke**: Von der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> die kürzest mögliche Strecke durch den Bezirk, kein fester Endpunkt:
+- **einfache Strecke**: Von der Abladestelle/Starthaus <span style="color: magenta;">&#x1f534;&#xfe0e;</span> die kürzest mögliche Strecke durch den Bezirk, kein fester Endpunkt:
 
 ![Einfache Strecke](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/7f235bc3-e0dd-4b0f-8350-51a25bde64a3 "One Way open End"){ width="200" }
 
@@ -39,7 +39,7 @@ oder mit festem Endpunkt:
 
 ![Rundweg](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/0d83ffea-92e4-42a0-8086-7d94d4ab4e95 "Rundweg"){ width="200" }
 
-- **Rundweg im Verteilbezirk**: Start an der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> und zurück zur ersten Steckung im Verteilbezirk
+- **Rundweg im Verteilbezirk**: Start an der Abladestelle <span style="color: magenta;">&#x1f534;&#xfe0e;</span> und zurück zur ersten Steckung (Starthaus) im Verteilbezirk
 
 ![Rundweg im Verteilbezirk](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/14101711-3993-42ba-8826-7528adfc4220 "Rundweg nur im Verteilbezirk am ersten Punkt im Bezirk wieder ankommen"){ width="200" }
 
@@ -47,7 +47,7 @@ oder mit festem Endpunkt:
 
 ## Abladestelle / Zustellerhaus
 
-Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. 
+Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. Die Abladestelle kann sich im Bezirk befinden oder außerhalb sein. Grundsätzlich wird an der ersten Abladestelle nicht automatisch gestectk. Soll diese auch passieren an einer Abladestelle im Bezirk, können Sie diese auch als Starthaus eingeben.
 
 ## Start- /Endhaus
 
