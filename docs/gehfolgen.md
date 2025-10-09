@@ -52,6 +52,7 @@ Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](.
 ## Start- /Endhaus
 
 Manchmal ist es nötig, dass Sie in die Gehfolge eingreifen. Sie können ein Starthaus definieren, bei dem die erste Steckung im Bezirk vorgenommen wird. Und genau so ein Endhaus, bei dem zuletzt gesteckt wird.
+Bei "Rundweg im Verteilbezirk" können Sie auch vor der Berechnung "Starthaus automatisch optimieren" auswählen, um das bestmögliche Starthaus für die Route zu errechnen.
 
 ## Berechnen von Gehfolgen
 
