@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3540 vom 20.10.2025
+- Fix: Export Sortierung
+
+### v1.3534 vom 15.10.2025
+- Neuberechungen Zustellerhaus an/aus
+
 ### v1.3528 vom 30.09.2025
 - zusie: deposition_id
 
