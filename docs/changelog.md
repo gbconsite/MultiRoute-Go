@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3548 vom 29.10.2025
+- Feste Sortierung von Basisgebieten
+  
+### v1.3544 vom 27.10.2025
+- Export Sortierung Spalten
+
 ### v1.3540 vom 20.10.2025
 - Fix: Export Sortierung
 
