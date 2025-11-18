@@ -13,9 +13,9 @@ MultiRoute Go! ist in zwei Hauptbereiche gegliedert:
 
 ![Menüpunkte Gebietsplanung und Gehfolgenberechnung](https://user-images.githubusercontent.com/99329016/158179701-085bf8a2-27f9-46cc-8b4b-60d599353bc9.png "Menüpunkte Gebietsplanung und Gehfolgenberechnung")
 
-In MultiRoute Go! finden Sie auf der rechten Seite immer eine Karte, die Ihren aktuellen Arbeitsbereich zeigt. Sie können die Karte verschieben und zoomen. Auf der linken Seite können Sie nach Bezirken oder Gehfolgen suchen, filtern oder Metainformationen anzeigen.
+In MultiRoute Go! finden Sie auf der rechten Seite immer eine Karte, die Ihren aktuellen Arbeitsbereich zeigt. Sie können die Karte verschieben und zoomen. Auf der linken Seite können Sie nach Gebieten (Verteilbezirken) oder Gehfolgen suchen, filtern oder Metainformationen anzeigen. 
 
-Ein Klick auf das aktive Symbol (z. B. :material-earth: für die Gebietsplanung) maximiert die Karte auf die volle Bildschirmbreite. Ein erneuter Klick öffnet wieder das Menü auf der linken Seite.
+Ein Klick auf das aktive Symbol (z. B. :material-earth: für die Gebietsplanung) maximiert die Karte auf die volle Bildschirmbreite. Ein erneuter Klick öffnet wieder das Menü auf der linken Seite. Den linken Bereich und den Kartenbereich können Sie auch einfach nach Belieben größer oder kleiner ziehen.
 
 ## Grundlagen der Gehfolgenberechnung
 
@@ -49,4 +49,5 @@ Wenn Sie weitere Daten wie **Werbeverweigerer** oder eigene Haushaltsdaten in di
 ![Transparenzregler](https://user-images.githubusercontent.com/99329016/168080224-0fd8ed04-ad2a-4e03-a149-9ea02038412c.png "Transparenzregler"){ align=right }
 
 Das Ein- und Ausschalten von Labels (Beschriftungen der Bezirke) oder das Einfärben kann Ihnen helfen, den Überblick zu behalten. Unten in der Karte können Sie die Transparenz der Einfärbungen über einen Schieberegler anpassen.
+
 
