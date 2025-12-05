@@ -9,6 +9,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3574 vom 28.11.2025
+- Button Fix
+  
+### v1.3567 vom 26.11.2025
+- Faktor bei konkaven Hüllen
+
+### v1.3557-59 vom 24.11.2025
+- Veränderung an konkaven Hüllen
+
 ### v1.3548 vom 29.10.2025
 - Feste Sortierung von Basisgebieten
   
