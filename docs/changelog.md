@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3587 vom 09.12.2025
+- [Blaue statt grüne Kringel](https://go.multiroute.de/handbuch/blog/2025/12/09/weihnachts-update-neue-farbkennzeichnung-f%C3%BCr-geb%C3%A4udepunkte/) bei Gebäuden in aktivem Polygon
+
 ### v1.3574 vom 28.11.2025
 - Button Fix
   
