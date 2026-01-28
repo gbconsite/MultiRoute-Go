@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2025
 
+### v1.3639-41 vom 20.01.2026
+- Anpassungen Datenübertragung nach zusie
+  
 ### v1.3634 vom 14.01.2026
 - zwei Datenübernahmen, zwei Mandaten auf einem Server
 
