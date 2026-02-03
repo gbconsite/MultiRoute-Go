@@ -7,8 +7,20 @@ description: Mit welcher Version von MultiRoute Go! ist was dazu gekommen? Wann 
 
 Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt.
 
-## 2025
+## 2026
 
+### v1.3662 vom 02.02.2026
+- Anpassungen Datneübernahmen
+
+### v1.3656 vom 30.01.2026
+- [Blaue Kringel auch im Modul Gehfolgenberechnung, leuchtend gelbe Gebiete](https://go.multiroute.de/handbuch/blog/2026/02/03/leuchtende-farben-f%C3%BCr-bessere-%C3%BCbersicht/)
+  
+### v1.3650 vom 28.01.2026
+- Anpassungen zusie Jobs
+
+### v1.3645 vom 27.01.2026
+- Anpassungen für GoodJob
+  
 ### v1.3639-41 vom 20.01.2026
 - Anpassungen Datenübertragung nach zusie
   
