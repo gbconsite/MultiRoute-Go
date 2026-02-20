@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.3695 vom 13.02.2026
+- Exportfunktionalitäten Bezirksplanung
+
 ### v1.3678 vom 05.02.2026
 - Übergaben zusie
 
