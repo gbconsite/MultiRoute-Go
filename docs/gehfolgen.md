@@ -118,21 +118,28 @@ Rechts: HZD Grenzwert 15 m, Suchradius 20 m
 In der Summe wird Ihnen das rechte Beispiel ein realistischeres Ergebnis geben.
 
 
-## Geschwindigkeiten und Steckzeiten
+## Geschwindigkeiten
 
-![grafik](https://user-images.githubusercontent.com/99329016/168796891-3674ae8e-650d-4ad9-916d-407193944ec0.png "Einstellmöglichkeiten für Geschwindigkeiten und Steckzeiten")
+Für sämtliche Strecken, die zurückgelegt werden, können Sie verschiedene Geschwindigkeiten hinterlegen:
+- Hin- und Rückweg (von der Abladestelle zur ersten Steckung, abhängig von Optimierungsmethode)
+- Strecke im Verteilbezirk (dicke blaue Linie)
+- Hauszugangsdistanz (der Weg von der Straßenmitte zum Gebäudepunkt)
+- Zwischenstrecke (abhängig vom Zwischenstreckengrenzwert)
 
-Mit den vorliegenden Zahlen decken Sie alle Möglichkeiten der Berechnung in MultiRoute Go! ab.
-Geschwindigkeiten lassen sich für jede Ausgabe und jeden Verteilbezirk anpassen.
-Hier wird bspw. bei einem Mehrfamilienhaus für die erste Steckung mit 6,3 Sekunden gerechnet. Die nachfolgenden Steckungen sind etwas schneller mit 4,2 Sekunden.
 
+## Steckzeiten
+
+Wir unterscheiden standarmäßig zwischen der 1. Steckung an einem Gebäude und der 2. Steckung an einem Gebäude. 
+Möchten Sie je Produkt (Zeitung, Zeitschrift, Brief) unterschiedliche Steckzeiten hinterlegen, können wir dies im Rahmen der automatisierten Datenübernahme berücksichtigen.
+
+## Zwischenstrecken
+Anwendbar, wenn innerhalb der Gebiete zu Fuß verteilt wird und eine längere Strecke zwischendurch mit dem Auto zurückgelegt wird. Die "längere Strecke" wird über den **Zwischenstreckengrenzwert** definiert. Für die längere Strecke wird eine gesonderte Geschwindigkeit angeben. Bleibt das Feld für die Geschwindigkeit leer, es wird nur ein Grenzwert angegeben, wird die Geschwindigkeit für Hin-/Rückweg genommen.
 
 ## Gehfolgenberechnung manuell anstoßen
 
 Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen einen gewählten Bezirk oder sogar für alle Bezirke der aktuellen Ausgabe, die die globalen Kundeneinstellungen übersteuern:
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168778910-a3738773-2c01-4228-9d8b-540d2c9b482d.png "Gehfolgen manuell berechnen")
-
 
 
 
