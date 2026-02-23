@@ -121,6 +121,7 @@ In der Summe wird Ihnen das rechte Beispiel ein realistischeres Ergebnis geben.
 ## Geschwindigkeiten
 
 Für sämtliche Strecken, die zurückgelegt werden, können Sie verschiedene Geschwindigkeiten hinterlegen:
+
 - Hin- und Rückweg (von der Abladestelle zur ersten Steckung, abhängig von Optimierungsmethode)
 - Strecke im Verteilbezirk (dicke blaue Linie)
 - Hauszugangsdistanz (der Weg von der Straßenmitte zum Gebäudepunkt)
@@ -133,7 +134,7 @@ Wir unterscheiden standarmäßig zwischen der 1. Steckung an einem Gebäude und 
 Möchten Sie je Produkt (Zeitung, Zeitschrift, Brief) unterschiedliche Steckzeiten hinterlegen, können wir dies im Rahmen der automatisierten Datenübernahme berücksichtigen.
 
 ## Zwischenstrecken
-Anwendbar, wenn innerhalb der Gebiete zu Fuß verteilt wird und eine längere Strecke zwischendurch mit dem Auto zurückgelegt wird. Die "längere Strecke" wird über den **Zwischenstreckengrenzwert** definiert. Für die längere Strecke wird eine gesonderte Geschwindigkeit angeben. Bleibt das Feld für die Geschwindigkeit leer, es wird nur ein Grenzwert angegeben, wird die Geschwindigkeit für Hin-/Rückweg genommen.
+Anwendbar, wenn innerhalb der Gebiete zu Fuß verteilt wird und eine längere Strecke zwischendurch mit dem Auto zurückgelegt wird. Die "längere Strecke" wird über den **Zwischenstreckengrenzwert** definiert. Für die längere Strecke wird eine gesonderte Geschwindigkeit angeben. Bleibt das Feld für die Geschwindigkeit leer, es wird nur ein Grenzwert angegeben, wird die [Geschwindigkeit für Hin-/Rückweg](https://go.multiroute.de/handbuch/gehfolgen/#geschwindigkeiten) genommen.
 
 ## Gehfolgenberechnung manuell anstoßen
 
@@ -176,6 +177,8 @@ Die Daten für das Höhenprofil stammen aus der [Shuttle Radar Topography Missio
 
 - Es sind **keine Abos** vorhanden, Sie haben aber die **Aboberechnung** aktiviert.
 - Ihr Verteilbezirk enthält nur **eine** Adresse, sodass keine Route berechnet werden kann.
+
+## Routing Debuginfo
 
 Noch häufiger hängen die Probleme nicht mit MultiRoute Go! selbst zusammen, sondern mit den zugrunde liegenden OSM-Daten (OpenStreetMap). Beispiele:
 
