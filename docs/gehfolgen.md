@@ -23,11 +23,11 @@ Aus dem Hauptmenü können Sie:
 
 ## Abladestelle / Zustellerhaus
 
-Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. Die Abladestelle kann sich innerhalb des Verteilbezirks befinden oder außerhalb. Grundsätzlich wird an der ersten Abladestelle **nicht** automatisch gesteckt. Soll auch an der Abladestelle im Bezirk gesteckt werden, geben Sie diese als Starthaus an.
+Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. Die Abladestelle kann sich innerhalb des Verteilbezirks befinden oder außerhalb. Grundsätzlich wird an der ersten Abladestelle **nicht** automatisch gesteckt. Soll auch an der Abladestelle im Bezirk gesteckt werden, geben Sie diese als [Starthaus](https://go.multiroute.de/handbuch/gehfolgen/#start-endhaus) an.
 
 ## Start- /Endhaus
 
-Manchmal ist es nötig, dass Sie in die Gehfolge eingreifen. Sie können ein Starthaus definieren, bei dem die erste Steckung im Bezirk vorgenommen wird. Und genau so ein Endhaus, bei dem zuletzt gesteckt wird.
+Manchmal ist es nötig, dass Sie in die Gehfolge eingreifen. Sie können ein Starthaus definieren, bei dem die _erste Steckung_ im Bezirk vorgenommen wird. Und genau so ein Endhaus, bei dem zuletzt gesteckt wird.
 Bei "Rundweg im Verteilbezirk" können Sie auch vor der Berechnung "Starthaus automatisch optimieren" auswählen, um das bestmögliche Starthaus für die Route zu errechnen.
 
 ## Berechnen von Gehfolgen
@@ -49,6 +49,40 @@ Und mit ```Berechnung starten``` den Berechnungsvorgang anstoßen.
 
 ## Einstellungen bei Gehfolgenberechnungen
 
+Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie **globale Werte** in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der [Ausgabe](https://gbconsite.github.io/MultiRoute-Go/definitionen/#ausgabe) andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen **Gebiet**/**Bezirk** abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
+
+Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen vornehmen zu können. Aber grundsätzlich können Sie die Angaben selbst administrieren. Wir geben Ihnen hier gerne weitere Erläuterungen, falls nötig.
+
+Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt wird von uns für Sie eingestellt.
+
+## Parameter für die Gehfolgenberechnung 
+
+Möchten Sie sehen, mit welchen Parametern einzelne Gebiete/Bezirke abgespeichert wurden und welche individuellen Parameter hinterlegt wurden, dann ziehen Sie sich am besten in der jeweiligen Ausgabe einen aktuellen [Export](../exporte/#eigenschaften-der-verteilgebiete). In dieser Übersicht sehen Sie auch gleich alle Möglichkeiten, die angepasst werden können.
+
+Haben Sie die Parameter für die Gehfolgenberechnung schon in Excel/CSV vorliegen, können diese auch importiert werden (falls Sie über die entsprechenden Rechte verfüggen). Dazu **in der entsprechenden Ausgabe** auf Administration - Upload gehen und die Datei mit Bezirkseigenschaften auswählen:
+
+<img width="1477" height="592" alt="grafik" src="https://github.com/user-attachments/assets/8b6da97a-3454-4c5c-aa83-6829e4a0abd0" />
+
+## Kfz-Fahrprofil
+
+Erwartet wird die Angabe *true* oder *false*.
+Also Routingprofil für Auto verwenden oder nicht (= Fußwege).
+
+## Hauszugangsdistanz (HZD) Grenzwert
+
+MultiRoute Go! nutzt für die Berechnungen der Gehfolgen die Kartengrundlagen von Open Street Map (OSM). In OSM sind alle notwendigen Informationen enthalten für die optimale Gehfolge. Zur Zustellung gehört auch der Weg von der Straße (Straßenankerpunkt in rosa) bis zum Gebäude (blau). Diese Informationen zur Distanz oder zum physikalischen Weg von der Straße bis zum Gebäude/Briefkasten sind nirgendwo hinterlegt.
+
+MultiRoute Go! zeichnet eine direkte Linie zwischen dem Straßenankerpunkt und der Lage der Hauskoordinate (auch Gebäudestrecke oder Steckstrecke genannt). Im System selber kann vor der Berechnung ein Schwellenwert in Metern angegeben werden, ab welcher Entfernung der Wert in die Berechnung einbezogen wird. Ist zum Beispiel ein Wert von 10 Metern angegeben, so wird erst berechnet, wenn die Distanz größer 10 Meter ist. Diese 10 Meter werden dann von der Entfernung Straßenankerpunkt bis zur Hauskoordinate abgezogen.
+
+In der Darstellung wird zwischen blauen und gelben Linien unterschieden. Eine blaue Linie bedeutet, dass die Hauszugangsdistanz unter dem Schwellenwert liegt. Es kommen in der Summierung der Strecke keine extra Meter dazu. Die gelbe Linie beschreibt Hauszugangsdistanzen über dem Schwellenwert.
+
+![grafik](https://user-images.githubusercontent.com/99329016/168802809-ba4c96c0-451d-487b-9053-a69ff0789806.png "Beispiel HZD")
+
+Diese über dem Schwellenwert befindlichen Meter können Sie in der Gehfolgenkonfiguration HIN und ZURÜCK zur Gesamtstrecke addieren. Die Summe wird separat ausgegeben. 
+
+Für den Excel-Upload der Parameter, Wert in [m] angeben.
+
+## Optimierungsmethode
 Grundsätzlich kann als Optimierungsmethode für die Gehfolgenberechnung zwischen **drei verschiedene Arten** (mit Varianten) gewählt werden:
 
 - **einfache Strecke**: Von der Abladestelle/Starthaus <span style="color: magenta;">&#x1f534;&#xfe0e;</span> die kürzest mögliche Strecke durch den Bezirk, kein fester Endpunkt:
@@ -68,34 +102,7 @@ oder mit festem Endpunkt:
 
 ![Rundweg im Verteilbezirk](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/14101711-3993-42ba-8826-7528adfc4220 "Rundweg nur im Verteilbezirk am ersten Punkt im Bezirk wieder ankommen"){ width="200" }
 
-## Parameter für die Gehfolgenberechnung 
 
-Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie **globale Werte** in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der [Ausgabe](https://gbconsite.github.io/MultiRoute-Go/definitionen/#ausgabe) andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen **Bezirk** abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
-
-Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen vornehmen zu können. Aber grundsätzlich können Sie die Angaben selbst administrieren. Wir geben Ihnen hier gerne weitere Erläuterungen, falls nötig.
-
-Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt wird von uns für Sie eingestellt.
-
-Haben Sie die Parameter für die Gehfolgenberechnung schon in Excel/CSV vorliegen, können diese auch importiert werden (falls Sie über die entsprechenden Rechte verfüggen). Dazu **in der entsprechenden Ausgabe** auf Administration - Upload gehen und die Datei mit Bezirkseigenschaften auswählen:
-
-<img width="1477" height="592" alt="grafik" src="https://github.com/user-attachments/assets/8b6da97a-3454-4c5c-aa83-6829e4a0abd0" />
-
-Zum Exportieren von Parametern siehe [Export](../exporte/#eigenschaften-der-verteilgebiete).
-
-
-
-
-## Hauszugangsdistanz (HZD) 
-
-MultiRoute Go! nutzt für die Berechnungen der Gehfolgen die Kartengrundlagen von Open Street Map (OSM). In OSM sind alle notwendigen Informationen enthalten für die optimale Gehfolge. Zur Zustellung gehört auch der Weg von der Straße (Straßenankerpunkt in rosa) bis zum Gebäude (blau). Diese Informationen zur Distanz oder zum physikalischen Weg von der Straße bis zum Gebäude/Briefkasten sind nirgendwo hinterlegt.
-
-MultiRoute Go! zeichnet eine direkte Linie zwischen dem Straßenankerpunkt und der Lage der Hauskoordinate (auch Gebäudestrecke oder Steckstrecke genannt). Im System selber kann vor der Berechnung ein Schwellenwert in Metern angegeben werden, ab welcher Entfernung der Wert in die Berechnung einbezogen wird. Ist zum Beispiel ein Wert von 10 Metern angegeben, so wird erst berechnet, wenn die Distanz größer 10 Meter ist. Diese 10 Meter werden dann von der Entfernung Straßenankerpunkt bis zur Hauskoordinate abgezogen.
-
-In der Darstellung wird zwischen blauen und gelben Linien unterschieden. Eine blaue Linie bedeutet, dass die Hauszugangsdistanz unter dem Schwellenwert liegt. Es kommen in der Summierung der Strecke keine extra Meter dazu. Die gelbe Linie beschreibt Hauszugangsdistanzen über dem Schwellenwert.
-
-![grafik](https://user-images.githubusercontent.com/99329016/168802809-ba4c96c0-451d-487b-9053-a69ff0789806.png "Beispiel HZD")
-
-Diese über dem Schwellenwert befindlichen Meter können Sie in der Gehfolgenkonfiguration HIN und ZURÜCK zur Gesamtstrecke addieren. Die Summe wird separat ausgegeben. 
 
 
 ## Hauszugangs-Suchradius
