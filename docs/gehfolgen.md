@@ -9,7 +9,7 @@ Die Heuristik zur Gehfolgenoptimierung in MultiRoute Go! folgt dem Prinzip der l
 
 Zusätzlich zur grundsätzlichen Optimierung der Reihenfolge ist in MultiRoute Go! eine Heuristik in der Kostenberechnungsfunktion (eine "nahe Gebäude zuerst"-Logik) eingebaut. Wir sind in der Lage zu simulieren, dass der Zusteller am Anfang seiner Tour mehr Ballast mit sich trägt als am Ende. Daher wird am Anfang der Tour auf die zurückgelegten Strecken ein Multiplikator angesetzt, der die Strecke z.B. um 5% mehr kostet. Während der Optimierung wird somit darauf hingearbeitet, dass die kleineren Strecken dem Multiplikator ausgesetzt sind, anstelle von längeren. Der Optimierungs-Algorithmus läuft im Endeffekt in einer Schleife, die Anzahl Schleifendurchläufe entspricht proportional der Anzahl an Gebäuden in der Tour. Ergebnis ist dann eine Gehfolge, in der so früh wie möglich so viel Gewicht wie möglich verloren wird.
 
-Nutzen Sie die verschiedenen Ergebnisse (z.B. Excel-Export) der Gehfolgenberechnung, um Ausreißer eines Verteilbezirkes zu identifizieren. Sie erkennen die Ausreißer, wenn bspw. ihre Durchschnittsdistanz zu anderen Gebäuden desselben Verteilbezirkes markant hoch ist. Identifzierte Gebäude können dann eventuell besser einem anderen Bezirk zugeordnet werden oder auf inaktiv gesetzt werden.
+Nutzen Sie die verschiedenen Ergebnisse (z.B. Excel-Export) der Gehfolgenberechnung, um [Ausreißer eines Verteilbezirkes zu identifizieren](https://go.multiroute.de/handbuch/tipps/#ausreier-identifizieren). Sie erkennen die Ausreißer, wenn bspw. ihre Durchschnittsdistanz zu anderen Gebäuden desselben Verteilbezirkes markant hoch ist. Identifzierte Gebäude können dann eventuell besser einem anderen Bezirk zugeordnet werden oder auf inaktiv gesetzt werden.
 
 Der MultiRoute Go! Algorithmus erlaubt Berechnungen von mehreren hundert Adresspunkten je Gehfolge.
 
@@ -21,19 +21,31 @@ Aus dem Hauptmenü können Sie:
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168812352-792d9e58-1c1c-44af-92ad-7865627dd38d.png "Übersicht Gehfolgen")
 
-## Parameter für die Gehfolgenberechnung 
+## Abladestelle / Zustellerhaus
 
-Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie **globale Werte** in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der [Ausgabe](https://gbconsite.github.io/MultiRoute-Go/definitionen/#ausgabe) andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen **Bezirk** abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
+Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. Die Abladestelle kann sich innerhalb des Verteilbezirks befinden oder außerhalb. Grundsätzlich wird an der ersten Abladestelle **nicht** automatisch gesteckt. Soll auch an der Abladestelle im Bezirk gesteckt werden, geben Sie diese als Starthaus an.
 
-Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen vornehmen zu können. Aber grundsätzlich können Sie die Angaben selbst administrieren. Wir geben Ihnen hier gerne weitere Erläuterungen, falls nötig.
+## Start- /Endhaus
 
-Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt wird von uns für Sie eingestellt.
+Manchmal ist es nötig, dass Sie in die Gehfolge eingreifen. Sie können ein Starthaus definieren, bei dem die erste Steckung im Bezirk vorgenommen wird. Und genau so ein Endhaus, bei dem zuletzt gesteckt wird.
+Bei "Rundweg im Verteilbezirk" können Sie auch vor der Berechnung "Starthaus automatisch optimieren" auswählen, um das bestmögliche Starthaus für die Route zu errechnen.
 
-Haben Sie die Parameter für die Gehfolgenberechnung schon in Excel/CSV vorliegen, können diese auch importiert werden (falls Sie über die entsprechenden Rechte verfüggen). Dazu **in der entsprechenden Ausgabe** auf Administration - Upload gehen und die Datei mit Bezirkseigenschaften auswählen:
+## Berechnen von Gehfolgen
 
-<img width="1477" height="592" alt="grafik" src="https://github.com/user-attachments/assets/8b6da97a-3454-4c5c-aa83-6829e4a0abd0" />
+Das Menü Gehfolgenberechnung wird über das Hauptmenü geöffnet. Das Symbol für die Gehfolgenberechnungen ist :fontawesome-solid-calculator:. Auch hier kann wieder mit einem zweiten Klick auf das Symbol das Menü ein-/ausgeklappt werden.
 
-Zum Exportieren von Parametern siehe [Export](../exporte/#eigenschaften-der-verteilgebiete).
+![grafik](https://user-images.githubusercontent.com/99329016/166660795-0f6367e1-7dbc-45e7-83b7-2cec9fe632b7.png "zwei Wege führen in die Gehfolgenberechnung")
+
+Die Berechnung kann auch (aus der Gebietsplanung) über einen Klick auf den gewünschten Bezirk gestartet werden. Dort einfach auf den :fontawesome-solid-calculator: drücken.
+
+![grafik](https://user-images.githubusercontent.com/99329016/166661323-4e0668fb-88f8-4ff3-a552-b2620e8d0a6d.png "Gehfolge berechnen mit Taschenrechner starten")
+
+Im Menü Gehfolgenberechnung alternativ einfach die gewünschte Bezirksnummer eintippen:
+![grafik](https://user-images.githubusercontent.com/99329016/166661505-c77fcf7a-0600-4955-83e7-b6008b812928.png "Bezirksnummer eingeben um Gehfolgenberechnung zu starten")
+
+Und mit ```Berechnung starten``` den Berechnungsvorgang anstoßen.
+
+
 
 ## Einstellungen bei Gehfolgenberechnungen
 
@@ -56,31 +68,19 @@ oder mit festem Endpunkt:
 
 ![Rundweg im Verteilbezirk](https://github.com/gbconsite/MultiRoute-Go/assets/99329016/14101711-3993-42ba-8826-7528adfc4220 "Rundweg nur im Verteilbezirk am ersten Punkt im Bezirk wieder ankommen"){ width="200" }
 
+## Parameter für die Gehfolgenberechnung 
 
+Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie **globale Werte** in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der [Ausgabe](https://gbconsite.github.io/MultiRoute-Go/definitionen/#ausgabe) andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen **Bezirk** abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
 
-## Abladestelle / Zustellerhaus
+Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen vornehmen zu können. Aber grundsätzlich können Sie die Angaben selbst administrieren. Wir geben Ihnen hier gerne weitere Erläuterungen, falls nötig.
 
-Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. Die Abladestelle kann sich im Bezirk befinden oder außerhalb sein. Grundsätzlich wird an der ersten Abladestelle nicht automatisch gestectk. Soll diese auch passieren an einer Abladestelle im Bezirk, können Sie diese auch als Starthaus eingeben.
+Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt wird von uns für Sie eingestellt.
 
-## Start- /Endhaus
+Haben Sie die Parameter für die Gehfolgenberechnung schon in Excel/CSV vorliegen, können diese auch importiert werden (falls Sie über die entsprechenden Rechte verfüggen). Dazu **in der entsprechenden Ausgabe** auf Administration - Upload gehen und die Datei mit Bezirkseigenschaften auswählen:
 
-Manchmal ist es nötig, dass Sie in die Gehfolge eingreifen. Sie können ein Starthaus definieren, bei dem die erste Steckung im Bezirk vorgenommen wird. Und genau so ein Endhaus, bei dem zuletzt gesteckt wird.
-Bei "Rundweg im Verteilbezirk" können Sie auch vor der Berechnung "Starthaus automatisch optimieren" auswählen, um das bestmögliche Starthaus für die Route zu errechnen.
+<img width="1477" height="592" alt="grafik" src="https://github.com/user-attachments/assets/8b6da97a-3454-4c5c-aa83-6829e4a0abd0" />
 
-## Berechnen von Gehfolgen
-
-Das Menü Gehfolgenberechnung wird über das Hauptmenü geöffnet. Das Symbol für die Gehfolgenberechnungen ist :fontawesome-solid-calculator:. Auch hier kann wieder mit einem zweiten Klick auf das Symbol das Menü ein-/ausgeklappt werden.
-
-![grafik](https://user-images.githubusercontent.com/99329016/166660795-0f6367e1-7dbc-45e7-83b7-2cec9fe632b7.png "zwei Wege führen in die Gehfolgenberechnung")
-
-Die Berechnung kann auch (aus der Gebietsplanung) über einen Klick auf den gewünschten Bezirk gestartet werden. Dort einfach auf den :fontawesome-solid-calculator: drücken.
-
-![grafik](https://user-images.githubusercontent.com/99329016/166661323-4e0668fb-88f8-4ff3-a552-b2620e8d0a6d.png "Gehfolge berechnen mit Taschenrechner starten")
-
-Im Menü Gehfolgenberechnung alternativ einfach die gewünschte Bezirksnummer eintippen:
-![grafik](https://user-images.githubusercontent.com/99329016/166661505-c77fcf7a-0600-4955-83e7-b6008b812928.png "Bezirksnummer eingeben um Gehfolgenberechnung zu starten")
-
-Und mit ```Berechnung starten``` den Berechnungsvorgang anstoßen.
+Zum Exportieren von Parametern siehe [Export](../exporte/#eigenschaften-der-verteilgebiete).
 
 
 
