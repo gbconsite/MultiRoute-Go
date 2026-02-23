@@ -1,0 +1,973 @@
+<!DOCTYPE html><html lang="de" class="no-js"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Technische Dokumentation mit Routen &amp; Endpunkten zur Programmierung der MultiRoute Go! API"><meta name="author" content="gb consite GmbH"><link href="https://go.multiroute.de/handbuch/routen/" rel="canonical"><link href="../api-intro/" rel="prev"><link href="../preise/" rel="next"><link rel="icon" href="../assets/favicon.ico"><meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18"><title>MultiRoute Go! API Dokumentation - MultiRoute Go!</title><link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css"><link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css"><link rel="stylesheet" href="../css/lightgallery.min.css"><script src="../js/lightgallery.min.js"></script><link rel="stylesheet" href="../stylesheets/extra.css"><link rel="stylesheet" href="../stylesheets/font-awesome-4.7.0/css/font-awesome.min.css"><script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script><meta property="og:type" content="website"><meta property="og:title" content="MultiRoute Go! API Dokumentation - MultiRoute Go!"><meta property="og:description" content="Technische Dokumentation mit Routen &amp; Endpunkten zur Programmierung der MultiRoute Go! API"><meta property="og:image" content="https://go.multiroute.de/handbuch/assets/images/social/routen.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta content="https://go.multiroute.de/handbuch/routen/" property="og:url"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="MultiRoute Go! API Dokumentation - MultiRoute Go!"><meta name="twitter:description" content="Technische Dokumentation mit Routen &amp; Endpunkten zur Programmierung der MultiRoute Go! API"><meta name="twitter:image" content="https://go.multiroute.de/handbuch/assets/images/social/routen.png"><meta name="google-site-verification" content="a2waOxsgDzkYCEmAuwFGMXevNqMhe37qNG1Xc2ryrPU"><link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head> <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"> <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off"> <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off"> <label class="md-overlay" for="__drawer"></label> <div data-md-component="skip"> <a href="#routen-endpunkte" class="md-skip"> Zum Inhalt </a> </div> <div data-md-component="announce"> </div> <header class="md-header md-header--lifted" data-md-component="header"> <nav class="md-header__inner md-grid" aria-label="header.title"> <a href=".." title="MultiRoute Go!" class="md-header__button md-logo" aria-label="MultiRoute Go!" data-md-component="logo"> <img src="../briefkasten.svg" alt="logo"> </a> <label class="md-header__button md-icon" for="__drawer"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg> </label> <div class="md-header__title" data-md-component="header-title"> <div class="md-header__ellipsis"> <div class="md-header__topic"> <span class="md-ellipsis"> MultiRoute Go! </span> </div> <div class="md-header__topic" data-md-component="header-topic"> <span class="md-ellipsis"> MultiRoute Go! API Dokumentation </span> </div> </div> </div> <form class="md-header__option" data-md-component="palette"> <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary data-md-color-accent aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_1"> <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69z"></path></svg> </label> <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary data-md-color-accent aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_2"> <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69z"></path></svg> </label> </form> <label class="md-header__button md-icon" for="__search"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg> </label> <div class="md-search" data-md-component="search" role="dialog"> <label class="md-search__overlay" for="__search"></label> <div class="md-search__inner" role="search"> <form class="md-search__form" name="search"> <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required> <label class="md-search__icon md-icon" for="__search"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg> </label> <nav class="md-search__options" aria-label="Suche"> <a href="javascript:void(0)" class="md-search__icon md-icon" title="Teilen" aria-label="Teilen" data-clipboard data-clipboard-text data-md-component="search-share" tabindex="-1"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"></path></svg> </a> <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg> </button> </nav> <div class="md-search__suggest" data-md-component="search-suggest"></div> </form> <div class="md-search__output"> <div class="md-search__scrollwrap" data-md-scrollfix> <div class="md-search-result" data-md-component="search-result"> <div class="md-search-result__meta"> Suche wird initialisiert </div> <ol class="md-search-result__list" role="presentation"></ol> </div> </div> </div> </div> </div> <div class="md-header__source"> <a href="https://gbconsite.de/"><img src="https://gbconsite.de/wp-content/uploads/2019/09/logo_gbconsite_klein.png" width="160" height="39" alt="Logo gb consite" loading="lazy"></a> </div> <style>
+      .md-login_button{
+      outline: white;
+      border: 0.1rem solid;
+      border-radius: 0.1rem;
+      /* color: var(--md-primary-fg-color); */
+      cursor: pointer;
+      display: inline-block;
+      font-weight: 700;
+      padding: 0.625em 2em;
+      transition: color 125ms,background-color 125ms,border-color 125ms;
+      font-weight: bold !important;
+      font-size: initial;
+      }
+
+      .md-login_button:focus,
+      .md-login_button:hover {
+      background-color: #2f6c8e;
+      border-color: white;       
+  }
+  
+  </style> <a href="/users/sign_in" class="md-login_button"><span class="md-ellipsis"> LOGIN </span></a> </nav> <script>
+  /* https://embed.im/snow */
+  //var embedimSnow=document.getElementById("embedim--snow");if(!embedimSnow){function embRand(a,b){return Math.floor(Math.random()*(b-a+1))+a}var embCSS='.embedim-snow{position: absolute;width: 10px;height: 10px;background: white;border-radius: 50%;margin-top:-10px}';var embHTML='';for(i=1;i<200;i++){embHTML+='<i class="embedim-snow"></i>';var rndX=(embRand(0,1000000)*0.0001),rndO=embRand(-100000,100000)*0.0001,rndT=(embRand(3,8)*10).toFixed(2),rndS=(embRand(0,10000)*0.0001).toFixed(2);embCSS+='.embedim-snow:nth-child('+i+'){'+'opacity:'+(embRand(1,10000)*0.0001).toFixed(2)+';'+'transform:translate('+rndX.toFixed(2)+'vw,-10px) scale('+rndS+');'+'animation:fall-'+i+' '+embRand(10,30)+'s -'+embRand(0,30)+'s linear infinite'+'}'+'@keyframes fall-'+i+'{'+rndT+'%{'+'transform:translate('+(rndX+rndO).toFixed(2)+'vw,'+rndT+'vh) scale('+rndS+')'+'}'+'to{'+'transform:translate('+(rndX+(rndO/2)).toFixed(2)+'vw, 105vh) scale('+rndS+')'+'}'+'}'}embedimSnow=document.createElement('div');embedimSnow.id='embedim--snow';embedimSnow.innerHTML='<style>#embedim--snow{position:fixed;left:0;top:0;bottom:0;width:100vw;height:100vh;overflow:hidden;z-index:9999999;pointer-events:none}'+embCSS+'</style>'+embHTML;document.body.appendChild(embedimSnow)}
+  </script> <nav class="md-tabs" aria-label="Hauptnavigation" data-md-component="tabs"> <div class="md-grid"> <ul class="md-tabs__list"> <li class="md-tabs__item"> <a href=".." class="md-tabs__link"> Home </a> </li> <li class="md-tabs__item"> <a href="../uebersicht/" class="md-tabs__link"> Handbuch </a> </li> <li class="md-tabs__item md-tabs__item--active"> <a href="../api-intro/" class="md-tabs__link"> API </a> </li> <li class="md-tabs__item"> <a href="../preise/" class="md-tabs__link"> Preise </a> </li> <li class="md-tabs__item"> <a href="../blog/" class="md-tabs__link"> Blog </a> </li> <li class="md-tabs__item"> <a href="../impressum/" class="md-tabs__link"> Impressum </a> </li> <li class="md-tabs__item"> <a href="../datenschutz/" class="md-tabs__link"> Datenschutz </a> </li> </ul> </div> </nav> </header> <div class="md-container" data-md-component="container"> <main class="md-main" data-md-component="main"> <div class="md-main__inner md-grid"> <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation"> <div class="md-sidebar__scrollwrap"> <div class="md-sidebar__inner"> <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0"> <label class="md-nav__title" for="__drawer"> <a href=".." title="MultiRoute Go!" class="md-nav__button md-logo" aria-label="MultiRoute Go!" data-md-component="logo"> <img src="../briefkasten.svg" alt="logo"> </a> MultiRoute Go! </label> <div class="md-nav__source"> </div> <ul class="md-nav__list" data-md-scrollfix> <li class="md-nav__item"> <a href=".." class="md-nav__link"> <span class="md-ellipsis"> Home </span> </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2"> <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0"> <span class="md-ellipsis"> Handbuch </span> <span class="md-nav__icon md-icon"></span> </label> <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false"> <label class="md-nav__title" for="__nav_2"> <span class="md-nav__icon md-icon"></span> Handbuch </label> <ul class="md-nav__list" data-md-scrollfix> <li class="md-nav__item"> <a href="../uebersicht/" class="md-nav__link"> <span class="md-ellipsis"> Übersicht </span> </a> </li> <li class="md-nav__item"> <a href="../grundlagen/" class="md-nav__link"> <span class="md-ellipsis"> Grundlagen </span> </a> </li> <li class="md-nav__item"> <a href="../upload/" class="md-nav__link"> <span class="md-ellipsis"> 1. Datenintegration </span> </a> </li> <li class="md-nav__item"> <a href="../gebietsplanung/" class="md-nav__link"> <span class="md-ellipsis"> 2. Gebietsplanung </span> </a> </li> <li class="md-nav__item"> <a href="../adressverwaltung/" class="md-nav__link"> <span class="md-ellipsis"> 3. Adressverwaltung </span> </a> </li> <li class="md-nav__item"> <a href="../spezialhaeuser/" class="md-nav__link"> <span class="md-ellipsis"> 4. Spezialhäuser </span> </a> </li> <li class="md-nav__item"> <a href="../gehfolgen/" class="md-nav__link"> <span class="md-ellipsis"> 5. Gehfolgenberechnung </span> </a> </li> <li class="md-nav__item"> <a href="../gehfolgenoptimieren/" class="md-nav__link"> <span class="md-ellipsis"> 6. Optimierungen in der Gehfolgenberechnung </span> </a> </li> <li class="md-nav__item"> <a href="../traeger/" class="md-nav__link"> <span class="md-ellipsis"> 7. Trägerdokumente </span> </a> </li> <li class="md-nav__item"> <a href="../zusatzmodule/" class="md-nav__link"> <span class="md-ellipsis"> 8. Zusatzmodule </span> </a> </li> <li class="md-nav__item"> <a href="../exporte/" class="md-nav__link"> <span class="md-ellipsis"> 9. Exporte </span> </a> </li> <li class="md-nav__item"> <a href="../importe/" class="md-nav__link"> <span class="md-ellipsis"> 10. Importe </span> </a> </li> <li class="md-nav__item"> <a href="../secure/" class="md-nav__link"> <span class="md-ellipsis"> Sicherheit </span> </a> </li> <li class="md-nav__item"> <a href="../tipps/" class="md-nav__link"> <span class="md-ellipsis"> Tipps &amp; Tricks </span> </a> </li> <li class="md-nav__item"> <a href="../administration/" class="md-nav__link"> <span class="md-ellipsis"> Administration </span> </a> </li> <li class="md-nav__item"> <a href="../automatisierung/" class="md-nav__link"> <span class="md-ellipsis"> Automatisierung </span> </a> </li> <li class="md-nav__item"> <a href="../definitionen/" class="md-nav__link"> <span class="md-ellipsis"> Begriffe </span> </a> </li> <li class="md-nav__item"> <a href="../changelog/" class="md-nav__link"> <span class="md-ellipsis"> Changelog </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested"> <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked> <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex> <span class="md-ellipsis"> API </span> <span class="md-nav__icon md-icon"></span> </label> <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true"> <label class="md-nav__title" for="__nav_3"> <span class="md-nav__icon md-icon"></span> API </label> <ul class="md-nav__list" data-md-scrollfix> <li class="md-nav__item"> <a href="../api-intro/" class="md-nav__link"> <span class="md-ellipsis"> MRG! API </span> </a> </li> <li class="md-nav__item md-nav__item--active"> <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc"> <label class="md-nav__link md-nav__link--active" for="__toc"> <span class="md-ellipsis"> Routen &amp; Endpunkte </span> <span class="md-nav__icon md-icon"></span> </label> <a href="./" class="md-nav__link md-nav__link--active"> <span class="md-ellipsis"> Routen &amp; Endpunkte </span> </a> <nav class="md-nav md-nav--secondary" aria-label="Inhalt"> <label class="md-nav__title" for="__toc"> <span class="md-nav__icon md-icon"></span> Inhalt </label> <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix> <li class="md-nav__item"> <a href="#authentifizierung" class="md-nav__link"> <span class="md-ellipsis"> Authentifizierung </span> </a> </li> <li class="md-nav__item"> <a href="#gehfolgen-steuerung" class="md-nav__link"> <span class="md-ellipsis"> Gehfolgen-Steuerung </span> </a> <nav class="md-nav" aria-label="Gehfolgen-Steuerung"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#ausgaben" class="md-nav__link"> <span class="md-ellipsis"> Ausgaben </span> </a> </li> <li class="md-nav__item"> <a href="#gehfolgen-status" class="md-nav__link"> <span class="md-ellipsis"> Gehfolgen-Status </span> </a> </li> <li class="md-nav__item"> <a href="#csv-export" class="md-nav__link"> <span class="md-ellipsis"> CSV-Export </span> </a> </li> <li class="md-nav__item"> <a href="#informationen-zu-einer-gehfolge-ausgabe-spielt-keine-rolle" class="md-nav__link"> <span class="md-ellipsis"> Informationen zu einer Gehfolge (Ausgabe spielt keine Rolle): </span> </a> </li> <li class="md-nav__item"> <a href="#download-der-tragerdokumente-bzw-info-und-details-zu-einer-gehfolge" class="md-nav__link"> <span class="md-ellipsis"> Download der Trägerdokumente bzw. Info und Details zu einer Gehfolge </span> </a> </li> <li class="md-nav__item"> <a href="#gehfolgenberechung-starten" class="md-nav__link"> <span class="md-ellipsis"> Gehfolgenberechung starten </span> </a> <nav class="md-nav" aria-label="Gehfolgenberechung starten"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#fur-alle-verteilbezirke-der-ausgabe" class="md-nav__link"> <span class="md-ellipsis"> Für alle Verteilbezirke der (Ausgabe) </span> </a> </li> <li class="md-nav__item"> <a href="#fur-einen-verteilbezirk" class="md-nav__link"> <span class="md-ellipsis"> Für einen Verteilbezirk </span> </a> </li> <li class="md-nav__item"> <a href="#abbrechen-der-gehfolgenberechung-nur-die-von-user" class="md-nav__link"> <span class="md-ellipsis"> Abbrechen der Gehfolgenberechung (nur die von User) </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#beispiele" class="md-nav__link"> <span class="md-ellipsis"> Beispiele </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#datenaustausch-json" class="md-nav__link"> <span class="md-ellipsis"> Datenaustausch (JSON) </span> </a> <nav class="md-nav" aria-label="Datenaustausch (JSON)"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#adressen" class="md-nav__link"> <span class="md-ellipsis"> Adressen </span> </a> <nav class="md-nav" aria-label="Adressen"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#adressen-abrufen" class="md-nav__link"> <span class="md-ellipsis"> Adressen abrufen </span> </a> </li> <li class="md-nav__item"> <a href="#adressen-hinzufugenupdaten" class="md-nav__link"> <span class="md-ellipsis"> Adressen Hinzufügen/Updaten </span> </a> </li> <li class="md-nav__item"> <a href="#adressen-loschen" class="md-nav__link"> <span class="md-ellipsis"> Adressen löschen </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#abonnenten" class="md-nav__link"> <span class="md-ellipsis"> Abonnenten </span> </a> <nav class="md-nav" aria-label="Abonnenten"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#abonnenten-abrufen" class="md-nav__link"> <span class="md-ellipsis"> Abonnenten abrufen </span> </a> </li> <li class="md-nav__item"> <a href="#abonnenten-hinzufugenupdaten" class="md-nav__link"> <span class="md-ellipsis"> Abonnenten Hinzufügen/Updaten </span> </a> </li> <li class="md-nav__item"> <a href="#abonnenten-loschen" class="md-nav__link"> <span class="md-ellipsis"> Abonnenten löschen </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#gebiet" class="md-nav__link"> <span class="md-ellipsis"> Gebiet </span> </a> <nav class="md-nav" aria-label="Gebiet"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#gebiete-abrufen" class="md-nav__link"> <span class="md-ellipsis"> Gebiete abrufen </span> </a> </li> <li class="md-nav__item"> <a href="#gebiet-hinzufugenupdaten" class="md-nav__link"> <span class="md-ellipsis"> Gebiet Hinzufügen/Updaten </span> </a> </li> <li class="md-nav__item"> <a href="#gebiet-loschen" class="md-nav__link"> <span class="md-ellipsis"> Gebiet löschen </span> </a> </li> <li class="md-nav__item"> <a href="#gebietsdefinition" class="md-nav__link"> <span class="md-ellipsis"> Gebietsdefinition </span> </a> </li> <li class="md-nav__item"> <a href="#gebietsdefinition-hinzufugen-bzw-loschen" class="md-nav__link"> <span class="md-ellipsis"> Gebietsdefinition hinzufügen bzw. löschen </span> </a> </li> <li class="md-nav__item"> <a href="#gebietsdefinition-hinzufugen-mit-street-id" class="md-nav__link"> <span class="md-ellipsis"> Gebietsdefinition hinzufügen (Mit Street-ID) </span> </a> </li> <li class="md-nav__item"> <a href="#gebiete-als-bild-exportieren-gebietskarten" class="md-nav__link"> <span class="md-ellipsis"> Gebiete als Bild exportieren (Gebietskarten) </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#bezirke" class="md-nav__link"> <span class="md-ellipsis"> Bezirke </span> </a> <nav class="md-nav" aria-label="Bezirke"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#bezirke-abrufen" class="md-nav__link"> <span class="md-ellipsis"> Bezirke abrufen </span> </a> </li> <li class="md-nav__item"> <a href="#bezirke-hinzufugenupdaten" class="md-nav__link"> <span class="md-ellipsis"> Bezirke Hinzufügen/Updaten </span> </a> </li> <li class="md-nav__item"> <a href="#bezirke-loschen" class="md-nav__link"> <span class="md-ellipsis"> Bezirke löschen </span> </a> </li> <li class="md-nav__item"> <a href="#bezirksdefinition" class="md-nav__link"> <span class="md-ellipsis"> Bezirksdefinition </span> </a> </li> <li class="md-nav__item"> <a href="#bezirksdefinition-hinzufugen-bzw-loschen" class="md-nav__link"> <span class="md-ellipsis"> Bezirksdefinition Hinzufügen bzw. löschen </span> </a> </li> <li class="md-nav__item"> <a href="#bezirke-als-bild-exportieren-bezirkskarten" class="md-nav__link"> <span class="md-ellipsis"> Bezirke als Bild exportieren (Bezirkskarten) </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#datenubernahme-individuell-konfiguriert" class="md-nav__link"> <span class="md-ellipsis"> Datenübernahme (individuell konfiguriert) </span> </a> </li> <li class="md-nav__item"> <a href="#zahllisten" class="md-nav__link"> <span class="md-ellipsis"> Zähllisten </span> </a> </li> <li class="md-nav__item"> <a href="#clickmap" class="md-nav__link"> <span class="md-ellipsis"> ClickMap </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#zusie" class="md-nav__link"> <span class="md-ellipsis"> Zusie </span> </a> <nav class="md-nav" aria-label="Zusie"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#zusie-sync" class="md-nav__link"> <span class="md-ellipsis"> Zusie Sync </span> </a> </li> </ul> </nav> </li> </ul> </nav> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="../preise/" class="md-nav__link"> <span class="md-ellipsis"> Preise </span> </a> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5"> <div class="md-nav__link md-nav__container"> <a href="../blog/" class="md-nav__link "> <span class="md-ellipsis"> Blog </span> </a> <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0"> <span class="md-nav__icon md-icon"></span> </label> </div> <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false"> <label class="md-nav__title" for="__nav_5"> <span class="md-nav__icon md-icon"></span> Blog </label> <ul class="md-nav__list" data-md-scrollfix> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2"> <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0"> <span class="md-ellipsis"> Archiv </span> <span class="md-nav__icon md-icon"></span> </label> <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false"> <label class="md-nav__title" for="__nav_5_2"> <span class="md-nav__icon md-icon"></span> Archiv </label> <ul class="md-nav__list" data-md-scrollfix> <li class="md-nav__item"> <a href="../blog/archive/2026/" class="md-nav__link"> <span class="md-ellipsis"> 2026 </span> </a> </li> <li class="md-nav__item"> <a href="../blog/archive/2025/" class="md-nav__link"> <span class="md-ellipsis"> 2025 </span> </a> </li> <li class="md-nav__item"> <a href="../blog/archive/2024/" class="md-nav__link"> <span class="md-ellipsis"> 2024 </span> </a> </li> <li class="md-nav__item"> <a href="../blog/archive/2023/" class="md-nav__link"> <span class="md-ellipsis"> 2023 </span> </a> </li> <li class="md-nav__item"> <a href="../blog/archive/2022/" class="md-nav__link"> <span class="md-ellipsis"> 2022 </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item md-nav__item--nested"> <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3"> <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0"> <span class="md-ellipsis"> Kategorien </span> <span class="md-nav__icon md-icon"></span> </label> <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false"> <label class="md-nav__title" for="__nav_5_3"> <span class="md-nav__icon md-icon"></span> Kategorien </label> <ul class="md-nav__list" data-md-scrollfix> <li class="md-nav__item"> <a href="../blog/category/blog/" class="md-nav__link"> <span class="md-ellipsis"> Blog </span> </a> </li> </ul> </nav> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="../impressum/" class="md-nav__link"> <span class="md-ellipsis"> Impressum </span> </a> </li> <li class="md-nav__item"> <a href="../datenschutz/" class="md-nav__link"> <span class="md-ellipsis"> Datenschutz </span> </a> </li> </ul> </nav> </div> </div> </div> <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc"> <div class="md-sidebar__scrollwrap"> <div class="md-sidebar__inner"> <nav class="md-nav md-nav--secondary" aria-label="Inhalt"> <label class="md-nav__title" for="__toc"> <span class="md-nav__icon md-icon"></span> Inhalt </label> <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix> <li class="md-nav__item"> <a href="#authentifizierung" class="md-nav__link"> <span class="md-ellipsis"> Authentifizierung </span> </a> </li> <li class="md-nav__item"> <a href="#gehfolgen-steuerung" class="md-nav__link"> <span class="md-ellipsis"> Gehfolgen-Steuerung </span> </a> <nav class="md-nav" aria-label="Gehfolgen-Steuerung"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#ausgaben" class="md-nav__link"> <span class="md-ellipsis"> Ausgaben </span> </a> </li> <li class="md-nav__item"> <a href="#gehfolgen-status" class="md-nav__link"> <span class="md-ellipsis"> Gehfolgen-Status </span> </a> </li> <li class="md-nav__item"> <a href="#csv-export" class="md-nav__link"> <span class="md-ellipsis"> CSV-Export </span> </a> </li> <li class="md-nav__item"> <a href="#informationen-zu-einer-gehfolge-ausgabe-spielt-keine-rolle" class="md-nav__link"> <span class="md-ellipsis"> Informationen zu einer Gehfolge (Ausgabe spielt keine Rolle): </span> </a> </li> <li class="md-nav__item"> <a href="#download-der-tragerdokumente-bzw-info-und-details-zu-einer-gehfolge" class="md-nav__link"> <span class="md-ellipsis"> Download der Trägerdokumente bzw. Info und Details zu einer Gehfolge </span> </a> </li> <li class="md-nav__item"> <a href="#gehfolgenberechung-starten" class="md-nav__link"> <span class="md-ellipsis"> Gehfolgenberechung starten </span> </a> <nav class="md-nav" aria-label="Gehfolgenberechung starten"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#fur-alle-verteilbezirke-der-ausgabe" class="md-nav__link"> <span class="md-ellipsis"> Für alle Verteilbezirke der (Ausgabe) </span> </a> </li> <li class="md-nav__item"> <a href="#fur-einen-verteilbezirk" class="md-nav__link"> <span class="md-ellipsis"> Für einen Verteilbezirk </span> </a> </li> <li class="md-nav__item"> <a href="#abbrechen-der-gehfolgenberechung-nur-die-von-user" class="md-nav__link"> <span class="md-ellipsis"> Abbrechen der Gehfolgenberechung (nur die von User) </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#beispiele" class="md-nav__link"> <span class="md-ellipsis"> Beispiele </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#datenaustausch-json" class="md-nav__link"> <span class="md-ellipsis"> Datenaustausch (JSON) </span> </a> <nav class="md-nav" aria-label="Datenaustausch (JSON)"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#adressen" class="md-nav__link"> <span class="md-ellipsis"> Adressen </span> </a> <nav class="md-nav" aria-label="Adressen"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#adressen-abrufen" class="md-nav__link"> <span class="md-ellipsis"> Adressen abrufen </span> </a> </li> <li class="md-nav__item"> <a href="#adressen-hinzufugenupdaten" class="md-nav__link"> <span class="md-ellipsis"> Adressen Hinzufügen/Updaten </span> </a> </li> <li class="md-nav__item"> <a href="#adressen-loschen" class="md-nav__link"> <span class="md-ellipsis"> Adressen löschen </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#abonnenten" class="md-nav__link"> <span class="md-ellipsis"> Abonnenten </span> </a> <nav class="md-nav" aria-label="Abonnenten"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#abonnenten-abrufen" class="md-nav__link"> <span class="md-ellipsis"> Abonnenten abrufen </span> </a> </li> <li class="md-nav__item"> <a href="#abonnenten-hinzufugenupdaten" class="md-nav__link"> <span class="md-ellipsis"> Abonnenten Hinzufügen/Updaten </span> </a> </li> <li class="md-nav__item"> <a href="#abonnenten-loschen" class="md-nav__link"> <span class="md-ellipsis"> Abonnenten löschen </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#gebiet" class="md-nav__link"> <span class="md-ellipsis"> Gebiet </span> </a> <nav class="md-nav" aria-label="Gebiet"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#gebiete-abrufen" class="md-nav__link"> <span class="md-ellipsis"> Gebiete abrufen </span> </a> </li> <li class="md-nav__item"> <a href="#gebiet-hinzufugenupdaten" class="md-nav__link"> <span class="md-ellipsis"> Gebiet Hinzufügen/Updaten </span> </a> </li> <li class="md-nav__item"> <a href="#gebiet-loschen" class="md-nav__link"> <span class="md-ellipsis"> Gebiet löschen </span> </a> </li> <li class="md-nav__item"> <a href="#gebietsdefinition" class="md-nav__link"> <span class="md-ellipsis"> Gebietsdefinition </span> </a> </li> <li class="md-nav__item"> <a href="#gebietsdefinition-hinzufugen-bzw-loschen" class="md-nav__link"> <span class="md-ellipsis"> Gebietsdefinition hinzufügen bzw. löschen </span> </a> </li> <li class="md-nav__item"> <a href="#gebietsdefinition-hinzufugen-mit-street-id" class="md-nav__link"> <span class="md-ellipsis"> Gebietsdefinition hinzufügen (Mit Street-ID) </span> </a> </li> <li class="md-nav__item"> <a href="#gebiete-als-bild-exportieren-gebietskarten" class="md-nav__link"> <span class="md-ellipsis"> Gebiete als Bild exportieren (Gebietskarten) </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#bezirke" class="md-nav__link"> <span class="md-ellipsis"> Bezirke </span> </a> <nav class="md-nav" aria-label="Bezirke"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#bezirke-abrufen" class="md-nav__link"> <span class="md-ellipsis"> Bezirke abrufen </span> </a> </li> <li class="md-nav__item"> <a href="#bezirke-hinzufugenupdaten" class="md-nav__link"> <span class="md-ellipsis"> Bezirke Hinzufügen/Updaten </span> </a> </li> <li class="md-nav__item"> <a href="#bezirke-loschen" class="md-nav__link"> <span class="md-ellipsis"> Bezirke löschen </span> </a> </li> <li class="md-nav__item"> <a href="#bezirksdefinition" class="md-nav__link"> <span class="md-ellipsis"> Bezirksdefinition </span> </a> </li> <li class="md-nav__item"> <a href="#bezirksdefinition-hinzufugen-bzw-loschen" class="md-nav__link"> <span class="md-ellipsis"> Bezirksdefinition Hinzufügen bzw. löschen </span> </a> </li> <li class="md-nav__item"> <a href="#bezirke-als-bild-exportieren-bezirkskarten" class="md-nav__link"> <span class="md-ellipsis"> Bezirke als Bild exportieren (Bezirkskarten) </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#datenubernahme-individuell-konfiguriert" class="md-nav__link"> <span class="md-ellipsis"> Datenübernahme (individuell konfiguriert) </span> </a> </li> <li class="md-nav__item"> <a href="#zahllisten" class="md-nav__link"> <span class="md-ellipsis"> Zähllisten </span> </a> </li> <li class="md-nav__item"> <a href="#clickmap" class="md-nav__link"> <span class="md-ellipsis"> ClickMap </span> </a> </li> </ul> </nav> </li> <li class="md-nav__item"> <a href="#zusie" class="md-nav__link"> <span class="md-ellipsis"> Zusie </span> </a> <nav class="md-nav" aria-label="Zusie"> <ul class="md-nav__list"> <li class="md-nav__item"> <a href="#zusie-sync" class="md-nav__link"> <span class="md-ellipsis"> Zusie Sync </span> </a> </li> </ul> </nav> </li> </ul> </nav> </div> </div> </div> <div class="md-content" data-md-component="content"> <article class="md-content__inner md-typeset"> <a href="https://github.com/gbconsite/MultiRoute-Go/edit/main/docs/routen.md" title="Seite editieren" class="md-content__button md-icon"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1z"></path></svg> </a> <h1 id="routen-endpunkte">Routen &amp; Endpunkte<a class="headerlink" href="#routen-endpunkte" title="Permanent link"></a></h1> <h2 id="authentifizierung">Authentifizierung<a class="headerlink" href="#authentifizierung" title="Permanent link"></a></h2> <p>Die Authentifizierung findet mittels mittels Basic Auth (http://username:password@domain/) statt. </p> <p><code>domain</code> steht dabei für die Domain unter der Sie auf MultiRoute Tour! zugreifen. Für die SaaS lautet die Domain <a href="https://go.multiroute.de">https://go.multiroute.de</a>. </p> <p>Sie können Ihren Account auch einer Konfigurationsdatei für einen schnelleren und sicheren Login hinterlegen.</p> <h2 id="gehfolgen-steuerung">Gehfolgen-Steuerung<a class="headerlink" href="#gehfolgen-steuerung" title="Permanent link"></a></h2> <h3 id="ausgaben">Ausgaben<a class="headerlink" href="#ausgaben" title="Permanent link"></a></h3> <p>Da immer ein gültiger Benutzer benötigt wird, muss man sich entweder mittels Basic Auth (<a href="http://username:password@domain/">http://username:password@domain/</a>) anmelden,<br> oder es wird ein Benutzer fest hinterlegt. Dieser feste Benutzer wird dann in einer Konfiguration eintragen.</p> <p>Wenn zwischen verschiedenen Ausgaben gewechselt werden soll, kann dies per Aufruf erfolgen.<br> Dieser ändert die Ausgabe des Benutzers.</p> <p><a href="http://domain/fernsteuerung/ausgabe_wechseln?ausgabe=%3CAusgabename">http://domain/fernsteuerung/ausgabe_wechseln?ausgabe=%3CAusgabename</a>&gt;<br> Oder man kann die Ausgabe als optionalen Parameter an die anderen Aufrufe mit übergeben.</p> <h3 id="gehfolgen-status">Gehfolgen-Status<a class="headerlink" href="#gehfolgen-status" title="Permanent link"></a></h3> <p>Informationen zu allen Gehfolgen (einer Ausgabe)<br> Es werden entweder alle angezeigt, oder nur die mit dem jeweiligen Status.</p> <p><a href="http://domain/fernsteuerung/gehfolgen">http://domain/fernsteuerung/gehfolgen</a><br> <a href="http://domain/fernsteuerung/gehfolgen/error">http://domain/fernsteuerung/gehfolgen/error</a><br> <a href="http://domain/fernsteuerung/gehfolgen/pending">http://domain/fernsteuerung/gehfolgen/pending</a><br> <a href="http://domain/fernsteuerung/gehfolgen/unknown">http://domain/fernsteuerung/gehfolgen/unknown</a><br> <a href="http://domain/fernsteuerung/gehfolgen/success">http://domain/fernsteuerung/gehfolgen/success</a></p> <p>Optionale Parameter:<br> limit (default 100)<br> offset (default 0)<br> ausgabe (default die vom User)<br> verteilbezirk (Verteilbezirk-Nummer (Name))<br> abonnenten (default alle) true=Abonnenten; false=Vollverteilung<br> fussweg (default alle) true=Fußweg bevorzugt; false=kein Fußweg bevorzugt</p> <p><a href="http://domain/fernsteuerung/gehfolgen?limit=10&amp;offset=0">http://domain/fernsteuerung/gehfolgen?limit=10&amp;offset=0</a></p> <p>Rückgabewert ist ein JSON Array: </p> <pre><code>{"id":3607,"verteilbezirk":"51043501570","status":"pending"},{"id":3606,"verteilbezirk":"WSP_P193d","status":"pending"},
+{"id":3605,"verteilbezirk":"WSP_P193","status":"pending"},{"id":3604,"verteilbezirk":"WSP_P193w","status":"pending"},
+{"id":3603,"verteilbezirk":"WSP_P193c","status":"pending"},{"id":3602,"verteilbezirk":"WSP_P193f","status":"pending"},
+{"id":3601,"verteilbezirk":"test","status":"pending"},{"id":3600,"verteilbezirk":"8654","status":"success"},
+{"id":3599,"verteilbezirk":"8654","status":"success"},{"id":3598,"verteilbezirk":"8654","status":"success"}
+</code></pre> <h3 id="csv-export">CSV-Export<a class="headerlink" href="#csv-export" title="Permanent link"></a></h3> <p><a href="http://domain/fernsteuerung/gehfolgen/export/abonnenten/detail">http://domain/fernsteuerung/gehfolgen/export/abonnenten/detail</a><br> <a href="http://domain/fernsteuerung/gehfolgen/export/abonnenten/zusammenfassung">http://domain/fernsteuerung/gehfolgen/export/abonnenten/zusammenfassung</a><br> <a href="http://domain/fernsteuerung/gehfolgen/export/vollbesteckung/detail">http://domain/fernsteuerung/gehfolgen/export/vollbesteckung/detail</a><br> <a href="http://domain/fernsteuerung/gehfolgen/export/vollbesteckung/zusammenfassung">http://domain/fernsteuerung/gehfolgen/export/vollbesteckung/zusammenfassung</a></p> <h3 id="informationen-zu-einer-gehfolge-ausgabe-spielt-keine-rolle">Informationen zu einer Gehfolge (Ausgabe spielt keine Rolle):<a class="headerlink" href="#informationen-zu-einer-gehfolge-ausgabe-spielt-keine-rolle" title="Permanent link"></a></h3> <p><a href="http://domain/fernsteuerung/gehfolge/3603">http://domain/fernsteuerung/gehfolge/3603</a></p> <p>Rückgabewert ist ein JSON Object:</p> <pre><code>{"id":3603,"verteilbezirk":"WSP_P193c","status":"unknown","grenzdistanz":10,"zugang_fussweg":true,"abonnenten":true,"ignore_starthaus":true}
+</code></pre> <h3 id="download-der-tragerdokumente-bzw-info-und-details-zu-einer-gehfolge">Download der Trägerdokumente bzw. Info und Details zu einer Gehfolge<a class="headerlink" href="#download-der-tragerdokumente-bzw-info-und-details-zu-einer-gehfolge" title="Permanent link"></a></h3> <p><a href="http://domain/fernsteuerung/gehfolge/3603/gpx">http://domain/fernsteuerung/gehfolge/3603/gpx</a> (optional: "/gpx?type=waypoint,route,track" - Default: track)</p> <ul> <li>Die Waypoints sind die tatsächlichen Gebäudepunkte (rooftop) und enthalten die Adresse als Attribut (in der berechneten Reihenfolge)</li> <li>Der Track hat Points und einen Path:<ul> <li>Track Points sind die Zugangspunkte auf der Straße und enthalten einen Reihenfolgeindex als Attribut (in der berechneten Reihenfolge)</li> <li>Track Path ist die Streckenlinie aus dem Kartenmaterial</li> </ul> </li> <li>Die Route hat ebenfalls Points und einen Path:<ul> <li>Route Points sind die Zugangspunkte auf der Straße und enthalten die Adresse als Attribut (in der berechneten Reihenfolge)</li> <li>Route Path ist die Linie der Luftlinienverbindung zwischen den Wegpunkten in der berechneten Reihenfolge</li> </ul> </li> </ul> <p><a href="http://domain/fernsteuerung/gehfolge/3603/excel">http://domain/fernsteuerung/gehfolge/3603/excel</a><br> <a href="http://domain/fernsteuerung/gehfolge/3603/image">http://domain/fernsteuerung/gehfolge/3603/image</a><br> <a href="http://domain/fernsteuerung/gehfolge/3603/strassenliste">http://domain/fernsteuerung/gehfolge/3603/strassenliste</a> -&gt; pdf<br> <a href="http://domain/fernsteuerung/gehfolge/3603/bezirkskarte">http://domain/fernsteuerung/gehfolge/3603/bezirkskarte</a> -&gt; pdf<br> <a href="http://domain/fernsteuerung/gehfolge/3603/gehfolge">http://domain/fernsteuerung/gehfolge/3603/gehfolge</a> -&gt; pdf<br> <a href="http://domain/fernsteuerung/gehfolge/3603/detail">http://domain/fernsteuerung/gehfolge/3603/detail</a> -&gt; csv<br> <a href="http://domain/fernsteuerung/gehfolge/3603/zusammenfassung">http://domain/fernsteuerung/gehfolge/3603/zusammenfassung</a> -&gt; csv<br> <a href="http://domain/fernsteuerung/gehfolge/3603/detail.json">http://domain/fernsteuerung/gehfolge/3603/detail.json</a> -&gt; json<br> <a href="http://domain/fernsteuerung/gehfolge/3603/zusammenfassung.json">http://domain/fernsteuerung/gehfolge/3603/zusammenfassung.json</a> -&gt; json<br> <a href="http://domain/fernsteuerung/gehfolge/3603/all.json">http://domain/fernsteuerung/gehfolge/3603/all.json</a> -&gt; json</p> <p>JSON Objekt Beispiele:</p> <p>Achtung: Die folgenden Keys sind optional:</p> <ul> <li>nur_abonnenten</li> <li>privathaushalte</li> <li>gewerbebetriebe</li> <li>werbeverweigerer</li> <li>abonnenten</li> </ul> <p>Zusammenfassung </p> <pre><code>{
+    "verteilbezirk_nr": "B421902002",
+    "verteilbezirk_name": "Landenhausen 2",
+    "gehfolge_id": 2727,
+    "zustellerhaus": true,
+    "fussweg": false,
+    "transport": "fuss",
+    "zustellerhaus_kfz": false,
+    "nur_abonnenten": true,
+    "datenstand_osm": "OSM-Datenstand nicht verfügbar",
+    "berechnet_am": "27.04.2021 18:52",
+    "grenzdistanz": 36,
+    "speed": 6.0,
+    "ruestzeit": 15,
+    "dauer": 0.8222222222222222,
+    "steckzeit": 0.7777777777777778,
+    "dauer_sekunden": 2960,
+    "steckzeit_sekunden": 2800,
+    "strecke_im_gebiet": 4934,
+    "strecke_gesamt": 5328,
+    "hinweg": 197,
+    "rueckweg": 197,
+    "dauer_hinweg": 0.002777777777777778,
+    "dauer_rueckweg": 0.002777777777777778,
+    "osrm_schwelldistanz": "30",
+    "hauszugangsdistanzen": 0,
+    "anzahl_haeuser_mit_hauszugangsdistanz": 0,
+    "privathaushalte": 80,
+    "gewerbebetriebe": 8,
+    "werbeverweigerer": 0,
+    "abonnenten": 40,
+    "wv_p": 5,
+    "wv_gew": 0,
+    "wv_p_zeitung": 0,
+    "wv_gew_zeitung": 40,
+    "hauszugang_suchradius": "30",
+    "abladestelle_id": null,
+    "ausgabe_name": "GVS_99_Grundstruktur_Abo",
+    "ausgabe_stand": null,
+    "zusteller_haus": {
+        "oi": "24960475",
+        "street_oi": "304207",
+        "hausnummer": "5",
+        "hausnummer_zusatz": "" 
+    },
+    "hoehenprofil_min": 274,
+    "hoehenprofil_max": 306,
+    "hoehenprofil_aufstieg": 113,
+    "image_path": "/gehfolgens/2727/image_bezirkskarte",
+    "bezirkskarte_path": "/gehfolgens/2727/pdf_bezirkskarte.pdf",
+    "strassenliste_path": "/gehfolgens/2727/pdf_strassenliste.pdf",
+    "haeuserliste_path": "/gehfolgens/2727/pdf_strassenliste_kompakt.pdf" 
+}
+</code></pre> <p>Detail </p> <pre><code>[{
+    "geb_id": "abc1",
+    "gehfolge_id": 4607,
+    "nr": 1,
+    "strasse": "Gendarmenmarkt",
+    "hausnummer": "2",
+    "plz": "10117",
+    "ort": "Berlin",
+    "verteilbezirk_nr": "Bezirk 10",
+    "hauszugangs_distanz": null,
+    "dauer": null,
+    "strecke": null,
+    "privathaushalte": 0,
+    "gewerbebetriebe": 0,
+    "werbeverweigerer": 0,
+    "abonnenten": 0
+}, {
+    "geb_id": "abc2",
+    "gehfolge_id": 4607,
+    "nr": 2,
+    "strasse": "Wilhelmstraße",
+    "hausnummer": "96",
+    "plz": "10117",
+    "ort": "Berlin",
+    "verteilbezirk_nr": "Bezirk 10",
+    "hauszugangs_distanz": 8,
+    "dauer": 664,
+    "strecke": 917,
+    "privathaushalte": 0,
+    "gewerbebetriebe": 0,
+    "werbeverweigerer": 0,
+    "abonnenten": 0
+}, {
+    "geb_id": "abc3",
+    "gehfolge_id": 4607,
+    "nr": 3,
+    "strasse": "Voßstraße",
+    "hausnummer": "35",
+    "plz": "10117",
+    "ort": "Berlin",
+    "verteilbezirk_nr": "Bezirk 10",
+    "hauszugangs_distanz": 4,
+    "dauer": 129,
+    "strecke": 179,
+    "privathaushalte": 3,
+    "gewerbebetriebe": 0,
+    "werbeverweigerer": 0,
+    "abonnenten": 2
+}, {
+    "geb_id": "abc4",
+    "gehfolge_id": 4607,
+    "nr": 4,
+    "strasse": "Voßstraße",
+    "hausnummer": "34",
+    "plz": "10117",
+    "ort": "Berlin",
+    "verteilbezirk_nr": "Bezirk 10",
+    "hauszugangs_distanz": 3,
+    "dauer": 22,
+    "strecke": 31,
+    "privathaushalte": 4,
+    "gewerbebetriebe": 0,
+    "werbeverweigerer": 0,
+    "abonnenten": 3
+}, {
+    "geb_id": "abc5",
+    "gehfolge_id": 4607,
+    "nr": 5,
+    "strasse": "Voßstraße",
+    "hausnummer": "33",
+    "plz": "10117",
+    "ort": "Berlin",
+    "verteilbezirk_nr": "Bezirk 10",
+    "hauszugangs_distanz": 3,
+    "dauer": 27,
+    "strecke": 38,
+    "privathaushalte": 4,
+    "gewerbebetriebe": 0,
+    "werbeverweigerer": 0,
+    "abonnenten": 2
+}, {
+    "geb_id": "abc6",
+    "gehfolge_id": 4607,
+    "nr": 6,
+    "strasse": "Voßstraße",
+    "hausnummer": "27",
+    "plz": "10117",
+    "ort": "Berlin",
+    "verteilbezirk_nr": "Bezirk 10",
+    "hauszugangs_distanz": 4,
+    "dauer": 58,
+    "strecke": 81,
+    "privathaushalte": 6,
+    "gewerbebetriebe": 0,
+    "werbeverweigerer": 0,
+    "abonnenten": 4
+}]
+</code></pre> <p>all.json </p> <pre><code>{
+    "verteilbezirk_nr": "B421902002",
+    "verteilbezirk_name": "Landenhausen 2",
+    "gehfolge_id": 2730,
+    "zustellerhaus": false,
+    "fussweg": false,
+    "transport": "fuss",
+    "nur_abonnenten": true,
+    "datenstand_osm": "OSM-Datenstand nicht verfügbar",
+    "berechnet_am": "29.04.2021 13:03",
+    "grenzdistanz": 36,
+    "speed": 6.0,
+    "ruestzeit": 15,
+    "dauer": 1.44,
+    "steckzeit": 0.7,
+    "dauer_sekunden": 5184,
+    "steckzeit_sekunden": 2520,
+    "strecke_im_gebiet": 8640,
+    "strecke_gesamt": 8640,
+    "hinweg": 0,
+    "rueckweg": 0,
+    "dauer_hinweg": 0,
+    "dauer_rueckweg": 0,
+    "osrm_schwelldistanz": "30",
+    "hauszugangsdistanzen": 8,
+    "anzahl_haeuser_mit_hauszugangsdistanz": 1,
+    "privathaushalte": 215,
+    "gewerbebetriebe": 32,
+    "werbeverweigerer": 12,
+    "abonnenten": 36,
+    "hoehenprofil_min": 274,
+    "hoehenprofil_max": 340,
+    "hoehenprofil_aufstieg": 200,
+    "wv_p": 5,
+    "wv_gew": 0,
+    "wv_p_zeitung": 0,
+    "wv_gew_zeitung": 36,
+    "hauszugang_suchradius": "30",
+    "abladestelle_id": null,
+    "ausgabe_name": "GVS_99_Grundstruktur_Abo",
+    "ausgabe_stand": null,
+    "image_path": "/gehfolgens/2730/image_bezirkskarte",
+    "bezirkskarte_path": "/gehfolgens/2730/pdf_bezirkskarte.pdf",
+    "strassenliste_path": "/gehfolgens/2730/pdf_strassenliste.pdf",
+    "haeuserliste_path": "/gehfolgens/2730/pdf_strassenliste_kompakt.pdf",
+    "route": [{
+        "geb_id": "29577122",
+        "gehfolge_id": 2730,
+        "nr": 1,
+        "strasse": "Am Sportzentrum",
+        "hausnummer": "7",
+        "plz": "36367",
+        "ort": "Wartenberg",
+        "verteilbezirk_nr": "B421902002",
+        "hauszugangs_distanz": null,
+        "dauer": null,
+        "strecke": null,
+        "privathaushalte": 0,
+        "gewerbebetriebe": 0,
+        "werbeverweigerer": 0,
+        "abonnenten": 0,
+        "abonnenten_detail": [
+            []
+        ],
+        "bemerkung": "",
+        "wv_p": 0,
+        "wv_gew": 0,
+        "wv_p_zeitung": 0,
+        "wv_gew_zeitung": 0,
+        "haustyp": null
+    },
+    ...
+    ]
+}
+</code></pre> <h3 id="gehfolgenberechung-starten">Gehfolgenberechung starten<a class="headerlink" href="#gehfolgenberechung-starten" title="Permanent link"></a></h3> <h4 id="fur-alle-verteilbezirke-der-ausgabe">Für alle Verteilbezirke der (Ausgabe)<a class="headerlink" href="#fur-alle-verteilbezirke-der-ausgabe" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gehfolgen/berechnen">http://domain/fernsteuerung/gehfolgen/berechnen</a></p> <p>Optionale Parameter:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>use_save_settings</td> <td>Verwende nur die gespeicherten Einstellungen von Verteilbezirk/Ausgabe/Kunde</td> </tr> <tr> <td>grenzdistanz</td> <td>Hauszugangsdistanz (HZD) Grenzwert (default Kundeneinstellung)</td> </tr> <tr> <td>abonnenten</td> <td>Gehfolge nur für Abonnenten berechnen (default false)</td> </tr> <tr> <td>ignore_starthaus</td> <td>Starthaus automatisch optimieren (default false) Starhaus des Beziks wird verwendet</td> </tr> <tr> <td>transport</td> <td>fuss oder kfz (default fuss)</td> </tr> <tr> <td>zugang_fussweg</td> <td>Zum Haus nächstgelegene Fußwege als Zugang bevorzugen (default false) Funktioniert nur bei transport=fuss</td> </tr> <tr> <td>ignore_street_name</td> <td>Straßennamen ignorieren (default false) Bei Problemen wenn in OSM ein anderer Straßennamen enthalten ist wie in den Adresse-Daten</td> </tr> <tr> <td>steckzeit_erste</td> <td>(default Kundeneinstellung)</td> </tr> <tr> <td>steckzeit_folgende</td> <td>(default Kundeneinstellung)</td> </tr> <tr> <td>speed</td> <td>Geschwindigkeit (default Kundeneinstellung oder 5)</td> </tr> <tr> <td>ruestzeit</td> <td>Rüstzeit (default Kundeneinstellung oder 0)</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (default die vom User)</td> </tr> <tr> <td>option</td> <td>Optionen Parameter (Verteilbezirk und Ausgabe) Objekt (optional)</td> </tr> </tbody> </table> <p>Parameter für Depot-Optimierung:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>kapazitaet</td> <td>Anzahl der Zeitungen</td> </tr> <tr> <td>start_kapazitaet</td> <td>Anzahl der Zeitungen die der Zusteller schon dabei hat. (default 0)</td> </tr> </tbody> </table> <p>bzw.</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>kapazitaet_kg</td> <td>Tragekapazität des Zustellers in kg)</td> </tr> <tr> <td>start_kapazitaet_kg</td> <td>Tragekapazität des Zustellers in kg beim Start (\~ Anzahl der Zeitungen die der Zusteller schon dabei hat)(default 0)</td> </tr> <tr> <td>mediengewicht</td> <td>Gewicht eines Mediums in Gramm</td> </tr> </tbody> </table> <p>Optionen Parameter: (null setzte den Wert auf Standard)</p> <table> <thead> <tr> <th></th> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>hauszugangsdistanz</td> <td>Hauszugangsdistanz Grenzwert (als Vorgabewert, in Meter)</td> <td>float</td> </tr> <tr> <td>osrm_schwelldistanz</td> <td>Hauszugangs-Suchradius</td> <td>float</td> </tr> <tr> <td>ruestzeit</td> <td>Standardeinstellung Rüstzeit (in ganzen Minuten)</td> <td>float</td> </tr> <tr> <td>steckzeit_erste</td> <td>Erste Steckung (an Adresse, in Sekunden)</td> <td>float</td> </tr> <tr> <td>steckzeit_folgende</td> <td>Folgende Steckungen (an Adresse, in Sekunden)</td> <td>float</td> </tr> <tr> <td>optimierung</td> <td>Optimierungsmethode</td> <td>siehe Auflistung</td> </tr> <tr> <td>geschwindigkeit</td> <td>Geschwindigkeit (in km/h )</td> <td>float</td> </tr> <tr> <td>car_profile_fuer_zustellerhaus</td> <td>Hin-/Rückweg zum Zustellerhaus mit Kfz.</td> <td>true,false,null</td> </tr> <tr> <td>starthaus</td> <td>Starthaus automatisch optimieren</td> <td>true,false,null</td> </tr> <tr> <td>strassen_name</td> <td>Straßennamen ignorieren (Zum Haus nächstgelegenen Punkt als Zugang bevorzugen)</td> <td></td> </tr> <tr> <td>nullhaushalte</td> <td>Adressen ohne Haushalte oder Gewerbebetriebe ignorieren</td> <td>true,false,null</td> </tr> <tr> <td>osrm_overview</td> <td>Routengeometrie (nur Anzeige): exakt oder vereinfacht (default vereinfacht)</td> <td>true,false,null</td> </tr> </tbody> </table> <p>Nur wenn die Option verfügbar ist.</p> <table> <thead> <tr> <th></th> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>kfz</td> <td>Kfz-Fahrprofil</td> <td>true,false,null</td> </tr> <tr> <td>geschwindigkeit2</td> <td>Alternative Geschwindigkeit (in km/h ) für Hin- und Rückweg (nur bei Zustellerhaus)</td> <td>float</td> </tr> <tr> <td>geschwindigkeit3</td> <td>Alternative Geschwindigkeit (in km/h ) für Hauszugangsdistanz</td> <td>float</td> </tr> </tbody> </table> <p>Nur wenn Option Depots freigeschaltet ist.</p> <table> <thead> <tr> <th></th> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>depot</td> <td>Depot Einstellungen überschreiben</td> <td>true,false,null</td> </tr> <tr> <td>austraeger_kg</td> <td>Verwende Gewicht statt Anzahl</td> <td>float</td> </tr> <tr> <td>austraeger_start_capacity</td> <td>Tragekapazität des Zustellers beim Start</td> <td>float</td> </tr> <tr> <td>austraeger_capacity</td> <td>Tragekapazität des Zustellers</td> <td>float</td> </tr> <tr> <td>austraeger_start_capacity_kg</td> <td>Tragekapazität des Zustellers in kg beim Start</td> <td>float</td> </tr> <tr> <td>austraeger_capacity_kg</td> <td>Tragekapazität des Zustellers in kg</td> <td>float</td> </tr> <tr> <td>mediengewicht</td> <td>Gewicht eines Mediums in Gramm</td> <td>float</td> </tr> </tbody> </table> <p>Einstellung für Ausgabe verändern:</p> <table> <thead> <tr> <th></th> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>p</td> <td>Privathaushalte</td> <td>true,false</td> </tr> <tr> <td>gew</td> <td>Gewerbebetriebe</td> <td>true,false</td> </tr> <tr> <td>wv_mit_abo</td> <td>Resthaushaltsverteilung mit/ohne Abonnenten</td> <td>true,false</td> </tr> <tr> <td>wv_p</td> <td>Sperrung Werbung Privathaushalte</td> <td>Ausprägung siehe unten</td> </tr> <tr> <td>wv_gew</td> <td>Sperrung Werbung Gewerbebetriebe</td> <td>Ausprägung siehe unten</td> </tr> </tbody> </table> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>wv_p</td> <td>Sperrung Werbung Privathaushalte</td> </tr> <tr> <td>wv_p_zeitung</td> <td>Sperrung kostenlose Zeitung Privathaushalte</td> </tr> <tr> <td>false</td> <td>keine Sperrung</td> </tr> </tbody> </table> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>wv_gew</td> <td>Sperrung Werbung Gewerbebetriebe</td> </tr> <tr> <td>wv_gew_zeitung</td> <td>Sperrung kostenlose Zeitung Gewerbebetriebe</td> </tr> <tr> <td>false</td> <td>keine Sperrung</td> </tr> </tbody> </table> <p>Optimierungsmethode</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>roundtrip</td> <td>Rundweg</td> </tr> <tr> <td>roundtrip_intern</td> <td></td> </tr> <tr> <td>oneway</td> <td>Einfache Strecke</td> </tr> <tr> <td>'' bzw. jeder ander Wert</td> <td>Default</td> </tr> </tbody> </table> <p>Beispiel Aufruf:</p> <pre><code>{
+  "verteilbezirk": "B421902002",
+  "option": {
+    "kfz": true,
+    "hauszugangsdistanz": 36,
+    "strassen_name": "",
+    "starthaus": null,
+    "steckzeit_erste": 70,
+    "steckzeit_folgende": 20,
+    "optimierung": "oneway",
+    "geschwindigkeit": 6,
+    "geschwindigkeit2": 70,
+    "car_profile_fuer_zustellerhaus": false,
+    "ruestzeit": 15,
+    "nullhaushalte": false,
+    "osrm_schwelldistanz": 30,
+    "modus": "rest",
+    "p": true,
+    "gew": true
+  }
+}
+</code></pre> <p>METHODE [POST oder GET]</p> <p>Rückgabewert ist ein JSON Object:</p> <pre><code>{"status":200,"gehfolgen_ids":[3601,3602,3603,3604,3605,3606,3607,3608,3609]}
+{"status":500,"error":{"text":"kein Verteilbezirk gefunden","data":null}}
+</code></pre> <h4 id="fur-einen-verteilbezirk">Für einen Verteilbezirk<a class="headerlink" href="#fur-einen-verteilbezirk" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gehfolge/berechnen?verteilbezirk=123">http://domain/fernsteuerung/gehfolge/berechnen?verteilbezirk=123</a></p> <p>Parameter: |verteilbezirk| Nr. des Verteilbezirks|<br> Optionale Parameter:<br> siehe: Für alle Verteilbezirke der (Ausgabe)</p> <p>METHODE [POST oder GET]</p> <p>Rückgabewert ist ein JSON Object:</p> <pre><code>{"status":200,"gehfolgen_ids":[1]}
+{"status":500,"error":{"text":"kein Verteilbezirk gefunden","data":null}}
+</code></pre> <h4 id="abbrechen-der-gehfolgenberechung-nur-die-von-user">Abbrechen der Gehfolgenberechung (nur die von User)<a class="headerlink" href="#abbrechen-der-gehfolgenberechung-nur-die-von-user" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gehfolgen/abbrechen">http://domain/fernsteuerung/gehfolgen/abbrechen</a></p> <h3 id="beispiele">Beispiele<a class="headerlink" href="#beispiele" title="Permanent link"></a></h3> <p>PHP-Beispiel letzte berechnete Gehfolge für bestimmten Verteilbezirk</p> <p>Klasse</p> <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="sd">/**</span>
+<span class="sd"> *  </span>
+<span class="sd"> *  MultiRoute Go! Beispielklasse für API-Abfrage</span>
+<span class="sd"> *  Abfrage der letzten erfolgreich berechneten Gehfolge für einen bestimmten Verteilbezirk</span>
+<span class="sd"> *  Rückgabe aller erforderlichen Informationen als (mehrdimensionales) Array</span>
+<span class="sd"> *  </span>
+<span class="sd"> *  Benutzung:</span>
+<span class="sd"> *  </span>
+<span class="sd"> *  require 'abruf_mrg_gehfolge_class.php';</span>
+<span class="sd"> *  $gehfolge = new AbrufGehfolgeInfoMRG($benutzer, $pass, $protokoll, $url);</span>
+<span class="sd"> *  $gehfolge_info = $gehfolge-&gt;getLastGehfolge($verteilbezirk);</span>
+<span class="sd"> *  var_dump($gehfolge_info);</span>
+<span class="sd"> *  </span>
+<span class="sd"> *  2015-10-14 </span>
+<span class="sd"> *  Author: Frank Durstewitz, gbconsite GmbH</span>
+<span class="sd"> *   </span>
+<span class="sd"> */</span>
+
+<span class="k">class</span> <span class="nc">AbrufGehfolgeInfoMRG</span> <span class="p">{</span>
+  <span class="k">private</span> <span class="nv">$basis_url</span><span class="p">;</span>
+  <span class="k">private</span> <span class="nv">$verteilbezirk</span><span class="p">;</span>
+  <span class="k">private</span> <span class="nv">$gehfolge</span><span class="p">;</span>
+  <span class="k">private</span> <span class="nv">$infos</span><span class="p">;</span>
+  <span class="k">private</span> <span class="nv">$user</span><span class="p">;</span>
+  <span class="k">private</span> <span class="nv">$pass</span><span class="p">;</span>
+
+  <span class="k">function</span> <span class="fm">__construct</span><span class="p">(</span><span class="nv">$user</span><span class="p">,</span> <span class="nv">$pass</span><span class="p">,</span> <span class="nv">$protokoll</span><span class="p">,</span> <span class="nv">$url</span><span class="p">){</span>
+    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">basis_url</span> <span class="o">=</span> <span class="nb">sprintf</span><span class="p">(</span><span class="s2">"%s://%s:%s@%s/fernsteuerung/"</span><span class="p">,</span> <span class="nv">$protokoll</span><span class="p">,</span> <span class="nv">$user</span><span class="p">,</span> <span class="nv">$pass</span><span class="p">,</span> <span class="nv">$url</span><span class="p">);</span>
+    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">user</span> <span class="o">=</span> <span class="nv">$user</span><span class="p">;</span>
+    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">pass</span> <span class="o">=</span> <span class="nv">$pass</span><span class="p">;</span>
+    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">infos</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
+  <span class="p">}</span>
+
+  <span class="k">public</span> <span class="k">function</span> <span class="nf">getLastGehfolge</span><span class="p">(</span><span class="nv">$verteilbezirk</span><span class="p">){</span>
+    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">verteilbezirk</span> <span class="o">=</span> <span class="nb">urlencode</span><span class="p">(</span><span class="nb">trim</span><span class="p">(</span><span class="nv">$verteilbezirk</span><span class="p">));</span>
+    <span class="nv">$url</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">basis_url</span> <span class="o">.</span> <span class="s1">'gehfolgen/success?limit=1&amp;verteilbezirk='</span> <span class="o">.</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">verteilbezirk</span><span class="p">;</span>
+    <span class="nv">$result</span> <span class="o">=</span> <span class="nb">file_get_contents</span><span class="p">(</span><span class="nv">$url</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nv">$result</span><span class="p">){</span>
+      <span class="nv">$json</span> <span class="o">=</span> <span class="nb">json_decode</span><span class="p">(</span><span class="nv">$result</span><span class="p">);</span>
+      <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">gehfolge</span> <span class="o">=</span> <span class="nv">$json</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">-&gt;</span><span class="na">id</span><span class="p">;</span>
+      <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">getMeta</span><span class="p">();</span>
+      <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">getDetails</span><span class="p">();</span>
+      <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">getPaths</span><span class="p">();</span>
+      <span class="k">return</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">infos</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="k">false</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">private</span> <span class="k">function</span> <span class="nf">getMeta</span><span class="p">(){</span>
+    <span class="nv">$url</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">basis_url</span> <span class="o">.</span> <span class="s1">'gehfolge/'</span> <span class="o">.</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">gehfolge</span> <span class="o">.</span> <span class="s1">'/zusammenfassung'</span><span class="p">;</span>
+    <span class="nv">$string</span> <span class="o">=</span> <span class="nb">file_get_contents</span><span class="p">(</span><span class="nv">$url</span><span class="p">);</span>
+    <span class="nv">$lines</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="nv">$string</span><span class="p">);</span>
+    <span class="nv">$field_names</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s1">'|'</span><span class="p">,</span> <span class="nb">array_shift</span><span class="p">(</span><span class="nv">$lines</span><span class="p">));</span>
+    <span class="nv">$field_values</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s1">'|'</span><span class="p">,</span> <span class="nb">array_shift</span><span class="p">(</span><span class="nv">$lines</span><span class="p">));</span>
+    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">infos</span><span class="p">[</span><span class="s1">'meta'</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
+    <span class="k">for</span> <span class="p">(</span><span class="nv">$i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">&lt;</span> <span class="nb">count</span><span class="p">(</span><span class="nv">$field_names</span><span class="p">);</span> <span class="nv">$i</span><span class="o">++</span><span class="p">){</span>
+      <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">infos</span><span class="p">[</span><span class="s1">'meta'</span><span class="p">][</span><span class="nv">$field_names</span><span class="p">[</span><span class="nv">$i</span><span class="p">]]</span> <span class="o">=</span> <span class="nv">$field_values</span><span class="p">[</span><span class="nv">$i</span><span class="p">];</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">private</span> <span class="k">function</span> <span class="nf">getDetails</span><span class="p">(){</span>
+    <span class="nv">$url</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">basis_url</span> <span class="o">.</span> <span class="s1">'gehfolge/'</span> <span class="o">.</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">gehfolge</span> <span class="o">.</span> <span class="s1">'/detail'</span><span class="p">;</span>
+    <span class="nv">$string</span> <span class="o">=</span> <span class="nb">file_get_contents</span><span class="p">(</span><span class="nv">$url</span><span class="p">);</span>
+    <span class="nv">$lines</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="nv">$string</span><span class="p">);</span>
+    <span class="nv">$field_names</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s1">'|'</span><span class="p">,</span> <span class="nb">array_shift</span><span class="p">(</span><span class="nv">$lines</span><span class="p">));</span>
+    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">infos</span><span class="p">[</span><span class="s1">'details'</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
+    <span class="k">for</span> <span class="p">(</span><span class="nv">$i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nv">$i</span> <span class="o">&lt;</span> <span class="nb">count</span><span class="p">(</span><span class="nv">$lines</span><span class="p">);</span> <span class="nv">$i</span><span class="o">++</span><span class="p">){</span>
+      <span class="k">if</span> <span class="p">(</span><span class="k">empty</span><span class="p">(</span><span class="nv">$lines</span><span class="p">[</span><span class="nv">$i</span><span class="p">])){</span>
+        <span class="k">continue</span><span class="p">;</span>
+      <span class="p">}</span>
+      <span class="nv">$array</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
+      <span class="nv">$field_values</span> <span class="o">=</span> <span class="nb">explode</span><span class="p">(</span><span class="s1">'|'</span><span class="p">,</span> <span class="nv">$lines</span><span class="p">[</span><span class="nv">$i</span><span class="p">]);</span>
+      <span class="k">for</span> <span class="p">(</span><span class="nv">$y</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nv">$y</span> <span class="o">&lt;</span> <span class="nb">count</span><span class="p">(</span><span class="nv">$field_names</span><span class="p">);</span> <span class="nv">$y</span><span class="o">++</span><span class="p">){</span>
+        <span class="nv">$array</span><span class="p">[</span><span class="nv">$field_names</span><span class="p">[</span><span class="nv">$y</span><span class="p">]]</span> <span class="o">=</span> <span class="nv">$field_values</span><span class="p">[</span><span class="nv">$y</span><span class="p">];</span>
+      <span class="p">}</span>
+      <span class="nb">array_push</span><span class="p">(</span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">infos</span><span class="p">[</span><span class="s1">'details'</span><span class="p">],</span> <span class="nv">$array</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">private</span> <span class="k">function</span> <span class="nf">getPaths</span><span class="p">(){</span>
+    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">infos</span><span class="p">[</span><span class="s1">'pfade_mit_credentials'</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
+    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">infos</span><span class="p">[</span><span class="s1">'pfade_ohne_credentials'</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
+    <span class="nv">$array</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span><span class="s1">'gpx'</span><span class="p">,</span> <span class="s1">'excel'</span><span class="p">,</span> <span class="s1">'image'</span><span class="p">,</span> <span class="s1">'strassenliste'</span><span class="p">,</span> <span class="s1">'bezirkskarte'</span><span class="p">,</span> <span class="s1">'gehfolge'</span><span class="p">,</span> <span class="s1">'detail'</span><span class="p">,</span> <span class="s1">'zusammenfassung'</span><span class="p">);</span>
+    <span class="nv">$url_mit</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">basis_url</span> <span class="o">.</span> <span class="s1">'gehfolge/'</span> <span class="o">.</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">gehfolge</span> <span class="o">.</span> <span class="s1">'/'</span><span class="p">;</span>
+    <span class="nv">$suche</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">user</span> <span class="o">.</span> <span class="s1">':'</span> <span class="o">.</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">pass</span> <span class="o">.</span> <span class="s1">'@'</span><span class="p">;</span>
+    <span class="nv">$replace</span> <span class="o">=</span> <span class="s1">''</span><span class="p">;</span>
+    <span class="nv">$url_ohne</span> <span class="o">=</span> <span class="nb">str_replace</span><span class="p">(</span><span class="nv">$suche</span><span class="p">,</span> <span class="nv">$replace</span><span class="p">,</span> <span class="nv">$url_mit</span><span class="p">);</span>
+    <span class="k">foreach</span><span class="p">(</span><span class="nv">$array</span> <span class="k">as</span> <span class="nv">$a</span><span class="p">){</span>
+      <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">infos</span><span class="p">[</span><span class="s1">'pfade_mit_credentials'</span><span class="p">][</span><span class="nv">$a</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$url_mit</span> <span class="o">.</span> <span class="nv">$a</span><span class="p">;</span>
+      <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">infos</span><span class="p">[</span><span class="s1">'pfade_ohne_credentials'</span><span class="p">][</span><span class="nv">$a</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$url_ohne</span> <span class="o">.</span> <span class="nv">$a</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div> <p>Anwendung </p> <div class="highlight"><pre><span></span><code><span class="cp">&lt;?php</span>
+<span class="sd">/**</span>
+<span class="sd"> *  MultiRoute Go! API-Beispielabfrage</span>
+<span class="sd"> *  </span>
+<span class="sd"> *  $benutzer: Ein gültiger "Anmelde"-Benutzername</span>
+<span class="sd"> *  $pass: zugehöriges Passwort</span>
+<span class="sd"> *  $verteilbezirk: für welchen Verteilbezirk die letzte berechnete Gehfolge angerufen werden soll</span>
+<span class="sd"> *  $protokoll: "http" oder "https" </span>
+<span class="sd"> *  $url: Wo MultiRoute Go! erreichbar ist, ohne Protokoll, ohne Backslash am Ende </span>
+<span class="sd"> *  </span>
+<span class="sd"> *  Gibt ein mehrdimensionales Array zurück</span>
+<span class="sd"> *  </span>
+<span class="sd"> *  2015-10-14 </span>
+<span class="sd"> *  Author: Frank Durstewitz, gbconsite GmbH</span>
+<span class="sd"> *  </span>
+<span class="sd"> */</span>
+
+<span class="k">require</span> <span class="s1">'abruf_mrg_gehfolge_class.php'</span><span class="p">;</span>
+
+<span class="nv">$benutzer</span> <span class="o">=</span> <span class="s1">'???'</span><span class="p">;</span>
+<span class="nv">$pass</span> <span class="o">=</span> <span class="s1">'???'</span><span class="p">;</span>
+<span class="nv">$verteilbezirk</span> <span class="o">=</span> <span class="s1">'???'</span><span class="p">;</span>
+<span class="nv">$protokoll</span> <span class="o">=</span> <span class="s1">'http'</span><span class="p">;</span>
+<span class="nv">$url</span> <span class="o">=</span> <span class="s1">'mrg-bp.ovb.local'</span><span class="p">;</span>  
+
+<span class="nv">$gehfolge</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">AbrufGehfolgeInfoMRG</span><span class="p">(</span><span class="nv">$benutzer</span><span class="p">,</span> <span class="nv">$pass</span><span class="p">,</span> <span class="nv">$protokoll</span><span class="p">,</span> <span class="nv">$url</span><span class="p">);</span>
+<span class="nv">$gehfolge_info</span> <span class="o">=</span> <span class="nv">$gehfolge</span><span class="o">-&gt;</span><span class="na">getLastGehfolge</span><span class="p">(</span><span class="nv">$verteilbezirk</span><span class="p">);</span>
+
+<span class="nb">var_dump</span><span class="p">(</span><span class="nv">$gehfolge_info</span><span class="p">);</span>
+</code></pre></div> <h2 id="datenaustausch-json">Datenaustausch (JSON)<a class="headerlink" href="#datenaustausch-json" title="Permanent link"></a></h2> <p>Der Datenaustausch ist auf JSON Objekte ausgelegt.<br> Beim Übermitteln von JSON Objekten(POST) muss man den<br> Header: "Content-Type: application/json" mit angeben.</p> <p>Es ist aber auch möglich die Abfrage über GET bzw. normale POST Request zu machen.<br> Dies ist dann sinnvoll, wenn ich Daten vom Server hole.</p> <h3 id="adressen">Adressen<a class="headerlink" href="#adressen" title="Permanent link"></a></h3> <h4 id="adressen-abrufen">Adressen abrufen<a class="headerlink" href="#adressen-abrufen" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/adresse">http://domain/fernsteuerung/adresse</a></p> <p>Parameter (optional):</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>limit</td> <td>Limit</td> </tr> <tr> <td>offset</td> <td>Offset</td> </tr> <tr> <td>koordinaten</td> <td>Gibt Koordinaten mit aus (optional default false)</td> </tr> <tr> <td>kommentar</td> <td>Gibt Kommentar mit aus (optional default false)</td> </tr> <tr> <td>alle_ausgaben</td> <td>Gibt nur zugeordnete Adressen aus (Bezirk und Ausgabe werden als Array ausgegeben (Adresse kann in verschiedenen Ausgaben sein) (optional default false)</td> </tr> <tr> <td>starthaus</td> <td>Gibt nur Adressen die Starthaus sind aus (Bezirk und Ausgabe werden als Array ausgegeben (Adresse kann in verschiedenen Ausgaben sein) (optional default false)</td> </tr> <tr> <td>zustellerhaus</td> <td>Gibt nur Adressen die Zustellerhaus sind aus (Bezirk und Ausgabe werden als Array ausgegeben (Adresse kann in verschiedenen Ausgaben sein) (optional default false)</td> </tr> <tr> <td>endhaus</td> <td>Gibt nur Adressen die Endhaus sind aus (Bezirk und Ausgabe werden als Array ausgegeben (Adresse kann in verschiedenen Ausgaben sein) (optional default false)</td> </tr> <tr> <td>depot</td> <td>Gibt nur Adressen die Depot sind aus (Bezirk und Ausgabe werden als Array ausgegeben (Adresse kann in verschiedenen Ausgaben sein) (optional default false)</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (funktioniert nur mit [alle_ausgaben,starthaus,zustellerhaus,endhaus,depot])</td> </tr> </tbody> </table> <p>Optionale Filter Parameter:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>oi</td> <td>Gebäude ids</td> </tr> <tr> <td>plz</td> <td>Postleitzahl</td> </tr> <tr> <td>ort</td> <td>Ort</td> </tr> <tr> <td>ort_zusatz</td> <td>Ortsteil</td> </tr> <tr> <td>strasse</td> <td>Strasse</td> </tr> <tr> <td>hausnummer</td> <td>Hausnummer</td> </tr> <tr> <td>hausnummer_zusatz</td> <td>Hausnummer Zusatz</td> </tr> <tr> <td>street_oi</td> <td>Straßenabschnitts-ID</td> </tr> <tr> <td>street_alt_oi</td> <td>Alternative Straßenabschnitts-ID</td> </tr> <tr> <td>manuell</td> <td>true (Gibt nur durch Kartenklick erfasste Adressen aus (GBC Nummer))</td> </tr> </tbody> </table> <p>Rückgabe: </p> <pre><code>[{
+    "oi": "OOI1411",
+    "plz": "10115",
+    "ort": "Berlin",
+    "ort_zusatz": null,
+    "strasse": "Ackerstraße",
+    "hausnummer": "172",
+    "hausnummer_zusatz": "",
+    "is_active": true,
+    "privathaushalte": 1,
+    "gewerbebetriebe": 2
+}, {
+    "oi": "OOI1412",
+    "plz": "10115",
+    "ort": "Berlin",
+    "ort_zusatz": null,
+    "strasse": "Ackerstraße",
+    "hausnummer": "173",
+    "hausnummer_zusatz": "",
+    "is_active": true,
+    "privathaushalte": null,
+    "gewerbebetriebe": null
+}, {
+    "oi": "OOI1413",
+    "plz": "10115",
+    "ort": "Berlin",
+    "ort_zusatz": null,
+    "strasse": "Ackerstraße",
+    "hausnummer": "174",
+    "hausnummer_zusatz": "",
+    "is_active": true,
+    "privathaushalte": null,
+    "gewerbebetriebe": null
+}]
+</code></pre> <p>Rückgabe mit alle_ausgaben: </p> <pre><code>[{
+    "oi": "12760120275582",
+    "plz": "35075",
+    "ort": "Gladenbach",
+    "ortsteil": "",
+    "ort_zusatz": null,
+    "strasse": "Adolf-Theis-Straße",
+    "hausnummer": "12",
+    "hausnummer_zusatz": "",
+    "is_active": true,
+    "notice": null,
+    "street_oi": "0000386499",
+    "privathaushalte": 2,
+    "gewerbebetriebe": 0,
+    "werbeverweigerer": null,
+    "ausgabe_bezirk": [{
+        "nr": "B201015Z",
+        "ausgabe": "Freitag" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Montag" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Dienstag" 
+    }, {
+        "nr": "B201015V",
+        "ausgabe": "Vollverteilung" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Vollverteilung" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Donnerstag" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Test Meier Abo 24.03.17" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Samstag" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Sonntag" 
+    }, {
+        "nr": "T201055",
+        "ausgabe": "Test Meier Abo 24.03.17" 
+    }, {
+        "nr": "T201055",
+        "ausgabe": "Test" 
+    }]
+}, {
+    "oi": "12760120388646",
+    "plz": "35075",
+    "ort": "Gladenbach",
+    "ortsteil": "",
+    "ort_zusatz": null,
+    "strasse": "Adolf-Theis-Straße",
+    "hausnummer": "13",
+    "hausnummer_zusatz": "",
+    "is_active": true,
+    "notice": null,
+    "street_oi": "0000386499",
+    "privathaushalte": 2,
+    "gewerbebetriebe": 0,
+    "werbeverweigerer": null,
+    "ausgabe_bezirk": [{
+        "nr": "T201055",
+        "ausgabe": "Test" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Montag" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Dienstag" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Donnerstag" 
+    }, {
+        "nr": "B201015V",
+        "ausgabe": "Vollverteilung" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Vollverteilung" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Freitag" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Test Meier Abo 24.03.17" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Samstag" 
+    }, {
+        "nr": "T201055",
+        "ausgabe": "Test Meier Abo 24.03.17" 
+    }]
+}, {
+    "oi": "12760120264124",
+    "plz": "35075",
+    "ort": "Gladenbach",
+    "ortsteil": "",
+    "ort_zusatz": null,
+    "strasse": "Adolf-Theis-Straße",
+    "hausnummer": "14",
+    "hausnummer_zusatz": "",
+    "is_active": true,
+    "notice": null,
+    "street_oi": "0000386499",
+    "privathaushalte": 1,
+    "gewerbebetriebe": 0,
+    "werbeverweigerer": null,
+    "ausgabe_bezirk": [{
+        "nr": "T201055",
+        "ausgabe": "Test" 
+    }, {
+        "nr": "B201015V",
+        "ausgabe": "Vollverteilung" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Sonntag" 
+    }, {
+        "nr": "T201055",
+        "ausgabe": "Test Meier Abo 24.03.17" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Donnerstag" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Vollverteilung" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Test Meier Abo 24.03.17" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Freitag" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Dienstag" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Montag" 
+    }, {
+        "nr": "B201015Z",
+        "ausgabe": "Samstag" 
+    }]
+}]
+</code></pre> <h4 id="adressen-hinzufugenupdaten">Adressen Hinzufügen/Updaten<a class="headerlink" href="#adressen-hinzufugenupdaten" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/add_and_update_adresse">http://domain/fernsteuerung/add_and_update_adresse</a></p> <p>Parameter:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>adresse</td> <td>Adresse Parameter</td> </tr> <tr> <td>insert</td> <td>true(default) oder false. Nur neue Adressen werden hinzugefügt</td> </tr> <tr> <td>update</td> <td>true(default) oder false. Bestehende Adressen werden geupdated</td> </tr> </tbody> </table> <p>Adresse Parameter:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>oi</td> <td>Gebäude ID (required)</td> </tr> <tr> <td>street_oi</td> <td>Straßen ID</td> </tr> <tr> <td>longitude</td> <td>Längengrad (required)</td> </tr> <tr> <td>latitude</td> <td>Breitengrad (required)</td> </tr> <tr> <td>plz</td> <td>Postleitzahl</td> </tr> <tr> <td>ort</td> <td>Ort</td> </tr> <tr> <td>ort_zusatz</td> <td>Ort Zusatz</td> </tr> <tr> <td>ortsteil</td> <td>Ortsteil</td> </tr> <tr> <td>strasse</td> <td>Strasse</td> </tr> <tr> <td>hausnummer</td> <td>Hausnummer</td> </tr> <tr> <td>hausnummer_zusatz</td> <td>Hausnummer Zusatz</td> </tr> <tr> <td>is_active</td> <td>Haus ist aktiv (required)</td> </tr> <tr> <td>privathaushalte</td> <td>Anzahl Werbeverweigerer (integer)</td> </tr> <tr> <td>gewerbebetriebe</td> <td>Anzahl Werbeverweigerer (integer)</td> </tr> <tr> <td>werbeverweigerer</td> <td>Anzahl Werbeverweigerer (integer)</td> </tr> </tbody> </table> <pre><code>{
+"update": true,
+"insert": true, 
+"adresse": [{
+    "oi": "GBC93385",
+    "plz": "10119",
+    "ort": "Berlin",
+    "ort_zusatz": null,
+    "strasse": "Schwedter Straße",
+    "hausnummer": "22",
+    "hausnummer_zusatz": "",
+    "is_active": true,
+    "notice": null,
+    "privathaushalte": 0,
+    "gewerbebetriebe": 0,
+    "werbeverweigerer": 0,
+    "longitude": 52.5347133208835,
+    "latitude": 13.4075689315796
+}, {
+    "oi": "GBC360693",
+    "plz": "84030",
+    "ort": "Ergolding",
+    "ort_zusatz": null,
+    "strasse": "Schinderstraßl",
+    "hausnummer": "5",
+    "hausnummer_zusatz": "D",
+    "is_active": true,
+    "notice": null,
+    "privathaushalte": 0,
+    "gewerbebetriebe": 0,
+    "werbeverweigerer": null,
+    "longitude": 12.1660333871841,
+    "latitude": 48.5649005287186
+}]
+ }
+</code></pre> <h4 id="adressen-loschen">Adressen löschen<a class="headerlink" href="#adressen-loschen" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/delete_adresse">http://domain/fernsteuerung/delete_adresse</a></p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>oi</td> <td>Adresse ID</td> </tr> </tbody> </table> <pre><code>{
+"oi": ["3353880","2739684","DEBYv00099005586","DEBYv00099000331","DEBYv00099029356","DEBYv00099001121","DEBYv00099000328"]
+}
+</code></pre> <h3 id="abonnenten">Abonnenten<a class="headerlink" href="#abonnenten" title="Permanent link"></a></h3> <h4 id="abonnenten-abrufen">Abonnenten abrufen<a class="headerlink" href="#abonnenten-abrufen" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gebiet/abonnent">http://domain/fernsteuerung/gebiet/abonnent</a> (Gebiets Ausgabe)<br> <a href="http://domain/fernsteuerung/bezirk/abonnent">http://domain/fernsteuerung/bezirk/abonnent</a> (Bezirks Ausgabe)</p> <p>Parameter (optional):</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>limit</td> <td>Limit</td> </tr> <tr> <td>offset</td> <td>Offset</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (default=Aktuelle Ausgabe des Benutzers)</td> </tr> </tbody> </table> <p>Rückgabe: </p> <pre><code>[{"oi":"GBC372190","abonnenten":0},{"oi":"GBC372192","abonnenten":7},{"oi":"DEBYv00099001290","abonnenten":1}]
+</code></pre> <h4 id="abonnenten-hinzufugenupdaten">Abonnenten Hinzufügen/Updaten<a class="headerlink" href="#abonnenten-hinzufugenupdaten" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gebiet/add_and_update_abonnent">http://domain/fernsteuerung/gebiet/add_and_update_abonnent</a> (Gebiets Ausgabe)<br> <a href="http://domain/fernsteuerung/bezirk/add_and_update_abonnent">http://domain/fernsteuerung/bezirk/add_and_update_abonnent</a> (Bezirks Ausgabe)</p> <p>Parameters</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>abonnent</td> <td>Abonnent Parameters</td> </tr> <tr> <td>insert</td> <td>true(default) oder false. Nur neue Gebiete werden hinzugefügt</td> </tr> <tr> <td>update</td> <td>true(default) oder false. Bestehende Gebiete werden geupdated</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (optional: defaul=Aktuelle Ausgabe des Benutzers)</td> </tr> </tbody> </table> <p>Abonnent Parameter</p> <table> <thead> <tr> <th></th> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>oi</td> <td>Gebäude ID</td> <td></td> </tr> <tr> <td>abonnenten</td> <td>Anzahl Abonnent</td> <td>integer</td> </tr> <tr> <td>title</td> <td>Abo Titel</td> <td>optional</td> </tr> <tr> <td>abo_name</td> <td>Abonnent Name, Nr ... (darf kein ; enthalten)</td> <td>optional</td> </tr> <tr> <td>abo_vorname</td> <td>Abonnent Vorname (darf kein ; enthalten)</td> <td>optional</td> </tr> <tr> <td>abo_nachname</td> <td>Abonnent Nachname (darf kein ; enthalten)</td> <td>optional</td> </tr> <tr> <td>abo_hint</td> <td>Hinweis Zustellbesonderheit</td> <td>optional</td> </tr> <tr> <td>abo_nr</td> <td>Abo Nummer (Zusie)</td> <td>optional</td> </tr> <tr> <td>abo_pva</td> <td>Planvertriebsausgabe (Zusie)</td> <td>optional</td> </tr> <tr> <td>abo_bper</td> <td>Bezugsperiode (Zusie)</td> <td>optional</td> </tr> <tr> <td>abo_ub</td> <td>Unterbrechung (Zusie)</td> <td>optional</td> </tr> <tr> <td>abo_valid_from</td> <td>gültig von (Zusie)</td> <td>optional</td> </tr> <tr> <td>abo_valid_to</td> <td>gültig bis (Zusie)</td> <td>optional</td> </tr> </tbody> </table> <p>Abonnent Parameter mit Straßen ID</p> <table> <thead> <tr> <th></th> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>street_oi</td> <td>Straßen ID</td> <td></td> </tr> <tr> <td>hausnummer</td> <td>Hausnummer</td> <td></td> </tr> <tr> <td>hausnummer_zusatz</td> <td>Hausnummer Zusatz</td> <td>(optional, der Zusatz kann auch bei der Hausnummer mit dabei sein.)</td> </tr> <tr> <td>abonnenten</td> <td>Anzahl Abonnent</td> <td>integer</td> </tr> <tr> <td>title</td> <td>Abo Titel</td> <td>optional</td> </tr> <tr> <td>abo_name</td> <td>Abonnent Name, Nr ... (darf kein ; enthalten)</td> <td>optional</td> </tr> <tr> <td>abo_vorname</td> <td>Abonnent Vorname (darf kein ; enthalten)</td> <td>optional</td> </tr> <tr> <td>abo_nachname</td> <td>Abonnent Nachname (darf kein ; enthalten)</td> <td>optional</td> </tr> <tr> <td>abo_hint</td> <td>Hinweis Zustellbesonderheit</td> <td>optional</td> </tr> <tr> <td>abo_nr</td> <td>Abo Nummer (Zusie)</td> <td>optional</td> </tr> <tr> <td>abo_pva</td> <td>Planvertriebsausgabe (Zusie)</td> <td>optional</td> </tr> <tr> <td>abo_bper</td> <td>Bezugsperiode (Zusie)</td> <td>optional</td> </tr> <tr> <td>abo_ub</td> <td>Unterbrechung (Zusie)</td> <td>optional</td> </tr> <tr> <td>abo_valid_from</td> <td>gültig von (Zusie)</td> <td>optional</td> </tr> <tr> <td>abo_valid_to</td> <td>gültig bis (Zusie)</td> <td>optional</td> </tr> </tbody> </table> <pre><code>{
+"update": true,
+"insert": true, 
+"abonnent": [{"oi":"3353880","abonnenten":3},{"oi":"2739684","abonnenten":3}]
+ }
+
+{
+"update": true,
+"insert": true, 
+"abonnent": [
+{"street_oi":"1234", "hausnummer": "2","abonnenten":3},
+{"street_oi":"4567", "hausnummer": "12","abonnenten":3},
+{"street_oi":"4567", "hausnummer": "21","abonnenten":3}]
+ }
+</code></pre> <p>Abonnent-Parameter wie z.B. abo_name oder title an einer oder mehreren Adressen übergeben:<br> Die Anzahl der Paramter müssen für jeden Datensatz gleich sein. Es ist wie, wenn man eine Tabelle hochlädt, da sind auch für jede Spalte Daten vorhanden.</p> <pre><code>{
+"update": true,
+"insert": true, 
+"abonnent": [
+{"street_oi":"1234", "hausnummer": "2","abonnenten":1,"title": "SZ", "abo_name": "Fritz Huber"},
+{"street_oi":"1234", "hausnummer": "2","abonnenten":1,"title": "SZ", "abo_name": "Hans Meier"},
+{"street_oi":"1234", "hausnummer": "2","abonnenten":1,"title": "TZ", "abo_name": "Hans Meier"},
+{"street_oi":"4567", "hausnummer": "12","abonnenten":1,"title": "TZ", "abo_name": "Hansi Maier"},
+{"street_oi":"4567", "hausnummer": "21","abonnenten":3,"title": "TZ", "abo_name": "Altenheim"}
+]
+ }
+</code></pre> <h4 id="abonnenten-loschen">Abonnenten löschen<a class="headerlink" href="#abonnenten-loschen" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gebiet/delete_abonnent">http://domain/fernsteuerung/gebiet/delete_abonnent</a> (Gebiets Ausgabe)<br> <a href="http://domain/fernsteuerung/bezirk/delete_abonnent">http://domain/fernsteuerung/bezirk/delete_abonnent</a> (Bezirks Ausgabe)</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>oi</td> <td>Adresse ID</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (defaul=Aktuelle Ausgabe des Benutzers)</td> </tr> <tr> <td>all</td> <td>(optional) true , alle Abonnenten der Ausgabe werden gelöscht.</td> </tr> </tbody> </table> <pre><code>{
+"oi": ["3353880","2739684","DEBYv00099005586","DEBYv00099000331","DEBYv00099029356","DEBYv00099001121","DEBYv00099000328"]
+}
+</code></pre> <h3 id="gebiet">Gebiet<a class="headerlink" href="#gebiet" title="Permanent link"></a></h3> <p>Das Gebiet (= Zelle) ist die untergeordnete Ebene, wenn zwei Ebenen verfügbar sind. Auf dieser Ebene werden die Zuordnungen zu den Gebäuden (Adressen) vorgenommen. Aus einem oder mehreren Gebieten werden durch die Zuordnung Gebiet=&gt;Bezirk Bezirke (= Trägerbezirke) gebildet.<br> Ist nur eine Ebene vorhanden, so bildet ein Gebiet den Trägerbezirk (Regelfall).</p> <h4 id="gebiete-abrufen">Gebiete abrufen<a class="headerlink" href="#gebiete-abrufen" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gebiet/">http://domain/fernsteuerung/gebiet/</a></p> <p>Parameter (optional):</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>nr</td> <td>Nummer(n) der Gebiete</td> </tr> <tr> <td>limit</td> <td>Limit</td> </tr> <tr> <td>offset</td> <td>Offset</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (default=Aktuelle Ausgabe des Benutzers)</td> </tr> <tr> <td>option</td> <td>Optionen Parameter</td> </tr> <tr> <td>geojson</td> <td>Geojson Feature</td> </tr> </tbody> </table> <p>Beispiel Rückgabe: <a href="http://domain/fernsteuerung/gebiet/?nr=1200,1300,1400&amp;ausgabe=default">http://domain/fernsteuerung/gebiet/?nr=1200,1300,1400&amp;ausgabe=default</a></p> <pre><code>[{
+    "nr": "1200",
+    "name": "",
+    "privathaushalte": 1,
+    "gewerbebetriebe": 2,
+    "abonnenten": 10,
+    "limit_plz": "",
+    "starthaus": "1",
+    "zustellerhaus": "2",
+    "endhaus": "3" 
+}, {
+    "nr": "1300",
+    "name": "",
+    "privathaushalte": 0,
+    "gewerbebetriebe": 0,
+    "abonnenten": 0,
+    "limit_plz": "",
+    "starthaus": null,
+    "zustellerhaus": null,
+    "endhaus": null
+}, {
+    "nr": "1400",
+    "name": "",
+    "privathaushalte": 0,
+    "gewerbebetriebe": 0,
+    "abonnenten": 0,
+    "limit_plz": "",
+    "starthaus": null,
+    "zustellerhaus": null,
+    "endhaus": null
+}]
+</code></pre> <p>Optionale Ausgabe wenn in Kundenverwaltung ausgewählt:<br> privathaushalte, gewerbebetriebe, werbeverweigerer, abonnenten<br> limit_plz<br> starthaus, zustellerhaus, endhaus (Gebäude ID (oi))</p> <p>Beispiel mit option: <a href="http://domain/fernsteuerung/gebiet/?nr=test2&amp;ausgabe=default&amp;option=true">http://domain/fernsteuerung/gebiet/?nr=test2&amp;ausgabe=default&amp;option=true</a></p> <pre><code>[{
+    "nr": "test2",
+    "name": "",
+    "privathaushalte": 0,
+    "gewerbebetriebe": 0,
+    "abonnenten": 0,
+    "starthaus": "2464801",
+    "zustellerhaus": "24079601",
+    "endhaus": null,
+    "wegnetz_laenge": "",
+    "option": {
+        "kfz": null,
+        "hauszugangsdistanz": null,
+        "strassen_name": null,
+        "starthaus": null,
+        "steckzeit_erste": null,
+        "steckzeit_folgende": null,
+        "optimierung": "",
+        "geschwindigkeit": 70,
+        "car_profile_fuer_zustellerhaus": true,
+        "ruestzeit": null,
+        "nullhaushalte": null,
+        "osrm_schwelldistanz": null,
+        "depot": false,
+        "austraeger_kg": false,
+        "austraeger_start_capacity": 50,
+        "austraeger_capacity": 50,
+        "austraeger_start_capacity_kg": null,
+        "austraeger_capacity_kg": null,
+        "mediengewicht": null
+    }
+}]
+</code></pre> <p>Beispiel mit geojson: <a href="http://domain/fernsteuerung/gebiet/?nr=test2&amp;ausgabe=default&amp;geojson=true">http://domain/fernsteuerung/gebiet/?nr=test2&amp;ausgabe=default&amp;geojson=true</a></p> <pre><code>[{
+    "nr": "test2",
+    "name": "",
+    "privathaushalte": 0,
+    "gewerbebetriebe": 0,
+    "abonnenten": 0,
+    "starthaus": "2464801",
+    "zustellerhaus": "24079601",
+    "endhaus": null,
+    "wegnetz_laenge": "",
+    "geojson": {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [8.173963, 52.231681],
+                    [8.17392353099216, 52.23171560874612],
+                    [8.173319231411217, 52.23177219638712],
+                    [8.173292809392441, 52.23174228707541],
+                    [8.172802044818699, 52.23184869266271],
+                    [8.172249231411216, 52.23184419638712],
+                    [8.172202196387119, 52.23181276858879],
+                    [8.171935284271246, 52.23188771572875],
+                    [8.171293955181302, 52.231996692662705],
+                    [8.1702830448187, 52.23208469266271],
+                    [8.169846715728752, 52.232168715728754],
+                    [8.169695777190679, 52.232313741215506],
+                    [8.169285222809322, 52.23221974121551],
+                    [8.1692260448187, 52.23223769266271],
+                    [8.169023777190679, 52.23241074121551],
+                    [8.168438, 52.23237],
+                    [8.16776615831024, 52.23244770503202],
+                    [8.166211715728753, 52.232728715728754],
+                    [8.165591304129428, 52.23260324064874],
+                    [8.165559876331093, 52.232634668447076],
+                    [8.165583800405015, 52.23267942724126],
+                    [8.165513196387119, 52.233156768588785],
+                    [8.165481768588783, 52.23320380361288],
+                    [8.165669741215508, 52.23343477719068],
+                    [8.165674715728754, 52.23348528427125],
+                    [8.165725222809321, 52.23349025878449],
+                    [8.166131741215507, 52.23393077719068],
+                    [8.166131741215507, 52.23397522280932],
+                    [8.166312307337295, 52.2340879551813],
+                    [8.166672741215507, 52.23454177719068],
+                    [8.166683777190679, 52.23459725878449],
+                    [8.166734284271246, 52.234592284271244],
+                    [8.167082692662705, 52.2348539551813],
+                    [8.167388715728753, 52.234834284271244],
+                    [8.168430803612882, 52.235379231411216],
+                    [8.168698196387119, 52.23511923141122],
+                    [8.168972307337295, 52.2351679551813],
+                    [8.16936, 52.23478],
+                    [8.169762371209346, 52.23466496343907],
+                    [8.170116307337295, 52.2344569551813],
+                    [8.170751369206673, 52.23424438760029],
+                    [8.171241715728753, 52.23403028427124],
+                    [8.171285307337294, 52.2340389551813],
+                    [8.17142822280932, 52.23384325878449],
+                    [8.171960715728753, 52.233674284271245],
+                    [8.172004307337295, 52.2336829551813],
+                    [8.172203974045564, 52.233565876364345],
+                    [8.172358590196875, 52.233326779416835],
+                    [8.172638777190679, 52.23327525878449],
+                    [8.17326070939186, 52.232912203143435],
+                    [8.173622222809321, 52.23276325878449],
+                    [8.173783598950585, 52.23260618511437],
+                    [8.173779258784492, 52.23257077719068],
+                    [8.174297777190679, 52.23209325878449],
+                    [8.1745309551813, 52.23194230733729],
+                    [8.174509307337294, 52.2318900448187],
+                    [8.174307, 52.231992],
+                    [8.173963, 52.231681]
+                ]
+            ]
+        },
+        "properties": {},
+        "id": "test2"
+    }
+}]
+</code></pre> <h4 id="gebiet-hinzufugenupdaten">Gebiet Hinzufügen/Updaten<a class="headerlink" href="#gebiet-hinzufugenupdaten" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gebiet/add_and_update">http://domain/fernsteuerung/gebiet/add_and_update</a></p> <p>Parameter:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>gebiet</td> <td>Gebiet Parameter</td> </tr> <tr> <td>insert</td> <td>true(default) oder false. Nur neue Gebiete werden hinzugefügt</td> </tr> <tr> <td>update</td> <td>true(default) oder false. Bestehende Gebiete werden geupdated</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (optional: default=Aktuelle Ausgabe des Benutzers)</td> </tr> <tr> <td>option</td> <td>Optionen Parameter (optional)</td> </tr> </tbody> </table> <p>Gebiet Parameter (Achtung: beim Einfügen von mehreren Gebieten muss immer die gleiche Anzahl der Parameter angegeben werden):</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>nr</td> <td>Gebietsnummer</td> </tr> <tr> <td>name</td> <td>Gebietsname (optional)</td> </tr> <tr> <td>limit_plz</td> <td>Adressen limitiert auf Postleitzahl(en) (optional)</td> </tr> <tr> <td>starthaus</td> <td>oi Starthaus oder Objekt (optional)</td> </tr> <tr> <td>zustellerhaus</td> <td>oi Zustellerhaus oder Objekt (optional)</td> </tr> <tr> <td>endhaus</td> <td>oi Endhaus oder Objekt (optional)</td> </tr> <tr> <td>depots</td> <td>Array [oi Endhaus oder Objekt] (optional) [r3367]</td> </tr> </tbody> </table> <p>Start- Zusteller- Endhaus als Objekt (<a href="/redmine/projects/multiroute-go/repository/revisions/2417" title="CS: #4871 API Gehfolge erweitert. API Zusteller-, Start- und Endhaus mit street_oi möglich.">r2417</a>)</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>street_oi</td> <td>Straßenabschnitts-ID (required)</td> </tr> <tr> <td>hausnummer</td> <td>Hausnummer (required)</td> </tr> <tr> <td>hausnummer_zusatz</td> <td>Hausnummer Zusatz (required)</td> </tr> </tbody> </table> <p>Optionen Parameter: (null setzte den Wert auf Standard)</p> <table> <thead> <tr> <th></th> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>hauszugangsdistanz</td> <td>Hauszugangsdistanz Grenzwert (als Vorgabewert, in Meter)</td> <td>float</td> </tr> <tr> <td>osrm_schwelldistanz</td> <td>Hauszugangs-Suchradius</td> <td>float</td> </tr> <tr> <td>ruestzeit</td> <td>Standardeinstellung Rüstzeit (in ganzen Minuten)</td> <td>float</td> </tr> <tr> <td>steckzeit_erste</td> <td>Erste Steckung (an Adresse, in Sekunden)</td> <td>float</td> </tr> <tr> <td>steckzeit_folgende</td> <td>Folgende Steckungen (an Adresse, in Sekunden)</td> <td>float</td> </tr> <tr> <td>optimierung</td> <td>Optimierungsmethode</td> <td>siehe Auflistung</td> </tr> <tr> <td>geschwindigkeit</td> <td>Geschwindigkeit (in km/h )</td> <td>float</td> </tr> <tr> <td>car_profile_fuer_zustellerhaus</td> <td>Hin-/Rückweg zum Zustellerhaus mit Kfz.</td> <td>true,false,null</td> </tr> <tr> <td>starthaus</td> <td>Starthaus automatisch optimieren</td> <td>true,false,null</td> </tr> <tr> <td>strassen_name</td> <td>Straßennamen ignorieren (Zum Haus nächstgelegenen Punkt als Zugang bevorzugen)</td> <td>true,false,null</td> </tr> <tr> <td>nullhaushalte</td> <td>Adressen ohne Haushalte oder Gewerbebetriebe ignorieren</td> <td>true,false,null</td> </tr> <tr> <td>osrm_overview</td> <td>Routengeometrie (nur Anzeige): exakt oder vereinfacht (default vereinfacht)</td> <td>true,false,null</td> </tr> </tbody> </table> <p>Nur wenn die Option verfügbar ist.</p> <table> <thead> <tr> <th></th> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>kfz</td> <td>Kfz-Fahrprofil</td> <td>true,false,null</td> </tr> <tr> <td>geschwindigkeit2</td> <td>Alternative Geschwindigkeit (in km/h ) für Hin- und Rückweg (nur bei Zustellerhaus)</td> <td>float</td> </tr> <tr> <td>geschwindigkeit3</td> <td>Alternative Geschwindigkeit (in km/h ) für Hauszugangsdistanz</td> <td>float</td> </tr> </tbody> </table> <p>Nur wenn Option Depots freigeschaltet ist.</p> <table> <thead> <tr> <th></th> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>depot</td> <td>Depot Einstellungen überschreiben</td> <td>true,false,null</td> </tr> <tr> <td>austraeger_kg</td> <td>Verwende Gewicht statt Anzahl</td> <td>float</td> </tr> <tr> <td>austraeger_start_capacity</td> <td>Tragekapazität des Zustellers beim Start</td> <td>float</td> </tr> <tr> <td>austraeger_capacity</td> <td>Tragekapazität des Zustellers</td> <td>float</td> </tr> <tr> <td>austraeger_start_capacity_kg</td> <td>Tragekapazität des Zustellers in kg beim Start</td> <td>float</td> </tr> <tr> <td>austraeger_capacity_kg</td> <td>Tragekapazität des Zustellers in kg</td> <td>float</td> </tr> <tr> <td>mediengewicht</td> <td>Gewicht eines Mediums in Gramm</td> <td>float</td> </tr> </tbody> </table> <p>Optimierungsmethode</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>roundtrip</td> <td>Rundweg</td> </tr> <tr> <td>roundtrip_intern</td> <td>Rundweg im Verteilbezirk</td> </tr> <tr> <td>oneway</td> <td>Einfache Strecke</td> </tr> <tr> <td>'' bzw. jeder ander Wert</td> <td>Default</td> </tr> </tbody> </table> <p>Beispiel:</p> <pre><code>{
+"update": true,
+"insert": true, 
+"gebiet": [{
+    "nr": "1200",
+    "name": "Gebiet 1",
+    "limit_plz": "12345,23456",
+    "starthaus": "1",
+    "zustellerhaus": "2",
+    "endhaus": "3" 
+}, {
+    "nr": "1300",
+    "name": "Gebiet 2",
+    "limit_plz": "",
+    "starthaus": null,
+    "zustellerhaus": null,
+    "endhaus": null
+}]
+ }
+</code></pre> <p>Beispiel Optionen Updaten </p> <pre><code>{
+  "ausgabe": "Name der Ausgabe",
+  "gebiet": [
+    {
+      "nr": "B421902002",
+      "option": {
+        "kfz": false,
+        "hauszugangsdistanz": 10,
+        "strassen_name": null,
+        "starthaus": null,
+        "steckzeit_erste": 70,
+        "steckzeit_folgende": 25,
+        "optimierung": "roundtrip",
+        "geschwindigkeit": 12,
+        "geschwindigkeit2": 50,
+        "car_profile_fuer_zustellerhaus": true,
+        "ruestzeit": 5,
+        "nullhaushalte": true,
+        "osrm_schwelldistanz": "20" 
+      }
+    }
+  ]
+}
+</code></pre> <p>Beispiel Zustellerhaus mit Straßenabschnitts-ID </p> <pre><code>{
+  "gebiet": [
+    {
+      "nr": "B421902002",
+      "zustellerhaus": {
+        "street_oi": "304207",
+        "hausnummer": "7",
+        "hausnummer_zusatz": "" 
+      }
+    }
+  ]
+}
+</code></pre> <p>Beispiel Debpot (vorhanden Depots werden gelöscht!)</p> <pre><code>{
+  "gebiet": [
+    {
+      "nr": "B421902002",
+      "depots": ["1", "2"]
+    }
+  ]
+}
+</code></pre> <p>Beispiel alle Debpots löschen</p> <pre><code>{
+  "gebiet": [
+    {
+      "nr": "B421902002",
+      "depots": []
+    }
+  ]
+}
+</code></pre> <p>Beispiel Debpots mit Straßenabschnitts-ID </p> <pre><code>{
+  "gebiet": [
+    {
+      "nr": "B421902002",
+      "zustellerhaus": [
+      {
+        "street_oi": "304207",
+        "hausnummer": "7",
+        "hausnummer_zusatz": "" 
+      },
+      {
+        "street_oi": "304207",
+        "hausnummer": "20",
+        "hausnummer_zusatz": "" 
+      }
+      ]
+    }
+  ]
+}
+</code></pre> <h4 id="gebiet-loschen">Gebiet löschen<a class="headerlink" href="#gebiet-loschen" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gebiet/delete">http://domain/fernsteuerung/gebiet/delete</a></p> <p>Parameter:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>nr</td> <td>Nummer des Gebietes/Nummern der Gebiete</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (optional: default=Aktuelle Ausgabe des Benutzers)</td> </tr> </tbody> </table> <pre><code>{
+  nr: ["1","2"]
+}
+</code></pre> <h4 id="gebietsdefinition">Gebietsdefinition<a class="headerlink" href="#gebietsdefinition" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gebiet/definition">http://domain/fernsteuerung/gebiet/definition</a></p> <p>Parameter (optional):</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>gebiet</td> <td>Nummer(n) der Gebiete</td> </tr> <tr> <td>limit</td> <td>Limit</td> </tr> <tr> <td>offset</td> <td>Offset</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (default=Aktuelle Ausgabe des Benutzers)</td> </tr> </tbody> </table> <p>Rückgabe:</p> <pre><code>[{"gebiet":"1234","oi":["1","2","3","4"],"ausgabe":"1234"},{"gebiet":"2345","oi":["5","6","7","8"],"ausgabe":"1234"}]
+</code></pre> <h4 id="gebietsdefinition-hinzufugen-bzw-loschen">Gebietsdefinition hinzufügen bzw. löschen<a class="headerlink" href="#gebietsdefinition-hinzufugen-bzw-loschen" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gebiet/add_definition">http://domain/fernsteuerung/gebiet/add_definition</a><br> <a href="http://domain/fernsteuerung/gebiet/delete_definition">http://domain/fernsteuerung/gebiet/delete_definition</a></p> <p>Parameter:</p> <p>[TABLE]</p> <pre><code>{
+  "oi": ["1","2","3"],
+  "gebiet": "11",
+  "ausgabe": "1234" 
+}
+</code></pre> <p>bzw.</p> <p><a href="http://domain/fernsteuerung/gebiet/add_definition?ausgabe=1234&amp;gebiet=11&amp;oi=1,2,3">http://domain/fernsteuerung/gebiet/add_definition?ausgabe=1234&amp;gebiet=11&amp;oi=1,2,3</a><br> <a href="http://domain/fernsteuerung/gebiet/delete_definition?ausgabe=1234&amp;gebiet=11&amp;oi=1,2,3">http://domain/fernsteuerung/gebiet/delete_definition?ausgabe=1234&amp;gebiet=11&amp;oi=1,2,3</a></p> <p>Bekannte Fehlermeldungen:</p> <pre><code>{"text":"Ausgabe nicht gefunden","status":500}
+{"text":"Kein Gebiet übergeben","status":500}
+{"text":"Keine Adresse übergeben","status":500}
+{"text":"Daten wurden nicht übernommen","status":500}
+</code></pre> <h4 id="gebietsdefinition-hinzufugen-mit-street-id">Gebietsdefinition hinzufügen (Mit Street-ID)<a class="headerlink" href="#gebietsdefinition-hinzufugen-mit-street-id" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gebiet/add_definition_with_street_oi">http://domain/fernsteuerung/gebiet/add_definition_with_street_oi</a></p> <p>Parameter:</p> <p>[TABLE]</p> <p>Adresse Params:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>street_oi</td> <td>Straßen ID</td> </tr> <tr> <td>nr_von</td> <td>von Hausnummer</td> </tr> <tr> <td>nr_bis</td> <td>Bis Hausnummer</td> </tr> </tbody> </table> <p>Optionale Adresse Params:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>nrzusatz_von</td> <td>von Hausnummer Zusatz</td> </tr> <tr> <td>nrzusatz_bis</td> <td>Bis Hausnummer Zusatz</td> </tr> </tbody> </table> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>kennz</td> <td>Kennzahl A: Alle, G:Nur gerade Hausnummern, U: Nur ungerade Hausnummern. optional(default A)</td> </tr> </tbody> </table> <pre><code>{
+  "adresse": [{"street_oi":"1234", "nr_von": "2","nr_bis":"998","kennz":"G"},{"street_oi":"4567", "nr_von": "1","nr_bis":"999","kennz":"A"}],
+  "gebiet": "8765",
+  "ausgabe": "default" 
+}
+
+gegeben Hausnummer 20, 20A, 20B, 21, 21A, 21B, 22, 22A,22B
+
+Bisher:
+{  "adresse": [{"street_oi": "x11", "nr_von": "20",  "nr_bis": "20" }]} =&gt; 20, 20A, 20B
+{  "adresse": [{"street_oi": "x11", "nr_von": "20",  "nr_bis": "22" }]} =&gt; 20, 20A, 20B, 21, 21A, 21B, 22, 22A,22B
+
+Neu:
+{  "adresse": [{"street_oi": "x11", "nr_von": "20",  "nr_bis": "20", "nrzusatz_von": "", "nrzusatz_bis": "" }]} =&gt; 20
+{  "adresse": [{"street_oi": "x11", "nr_von": "20",  "nr_bis": "20", "nrzusatz_von": "A", "nrzusatz_bis": "B" }]} =&gt; 20A, 20B
+{  "adresse": [{"street_oi": "x11", "nr_von": "20",  "nr_bis": "20", "nrzusatz_von": "", "nrzusatz_bis": "A" }]} =&gt; 20, 20A
+{  "adresse": [{"street_oi": "x11", "nr_von": "20",  "nr_bis": "20", "nrzusatz_bis": "" }]} =&gt; 20 (wenn nrzusatz_von leerer String ist kann man ihn auch weglassen.)
+{  "adresse": [{"street_oi": "x11", "nr_von": "20",  "nr_bis": "22", "nrzusatz_von": "B", "nrzusatz_bis": "" }]} =&gt; 20B, 21, 21A, 21B, 22
+{  "adresse": [{"street_oi": "x11", "nr_von": "20",  "nr_bis": "22", "nrzusatz_von": "B", "nrzusatz_bis": "A" }]} =&gt; 20B, 21, 21A, 21B, 22, 22A
+{  "adresse": [{"street_oi": "x11", "nr_von": "20",  "nr_bis": "22", "nrzusatz_von": "B" }]} =&gt; 20B, 21, 21A, 21B, 22, 22A,22B
+Reihenfolge wenn nr_von = nr_bis
+{  "adresse": [{"street_oi": "x11", "nr_von": "20",  "nr_bis": "20", "nrzusatz_von": "B", "nrzusatz_bis": "" }]} =&gt; x (keine Zuordnung)
+</code></pre> <h4 id="gebiete-als-bild-exportieren-gebietskarten">Gebiete als Bild exportieren (Gebietskarten)<a class="headerlink" href="#gebiete-als-bild-exportieren-gebietskarten" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/gebiet/image?nr=B421902002&amp;ausgabe=default">http://domain/fernsteuerung/gebiet/image?nr=B421902002&amp;ausgabe=default</a></p> <p>Gebiets-Nr. und Name der Ausgabe müssen URL-encoded übergeben werden.</p> <p>Es wird eine Karte mit den Umrissen eines Trägerbezirkes als Bilddatei erzeugt (JPG-Format). Die Auswahl der Hintergrundkarte in den Kundeneinstellungen (z.B. basemap.de) wird berücksichtigt.</p> <p>Bekannte Fehlermeldungen:</p> <pre><code>{"text":"Ausgabe nicht gefunden","status":500}
+{"text":"Bezirk nicht gefunden","status":404}
+</code></pre> <h3 id="bezirke">Bezirke<a class="headerlink" href="#bezirke" title="Permanent link"></a></h3> <p>Der Bezirk (= Trägerbezirk) ist die übergeordnete Ebene, wenn zwei Ebenen verfügbar sind. Aus einem oder mehreren Gebieten (= Zellen) werden durch die Zuordnung Gebiet=&gt;Bezirk Bezirke gebildet. Auf dieser Ebene werden keine Zuordnungen zu Gebäuden (Adressen) vorgenommen.</p> <h4 id="bezirke-abrufen">Bezirke abrufen<a class="headerlink" href="#bezirke-abrufen" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/bezirk/">http://domain/fernsteuerung/bezirk/</a></p> <p>Parameter (optional):</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>nr</td> <td>Nummer(n) der Bezirke</td> </tr> <tr> <td>limit</td> <td>Limit</td> </tr> <tr> <td>offset</td> <td>Offset</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (default=Aktuelle Ausgabe des Benutzers)</td> </tr> </tbody> </table> <p>Rückgabe:</p> <pre><code>[{"nr":"12","name":"","privathaushalte":1,"gewerbebetriebe":2,"abonnenten":10,"starthaus":"1","zustellerhaus":"2","endhaus":"3"},{"nr":"13","name":"","privathaushalte":0,"gewerbebetriebe":0,"abonnenten":0,"starthaus":null,"zustellerhaus":null,"endhaus":null},{"nr":"14","name":"","privathaushalte":0,"gewerbebetriebe":0,"abonnenten":0,"starthaus":null,"zustellerhaus":null,"endhaus":null}]
+</code></pre> <p>Optionale Ausgabe wenn in Kundenverwaltung ausgewählt:</p> <p>privathaushalte, gewerbebetriebe, werbeverweigerer, abonnenten<br> starthaus, zustellerhaus, endhaus (Gebäude ID (oi))</p> <h4 id="bezirke-hinzufugenupdaten">Bezirke Hinzufügen/Updaten<a class="headerlink" href="#bezirke-hinzufugenupdaten" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/bezirk/add_and_update">http://domain/fernsteuerung/bezirk/add_and_update</a></p> <p>Parameter:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>bezirk</td> <td>Bezirk Parameter</td> </tr> <tr> <td>insert</td> <td>true(default) oder false. Nur neue Bezirk werden hinzugefügt</td> </tr> <tr> <td>update</td> <td>true(default) oder false. Bestehende Bezirke werden geupdated</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (optional: default=Aktuelle Ausgabe des Benutzers)</td> </tr> <tr> <td>option</td> <td>Optionen Parameter (optional) siehe unter Gebiet Updaten</td> </tr> </tbody> </table> <p>Bezirk Parameter (Achtung: beim Einfügen von mehreren Bezirken muss immer die gleiche Anzahl der Parameter angegeben werden):</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>nr</td> <td>Bezirknummer</td> </tr> <tr> <td>name</td> <td>Bezirkname (optional)</td> </tr> <tr> <td>starthaus</td> <td>oi Starthaus oder Objekt (optional)</td> </tr> <tr> <td>zustellerhaus</td> <td>oi Zustellerhaus oder Objekt (optional)</td> </tr> <tr> <td>endhaus</td> <td>oi Endhaus oder Objekt (optional)</td> </tr> <tr> <td>depots</td> <td>Array [oi Endhaus oder Objekt] (optional) [r3367]</td> </tr> </tbody> </table> <p>Start- Zusteller- Endhaus als Objekt (<a href="/redmine/projects/multiroute-go/repository/revisions/2417" title="CS: #4871 API Gehfolge erweitert. API Zusteller-, Start- und Endhaus mit street_oi möglich.">r2417</a>) |street_oi|Straßenabschnitts-ID (required)| |hausnummer|Hausnummer (required)| |hausnummer_zusatz|Hausnummer Zusatz (required)|<br> Beispiel:</p> <pre><code>{
+"update": true,
+"insert": true, 
+"bezirk": [{"nr":"1200","name":"Bezirk 1","starthaus":"1","zustellerhaus":"2","endhaus":"3"},{"nr":"1300","name":"Bezirk 2","starthaus":null,"zustellerhaus":null,"endhaus":null}]
+ }
+</code></pre> <h4 id="bezirke-loschen">Bezirke löschen<a class="headerlink" href="#bezirke-loschen" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/bezirk/delete">http://domain/fernsteuerung/bezirk/delete</a></p> <p>Parameter</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>nr</td> <td>Nummer des Bezirks/Nummern der Bezirke</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (optional: defaul=Aktuelle Ausgabe des Benutzers)</td> </tr> </tbody> </table> <pre><code>{
+  nr: ["1","2"]
+}
+</code></pre> <h4 id="bezirksdefinition">Bezirksdefinition<a class="headerlink" href="#bezirksdefinition" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/bezirk/definition">http://domain/fernsteuerung/bezirk/definition</a></p> <p>Parameter (optional)</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>bezirk</td> <td>Nummer(n) der Bezirke</td> </tr> <tr> <td>limit</td> <td>Limit</td> </tr> <tr> <td>offset</td> <td>Offset</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (default=Aktuelle Ausgabe des Benutzers)</td> </tr> </tbody> </table> <p>Rückgabe:</p> <pre><code>[{"bezirk":"12","gebiet":["1","2","3","4"],"ausgabe":"1234"},{"bezirk":"13","gebiet":["5","6","7","8"],"ausgabe":"1234"}]
+</code></pre> <h4 id="bezirksdefinition-hinzufugen-bzw-loschen">Bezirksdefinition Hinzufügen bzw. löschen<a class="headerlink" href="#bezirksdefinition-hinzufugen-bzw-loschen" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/bezirk/add_definition">http://domain/fernsteuerung/bezirk/add_definition</a><br> <a href="http://domain/fernsteuerung/bezirk/delete_definition">http://domain/fernsteuerung/bezirk/delete_definition</a></p> <p>Parameter:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>gebiet</td> <td>Nummern der Gebiete</td> </tr> <tr> <td>bezirk</td> <td>Nummer des Bezirks</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (optional default=Aktuelle Ausgabe des Benutzers)</td> </tr> <tr> <td>append</td> <td>Modus beim Hinzufügen (optional default=true) ; mit false wird die Zuordnung ersetzt</td> </tr> <tr> <td>all</td> <td>Modus beim Löschen (optional default=false); mit true wird die Zuordnung wird gelöscht</td> </tr> </tbody> </table> <pre><code>{
+  "gebiet": ["1","2","3"],
+  "bezirk": "11",
+  "ausgabe": "1234" 
+}
+</code></pre> <p>Bekannte Fehlermeldungen:</p> <pre><code>{"text":"Ausgabe nicht gefunden","status":500}
+{"text":"Kein Gebiet übergeben","status":500}
+{"text":"Kein Bezirk übergeben","status":500}
+{"text":"Daten wurden nicht übernommen","status":500}
+</code></pre> <h4 id="bezirke-als-bild-exportieren-bezirkskarten">Bezirke als Bild exportieren (Bezirkskarten)<a class="headerlink" href="#bezirke-als-bild-exportieren-bezirkskarten" title="Permanent link"></a></h4> <p><a href="http://domain/fernsteuerung/bezirk/image?nr=Bezirk%2011&amp;ausgabe=2.%20Bezirk">http://domain/fernsteuerung/bezirk/image?nr=Bezirk%2011&amp;ausgabe=2.%20Bezirk</a></p> <p>Bezirks-Nr. und Name der Ausgabe müssen URL-encoded übergeben werden.</p> <p>Es wird eine Karte mit den Umrissen eines Trägerbezirkes der übergeordneten Ebene als Bilddatei erzeugt (JPG-Format). Die Auswahl der Hintergrundkarte in den Kundeneinstellungen (z.B. basemap.de) wird berücksichtigt.</p> <p>Bekannte Fehlermeldungen:</p> <pre><code>{"text":"Ausgabe nicht gefunden","status":500}
+{"text":"Bezirk nicht gefunden","status":404}
+</code></pre> <h3 id="datenubernahme-individuell-konfiguriert">Datenübernahme (individuell konfiguriert)<a class="headerlink" href="#datenubernahme-individuell-konfiguriert" title="Permanent link"></a></h3> <p>Nur neue Adressen<br> <a href="http://domain/fernsteuerung/adressen">http://domain/fernsteuerung/adressen</a></p> <p>Alle Verteilbezirke und Zuordnungen<br> <a href="http://domain/fernsteuerung/definition">http://domain/fernsteuerung/definition</a></p> <p>Neue Adressen und Alle Verteilbezirke sowie Zuordnung<br> <a href="http://domain/fernsteuerung/adressen_definition">http://domain/fernsteuerung/adressen_definition</a></p> <h3 id="zahllisten">Zähllisten<a class="headerlink" href="#zahllisten" title="Permanent link"></a></h3> <p><a href="http://domain/fernsteuerung/zaehlliste/%3Cverteilbezirk_nummer%3E.pdf">http://domain/fernsteuerung/zaehlliste/%3Cverteilbezirk_nummer%3E.pdf</a> oder xlsx</p> <p>Parameter (optional)</p> <p>|ausgabe| Name der Ausgabe (default=Aktuelle Ausgabe des Benutzers)| </p> <pre><code>http://127.0.0.1:3000/fernsteuerung/zaehlliste/12.pdf
+</code></pre> <h3 id="clickmap">ClickMap<a class="headerlink" href="#clickmap" title="Permanent link"></a></h3> <p><a href="http://domain/fernsteuerung/click_map/">http://domain/fernsteuerung/click_map/</a></p> <p>Parameter:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>click_map</td> <td>Nummern der Gebiete</td> </tr> <tr> <td>verteilbezirk_nr</td> <td>Nummern der Verteilbezirke</td> </tr> <tr> <td>gehfolgen_id</td> <td>Id einer Gehfolge (optional: verteilbezirk_nr wird nicht angegeben)</td> </tr> <tr> <td>ausgabe</td> <td>Name der Ausgabe (optional: defaul=Aktuelle Ausgabe des Benutzers)</td> </tr> </tbody> </table> <p>click_map Objekt:</p> <table> <thead> <tr> <th></th> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>one_bezirk</td> <td>true/false (default: false)</td> <td>(default: true bei gehfolgen_id)</td> </tr> <tr> <td>one_bezirk</td> <td>true</td> <td>für einen Verteilbezirk mit/ohne Adresspunkte (Es wird für jeden angegebenen Verteilbezirk eine eigene Clickable Map angelegt)</td> </tr> <tr> <td>one_bezirk</td> <td>false</td> <td>für mehrere Verteilbezirk ohne Adresspunkte (Es wird für alle angegebenen Verteilbezirke eine gemeinsame Clickable Map angelegt)</td> </tr> <tr> <td>show_adressen</td> <td>true/false (default: false)</td> <td>Adressen werden auch angezeigt (funktioniert nur bei one_bezirk: true)</td> </tr> <tr> <td>show_gehfolge</td> <td>true/false (default: false)</td> <td>Aktuellste Gehfolge wird auch angezeigt (funktioniert nur bei one_bezirk: true (default: true bei gehfolgen_id))</td> </tr> <tr> <td>use_once</td> <td>true/false (default: false)</td> <td>Einweg-Link (Link kann nur einmal aufgerufen werden)</td> </tr> </tbody> </table> <pre><code>{
+"click_map": {"show_adressen": true, "one_bezirk": true, "use_once": false}, 
+"verteilbezirk_nr": ["B001056", "B001070"]
+}
+</code></pre> <p>one_bezirk:true Rückgabewert ist ein JSON Array: </p> <pre><code>[
+{"url":"http://domain/klick_karte/20/3d7ca9bc7996ea8e94690170a32820b2","verteilbezirk_nr":"B001056"},
+{"url":"http://domain/klick_karte/21/ce8927a1d7ba8ed49f520306e92d112b","verteilbezirk_nr":"B001070"}
+]
+</code></pre> <p>one_bezirk:false Rückgabewert ist ein JSON Object: </p> <pre><code>{"url":"http://domain/klick_karte/23/d6aad99591c06d6e242f19ea44933f78"}
+</code></pre> <p>gehfolgen_id</p> <pre><code>{
+"click_map": {"show_adressen": true, "use_once": true}, 
+"gehfolgen_id": 1
+}
+</code></pre> <h2 id="zusie">Zusie<a class="headerlink" href="#zusie" title="Permanent link"></a></h2> <h3 id="zusie-sync">Zusie Sync<a class="headerlink" href="#zusie-sync" title="Permanent link"></a></h3> <p>Synchronisation mit Zusie<br> Es werden die aktuellsten Gehfolgen einer Ausgabe zu Zusie übermittelt, bzw. in Zusie gelöscht.</p> <p><a href="http://domain/fernsteuerung/zusie/sync/">http://domain/fernsteuerung/zusie/sync/</a><br> <a href="http://domain/fernsteuerung/zusie/delete/">http://domain/fernsteuerung/zusie/delete/</a></p> <p>Optionale Parameter:</p> <table> <thead> <tr> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>ausgabe</td> <td>(default die vom User)</td> </tr> <tr> <td>nr</td> <td>Nummern der Verteilbezirke, (default alle)</td> </tr> </tbody> </table> <pre><code>{"nr": ["B430501004"]}
+</code></pre> </article> </div> <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script> </div> <button type="button" class="md-top md-icon" data-md-component="top" hidden> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path></svg> Zurück zum Seitenanfang </button> </main> <footer class="md-footer"> <nav class="md-footer__inner md-grid" aria-label="Fußzeile"> <a href="../api-intro/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: MRG! API"> <div class="md-footer__button md-icon"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg> </div> <div class="md-footer__title"> <span class="md-footer__direction"> Zurück </span> <div class="md-ellipsis"> MRG! API </div> </div> </a> <a href="../preise/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Preise"> <div class="md-footer__title"> <span class="md-footer__direction"> Weiter </span> <div class="md-ellipsis"> Preise </div> </div> <div class="md-footer__button md-icon"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg> </div> </a> </nav> <div class="md-footer-meta md-typeset"> <div class="md-footer-meta__inner md-grid"> <div class="md-copyright"> <div class="md-copyright__highlight"> Copyright © gb consite GmbH </div> Made with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener"> Material for MkDocs </a> </div> <div class="md-social"> <a href="https://www.linkedin.com/company/gb-consite-gmbh" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg> </a> <a href="https://www.xing.com/pages/gbconsitegmbh" target="_blank" rel="noopener" title="www.xing.com" class="md-social__link"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!-- Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M162.7 210c-1.8 3.3-25.2 44.4-70.1 123.5-4.9 8.3-10.8 12.5-17.7 12.5H9.8c-7.7 0-12.1-7.5-8.5-14.4l69-121.3c.2 0 .2-.1 0-.3l-43.9-75.6c-4.3-7.8.3-14.1 8.5-14.1H100c7.3 0 13.3 4.1 18 12.2l44.7 77.5zM382.6 46.1l-144 253v.3L330.2 466c3.9 7.1.2 14.1-8.5 14.1h-65.2c-7.6 0-13.6-4-18-12.2l-92.4-168.5c3.3-5.8 51.5-90.8 144.8-255.2 4.6-8.1 10.4-12.2 17.5-12.2h65.7c8 0 12.3 6.7 8.5 14.1z"></path></svg> </a> <a href="https://www.facebook.com/gbconsite" target="_blank" rel="noopener" title="www.facebook.com" class="md-social__link"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg> </a> <a href="https://x.com/standortanalyse" target="_blank" rel="noopener" title="x.com" class="md-social__link"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z"></path></svg> </a> <a href="https://www.youtube.com/@Standortanalyse" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg> </a> </div> </div> </div> </footer> </div> <div class="md-dialog" data-md-component="dialog"> <div class="md-dialog__inner md-typeset"></div> </div> <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.footer", "navigation.top", "navigation.sections", "content.action.edit", "content.code.copy", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script> <script src="../assets/javascripts/bundle.3220b9d7.min.js"></script> <script src="../stylesheets/extra.js"></script> <script>
+    var elements = document.getElementsByClassName("lightgallery");
+    for(var i=0; i<elements.length; i++) {
+       lightGallery(elements[i]);
+    }
+    </script>  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
