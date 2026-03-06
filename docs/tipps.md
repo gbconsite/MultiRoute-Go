@@ -66,6 +66,10 @@ Einfach auf das gerade aktive Symbol links drücken (:material-earth:, :fontawes
 
 ![aufklappen2](https://github.com/user-attachments/assets/4d8fe649-a216-4d60-9db4-ac93cfeb072b "Aufklappen und Zuklappen")
 
+Oder einfach die gelb markierte Menüleiste je nach Anforderung etwas verschieben.
+<img width="467" height="210" alt="grafik" src="https://github.com/user-attachments/assets/19987086-6318-4d7e-916b-8cb9006f3d9a" />
+
+
 ## Was kann denn eigentlich das Fragezeichen ❔ rechts in der Karte?
 
 Durch Aktivieren des Fragezeichens ❔rechts in der Karte haben Sie die Möglichkeit sich schnell zu orientieren.
@@ -75,3 +79,4 @@ Durch Aktivieren des Fragezeichens ❔rechts in der Karte haben Sie die Möglich
 Ein Klick auf die Karte liefert eine schnelle Orientierungshilfe:
 
 ![image](https://github.com/user-attachments/assets/03c59b7d-9d9c-4191-aaaf-0a67e721e57a "Schnelle Orientierungshilfe")
+
