@@ -168,7 +168,7 @@ Das Höhenprofil wird als interaktive Grafik auf der Karte oben rechts ausgegebe
 
 Diese Informationen zur Geländehöhe sind ebenfalls im Excel-Export und im GPX-Export enthalten.
 
-Bis März 2026 haben wir das Höhenprofil aus der [Shuttle Radar Topography Mission (SRTM)](https://de.wikipedia.org/wiki/SRTM-Daten), einer NASA Mission im Jahr 2000 verwendet. [Seit März 2026 wurde umgestellt auf ein neueres Geländemodell](https://go.multiroute.de/handbuch/blog/2026/03/17/mehr-pr%C3%A4zision-durch-neues-gel%C3%A4ndemodell-umstellung-auf-eu-dtm-03-in-mrg/) mit einer Auflösung von ca. 3m Rasterweite. Die daraus gewonnenen Erkenntnisse zum Höhenprofil werden bei jeder Gehfolgenberechnung automatisch mit der Route der Gehfolge verknüpft.
+Bis März 2026 haben wir das Höhenprofil aus der [Shuttle Radar Topography Mission (SRTM)](https://de.wikipedia.org/wiki/SRTM-Daten), einer NASA Mission im Jahr 2000 verwendet.Seit März 2026 wurde umgestellt auf ein [aktuelleres Geländemodell](https://go.multiroute.de/handbuch/blog/2026/03/17/mehr-pr%C3%A4zision-durch-neues-gel%C3%A4ndemodell-umstellung-auf-eu-dtm-03-in-mrg/), das mit Ensemble Machine Learning (EML) aus drei aktuellen digitalen Oberflächemodellen errechnet wurde. Die gewonnenen Erkenntnisse zum Höhenprofil werden bei jeder Gehfolgenberechnung automatisch mit der Route der Gehfolge verknüpft.
 
 
 ## Fehler bei der Gehfolgenberechnung
