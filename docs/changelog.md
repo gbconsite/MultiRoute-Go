@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.3715 vom 15.04.2026
+- [Zwischenstrecken](https://go.multiroute.de/handbuch/blog/2025/07/21/zwischenstrecken-in-multiroute-go--intermodales-routing-leicht-gemacht/) auch bei Kfz-Zustellung
+
+### v1.3707-11 vom 13.04.2026
+- Berechnung der Dichte für Geschwindigkeiten
+
 ### v1.3743 vom 05.03.2026
 - Weitere Exportfunktionalitäten Bezirksplanung
   
