@@ -50,7 +50,7 @@ In der Regel die "normale" Abladestelle. Der Name Zustellerhaus leitet sich von 
 Das Zustellerhaus kann außerhalb des Verteilbezirkes sein und hat in diesem Fall auch keine Zuordnung zu diesem. Am Zustellerhaus wird in diesem Fall nicht gesteckt.
 
 ## Starthaus
-Gebäudepunkt mit dem ersten Steckvorgang. Wird standardmäßig automatisch ermittelt, kann aber auch manuell festgelegt werden (z.B. um den Platz für den Abstellort des Zusteller-KFZ zu bestimmen)
+Gebäudepunkt mit dem ersten Steckvorgang. Wird standardmäßig automatisch ermittelt, kann aber auch manuell festgelegt werden (z.B. um den Platz für den Abstellort des Zusteller-KFZ zu bestimmen). Muss sich im zugeordneten Gebiet befinden.
 
 ## Endhaus
 Gebäudepunkt mit dem letzten Steckvorgang. Wird standardmäßig automatisch ermittelt, kann aber auch manuell festgelegt werden.
