@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.37234 vom 28.04.2026
+- Fix bei Anzeige Strecke für 1 Abo
+  
+### v1.3720-22 vom 17.04.2026
+- Dichte, Höhenprofilbug
+  
 ### v1.3715 vom 15.04.2026
 - [Zwischenstrecken](https://go.multiroute.de/handbuch/blog/2025/07/21/zwischenstrecken-in-multiroute-go--intermodales-routing-leicht-gemacht/) auch bei Kfz-Zustellung
 
