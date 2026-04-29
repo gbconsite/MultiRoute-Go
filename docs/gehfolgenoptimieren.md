@@ -110,6 +110,13 @@ Upload - Weitere Optionen:
 
 ![grafik](https://github.com/user-attachments/assets/e27623f4-f085-4f1d-82db-06370cd15d03 "Upload Sortierreihenfolge")
 
+❗Hinweis:
+Die Modi bei "Zuordnung"
+- **hinzufügen**: Zuordnung wird einfach hinzugefügt. (Überlappungen mit anderen Gebieten sind möglich.)
+- **überschreibe**n: Die gesamte alte Zuordnung des Gebietes wird als erstes gelöscht. Dann wird die neue Zuordnung geladen. (Überlappungen mit anderen Gebieten sind möglich.)
+- **ersetzen**: Alle Zuordnungen der Adressen werden gelöscht. Dann wird die neue Zuordnung geladen. (Überlappungen mit anderen Gebieten sind nicht möglich.)
+- **überschreiben und ersetzen**: Die gesamte alte Zuordnung des Gebietes wird als erstes gelöscht. Alle Zuordnungen der Adressen zu anderen Gebieten werden gelöscht. Dann wird die neue Zuordnung geladen. (Überlappungen mit anderen Gebieten sind nicht möglich.)
+  
 ## Straßenseite beibehalten (Zusatzmodul)
 Eine weitere Möglichkeit - und besonders beliebt bei der Briefzustellung - ist die Möglichkeit MultiRoute Go! zu "zwingen" für eine bestimmte Straße oder innerhalb eines Ortsteils die "Straßenseite beizubehalten". Also nicht die Straßenseite zu wechseln. Bei der Sortierung von Briefen hilt das, aber auch wenn es weitere logistische Gründe gibt.
 Nach Aktivierung dieses Zusatzmoduls können Sie die bestimmten Gebäude/Straßen in der Adressverwaltung (Gebietsplanung) mit dem Lasso  <img width="32" height="29" alt="grafik" src="https://github.com/user-attachments/assets/c119d66b-89ab-443b-a1c5-fa79c9c2aed3" /> auswählen und in der Adressliste explizit für "Straßenseite beibehalten" auswählen:
