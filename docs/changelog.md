@@ -9,7 +9,7 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
-### v1.37234 vom 28.04.2026
+### v1.3834 vom 28.04.2026
 - Fix bei Anzeige Strecke für 1 Abo
   
 ### v1.3720-22 vom 17.04.2026
