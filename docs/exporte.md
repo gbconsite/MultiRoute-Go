@@ -66,3 +66,9 @@ Ganz unten über den *.CSV-Export erhalten Sie die Eigenschaften gebündelt zur�
 <img width="276" height="68" alt="grafik" src="https://github.com/user-attachments/assets/c3d576f0-8214-45a9-a4ec-bcb576f61f1b" />
 
 Diese können dann in eine andere Ausgabe importiert werden.
+
+## Export als Shape (*.kml)
+
+Häufig werden wir gefragt, wie Sie die Verteilgebiete als Shape exportieren können, um diese bspw. Media Central oder anderen Dienstleistern, zur Verfügung zu stellen. Das ist kein Problem. Unter Administration - Verteilbezirke können Sie ganz unten einen Export als *.kml oder *.kmz machen. Dieser kann dann entweder im Fremdsystem in eine [Shape-Datei](https://de.wikipedia.org/wiki/Shapefile) umgewandelt werden, oder meist auch direkt verwendet werden:
+<img width="325" height="76" alt="grafik" src="https://github.com/user-attachments/assets/6dd16263-a682-4ca1-9f12-ee6f40745d9c" />
+
