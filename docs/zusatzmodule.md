@@ -183,10 +183,12 @@ Unser beliebtestes Zusatzmodul!
 
 Nur für Kunden mit InHouse-Lizenz oder dediziertem Server. Machen Sie Anpassungen in den OpenStreetMap (OSM) Daten, die nur für Sie gelten. Also bspw. Straßen, die vorübergehend gesperrt sind markieren oder Fußwege, die im Winter zu matschig werden, rausnehmen. 
 
+🆕 Es können nun auch Wege auf die Positivliste genommen werden - je Verkehrsmittel und mit selbst vergebener Geschwindigkeit.
+
 
 ##Manuelles Eingreifen in Gehfolgen##
 
- 🆕 MultiRoute Go! hat die kürzeste Route gefunden, es gibt aber Gründe, die diese optimale Route verhindern? Auch kein Problem mehr!  Mit diesem Zusatzmodul können Sie manuell in die optimierte Gehfolge eingreifen. Wenn beispielsweise die optimierte Gehfolge Ihre Straßenabschnitte zerteilt, Sie aber aus Gründen der Sortierung unbedingt den kompletten Straßenabschnitt am Stück abgehen möchten. Oder wenn der Zusteller darauf besteht, dass seine Route besser ist. Einfach mal "nachbauen" und dann auch den Zusteller überzeugen, dass es anders kürzer geht.
+MultiRoute Go! hat die kürzeste Route gefunden, es gibt aber Gründe, die diese optimale Route verhindern? Auch kein Problem mehr!  Mit diesem Zusatzmodul können Sie manuell in die optimierte Gehfolge eingreifen. Wenn beispielsweise die optimierte Gehfolge Ihre Straßenabschnitte zerteilt, Sie aber aus Gründen der Sortierung unbedingt den kompletten Straßenabschnitt am Stück abgehen möchten. Oder wenn der Zusteller darauf besteht, dass seine Route besser ist. Einfach mal "nachbauen" und dann auch den Zusteller überzeugen, dass es anders kürzer geht.
  [Und so geht es](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#manuelle-gehfolgensortierung).
 
 ##Festgelegte Reihenfolge##
