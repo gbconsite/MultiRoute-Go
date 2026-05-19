@@ -193,7 +193,7 @@ MultiRoute Go! hat die kürzeste Route gefunden, es gibt aber Gründe, die diese
 
 ##Festgelegte Reihenfolge##
 
- 🆕 Haben Sie sich aus Ihren logistischen Gründen selbst zusammengebastelte Route überlegt und möchten diese nun weiterhin nutzen? Mit dem neuen Zusatzmoodul "Festgelegte Reihenfolge" verwenden wir IHRE Reihenfolge und optimieren gar nicht mehr. Einfach per [Upload](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#festgelegte-reihenfolge-hochladen).
+Haben Sie sich aus Ihren logistischen Gründen selbst zusammengebastelte Route überlegt und möchten diese nun weiterhin nutzen? Mit dem neuen Zusatzmoodul "Festgelegte Reihenfolge" verwenden wir IHRE Reihenfolge und optimieren gar nicht mehr. Einfach per [Upload](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#festgelegte-reihenfolge-hochladen).
 
 ##Straßenseite beibehalten##
 
