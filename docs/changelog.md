@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.3843 vom 11.05.2026
+- Voronoi-Polygone
+
 ### v1.3834 vom 28.04.2026
 - Fix bei Anzeige Strecke für 1 Abo
   
