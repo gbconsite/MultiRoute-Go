@@ -9,6 +9,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.3852 vom 27.05.2026
+- Update Straßenanpassungen
+  
+### v1.3851 vom 21.05.2026
+- Fix Anzeige Image (Administration - Verteilbezirke)
+  
+### v1.3850 vom 21.05.2026
+- Anpassungen zusie 
+
 ### v1.3843 vom 11.05.2026
 - Voronoi-Polygone
 
