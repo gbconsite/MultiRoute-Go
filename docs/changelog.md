@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.3853-3860 zuletzt vom 01.06.2026
+- Verbesserungen Voronoi-Polygone
+
 ### v1.3852 vom 27.05.2026
 - Update Straßenanpassungen
   
