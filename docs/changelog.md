@@ -9,6 +9,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.3883 zuletzt vom 16.06.2026
+- Straßenliste kompakt mit Abladestellen, Nachladestellen
+  
+### v1.3882 zuletzt vom 16.06.2026
+- Fehlerkorrekturen bei Zwischenstrecken Hin-/Rückweg
+  
+### v1.3866 zuletzt vom 08.06.2026
+- letzte Korrekturen Voronoi-Polygone
+  
 ### v1.3853-3860 zuletzt vom 01.06.2026
 - Verbesserungen Voronoi-Polygone
 
