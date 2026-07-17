@@ -112,6 +112,7 @@ Upload - Weitere Optionen:
 
 ❗Hinweis:
 Die Modi bei "Zuordnung":
+
 - **hinzufügen**: Zuordnung wird einfach hinzugefügt. (Überlappungen mit anderen Gebieten sind möglich.)
 
 - **überschreiben**: Die gesamte alte Zuordnung des Gebietes wird als erstes gelöscht. Dann wird die neue Zuordnung geladen. (Überlappungen mit anderen Gebieten sind möglich.)
