@@ -111,10 +111,13 @@ Upload - Weitere Optionen:
 ![grafik](https://github.com/user-attachments/assets/e27623f4-f085-4f1d-82db-06370cd15d03 "Upload Sortierreihenfolge")
 
 ❗Hinweis:
-Die Modi bei "Zuordnung"
+Die Modi bei "Zuordnung":
 - **hinzufügen**: Zuordnung wird einfach hinzugefügt. (Überlappungen mit anderen Gebieten sind möglich.)
-- **überschreibe**n: Die gesamte alte Zuordnung des Gebietes wird als erstes gelöscht. Dann wird die neue Zuordnung geladen. (Überlappungen mit anderen Gebieten sind möglich.)
+
+- **überschreiben**: Die gesamte alte Zuordnung des Gebietes wird als erstes gelöscht. Dann wird die neue Zuordnung geladen. (Überlappungen mit anderen Gebieten sind möglich.)
+  
 - **ersetzen**: Alle Zuordnungen der Adressen werden gelöscht. Dann wird die neue Zuordnung geladen. (Überlappungen mit anderen Gebieten sind nicht möglich.)
+  
 - **überschreiben und ersetzen**: Die gesamte alte Zuordnung des Gebietes wird als erstes gelöscht. Alle Zuordnungen der Adressen zu anderen Gebieten werden gelöscht. Dann wird die neue Zuordnung geladen. (Überlappungen mit anderen Gebieten sind nicht möglich.)
   
 ## Straßenseite beibehalten (Zusatzmodul)
