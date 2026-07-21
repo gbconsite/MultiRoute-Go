@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.3917 zuletzt vom 15.07.2026
+- Bezirksparameter in der Datenübernahme
+
+### v1.3907 zuletzt vom 13.07.2026
+- Multi Polygone bei Voronoi Darstellung
+  
 ### v1.3883 zuletzt vom 16.06.2026
 - Straßenliste kompakt mit Abladestellen, Nachladestellen
   
