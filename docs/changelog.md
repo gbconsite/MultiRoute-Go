@@ -9,6 +9,12 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.3951 zuletzt vom 23.07.2026
+- Fahrrad im Upload und weiteren Stellen
+
+### v1.3939 zuletzt vom 21.07.2026
+- Anpassungen PDF Straßenliste
+
 ### v1.3917 zuletzt vom 15.07.2026
 - Bezirksparameter in der Datenübernahme
 
