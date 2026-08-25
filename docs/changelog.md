@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.3958-3962 zuletzt vom 02.08.2026
+- Verbesserungen bei Übertragung zu zusie
+  
 ### v1.3951 zuletzt vom 23.07.2026
 - Fahrrad im Upload und weiteren Stellen
 
