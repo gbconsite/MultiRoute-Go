@@ -191,3 +191,9 @@ Alle weiteren Funktionen finden Sie unter der Auflistung Ihrer Verteilbezirke:
 Achten Sie immer darauf, dass Sie die richtige Ausgabe gewählt haben:exclamation:
 
 
+## Darstellung: Gummiband oder Voronoi
+Bei der automatischen Polygonerzeugung können Sie je Ausgabe wählen, ob es "Gummibänder" sein sollen oder flächendeckende "Voronoi-Polygone".
+Einfach in der Ausgabe entsprechend auswählen:
+<img width="684" height="274" alt="grafik" src="https://github.com/user-attachments/assets/da901c80-f34c-437b-b977-1a4f7aff454a" />
+
+Zu den Vor- und Nachteilen im [Blog](https://go.multiroute.de/handbuch/blog/2026/09/21/voronoi-polygone-in-multiroute-go-verteilbezirke-%C3%BCbersichtlich-darstellen/).
