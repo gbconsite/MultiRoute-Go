@@ -107,7 +107,7 @@ oder mit festem Endpunkt:
 
 ## Hauszugangs-Suchradius
 
-Neben der HZD hilft Ihnen der **Hauszugangs-Suchradius**, den richtigen Zugang (Ankerpunkt) von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
+Neben der HZD hilft Ihnen der **Hauszugangs-Suchradius**, den richtigen Zugang ([Ankerpunkt](https://go.multiroute.de/handbuch/gehfolgen/#hauszugangsdistanz-hzd-grenzwert)) von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
 
 Ein Beispiel:
 
