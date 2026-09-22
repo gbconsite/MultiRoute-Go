@@ -59,7 +59,7 @@ Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um ein
 
 Möchten Sie sehen, mit welchen Parametern einzelne Gebiete/Bezirke abgespeichert wurden und welche individuellen Parameter hinterlegt wurden, dann ziehen Sie sich am besten in der jeweiligen Ausgabe einen aktuellen [Export](../exporte/#eigenschaften-der-verteilgebiete). In dieser Übersicht sehen Sie auch gleich alle Möglichkeiten, die angepasst werden können.
 
-Haben Sie die Parameter für die Gehfolgenberechnung schon in Excel/CSV vorliegen, können diese auch importiert werden (falls Sie über die entsprechenden Rechte verfüggen). Dazu **in der entsprechenden Ausgabe** auf Administration - Upload gehen und die Datei mit Bezirkseigenschaften auswählen:
+Haben Sie die Parameter für die Gehfolgenberechnung schon in Excel/CSV vorliegen, können diese auch importiert werden (falls Sie über die entsprechenden Rechte verfügen). Dazu **in der entsprechenden Ausgabe** auf Administration - Upload gehen und die Datei mit Bezirkseigenschaften auswählen:
 
 <img width="1477" height="592" alt="grafik" src="https://github.com/user-attachments/assets/8b6da97a-3454-4c5c-aa83-6829e4a0abd0" />
 
