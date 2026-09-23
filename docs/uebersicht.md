@@ -1,33 +1,32 @@
-# MultiRoute Go! als Verlags-GIS in Zustellorganisationen
+---
+title: "MultiRoute Go! Handbuch: Gebietsplanung und Gehfolgenberechnung"
+description: "Das MultiRoute Go! Handbuch für Verlage und Zustellorganisationen: Gebietsplanung, Gehfolgenberechnung, Datenintegration, Exporte und API im Überblick."
+---
 
-## Gebietsoptimierung und Gehfolgenberechnung mit MultiRoute Go!
+# MultiRoute Go! im Überblick
 
-Seit dem 1.1.2015 gilt der Mindestlohn in Deutschland. Die Durchführungsverordnung zum Mindestlohngesetz gestattet der Verlags- und Zustellbranche, neben einer wöchentlichen Aufzeichnungspflicht der tatsächlichen Arbeitszeit des Arbeitnehmers, auch eine Soll-Arbeitszeit zum Abgleich zu ermitteln. Mit der Erhöhung des Mindestlohns gewinnt die Gebietsoptimierung an Bedeutung, da dadurch die Logistikprozesse effizienter gestaltet und Kosten eingespart werden können.
+MultiRoute Go! ist ein Verlags-GIS für die Planung von Zustellgebieten und die Berechnung von Gehfolgen. Dieses Handbuch führt Sie von der Datenintegration über die Arbeit mit Bezirken und Routen bis zum Export der Ergebnisse.
 
-### Optimale Gebietsoptimierung mit MultiRoute Go!
+## Gebiete und Zustellbezirke planen
 
-MultiRoute Go! bietet umfassende Funktionen für die **Gebietsoptimierung** und **Bezirksoptimierung** in Zustellorganisationen. Diese Tools ermöglichen es, die Zustellbezirke so zu planen, dass die Effizienz maximiert und die Kosten minimiert werden. Durch eine gezielte **Gebietsoptimierung** können Arbeitszeiten reduziert und die Arbeitslast gleichmäßig auf die Zusteller verteilt werden.
+In der [Gebietsplanung](../gebietsplanung/) können Sie Träger- und Verteilbezirke anlegen, anpassen und auf der Karte prüfen. Die [Adressverwaltung](../adressverwaltung/) und die Funktionen für [Spezialhäuser](../spezialhaeuser/) helfen Ihnen, die zugrunde liegenden Zustelldaten zu bearbeiten.
 
-### Gehfolgenberechnung für effizientere Zustellprozesse
+Wenn Sie MultiRoute Go! zum ersten Mal einrichten, beginnen Sie mit der [Datenintegration](../upload/) und den [Grundlagen](../grundlagen/).
 
-Ein zentraler Aspekt der Zustelloptimierung ist die Berechnung der optimalen Gehfolge. Die **Gehfolgenberechnung** sorgt dafür, dass die Zusteller ihre Routen in der effizientesten Reihenfolge ablaufen. Dadurch werden unnötige Wege vermieden und die Zustellzeit pro Bezirk wird optimiert. Die **Gangfolgen** müssen dabei so realistisch wie möglich ermittelt werden, um die Soll-Arbeitszeit genau darlegen zu können.
+## Gehfolgen berechnen und optimieren
 
-### Vorteile von MultiRoute Go! für Ihre Zustellorganisation
+Die [Gehfolgenberechnung](../gehfolgen/) ermittelt eine Reihenfolge für die Zustellung innerhalb eines Bezirks. Im Kapitel [Gehfolgen optimieren](../gehfolgenoptimieren/) erfahren Sie, welche Einstellungen und Anpassungen für Ihre Planung zur Verfügung stehen.
 
-MultiRoute Go! ist besonders für Zustellorganisationen geeignet, die über Schnittstellen zu Verlagssystemen (z.B. SAP, JJK, HUP, VI&VA) oder Briefsortierungssystemen (z.B. PostOffice von CodX, ProMail) verfügen. Die Software ermöglicht eine automatisierte Berechnung der optimalen **Gangfolge** und der **Gebietsoptimierung**, die täglich aktualisiert werden kann.
+Für die Bewertung geplanter Zustellzeiten können Sie unter anderem Rüstzeiten, Steckzeiten und Gehgeschwindigkeiten berücksichtigen. Die Begriffe und Eingaben erläutern die jeweiligen Kapitel des Handbuchs.
 
-Für die Ermittlung der Soll-Arbeitszeit sind präzise Parameter erforderlich, darunter Steckzeiten, Rüstzeiten und die Durchschnittsgeschwindigkeit der Zusteller. Die realistische **Gehfolgenberechnung** ist entscheidend, um diese Soll-Arbeitszeit belastbar und transparent zu gestalten. MultiRoute Go! bietet dafür die ideale Lösung.
+## Ergebnisse nutzen und Systeme anbinden
 
-### API-Integration und Fernsteuerung
+Mit den [Exporten](../exporte/) geben Sie Planungsergebnisse für die weitere Verwendung aus. Informationen zur Anbindung an bestehende Systeme finden Sie in der [API-Einführung](../api-intro/) und der [API-Referenz](../routen/). Weitere Funktionen beschreibt das Kapitel [Zusatzmodule](../zusatzmodule/).
 
-MultiRoute Go! lässt sich über die [API](../api-intro/) vollständig fernsteuern, was eine nahtlose Integration in bestehende Systeme ermöglicht. Diese Flexibilität sorgt dafür, dass die **Gebietsoptimierung** und **Gehfolgenberechnung** jederzeit und überall durchgeführt werden kann.
+## Video und Anmeldung
 
-### Weitere Informationen
+Das Video [„Das Verlags-GIS MultiRoute Go!“](https://youtu.be/oRk-P5Ty7VI) gibt Ihnen einen kurzen Einblick in die Anwendung.
 
-Einen kurzen Überblick zu den Standardfunktionalitäten erhalten Sie in unserem Video:
+<iframe width="898" height="505" src="https://www.youtube.com/embed/oRk-P5Ty7VI" title="MultiRoute Go! – Überblick über das Verlags-GIS" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Das Verlags-GIS MultiRoute Go!](https://youtu.be/oRk-P5Ty7VI)
-
-<iframe width="898" height="505" src="https://www.youtube.com/embed/oRk-P5Ty7VI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Mit Ihren Zugangsdaten loggen Sie sich auf [https://go.multiroute.de/](https://go.multiroute.de/) in die Public Cloud, eine eigene Instanz (Private Cloud) oder auf Ihrem internen Server (On Premise) ein.
+Mit Ihren Zugangsdaten können Sie sich bei [MultiRoute Go! anmelden](https://go.multiroute.de/).
