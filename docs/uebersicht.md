@@ -5,13 +5,14 @@ description: "Das MultiRoute Go! Handbuch für Verlage und Zustellorganisationen
 
 # MultiRoute Go! im Überblick
 
-MultiRoute Go! ist ein Verlags-GIS für die Planung von Zustellgebieten und die Berechnung von Gehfolgen. Dieses Handbuch führt Sie von der Datenintegration über die Arbeit mit Bezirken und Routen bis zum Export der Ergebnisse.
+MultiRoute Go! ist ein Verlags-GIS für die Planung von Zustellgebieten und die Berechnung von Gehfolgen. Dieses Handbuch führt Sie von den ersten [Grundlagen](../grundlagen/) über die Datenintegration (Importe) zur eigentlichen Arbeit an Verteilbezirken und Routen bis zum Export der Ergebnisse.
 
 ## Gebiete und Zustellbezirke planen
 
 In der [Gebietsplanung](../gebietsplanung/) können Sie Träger- und Verteilbezirke anlegen, anpassen und auf der Karte prüfen. Die [Adressverwaltung](../adressverwaltung/) und die Funktionen für [Spezialhäuser](../spezialhaeuser/) helfen Ihnen, die zugrunde liegenden Zustelldaten zu bearbeiten.
 
-Wenn Sie MultiRoute Go! zum ersten Mal einrichten, beginnen Sie mit der [Datenintegration](../upload/) und den [Grundlagen](../grundlagen/).
+Die erstmalige Einrichtung von MultiRoute Go! übernehmen wir für Sie. Natürlich haben Sie selbst auch die Möglichkeit, über verschiedene [Uploads](../upload/) Daten zu integrieren und zu aktualisieren. In der Regel geschieht dies automatisch per API oder einer automatisierten Datenübernhame.
+
 
 ## Gehfolgen berechnen und optimieren
 
