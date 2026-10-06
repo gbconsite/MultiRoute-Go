@@ -9,6 +9,9 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.4020/21 zuletzt vom 05.10.26
+- Neues Styling Bezirkskarte (Image + PDF)
+
 ### v1.3984 zuletzt vom 28.08.2026
 - Anpassungen Subdistricts zusie
 
