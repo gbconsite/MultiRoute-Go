@@ -9,7 +9,16 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
-### v1.4020/21 zuletzt vom 05.10.26
+### v1.4034-41 zuletzt vom 09.10.2026
+- Dichtematrix
+
+### v1.4029 zuletzt vom 07.10.2026
+- Linien Bezirkskarte
+
+### v1.4026 zuletzt vom 06.10.2026
+- Anpassungen für Ubuntu 26.04
+  
+### v1.4020/21 zuletzt vom 05.10.2026
 - Neues Styling Bezirkskarte (Image + PDF)
 
 ### v1.3984 zuletzt vom 28.08.2026
