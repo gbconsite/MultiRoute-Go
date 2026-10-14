@@ -140,7 +140,23 @@ Zurück in der **Gebietsplanung** ist das Polygon für das Gebiet voll automatis
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158540878-4b87d58c-d804-4fe5-8be3-70e9f7d8cbb8.png "Automatisch erzeugtes Polygon")
 
-Bei den automatisch erzeugten Polygonen wird die Hülle wie ein Gummiband um die zugeordneten Punkte gelegt. Siehe hierzu unser Kapitel zum Arbeiten mit **Basispolygonen**.
+### Gummiband oder Voronoi
+MultiRoute Go! bietet zwei Darstellungsarten für Verteilbezirke. Wählen Sie die passende Darstellung für Ihre Aufgabenstellung. Automatisch erzeugte Polygone können mit der Gummiband-Methode oder als Voronoi-Polygone dargestellt werden. Die Darstellungsart ist je **Ausgabe** einstellbar und kann jederzeit geändert werden.
+
+<img width="995" height="438" alt="grafik" src="https://github.com/user-attachments/assets/f525695c-55f3-417c-8cd3-91fe9aa22d56" />
+
+Bei der **Gummiband-Methode** wird eine Hülle um die zugeordneten Zustellpunkte gelegt. Weit entfernte Punkte und ungewöhnliche Zuordnungen fallen dadurch schnell auf. Diese Darstellung eignet sich besonders zur Kontrolle und Optimierung von Verteilbezirken.
+
+**Voronoi-Polygone** bilden eine flächendeckende Darstellung mit geschlossenen, nicht überlappenden Gebietsflächen. Sie eignen sich besonders zur übersichtlichen Präsentation von Gebietsgrenzen sowie für die Mediaplanung und den Abo-Booster.
+
+| Aufgabenstellung | Geeignete Darstellung |
+|---|---|
+| Bezirke prüfen und optimieren | Gummiband-Methode |
+| Ausreißer und mögliche Fehlzuordnungen erkennen | Gummiband-Methode |
+| Gebietsflächen übersichtlich darstellen | Voronoi-Polygone |
+| Mediaplanung und Abo-Booster | Voronoi-Polygone |
+
+**Hinweis:** Liegt ein Zustellpunkt eines Bezirks in einem Bereich, der ansonsten einem anderen Bezirk zugeordnet ist, können mehrere getrennte Teilflächen entstehen. Solche Multipolygone sind möglich, können die Darstellung jedoch unübersichtlicher machen.
 
 ## Zusammenfassen von Gebieten
 Gebiete können wie folgt zusammengefasst werden:
