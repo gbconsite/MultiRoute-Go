@@ -23,7 +23,7 @@ Hier können berechtigte Nutzer verschiedene Optionen einstellen. Dazu gehören 
 
 ## Ausgaben ##
 Hier können Sie bestehende Ausgaben ```Bearbeiten``` oder neue Ausgaben anlegen. 
-Legen Sie hier die Parameter für die jeweilige Ausgabe fest für die Gehfolgenberechnungen. 
+Legen Sie hier die Parameter für die jeweilige Ausgabe fest für die Gehfolgenberechnungen. Auch ob Sie *Gummibänder* als Polygone verwenden möchten oder eine sehr flächige Darstellung über Voronoi-Polygone wünschen.
 
 Häufig wird eine eigene Ausgabe zu Planungszwecken erstellt. Dazu gehen Sie folgendermaßen vor:
 Administration - Ausgaben - 'Neue Ausgabe'
