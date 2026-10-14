@@ -142,7 +142,7 @@ Zurück in der **Gebietsplanung** ist das Polygon für das Gebiet voll automatis
 ![grafik](https://user-images.githubusercontent.com/99329016/158540878-4b87d58c-d804-4fe5-8be3-70e9f7d8cbb8.png "Automatisch erzeugtes Polygon")
 
 ### Gummiband oder Voronoi
-MultiRoute Go! bietet zwei Darstellungsarten für Verteilbezirke. Wählen Sie die passende Darstellung für Ihre Aufgabenstellung. Automatisch erzeugte Polygone können mit der Gummiband-Methode oder als Voronoi-Polygone dargestellt werden. Die Darstellungsart ist je **Ausgabe** einstellbar und kann jederzeit geändert werden.
+MultiRoute Go! bietet zwei Darstellungsarten für Verteilbezirke. Wählen Sie die passende Darstellung für Ihre Aufgabenstellung. Automatisch erzeugte Polygone können mit der Gummiband-Methode oder als Voronoi-Polygone dargestellt werden. Die Darstellungsart ist je **[Ausgabe](https://go.multiroute.de/handbuch/administration/#ausgaben)** einstellbar und kann jederzeit geändert werden.
 
 <img width="684" height="274" alt="grafik" src="https://github.com/user-attachments/assets/da901c80-f34c-437b-b977-1a4f7aff454a" />
 
