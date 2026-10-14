@@ -123,13 +123,14 @@ Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539008-247181ef-470a-4fa2-96a5-d81f208df699.png "Zuordnungen aktualisieren beim Zeichnen")
 
-## Gebiet löschen und neu erzeugen
+## Gebiet löschen 
 Ein Gebiet löschen Sie einfach durch Klick auf den :fontawesome-regular-trash-can:{style="color:#0078A8"}.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158539630-2c35bcbd-e28b-4bf0-a21b-8dd2925b39cb.png "Bezirk löschen")
 
 Die im Polygon befindlichen Punkte wissen weiterhin, welchem Gebiet sie zugeordnet sind und sind weiterhin grün. Das Polygon dient nur als Hilfsmittel zur Visualisierung. Kontrollieren können Sie das, wenn Sie auf der linken Seite auf die Gebietsnummer klicken und den Gebiet aktivieren. Dort fehlt das Häkchen bei "Geometrie vorhanden", die Gebäudepunkte erscheinen aber auf der Karte mit grünem Kringel. 
 
+## Gebiete erzeugen lassen
 Sie können nun das Polygon automatisiert neu erzeugen lassen, in dem Sie auf ```Administration - Verteilbezirke``` gehen. Dort wählen Sie das gewünschte Gebiet aus und drücken unten auf 
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158540508-041f3dbc-b2ec-47c2-a916-0753fb3690fa.png "Auswahl von Verteilbezirken in der Administration")
@@ -143,7 +144,7 @@ Zurück in der **Gebietsplanung** ist das Polygon für das Gebiet voll automatis
 ### Gummiband oder Voronoi
 MultiRoute Go! bietet zwei Darstellungsarten für Verteilbezirke. Wählen Sie die passende Darstellung für Ihre Aufgabenstellung. Automatisch erzeugte Polygone können mit der Gummiband-Methode oder als Voronoi-Polygone dargestellt werden. Die Darstellungsart ist je **Ausgabe** einstellbar und kann jederzeit geändert werden.
 
-<img width="995" height="438" alt="grafik" src="https://github.com/user-attachments/assets/f525695c-55f3-417c-8cd3-91fe9aa22d56" />
+<img width="684" height="274" alt="grafik" src="https://github.com/user-attachments/assets/da901c80-f34c-437b-b977-1a4f7aff454a" />
 
 Bei der **Gummiband-Methode** wird eine Hülle um die zugeordneten Zustellpunkte gelegt. Weit entfernte Punkte und ungewöhnliche Zuordnungen fallen dadurch schnell auf. Diese Darstellung eignet sich besonders zur Kontrolle und Optimierung von Verteilbezirken.
 
@@ -207,9 +208,3 @@ Alle weiteren Funktionen finden Sie unter der Auflistung Ihrer Verteilbezirke:
 Achten Sie immer darauf, dass Sie die richtige Ausgabe gewählt haben:exclamation:
 
 
-## Darstellung: Gummiband oder Voronoi
-Bei der automatischen Polygonerzeugung können Sie je Ausgabe wählen, ob es "Gummibänder" sein sollen oder flächendeckende "Voronoi-Polygone".
-Einfach in der Ausgabe entsprechend auswählen:
-<img width="684" height="274" alt="grafik" src="https://github.com/user-attachments/assets/da901c80-f34c-437b-b977-1a4f7aff454a" />
-
-Zu den Vor- und Nachteilen im [Blog](https://go.multiroute.de/handbuch/blog/2026/09/21/voronoi-polygone-in-multiroute-go-verteilbezirke-%C3%BCbersichtlich-darstellen/).
