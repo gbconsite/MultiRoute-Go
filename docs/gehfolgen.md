@@ -55,6 +55,9 @@ Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen 
 
 Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt wird von uns für Sie eingestellt.
 
+Die Vorgaben bearbeiten Sie unter Administration auf der jeweiligen Ebene:
+[Kunden](https://go.multiroute.de/handbuch/administration/#kunden), [Ausgaben](https://go.multiroute.de/handbuch/administration/#ausgaben) oder [Verteilbezirke](https://go.multiroute.de/handbuch/administration/#verteilbezirke).
+
 ## Parameter für die Gehfolgenberechnung 
 
 Möchten Sie sehen, mit welchen Parametern einzelne Gebiete/Bezirke abgespeichert wurden und welche individuellen Parameter hinterlegt wurden, dann ziehen Sie sich am besten in der jeweiligen Ausgabe einen aktuellen [Export](../exporte/#eigenschaften-der-verteilgebiete). In dieser Übersicht sehen Sie auch gleich alle Möglichkeiten, die angepasst werden können.
@@ -156,7 +159,7 @@ Der Aufruf der berechneten Gehfolgen :material-folder-open-outline: können Sie 
 
 Bei den Aktionen stehen in der Kurzübersicht die Ergebnisse der Gehfolgen zur Verfügung und sie können gelöscht (Mülleimer) werden.
 
-Unter der Ergebnisliste sind Exportmöglichkeiten (als CSV) verfügbar.
+Wenn Sie berechnete Gehfolgen exportieren möchten, finden Sie die verfügbaren Möglichkeiten unter [Exporte → Gehfolgen](https://go.multiroute.de/handbuch/exporte/#gehfolgen).
 
 
 ## Das Höhenprofil
