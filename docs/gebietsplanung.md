@@ -99,8 +99,10 @@ Sie sehen nun wieder die weißen Stützpunkte am Rande des Polygons, die Sie mit
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168273860-a1724188-2dda-4919-ae00-e4d2d3d40568.png "weiße Stützpunkte zum Verschieben")
 
+Beim Speichern entscheiden Sie, ob nur die Gebietsgrenze gespeichert oder auch die Zuordnung der Gebäude geändert werden soll. Die Optionen erläutert der Abschnitt [Zuordnungen aktualisieren](#zuordnungen-aktualisieren).
+
 ## Gebiete teilen
-Um ein Gebiet teilen zu können, aktivieren Sie ihn einfach. Mit der Maus an eine beliebige Stelle im zu teilenden Gebiet klicken.. Das Gebietsbearbeitungsfenster erscheint. Im Fenster klickt man mit der Maus auf :fontawesome-solid-scissors:{style="color:#0078A8"}. 
+Um ein Gebiet teilen zu können, aktivieren Sie ihn einfach. Mit der Maus an eine beliebige Stelle im zu teilenden Gebiet klicken. Das Gebietsbearbeitungsfenster erscheint. Im Fenster klickt man mit der Maus auf :fontawesome-solid-scissors:{style="color:#0078A8"}. 
 
 Außerhalb des Gebiets setzen Sie den ersten weißen Stützpunkt und klicken mit der linken Maustaste auf weitere Punkte bis Sie außerhalb des Gebiets ankommen und mit Doppelklick abschließen. 
 
@@ -112,12 +114,11 @@ Im Kartenmenü auf der linken Seite können Sie (von unten nach oben) ```Speiche
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168276826-c5a5233a-37b5-439c-aaac-c8422ed4f0b8.png "Menü zum Editieren")
 
-Die "neuen" Gebiete können nun separat voneinander berechnet werden. Möglicherweise möchte Sie einen 
+Nach dem Teilen können Sie für beide Verteilbezirke separat Gehfolgen berechnen. Die Anleitung dazu finden Sie im Kapitel [Gehfolgenberechnung](https://go.multiroute.de/handbuch/gehfolgen/).
 
 ## Gebiet umbenennen
 
-Gehen Sie auf ```Administration - Verteilberzirke``` und drücken Sie hier beim umzubenennenden Gebiet einfach auf ```Bearbeiten```. Sie können alle Anpassungen für diesen ein Gebiet nun machen und mit ```Speichern``` bestätigen.
-
+Öffnen Sie [Administration → Verteilbezirke](https://go.multiroute.de/handbuch/administration/#verteilbezirke) und klicken Sie beim gewünschten Verteilbezirk auf `Bearbeiten`. Ändern Sie die Gebietsnummer oder den Namen und bestätigen Sie mit `Speichern`.
 
 Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_circle: nach :red_circle: oder umgekehrt.
 
@@ -195,6 +196,8 @@ Alle Koordinaten, die sich nun innerhalb des blau gewordenen Polyongs befinden, 
 
 Einzelne Koordinaten lassen sich **zuordnen**, in dem im aktivieren Polygon die entsprechenden Koordinaten angeklickt werden und die Koordinate mit dem Polygon verknüpft wird.
 ![grafik](https://user-images.githubusercontent.com/99329016/168282417-dd028266-582a-4c60-a7fa-58a171f5f0ae.png "Manuelles Zuordnen")
+
+Fehlt ein Gebäude auf der Karte, können Sie es zunächst in der [Adressverwaltung](https://go.multiroute.de/handbuch/adressverwaltung/) anlegen und anschließend einem Verteilbezirk zuordnen. Wie Sie ein Gebäude einem Verteilbezirk zuordnen, erfahren Sie unter [Gebietsplanung → Einzelne Adressen einem Gebiet hinzufügen oder entfernen](https://go.multiroute.de/handbuch/gebietsplanung/#einzelne-adressen-einem-gebiet-hinzufugen-oder-entfernen).
 
 Zum **Entfernen einer einzelnen Koordinate** drücken Sie einfach die "kaputte Büroklammer" und die Zuordnung des Gebäudes verschwindet. Im Bsp. hier wird das Gebäude also anschließend rot.
 ![grafik](https://user-images.githubusercontent.com/99329016/168282544-d87c7d8c-36b3-448e-bd4f-e7453f1eb8ce.png "Manuell Zuordnung löschen")
