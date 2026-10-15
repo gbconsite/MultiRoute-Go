@@ -27,6 +27,8 @@ MultiRoute Go! filtert dann sofort aus den bekannten Adressen und hilft so bei d
 
 Wenn Sie über die OI suchen, dann geht das nur in der Adressverwaltung und nicht über die OSM Suche. Springen Sie direkt zur direkt richtig gefundenen Adresse, um bspw. Bemerkungen zu hinterlegen. **Start**-/**End**- oder **Zustellhäuser** zu setzen oder neue Gebäude anzulegen.
 
+Welche Funktionen Start-, End- und Zustellerhäuser haben und wie Sie diese festlegen, erfahren Sie im Kapitel [Spezialhäuser](https://go.multiroute.de/handbuch/spezialhaeuser/).
+
 Durch den wiederholten Klick auf das :fontawesome-solid-house: klappt sich die linke Menüleiste ein und auch wieder aus.
 
 ## Neue Gebäude anlegen
@@ -55,6 +57,8 @@ Hinter jeder Adresse können Attribute liegen, die für die späteren Berechnung
 Einfach auf das entsprechende Gebäude klicken und dort auf :material-note-edit:{style="color:#0078A8"}. Im nachfolgenden Fenster können Sie Änderungen durchführen und anschließend mit ```Speichern``` bestätigen.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168279002-e9c2432b-bafc-435e-9083-31d220d87d88.png "Adresseigenschaften eingeben")
+
+Wenn Sie Adressdaten regelmäßig aus einem anderen System übernehmen möchten, finden Sie weitere Informationen im Kapitel [Datenintegration](https://go.multiroute.de/handbuch/upload/).
 
 Möchten Sie für viele Gebäude auf einmal die Attribute ändern, so geht das auch. Einfach ein Polygon "malen" und es öffnet sich eine Liste der darin befindlichen Gebäude. Darin können bündelweise Eigenschaften verändert werden (z.B. eine Straßen-ID).
 
