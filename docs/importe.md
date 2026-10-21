@@ -18,6 +18,11 @@ Wir unterstützen bspw. KML (number / description), aber auch weitere Formate. B
 
 Im nächsten Schritt gehen Sie nur noch in ```Administration - Verteilbezirke```, wählen ALLE aus und gehen ganz unten auf "Zuordnung erzeugen". 
 
+Gebietsgeometrien und Gebäudezuordnungen sind getrennte Informationen:
+Die Geometrie beschreibt die Gebietsgrenze, die Zuordnung legt fest, welche Gebäude zu einem Verteilbezirk gehören. Weitere Informationen
+finden Sie unter [Gebietsplanung → Zuordnungen aktualisieren](https://go.multiroute.de/handbuch/gebietsplanung/#zuordnungen-aktualisieren).
+
+
 ## GPX
 
 Oder Sie möchten Ihre getrackten Routen/Touren, die als *.gpx vorliegen direkt [über die Gehfolge](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#tracks-touren-routen-abbilden) legen. Das erklären wir auch bei [Optimierungen in der Gehfolgenberechung](https://go.multiroute.de/handbuch/gehfolgenoptimieren/).
