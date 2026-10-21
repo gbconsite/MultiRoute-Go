@@ -4,8 +4,10 @@ description: Daten aus Fremdsystemen in MultiRoute Go! integrieren per Upload - 
 ---
 
 # 10. Importe
+Dieses Kapitel beschreibt den Import von Gebietsgeometrien und GPX-Dateien. Informationen zur Erstbefüllung mit Adressdaten und zur Datenübernahme über
+Schnittstellen finden Sie im Kapitel [Datenintegration](https://go.multiroute.de/handbuch/upload/).
 
-Manchmal liegen Daten nur in anderen Systemen vor, Sie möchten diese aber in MultiRoute Go! importieren. Bei entsprechenden Nutzerberechtigungen können Sie beispielsweise Ihre **KMLs** uploaden:
+Bei entsprechenden Nutzerberechtigungen können Sie beispielsweise Ihre **KMLs** uploaden:
 
 
 ## Upload KML 
