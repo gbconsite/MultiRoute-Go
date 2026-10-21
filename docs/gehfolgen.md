@@ -29,6 +29,7 @@ Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](.
 
 Manchmal ist es nötig, dass Sie in die Gehfolge eingreifen. Sie können ein Starthaus definieren, bei dem die _erste Steckung_ im Bezirk vorgenommen wird. Und genau so ein Endhaus, bei dem zuletzt gesteckt wird.
 Bei "Rundweg im Verteilbezirk" können Sie auch vor der Berechnung "Starthaus automatisch optimieren" auswählen, um das bestmögliche Starthaus für die Route zu errechnen.
+Wie Sie ein Gebäude als Start- oder Endhaus festlegen, erfahren Sie im Kapitel [Spezialhäuser](https://go.multiroute.de/handbuch/spezialhaeuser/).
 
 ## Berechnen von Gehfolgen
 
@@ -65,9 +66,14 @@ Damit gilt für einen Parameter jeweils der Wert der spezifischsten Ebene, auf d
 
 ## Parameter für die Gehfolgenberechnung 
 
-Möchten Sie sehen, mit welchen Parametern einzelne Gebiete/Bezirke abgespeichert wurden und welche individuellen Parameter hinterlegt wurden, dann ziehen Sie sich am besten in der jeweiligen Ausgabe einen aktuellen [Export](../exporte/#eigenschaften-der-verteilgebiete). In dieser Übersicht sehen Sie auch gleich alle Möglichkeiten, die angepasst werden können.
+Um die hinterlegten Berechnungsparameter mehrerer Verteilbezirke zu prüfen und zu vergleichen, können Sie die [Eigenschaften der Verteilgebiete exportieren](https://go.multiroute.de/handbuch/exporte/#eigenschaften-der-verteilgebiete).
+Erstellen Sie den Export für die gewünschte Ausgabe. Die Tabelle zeigt die gespeicherten Werte der einzelnen Bezirke.
 
-Haben Sie die Parameter für die Gehfolgenberechnung schon in Excel/CSV vorliegen, können diese auch importiert werden (falls Sie über die entsprechenden Rechte verfügen). Dazu **in der entsprechenden Ausgabe** auf Administration - Upload gehen und die Datei mit Bezirkseigenschaften auswählen:
+Wenn die Berechnungsparameter bereits als Excel- oder CSV-Datei vorliegen, können berechtigte Benutzer diese importieren:
+
+1. Wählen Sie die gewünschte Ausgabe aus.
+2. Öffnen Sie [Administration → Upload](https://go.multiroute.de/handbuch/administration/#upload).
+3. Wählen Sie die Upload-Option für Bezirkseigenschaften und anschließend die vorbereitete Datei aus.
 
 <img width="1477" height="592" alt="grafik" src="https://github.com/user-attachments/assets/8b6da97a-3454-4c5c-aa83-6829e4a0abd0" />
 
@@ -117,6 +123,9 @@ oder mit festem Endpunkt:
 
 Neben der [Hauszugangsdistanz](https://go.multiroute.de/handbuch/gehfolgen/#hauszugangsdistanz-hzd-grenzwert) hilft Ihnen der **Hauszugangs-Suchradius**, den richtigen Zugang ([Ankerpunkt](https://go.multiroute.de/handbuch/gehfolgen/#hauszugangsdistanz-hzd-grenzwert)) von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
 
+Der **Hauszugangs-Suchradius** beeinflusst die Suche nach einem geeigneten Zugang zum Gebäude. Der [Hauszugangsdistanz-Grenzwert](#hauszugangsdistanz-hzd-grenzwert)
+bestimmt dagegen, ab welcher Entfernung der Weg zwischen Straße und Gebäude in die Streckenberechnung einfließt.
+
 Ein Beispiel:
 
 Links: HZD Grenzwert 15 m, Suchradius 0 m              
@@ -133,7 +142,7 @@ Für sämtliche Strecken, die zurückgelegt werden, können Sie verschiedene Ges
 - Hin- und Rückweg (von der Abladestelle zur ersten Steckung, abhängig von Optimierungsmethode)
 - Strecke im Verteilbezirk (dicke blaue Linie)
 - Hauszugangsdistanz (der Weg von der Straßenmitte zum Gebäudepunkt)
-- Zwischenstrecke (abhängig vom Zwischenstreckengrenzwert)
+- [Zwischenstrecke](#zwischenstrecken): Für längere Strecken zwischen Zustellpunkten kann eine gesonderte Geschwindigkeit gelten. Welche Strecken darunterfallen, bestimmt der Zwischenstreckengrenzwert.
 
 
 ## Steckzeiten
