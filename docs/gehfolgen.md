@@ -55,8 +55,13 @@ Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen 
 
 Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt wird von uns für Sie eingestellt.
 
-Die Vorgaben bearbeiten Sie unter Administration auf der jeweiligen Ebene:
-[Kunden](https://go.multiroute.de/handbuch/administration/#kunden), [Ausgaben](https://go.multiroute.de/handbuch/administration/#ausgaben) oder [Verteilbezirke](https://go.multiroute.de/handbuch/administration/#verteilbezirke).
+Für die Gehfolgenberechnung gelten die Einstellungen in folgender Rangfolge:
+
+1. **Kunde:** Die allgemeinen Vorgaben gelten für alle zugehörigen Ausgaben und Verteilbezirke.
+2. **Ausgabe:** Abweichende Einstellungen einer [Ausgabe](https://go.multiroute.de/handbuch/administration/#ausgaben) haben Vorrang vor den Kundenvorgaben.
+3. **Verteilbezirk:** Abweichende Einstellungen eines einzelnen Bezirks haben Vorrang vor den Vorgaben der Ausgabe und des Kunden.
+
+Damit gilt für einen Parameter jeweils der Wert der spezifischsten Ebene, auf der eine abweichende Einstellung hinterlegt ist.
 
 ## Parameter für die Gehfolgenberechnung 
 
