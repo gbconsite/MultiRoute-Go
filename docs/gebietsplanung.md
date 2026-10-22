@@ -14,9 +14,11 @@ Die Anzahl der Haushalte + Gewerbebetriebe entspricht der Briefkästen in diesem
 ![grafik](https://user-images.githubusercontent.com/99329016/168274325-2e7a9afb-1f0d-4346-ad67-4e797195ebd1.png "Überblick bei Klick auf Verteilbezirk")
 
 ## Gebiete suchen und finden
-Kennen Sie die Gebietsnummer oder den Gebietsnamen, dann ist es ganz einfach: Sie geben einfach die Nummer im Feld ```Filter``` (hier: 100) ein und MultiRoute Go! filtert nach allen passenden Ergbnissen.
+Kennen Sie die Gebietsnummer oder den Gebietsnamen, dann ist es ganz einfach: 
+Sie geben einfach die Nummer im Feld ```Filter``` (hier: 100) ein und MultiRoute Go! filtert nach allen passenden Ergbnissen.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168274689-cc00db90-c23a-4c58-8f80-0367e496e244.png "Beispiel für Suche per Filter in der Gebietsplanung")
+
 
 Alternativ suchen Sie über die Karte nach dem Gebiet oder oben rechts in der Suche nach dem jeweiligen Ort. Mit dem Klick auf die Gebietsnummer **aktivieren** Sie das Gebiet. Es ist blau hinterlegt und kann editiert werden.
 
