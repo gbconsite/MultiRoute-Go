@@ -135,7 +135,7 @@
     {% endif %}
 
     <!-- Button to open search modal -->
-    {% if "material/search" in config.plugins %}
+    {% if "material/search" in config.plugins or "search" in config.plugins %}
       <label class="md-header__button md-icon" for="__search">
         {% include ".icons/material/magnify.svg" %}
       </label>
@@ -171,7 +171,7 @@
   }
   
   </style>
-    <a href="/users/sign_in" class="md-login_button"><span class="md-ellipsis"> LOGIN </span></a>
+    <a href="https://go.multiroute.de/users/sign_in" class="md-login_button"><span class="md-ellipsis"> LOGIN </span></a>
   </nav>
 
   <script>
