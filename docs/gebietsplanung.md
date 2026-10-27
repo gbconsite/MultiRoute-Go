@@ -5,7 +5,7 @@ description: Verteilbezirke optimieren um Kosten zu senken. Zeichnerisch lassen 
 
 # **2. Gebietsplanung**
 
-In der Gebietsplanung sehen Sie die jeweiligen Trägerbezirke einer [Ausgabe](https://go.multiroute.de/handbuch/definitionen/#ausgabe). Sie können neue Gebiete anlegen, bestehende Gebiete verändern oder löschen. 
+In der Gebietsplanung sehen Sie die jeweiligen Trägerbezirke einer [Ausgabe](definitionen.md#ausgabe). Sie können neue Gebiete anlegen, bestehende Gebiete verändern oder löschen. 
 
 ## Informationen Trägerbezirk
 Durch Klick auf ein Polygon erhalten Sie eine Zusammenfassung des Gebiets und ggf. einen ersten Anhaltspunkt zur Optimierung. 
@@ -40,7 +40,7 @@ Die erfolgreiche Anlage können Sie sich unter dem Menüpunkt **Gebietsplanung**
 Um nun selbst zeichnen zu können, wird der neu angelegte Bezirk aktiviert, indem Sie auf die Gebietsnummer klicken. In der Karte öffnet sich das **Menü zum Zeichnen**. 
 ![grafik](https://user-images.githubusercontent.com/99329016/158331422-1d536767-f2c5-476a-8497-45da8d97ec7a.png "Zeichnen aktivieren")
 
-Klicken Sie das <img src="../assets/icons/polygon.svg" style="height:16px !important" "Geometrie zu Verteilbezirk zeichnen"></img> Symbol an. Nun können Sie mit Klick (linke Maustaste) weiße Stützpunkte setzen und ein Polygon aufziehen. Mit **Doppelklick** wird das Zeichnen beendet. 
+Klicken Sie das <img src="assets/icons/polygon.svg" alt="Geometrie zu Verteilbezirk zeichnen" style="height:16px !important"> Symbol an. Nun können Sie mit Klick (linke Maustaste) weiße Stützpunkte setzen und ein Polygon aufziehen. Mit **Doppelklick** wird das Zeichnen beendet. 
 
 ![grafik](https://user-images.githubusercontent.com/99329016/158331881-7aaed80d-00e7-4e11-aa94-873114d799f6.png "Gezeichnetes Polygon")
 
@@ -116,11 +116,11 @@ Im Kartenmenü auf der linken Seite können Sie (von unten nach oben) ```Speiche
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168276826-c5a5233a-37b5-439c-aaac-c8422ed4f0b8.png "Menü zum Editieren")
 
-Nach dem Teilen können Sie für beide Verteilbezirke separat Gehfolgen berechnen. Die Anleitung dazu finden Sie im Kapitel [Gehfolgenberechnung](https://go.multiroute.de/handbuch/gehfolgen/).
+Nach dem Teilen können Sie für beide Verteilbezirke separat Gehfolgen berechnen. Die Anleitung dazu finden Sie im Kapitel [Gehfolgenberechnung](gehfolgen.md).
 
 ## Gebiet umbenennen
 
-Öffnen Sie [Administration → Verteilbezirke](https://go.multiroute.de/handbuch/administration/#verteilbezirke) und klicken Sie beim gewünschten Verteilbezirk auf `Bearbeiten`. Ändern Sie die Gebietsnummer oder den Namen und bestätigen Sie mit `Speichern`.
+Öffnen Sie [Administration → Verteilbezirke](administration.md#verteilbezirke) und klicken Sie beim gewünschten Verteilbezirk auf `Bearbeiten`. Ändern Sie die Gebietsnummer oder den Namen und bestätigen Sie mit `Speichern`.
 
 Die **Aktualisierung von Zuordnungen** verändert die Gebäudepunkte von :green_circle: nach :red_circle: oder umgekehrt.
 
@@ -145,7 +145,7 @@ Zurück in der **Gebietsplanung** ist das Polygon für das Gebiet voll automatis
 ![grafik](https://user-images.githubusercontent.com/99329016/158540878-4b87d58c-d804-4fe5-8be3-70e9f7d8cbb8.png "Automatisch erzeugtes Polygon")
 
 ### Gummiband oder Voronoi
-MultiRoute Go! bietet zwei Darstellungsarten für Verteilbezirke. Wählen Sie die passende Darstellung für Ihre Aufgabenstellung. Automatisch erzeugte Polygone können mit der Gummiband-Methode oder als Voronoi-Polygone dargestellt werden. Die Darstellungsart ist je **[Ausgabe](https://go.multiroute.de/handbuch/administration/#ausgaben)** einstellbar und kann jederzeit geändert werden.
+MultiRoute Go! bietet zwei Darstellungsarten für Verteilbezirke. Wählen Sie die passende Darstellung für Ihre Aufgabenstellung. Automatisch erzeugte Polygone können mit der Gummiband-Methode oder als Voronoi-Polygone dargestellt werden. Die Darstellungsart ist je **[Ausgabe](administration.md#ausgaben)** einstellbar und kann jederzeit geändert werden.
 
 <img width="684" height="274" alt="grafik" src="https://github.com/user-attachments/assets/da901c80-f34c-437b-b977-1a4f7aff454a" />
 
@@ -199,7 +199,7 @@ Alle Koordinaten, die sich nun innerhalb des blau gewordenen Polyongs befinden, 
 Einzelne Koordinaten lassen sich **zuordnen**, in dem im aktivieren Polygon die entsprechenden Koordinaten angeklickt werden und die Koordinate mit dem Polygon verknüpft wird.
 ![grafik](https://user-images.githubusercontent.com/99329016/168282417-dd028266-582a-4c60-a7fa-58a171f5f0ae.png "Manuelles Zuordnen")
 
-Fehlt ein Gebäude auf der Karte, können Sie es zunächst in der [Adressverwaltung](https://go.multiroute.de/handbuch/adressverwaltung/) anlegen und anschließend einem Verteilbezirk zuordnen. Wie Sie ein Gebäude einem Verteilbezirk zuordnen, erfahren Sie unter [Gebietsplanung → Einzelne Adressen einem Gebiet hinzufügen oder entfernen](https://go.multiroute.de/handbuch/gebietsplanung/#einzelne-adressen-einem-gebiet-hinzufugen-oder-entfernen).
+Fehlt ein Gebäude auf der Karte, können Sie es zunächst in der [Adressverwaltung](adressverwaltung.md) anlegen und anschließend einem Verteilbezirk zuordnen. Wie Sie ein Gebäude einem Verteilbezirk zuordnen, erfahren Sie unter [Gebietsplanung → Einzelne Adressen einem Gebiet hinzufügen oder entfernen](#einzelne-adressen-einem-gebiet-hinzufugen-oder-entfernen).
 
 Zum **Entfernen einer einzelnen Koordinate** drücken Sie einfach die "kaputte Büroklammer" und die Zuordnung des Gebäudes verschwindet. Im Bsp. hier wird das Gebäude also anschließend rot.
 ![grafik](https://user-images.githubusercontent.com/99329016/168282544-d87c7d8c-36b3-448e-bd4f-e7453f1eb8ce.png "Manuell Zuordnung löschen")

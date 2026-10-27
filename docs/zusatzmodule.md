@@ -113,7 +113,7 @@ werden die Trägerbezirke mit ihrem jeweiligen Status abgebildet.
 
 Einzelne Trägerbezirke können Sie per "Zuordnung entfernen" aus einem der Verteilbezirke "offen", "besetzt", "Warteschlange" entfernen oder hinzufügen. Der Status (und die Farbe) passt sich entsprechend an.
 
-Die manuelle Arbeit mit Bezirken funktioniert ansonsten sehr ähnlich mit Gebieten, siehe [Gebietsplanung](https://go.multiroute.de/handbuch/gebietsplanung/).
+Die manuelle Arbeit mit Bezirken funktioniert ansonsten sehr ähnlich mit Gebieten, siehe [Gebietsplanung](gebietsplanung.md).
 
 
 ##Nachladen an „Depots“##
@@ -189,16 +189,16 @@ Nur für Kunden mit InHouse-Lizenz oder dediziertem Server. Machen Sie Anpassung
 ##Manuelles Eingreifen in Gehfolgen##
 
 MultiRoute Go! hat die kürzeste Route gefunden, es gibt aber Gründe, die diese optimale Route verhindern? Auch kein Problem mehr!  Mit diesem Zusatzmodul können Sie manuell in die optimierte Gehfolge eingreifen. Wenn beispielsweise die optimierte Gehfolge Ihre Straßenabschnitte zerteilt, Sie aber aus Gründen der Sortierung unbedingt den kompletten Straßenabschnitt am Stück abgehen möchten. Oder wenn der Zusteller darauf besteht, dass seine Route besser ist. Einfach mal "nachbauen" und dann auch den Zusteller überzeugen, dass es anders kürzer geht.
- [Und so geht es](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#manuelle-gehfolgensortierung).
+ [Und so geht es](gehfolgenoptimieren.md#manuelle-gehfolgensortierung-zusatzmodul).
 
 ##Festgelegte Reihenfolge##
 
-Haben Sie sich aus Ihren logistischen Gründen selbst zusammengebastelte Route überlegt und möchten diese nun weiterhin nutzen? Mit dem neuen Zusatzmoodul "Festgelegte Reihenfolge" verwenden wir IHRE Reihenfolge und optimieren gar nicht mehr. Einfach per [Upload](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#festgelegte-reihenfolge-hochladen).
+Haben Sie sich aus Ihren logistischen Gründen selbst zusammengebastelte Route überlegt und möchten diese nun weiterhin nutzen? Mit dem neuen Zusatzmoodul "Festgelegte Reihenfolge" verwenden wir IHRE Reihenfolge und optimieren gar nicht mehr. Einfach per [Upload](gehfolgenoptimieren.md#festgelegte-reihenfolge-hochladen-zusatzmodul).
 
 ##Straßenseite beibehalten##
 
 Soll aus logistischen Gründen (bpsw. auf Grund der Briefsortierung) möglichst eine ganze Straßenseite ohne Straßenseitenwechsel am Stück gelaufen werden, kann ich das in der Gebietsplanung auch schon für Straßen festlegen und muss nicht manuell eingreifen.
-Dazu mehr im Kapitel [Optimierungen in der Gehfolgenberechnung](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#straenseite-beibehalten-zusatzmodul).
+Dazu mehr im Kapitel [Optimierungen in der Gehfolgenberechnung](gehfolgenoptimieren.md#straenseite-beibehalten-zusatzmodul).
 
 ##Straßenabschnitte exportieren##
 

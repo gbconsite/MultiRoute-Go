@@ -5,7 +5,7 @@ description: Daten aus Fremdsystemen in MultiRoute Go! integrieren per Upload - 
 
 # 10. Importe
 Dieses Kapitel beschreibt den Import von Gebietsgeometrien und GPX-Dateien. Informationen zur Erstbefüllung mit Adressdaten und zur Datenübernahme über
-Schnittstellen finden Sie im Kapitel [Datenintegration](https://go.multiroute.de/handbuch/upload/).
+Schnittstellen finden Sie im Kapitel [Datenintegration](upload.md).
 
 Bei entsprechenden Nutzerberechtigungen können Sie beispielsweise Ihre **KMLs** uploaden:
 
@@ -22,9 +22,9 @@ Im nächsten Schritt gehen Sie nur noch in ```Administration - Verteilbezirke```
 
 Gebietsgeometrien und Gebäudezuordnungen sind getrennte Informationen:
 Die Geometrie beschreibt die Gebietsgrenze, die Zuordnung legt fest, welche Gebäude zu einem Verteilbezirk gehören. Weitere Informationen
-finden Sie unter [Gebietsplanung → Zuordnungen aktualisieren](https://go.multiroute.de/handbuch/gebietsplanung/#zuordnungen-aktualisieren).
+finden Sie unter [Gebietsplanung → Zuordnungen aktualisieren](gebietsplanung.md#zuordnungen-aktualisieren).
 
 
 ## GPX
 
-Oder Sie möchten Ihre getrackten Routen/Touren, die als *.gpx vorliegen direkt [über die Gehfolge](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#tracks-touren-routen-abbilden) legen. Das erklären wir auch bei [Optimierungen in der Gehfolgenberechung](https://go.multiroute.de/handbuch/gehfolgenoptimieren/).
+Oder Sie möchten Ihre getrackten Routen/Touren, die als *.gpx vorliegen direkt [über die Gehfolge](gehfolgenoptimieren.md#tracks-touren-routen-abbilden) legen. Das erklären wir auch bei [Optimierungen in der Gehfolgenberechung](gehfolgenoptimieren.md).

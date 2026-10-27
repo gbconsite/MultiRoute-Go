@@ -9,7 +9,7 @@ Die Heuristik zur Gehfolgenoptimierung in MultiRoute Go! folgt dem Prinzip der l
 
 Zusätzlich zur grundsätzlichen Optimierung der Reihenfolge ist in MultiRoute Go! eine Heuristik in der Kostenberechnungsfunktion (eine "nahe Gebäude zuerst"-Logik) eingebaut. Wir sind in der Lage zu simulieren, dass der Zusteller am Anfang seiner Tour mehr Ballast mit sich trägt als am Ende. Daher wird am Anfang der Tour auf die zurückgelegten Strecken ein Multiplikator angesetzt, der die Strecke z.B. um 5% mehr kostet. Während der Optimierung wird somit darauf hingearbeitet, dass die kleineren Strecken dem Multiplikator ausgesetzt sind, anstelle von längeren. Der Optimierungs-Algorithmus läuft im Endeffekt in einer Schleife, die Anzahl Schleifendurchläufe entspricht proportional der Anzahl an Gebäuden in der Tour. Ergebnis ist dann eine Gehfolge, in der so früh wie möglich so viel Gewicht wie möglich verloren wird.
 
-Nutzen Sie die verschiedenen Ergebnisse (z.B. Excel-Export) der Gehfolgenberechnung, um [Ausreißer eines Verteilbezirkes zu identifizieren](https://go.multiroute.de/handbuch/tipps/#ausreier-identifizieren). Sie erkennen die Ausreißer, wenn bspw. ihre Durchschnittsdistanz zu anderen Gebäuden desselben Verteilbezirkes markant hoch ist. Identifzierte Gebäude können dann eventuell besser einem anderen Bezirk zugeordnet werden oder auf inaktiv gesetzt werden.
+Nutzen Sie die verschiedenen Ergebnisse (z.B. Excel-Export) der Gehfolgenberechnung, um [Ausreißer eines Verteilbezirkes zu identifizieren](tipps.md#ausreier-identifizieren). Sie erkennen die Ausreißer, wenn bspw. ihre Durchschnittsdistanz zu anderen Gebäuden desselben Verteilbezirkes markant hoch ist. Identifzierte Gebäude können dann eventuell besser einem anderen Bezirk zugeordnet werden oder auf inaktiv gesetzt werden.
 
 Der MultiRoute Go! Algorithmus erlaubt Berechnungen von mehreren hundert Adresspunkten je Gehfolge.
 
@@ -23,13 +23,13 @@ Aus dem Hauptmenü können Sie:
 
 ## Abladestelle / Zustellerhaus
 
-Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. Die Abladestelle kann sich innerhalb des Verteilbezirks befinden oder außerhalb. Grundsätzlich wird an der ersten Abladestelle **nicht** automatisch gesteckt. Soll auch an der Abladestelle im Bezirk gesteckt werden, geben Sie diese als [Starthaus](https://go.multiroute.de/handbuch/gehfolgen/#start-endhaus) an.
+Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. Die Abladestelle kann sich innerhalb des Verteilbezirks befinden oder außerhalb. Grundsätzlich wird an der ersten Abladestelle **nicht** automatisch gesteckt. Soll auch an der Abladestelle im Bezirk gesteckt werden, geben Sie diese als [Starthaus](#start-endhaus) an.
 
 ## Start- /Endhaus
 
 Manchmal ist es nötig, dass Sie in die Gehfolge eingreifen. Sie können ein Starthaus definieren, bei dem die _erste Steckung_ im Bezirk vorgenommen wird. Und genau so ein Endhaus, bei dem zuletzt gesteckt wird.
 Bei "Rundweg im Verteilbezirk" können Sie auch vor der Berechnung "Starthaus automatisch optimieren" auswählen, um das bestmögliche Starthaus für die Route zu errechnen.
-Wie Sie ein Gebäude als Start- oder Endhaus festlegen, erfahren Sie im Kapitel [Spezialhäuser](https://go.multiroute.de/handbuch/spezialhaeuser/).
+Wie Sie ein Gebäude als Start- oder Endhaus festlegen, erfahren Sie im Kapitel [Spezialhäuser](spezialhaeuser.md).
 
 ## Berechnen von Gehfolgen
 
@@ -50,7 +50,7 @@ Und mit ```Berechnung starten``` den Berechnungsvorgang anstoßen.
 
 ## Einstellungen bei Gehfolgenberechnungen
 
-Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie **globale Werte** in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der [Ausgabe](https://go.multiroute.de/handbuch/administration/#ausgaben) andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen **Gebiet**/**Bezirk** abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
+Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen können. Grundsätzlich bestimmen Sie **globale Werte** in der Kundeneinstellung, die dann für alle Bezirke gelten. Machen Sie in der [Ausgabe](administration.md#ausgaben) andere Angaben, können Ausgabenwerte die globalen Werte übersteuern. Gibt es für einen einzelnen **Gebiet**/**Bezirk** abweichende Werte zur Ausgabe, kann auch der Bezirk die Ausgabe (und die globalen Werte) übersteuern.
 
 Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen vornehmen zu können. Aber grundsätzlich können Sie die Angaben selbst administrieren. Wir geben Ihnen hier gerne weitere Erläuterungen, falls nötig.
 
@@ -59,20 +59,20 @@ Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um ein
 Für die Gehfolgenberechnung gelten die Einstellungen in folgender Rangfolge:
 
 1. **Kunde:** Die allgemeinen Vorgaben gelten für alle zugehörigen Ausgaben und Verteilbezirke.
-2. **Ausgabe:** Abweichende Einstellungen einer [Ausgabe](https://go.multiroute.de/handbuch/administration/#ausgaben) haben Vorrang vor den Kundenvorgaben.
+2. **Ausgabe:** Abweichende Einstellungen einer [Ausgabe](administration.md#ausgaben) haben Vorrang vor den Kundenvorgaben.
 3. **Verteilbezirk:** Abweichende Einstellungen eines einzelnen Bezirks haben Vorrang vor den Vorgaben der Ausgabe und des Kunden.
 
 Damit gilt für einen Parameter jeweils der Wert der spezifischsten Ebene, auf der eine abweichende Einstellung hinterlegt ist.
 
 ## Parameter für die Gehfolgenberechnung 
 
-Um die hinterlegten Berechnungsparameter mehrerer Verteilbezirke zu prüfen und zu vergleichen, können Sie die [Eigenschaften der Verteilgebiete exportieren](https://go.multiroute.de/handbuch/exporte/#eigenschaften-der-verteilgebiete).
+Um die hinterlegten Berechnungsparameter mehrerer Verteilbezirke zu prüfen und zu vergleichen, können Sie die [Eigenschaften der Verteilgebiete exportieren](exporte.md#eigenschaften-der-verteilgebiete).
 Erstellen Sie den Export für die gewünschte Ausgabe. Die Tabelle zeigt die gespeicherten Werte der einzelnen Bezirke.
 
 Wenn die Berechnungsparameter bereits als Excel- oder CSV-Datei vorliegen, können berechtigte Benutzer diese importieren:
 
 1. Wählen Sie die gewünschte Ausgabe aus.
-2. Öffnen Sie [Administration → Upload](https://go.multiroute.de/handbuch/administration/#upload).
+2. Öffnen Sie [Administration → Upload](administration.md#upload).
 3. Wählen Sie die Upload-Option für Bezirkseigenschaften und anschließend die vorbereitete Datei aus.
 
 <img width="1477" height="592" alt="grafik" src="https://github.com/user-attachments/assets/8b6da97a-3454-4c5c-aa83-6829e4a0abd0" />
@@ -121,7 +121,7 @@ oder mit festem Endpunkt:
 
 ## Hauszugangs-Suchradius
 
-Neben der [Hauszugangsdistanz](https://go.multiroute.de/handbuch/gehfolgen/#hauszugangsdistanz-hzd-grenzwert) hilft Ihnen der **Hauszugangs-Suchradius**, den richtigen Zugang ([Ankerpunkt](https://go.multiroute.de/handbuch/gehfolgen/#hauszugangsdistanz-hzd-grenzwert)) von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
+Neben der [Hauszugangsdistanz](#hauszugangsdistanz-hzd-grenzwert) hilft Ihnen der **Hauszugangs-Suchradius**, den richtigen Zugang ([Ankerpunkt](#hauszugangsdistanz-hzd-grenzwert)) von einer Straße zum Haus zu finden. Es kann passieren, dass eine Straße mit einem anderen Straßennamen sich in der Nähe befindet. Falls es dort einen Gehweg gibt, kann dieser günstiger liegen.
 
 Der **Hauszugangs-Suchradius** beeinflusst die Suche nach einem geeigneten Zugang zum Gebäude. Der [Hauszugangsdistanz-Grenzwert](#hauszugangsdistanz-hzd-grenzwert)
 bestimmt dagegen, ab welcher Entfernung der Weg zwischen Straße und Gebäude in die Streckenberechnung einfließt.
@@ -151,7 +151,7 @@ Wir unterscheiden standarmäßig zwischen der 1. Steckung an einem Gebäude und 
 Möchten Sie je Produkt (Zeitung, Zeitschrift, Brief) unterschiedliche Steckzeiten hinterlegen, können wir dies im Rahmen der automatisierten Datenübernahme berücksichtigen.
 
 ## Zwischenstrecken
-Anwendbar, wenn innerhalb der Gebiete zu Fuß verteilt wird und eine längere Strecke zwischendurch mit dem Auto zurückgelegt wird. Die "längere Strecke" wird über den **Zwischenstreckengrenzwert** definiert. Für die längere Strecke wird eine gesonderte Geschwindigkeit angeben. Bleibt das Feld für die Geschwindigkeit leer, es wird nur ein Grenzwert angegeben, wird die [Geschwindigkeit für Hin-/Rückweg](https://go.multiroute.de/handbuch/gehfolgen/#geschwindigkeiten) genommen.
+Anwendbar, wenn innerhalb der Gebiete zu Fuß verteilt wird und eine längere Strecke zwischendurch mit dem Auto zurückgelegt wird. Die "längere Strecke" wird über den **Zwischenstreckengrenzwert** definiert. Für die längere Strecke wird eine gesonderte Geschwindigkeit angeben. Bleibt das Feld für die Geschwindigkeit leer, es wird nur ein Grenzwert angegeben, wird die [Geschwindigkeit für Hin-/Rückweg](#geschwindigkeiten) genommen.
 
 ## Gehfolgenberechnung manuell anstoßen
 
@@ -173,7 +173,7 @@ Der Aufruf der berechneten Gehfolgen :material-folder-open-outline: können Sie 
 
 Bei den Aktionen stehen in der Kurzübersicht die Ergebnisse der Gehfolgen zur Verfügung und sie können gelöscht (Mülleimer) werden.
 
-Wenn Sie berechnete Gehfolgen exportieren möchten, finden Sie die verfügbaren Möglichkeiten unter [Exporte → Gehfolgen](https://go.multiroute.de/handbuch/exporte/#gehfolgen).
+Wenn Sie berechnete Gehfolgen exportieren möchten, finden Sie die verfügbaren Möglichkeiten unter [Exporte → Gehfolgen](exporte.md#gehfolgen).
 
 
 ## Das Höhenprofil
@@ -188,7 +188,7 @@ Das Höhenprofil wird als interaktive Grafik auf der Karte oben rechts ausgegebe
 
 Diese Informationen zur Geländehöhe sind ebenfalls im Excel-Export und im GPX-Export enthalten.
 
-Bis März 2026 haben wir das Höhenprofil aus der [Shuttle Radar Topography Mission (SRTM)](https://de.wikipedia.org/wiki/SRTM-Daten), einer NASA Mission im Jahr 2000 verwendet.Seit März 2026 wurde umgestellt auf ein [aktuelleres Geländemodell](https://go.multiroute.de/handbuch/blog/2026/03/17/mehr-pr%C3%A4zision-durch-neues-gel%C3%A4ndemodell-umstellung-auf-eu-dtm-03-in-mrg/), das mit Ensemble Machine Learning (EML) aus drei aktuellen digitalen Oberflächemodellen errechnet wurde. Die gewonnenen Erkenntnisse zum Höhenprofil werden bei jeder Gehfolgenberechnung automatisch mit der Route der Gehfolge verknüpft.
+Bis März 2026 haben wir das Höhenprofil aus der [Shuttle Radar Topography Mission (SRTM)](https://de.wikipedia.org/wiki/SRTM-Daten), einer NASA Mission im Jahr 2000 verwendet.Seit März 2026 wurde umgestellt auf ein [aktuelleres Geländemodell](blog/posts/MRGo_260317.md), das mit Ensemble Machine Learning (EML) aus drei aktuellen digitalen Oberflächemodellen errechnet wurde. Die gewonnenen Erkenntnisse zum Höhenprofil werden bei jeder Gehfolgenberechnung automatisch mit der Route der Gehfolge verknüpft.
 
 
 ## Fehler bei der Gehfolgenberechnung

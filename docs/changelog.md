@@ -70,7 +70,7 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 - Dichte, Höhenprofilbug
   
 ### v1.3715 vom 15.04.2026
-- [Zwischenstrecken](https://go.multiroute.de/handbuch/blog/2025/07/21/zwischenstrecken-in-multiroute-go--intermodales-routing-leicht-gemacht/) auch bei Kfz-Zustellung
+- [Zwischenstrecken](blog/posts/MRGo_250721.md) auch bei Kfz-Zustellung
 
 ### v1.3707-11 vom 13.04.2026
 - Berechnung der Dichte für Geschwindigkeiten
@@ -91,7 +91,7 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 - Anpassungen Datneübernahmen
 
 ### v1.3656 vom 30.01.2026
-- [Blaue Kringel auch im Modul Gehfolgenberechnung, leuchtend gelbe Gebiete](https://go.multiroute.de/handbuch/blog/2026/02/03/leuchtende-farben-f%C3%BCr-bessere-%C3%BCbersicht/)
+- [Blaue Kringel auch im Modul Gehfolgenberechnung, leuchtend gelbe Gebiete](blog/posts/MRGo_260203.md)
   
 ### v1.3650 vom 28.01.2026
 - Anpassungen zusie Jobs
@@ -111,7 +111,7 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 ## 2025
 
 ### v1.3587 vom 09.12.2025
-- [Blaue statt grüne Kringel](https://go.multiroute.de/handbuch/blog/2025/12/09/weihnachts-update-neue-farbkennzeichnung-f%C3%BCr-geb%C3%A4udepunkte/) bei Gebäuden in aktivem Polygon
+- [Blaue statt grüne Kringel](blog/posts/MRGo_251209.md) bei Gebäuden in aktivem Polygon
 
 ### v1.3574 vom 28.11.2025
 - Button Fix
