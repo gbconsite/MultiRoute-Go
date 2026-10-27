@@ -192,7 +192,7 @@ Als eine Sonderform der Polygone gibt es noch das "**Donut**" Polygon. Dazu im B
 ![grafik](https://user-images.githubusercontent.com/99329016/168278374-af023d8b-967c-49ba-a272-f4ff6658ebef.png "Donut Polygon")
 
 ## Einzelne Adressen einem Gebiet hinzufügen oder entfernen
-Sollen mehrere Koordinaten auf einmal zugeordnet werden, muss das [Polygon für die Bearbeitung aktiviert (blau hinterlegt)](../#gebiete-bearbeiten) werden.
+Sollen mehrere Koordinaten auf einmal zugeordnet werden, muss das [Polygon für die Bearbeitung aktiviert (blau hinterlegt)](#gebiete-bearbeiten) werden.
 
 Alle Koordinaten, die sich nun innerhalb des blau gewordenen Polyongs befinden, können gleichzeitig zugeordnet werden. Deshalb sollte man nun die Polygonstützpunkte entsprechend verschieben, so dass es nicht zu Überlappungen und doppelten Zuordnungen kommt. Mit ```Speichern``` abschließen und entsprechende Option wählen.
 

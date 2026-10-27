@@ -5,7 +5,7 @@ description: Manuelles Zeichnen und Planen in MultiRoute Go! und tägliche Über
 
 # **1. Datenintegration**
 
-Ihre Bezirkseinheiten sind noch nicht digital vorhanden? Dann lesen Sie weiter unter "[Bezirke manuell anlegen](../gebietsplanung/#manuelle-neuanlage-von-verteilbezirken)".
+Ihre Bezirkseinheiten sind noch nicht digital vorhanden? Dann lesen Sie weiter unter "[Bezirke manuell anlegen](gebietsplanung.md#manuelle-neuanlage-von-verteilbezirken)".
 
 Ansonsten erfolgt grundsätzlich  die Erstbefüllung der MultiRoute Go! Datenbank durch die gb consite. Gibt es die Bezirkseinheiten schon digital, gibt es die folgenden Wege: 
 
@@ -40,12 +40,12 @@ Optional auch:
 ## Manueller Upload
 
 Möchten Sie selbst den manuellen Upload in MultiRoute Go! durchführen benötigen Sie Ihre Gebäudedaten mit angereichteren Koordinaten. Hier ist standardmäßig kein Geokodierservice angeschlossen.
-In allen anderen Fällen benötigen wir ein eindeutiges Merkmal zum [Matchen](../definitionen/#matching). Üblicherweise matchen wir initial Ihren Straßen-/Gebäudestamm gegen unsere amtlichen Koordinaten. Dabei übernehmen wir Ihre Straßen-/Gebäude-ID.
+In allen anderen Fällen benötigen wir ein eindeutiges Merkmal zum [Matchen](definitionen.md#matching). Üblicherweise matchen wir initial Ihren Straßen-/Gebäudestamm gegen unsere amtlichen Koordinaten. Dabei übernehmen wir Ihre Straßen-/Gebäude-ID.
 Sprechen Sie uns gerne an, wenn Sie weitere Informationen benötigen.
 
 ## Schnittstelle (automatisierter Import)
 
-Natürlich kann der Import auch automatisiert über eine Schnittstelle erfolgen. Zuvor ist das [Matching](../definitionen/#matching) nötig.
+Natürlich kann der Import auch automatisiert über eine Schnittstelle erfolgen. Zuvor ist das [Matching](definitionen.md#matching) nötig.
 Wir besprechen mit Ihnen die automatisierte tägliche Datenübernahme. 
 
 Alternativ: Datenimport wird manuell angestoßen

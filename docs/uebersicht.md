@@ -11,21 +11,21 @@ MultiRoute Go! ist ein Verlags-GIS für die Planung von Zustellgebieten und die 
 
 MultiRoute Go! kann über Schnittstellen mit bestehenden Verlagssystemen verbunden werden, darunter **SAP, JJK, HUP, Funkinform und VI&VA** (weitere auf Anfrage). Auch Briefsortiersysteme wie **PostOffice von CodX** und **ProMail** können angebunden werden.
 
-Welche Daten für Ihre Einrichtung benötigt werden, beschreibt das Kapitel [Datenintegration](../upload/). Für die technische Anbindung finden Sie weitere Informationen in der [API-Einführung](../api-intro/) und der [API-Referenz](../routen/).
+Welche Daten für Ihre Einrichtung benötigt werden, beschreibt das Kapitel [Datenintegration](upload.md). Für die technische Anbindung finden Sie weitere Informationen in der [API-Einführung](api-intro.md) und der [API-Referenz](routen.md).
 
 ## Gebiete und Zustellbezirke planen
 
-In der [Gebietsplanung](../gebietsplanung/) können Sie Träger- und Verteilbezirke anlegen, anpassen und auf der Karte prüfen. Die [Adressverwaltung](../adressverwaltung/) und die Funktionen für [Spezialhäuser](../spezialhaeuser/) helfen Ihnen bei der Arbeit mit den Zustelldaten. Einen Einstieg in die Bedienung bieten die [Grundlagen](../grundlagen/).
+In der [Gebietsplanung](gebietsplanung.md) können Sie Träger- und Verteilbezirke anlegen, anpassen und auf der Karte prüfen. Die [Adressverwaltung](adressverwaltung.md) und die Funktionen für [Spezialhäuser](spezialhaeuser.md) helfen Ihnen bei der Arbeit mit den Zustelldaten. Einen Einstieg in die Bedienung bieten die [Grundlagen](grundlagen.md).
 
 ## Gehfolgen berechnen und optimieren
 
-Die [Gehfolgenberechnung](../gehfolgen/) ermittelt eine Zustellreihenfolge innerhalb eines Bezirks. Im Kapitel [Gehfolgen optimieren](../gehfolgenoptimieren/) erfahren Sie, welche Anpassungen für Ihre Planung zur Verfügung stehen.
+Die [Gehfolgenberechnung](gehfolgen.md) ermittelt eine Zustellreihenfolge innerhalb eines Bezirks. Im Kapitel [Gehfolgen optimieren](gehfolgenoptimieren.md) erfahren Sie, welche Anpassungen für Ihre Planung zur Verfügung stehen.
 
 Für die Bewertung geplanter Zustellzeiten können unter anderem Rüstzeiten, Steckzeiten und Gehgeschwindigkeiten berücksichtigt werden.
 
 ## Ergebnisse nutzen
 
-Mit den [Exporten](../exporte/) geben Sie Planungsergebnisse für die weitere Verwendung aus. Weitere Funktionen beschreibt das Kapitel [Zusatzmodule](../zusatzmodule/).
+Mit den [Exporten](exporte.md) geben Sie Planungsergebnisse für die weitere Verwendung aus. Weitere Funktionen beschreibt das Kapitel [Zusatzmodule](zusatzmodule.md).
 
 ## Video und Anmeldung
 

@@ -17,12 +17,12 @@ Wir geben die Strecken einzeln aus, die Sie mit verschiedenen Geschwindigkeiten 
 - Strecke im Bezirk
 - Hauszugangsdistanz (HZD)
 
-## [Hauszugangsdistanz (HZD)](../gehfolgen/#hauszugangsdistanz-hzd)
-Die Strecke, die vom Straßenankerpunkt (Anbindung) zum Gebäude zurückgelegt wird, bezeichnen wir als HZD. [Hier](../gehfolgen/#hauszugangsdistanz-hzd) im Kapitel zur Gehfolgenberechnung erklärt.
+## [Hauszugangsdistanz (HZD)](gehfolgen.md#hauszugangsdistanz-hzd-grenzwert)
+Die Strecke, die vom Straßenankerpunkt (Anbindung) zum Gebäude zurückgelegt wird, bezeichnen wir als HZD. [Hier](gehfolgen.md#hauszugangsdistanz-hzd-grenzwert) im Kapitel zur Gehfolgenberechnung erklärt.
 Auch Gebäudestrecke oder Steckstrecke genannt.
 
-## [Hauszugangs-Suchradius](../gehfolgen/#hauszugangs-suchradius)
-Ausführliche [Erläuterung](../gehfolgen/#hauszugangs-suchradius) im Kapitel zur Gehfolgenberechnung.
+## [Hauszugangs-Suchradius](gehfolgen.md#hauszugangs-suchradius)
+Ausführliche [Erläuterung](gehfolgen.md#hauszugangs-suchradius) im Kapitel zur Gehfolgenberechnung.
 
 
 ## Koordinaten

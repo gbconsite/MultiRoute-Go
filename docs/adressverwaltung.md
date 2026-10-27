@@ -33,7 +33,7 @@ Durch den wiederholten Klick auf das :fontawesome-solid-house: klappt sich die l
 
 ## Neue Gebäude anlegen
 
-Hin und wieder gibt es Neubaugebiete, in denen MultiRoute Go! noch keine Gebäude kennt. Diese können manuell per [Klick in die Karte](../tipps/#adressen-neu-anlegen) hinzugefügt werden. Bitte denken Sie an die Eingabe der Hausnummer (und eventueller Zusätze)!
+Hin und wieder gibt es Neubaugebiete, in denen MultiRoute Go! noch keine Gebäude kennt. Diese können manuell per [Klick in die Karte](tipps.md#adressen-korrigieren-uber-die-karte) hinzugefügt werden. Bitte denken Sie an die Eingabe der Hausnummer (und eventueller Zusätze)!
 
 ![!](assets/Adressverwaltung2.png "Adressen neu anlegen")
 
@@ -49,7 +49,7 @@ Adressen, die auf inaktiv gesetzt wurden, werden in <span style="color: blue;">&
 
 ## Farben der Adresspunkte
 
-Die [Bedeutung der Einfärbungen](../gebietsplanung/#bedeutung-der-punkteinfarbungen) hilft bei der Arbeit mit den einzelnen Gebäudepunkten.
+Die [Bedeutung der Einfärbungen](gebietsplanung.md#bedeutung-der-punkteinfarbungen) hilft bei der Arbeit mit den einzelnen Gebäudepunkten.
 
 ## Attribute von Adressen verändern
 

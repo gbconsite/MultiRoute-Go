@@ -5,12 +5,12 @@ description: Die Stärke von MultiRoute Go! ist die Schnelligkeit. Hybrid und On
 
 # **Automatisierung**
 
-Über die [API](../api-intro/) können sämtliche Funktionen angesteuert werden.
+Über die [API](api-intro.md) können sämtliche Funktionen angesteuert werden.
 
 
 Bei täglicher Datenübernahme sind das:
 
-- Abladestellen [Zustellerhäuser](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen)
+- Abladestellen [Zustellerhäuser](spezialhaeuser.md#zustellerhaus-abladestelle-anlegenloschen)
 - Abonnenten
 - Bezirksänderungen
 

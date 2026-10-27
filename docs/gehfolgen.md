@@ -23,7 +23,7 @@ Aus dem Hauptmenü können Sie:
 
 ## Abladestelle / Zustellerhaus
 
-Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](../spezialhaeuser/#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. Die Abladestelle kann sich innerhalb des Verteilbezirks befinden oder außerhalb. Grundsätzlich wird an der ersten Abladestelle **nicht** automatisch gesteckt. Soll auch an der Abladestelle im Bezirk gesteckt werden, geben Sie diese als [Starthaus](#start-endhaus) an.
+Für jede Gehfolgenberechnung sollte vorab eine [Abladestelle (Zustellerhaus)](spezialhaeuser.md#zustellerhaus-abladestelle-anlegenloschen) angegeben sein, damit der Startpunkt bekannt ist. Die Abladestelle kann sich innerhalb des Verteilbezirks befinden oder außerhalb. Grundsätzlich wird an der ersten Abladestelle **nicht** automatisch gesteckt. Soll auch an der Abladestelle im Bezirk gesteckt werden, geben Sie diese als [Starthaus](#start-endhaus) an.
 
 ## Start- /Endhaus
 
@@ -54,7 +54,7 @@ Es gibt viele Parameter, die Sie bei der Gehfolgenberechnung (selbst) einstellen
 
 Nicht jeder User sollte das Recht bekommen, in der Administration Einstellungen vornehmen zu können. Aber grundsätzlich können Sie die Angaben selbst administrieren. Wir geben Ihnen hier gerne weitere Erläuterungen, falls nötig.
 
-Die Einstellung, ob es sich bei einer [Ausgabe](../definitionen/#ausgabe) um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt wird von uns für Sie eingestellt.
+Die Einstellung, ob es sich bei einer [Ausgabe](definitionen.md#ausgabe) um eine  **Aboverteilung** oder **Resthaushaltsverteilung** oder **Vollverteilung** handelt wird von uns für Sie eingestellt.
 
 Für die Gehfolgenberechnung gelten die Einstellungen in folgender Rangfolge:
 

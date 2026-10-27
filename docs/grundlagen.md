@@ -8,8 +8,8 @@ keywords: MultiRoute Go, Gebietsplanung, Gehfolgenberechnung, Tourenoptimierung,
 
 MultiRoute Go! ist in zwei Hauptbereiche gegliedert:
 
-1. **[Gebietsplanung](../gebietsplanung)** - :material-earth: Planen Sie Träger- und Verteilbezirke neu oder passen Sie bestehende Einheiten an.
-2. **[Gehfolgenberechnung](../gehfolgen)** - :fontawesome-solid-calculator: Berechnen Sie die optimale Gehfolge für Abonnenten, Resthaushalte oder Vollabdeckungen wie Anzeigen- oder Gemeindeblätter.
+1. **[Gebietsplanung](gebietsplanung.md)** - :material-earth: Planen Sie Träger- und Verteilbezirke neu oder passen Sie bestehende Einheiten an.
+2. **[Gehfolgenberechnung](gehfolgen.md)** - :fontawesome-solid-calculator: Berechnen Sie die optimale Gehfolge für Abonnenten, Resthaushalte oder Vollabdeckungen wie Anzeigen- oder Gemeindeblätter.
 
 ![Menüpunkte Gebietsplanung und Gehfolgenberechnung](https://user-images.githubusercontent.com/99329016/158179701-085bf8a2-27f9-46cc-8b4b-60d599353bc9.png "Menüpunkte Gebietsplanung und Gehfolgenberechnung")
 
@@ -19,7 +19,7 @@ Ein Klick auf das aktive Symbol (z. B. :material-earth: für die Gebietsplanung)
 
 ## Grundlagen der Gehfolgenberechnung
 
-Die [Gehfolgenberechnung](../gehfolgen) basiert auf Karten von [OpenStreetMap (OSM)](https://www.openstreetmap.org). Oben rechts im Kartenfenster können Sie im gesamten OSM-Kartenbestand suchen. Diese Karten werden wöchentlich aktualisiert und in Ihr MultiRoute Go! integriert. Ihre Anpassungen an Gebäuden und Wegen stehen somit innerhalb weniger Tage für neue Gehfolgenberechnungen zur Verfügung. Für InHouse-Kunden ermöglicht das Zusatzmodul "[Straßenanpassungen](../zusatzmodule/#straenanpassungen)" zusätzliche Eingriffsmöglichkeiten.
+Die [Gehfolgenberechnung](gehfolgen.md) basiert auf Karten von [OpenStreetMap (OSM)](https://www.openstreetmap.org). Oben rechts im Kartenfenster können Sie im gesamten OSM-Kartenbestand suchen. Diese Karten werden wöchentlich aktualisiert und in Ihr MultiRoute Go! integriert. Ihre Anpassungen an Gebäuden und Wegen stehen somit innerhalb weniger Tage für neue Gehfolgenberechnungen zur Verfügung. Für InHouse-Kunden ermöglicht das Zusatzmodul "[Straßenanpassungen](zusatzmodule.md#straenanpassungen)" zusätzliche Eingriffsmöglichkeiten.
 
 Je nach Installation und Lizenzierung stehen Ihnen weitere Kartendienste zur Verfügung. Mit einem Klick auf :material-layers-triple: im Kartenfenster können Sie zwischen verschiedenen Hintergrundkartendiensten wählen, darunter:
 
@@ -30,9 +30,9 @@ Je nach Installation und Lizenzierung stehen Ihnen weitere Kartendienste zur Ver
 
 ## Gebäudekoordinaten für die Gebietsplanung
 
-Für die **[Gebietsplanung](../gebietsplanung)** benötigen Sie **[Gebäudekoordinaten](../definitionen/#koordinaten)**, die auf drei verschiedene Arten ins System gelangen können:
+Für die **[Gebietsplanung](gebietsplanung.md)** benötigen Sie **[Gebäudekoordinaten](definitionen.md#koordinaten)**, die auf drei verschiedene Arten ins System gelangen können:
 
-1. **Amtliche Koordinaten**: Wir stellen Ihnen amtliche [Koordinaten](../definitionen/#koordinaten) der Vermessungsverwaltungen (aktuell nur für Deutschland) zur Verfügung, bezogen von TomTom. Die räumliche Genauigkeit dieser Daten kann schwanken, abhängig von den Aktualisierungszyklen der Verwaltung. Die **Haushaltsdaten** werden von [infas360](https://www.infas360.de/) statistisch ermittelt und den Koordinaten zugeordnet.
+1. **Amtliche Koordinaten**: Wir stellen Ihnen amtliche [Koordinaten](definitionen.md#koordinaten) der Vermessungsverwaltungen (aktuell nur für Deutschland) zur Verfügung, bezogen von TomTom. Die räumliche Genauigkeit dieser Daten kann schwanken, abhängig von den Aktualisierungszyklen der Verwaltung. Die **Haushaltsdaten** werden von [infas360](https://www.infas360.de/) statistisch ermittelt und den Koordinaten zugeordnet.
 
 2. **Geokodierung über HERE**: Wenige Adresspunkte werden beim Upload über [HERE](https://wego.here.com/) geokodiert.
 
