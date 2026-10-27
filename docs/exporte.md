@@ -20,7 +20,7 @@ Auch die Zustellerhäuser (Abladestellen),  Start-/Endhäuser oder Depots könne
 In Ihrer aktuellen, aktiven Ausgabe können Sie auch jederzeit die Gehfolgen exportieren. Es wird immer die jeweils aktuellste Gehfolge für jedes Verkehrsmittel ausgegeben:
 ![grafik](https://user-images.githubusercontent.com/99329016/167630490-932c3daf-6822-4843-a81a-10da0d9c0640.png "Export der aktuellen Verteilschiene in MRGo")
 
-Wie Sie Gehfolgen berechnen und die Ergebnisse aufrufen, erfahren Sie im Kapitel [Gehfolgenberechnung](https://go.multiroute.de/handbuch/gehfolgen/).
+Wie Sie Gehfolgen berechnen und die Ergebnisse aufrufen, erfahren Sie im Kapitel [Gehfolgenberechnung](gehfolgen.md).
 
 ## Arbeiten mit Gehfolgenexport
 Sie erhalten zwei Dateien. 

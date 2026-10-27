@@ -39,7 +39,7 @@ Wir unterscheiden eine Erste Steckung und Folgesteckungen mit Angaben in Sekunde
 Eine Unterscheidung nach Produkten (Brief, Zeitung, Paket etc.) haben wir aktuell noch nicht umgesetzt. Sie haben Interesse daran? Lassen Sie uns das gerne wissen!
 
 ## Optimierungsmethode
-[Drei Möglichkeiten](https://go.multiroute.de/handbuch/gehfolgen/#einstellungen-bei-gehfolgenberechnungen):
+[Drei Möglichkeiten](gehfolgen.md#einstellungen-bei-gehfolgenberechnungen):
 
 - Einfacher Durchgang (one-way-open-end)
 - Rundweg (egal wo die Abladestelle war, dorthin wieder zurück)

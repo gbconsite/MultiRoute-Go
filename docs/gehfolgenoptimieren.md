@@ -91,7 +91,7 @@ Weitere Informationen zur Einrichtung finden Sie in diesem PDF: [https://gbconsi
 Sofern für Ihr Kundenprofil ein oder meherer OSM-Accounts vom gb consite Support eingetragen wurde, können Sie über den OSM Monitor nun sehen, ob diese in JOSM durchgeführten Änderungen bereits in MultiRoute Go! verfügbar sind (siehe hierzu OSM Monitor).
 
 ## Manuelle Gehfolgensortierung (Zusatzmodul)
-Trotz aller Optimierungen kann es Gründe geben, warum die Reihenfolge der Gehfolge verändert werden muss. Dafür haben wir das Zusatzmodul "[Manuelles Eingreifen in die Gehfolgen](https://go.multiroute.de/handbuch/zusatzmodule/#manuelles-eingreifen-in-gehfolgen)". Ist dieses Zusatzmodul aktiviert, haben Sie in bereits berechneten Gehfolgen die Möglichkeit, manuell einzugreifen.
+Trotz aller Optimierungen kann es Gründe geben, warum die Reihenfolge der Gehfolge verändert werden muss. Dafür haben wir das Zusatzmodul "[Manuelles Eingreifen in die Gehfolgen](zusatzmodule.md#manuelles-eingreifen-in-gehfolgen)". Ist dieses Zusatzmodul aktiviert, haben Sie in bereits berechneten Gehfolgen die Möglichkeit, manuell einzugreifen.
 
 ![grafik](https://github.com/user-attachments/assets/4b7e17fa-62cc-41fa-946e-0d85c0c21aeb "Schaltfläche um Reihenfolge per drag & drop zu verändern")
 
@@ -104,7 +104,7 @@ Anschließend können Sie die nun aktuellen Strecken und Zeiten von MultiRoute G
 
 ## Festgelegte Reihenfolge hochladen (Zusatzmodul)
 Es gibt schon eine festgelegte Reihenfolge von Ihnen (vom Zusteller) und die soll unbedingt eingehalten werden? Vielleicht liegt es auch an der (Brief-)Sortierung?
-Auch das kann MultiRoute Go! mit dem 🆕 Zusatzmodul "[Festgelegte Reihenfolge](https://go.multiroute.de/handbuch/zusatzmodule/#festgelegte-reihenfolge)" nun berücksichtigen.
+Auch das kann MultiRoute Go! mit dem 🆕 Zusatzmodul "[Festgelegte Reihenfolge](zusatzmodule.md#festgelegte-reihenfolge)" nun berücksichtigen.
 Sie benötigen nur einen Reihenfolge-Index und können diesen dann mit uploaden.
 Upload - Weitere Optionen:
 
