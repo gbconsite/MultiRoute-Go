@@ -56,7 +56,7 @@ Damit Sie die gewünschte Ausgabe schneller finden, steht Ihnen in der Auswahlli
 Weitere Informationen zur Verwaltung von Ausgaben finden Sie unter [Administration → Ausgaben](https://go.multiroute.de/handbuch/administration/#ausgaben).
 
 
-## Zusätzliche Daten und Layer
+### Zusätzliche Daten und Layer
 
 Wenn Sie weitere Daten wie **Werbeverweigerer** oder eigene Haushaltsdaten in die Planung einbeziehen möchten, sprechen Sie uns an! Diese wertvollen Informationen können nahtlos in MultiRoute Go! integriert werden.
 
