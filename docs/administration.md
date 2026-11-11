@@ -43,6 +43,24 @@ Abonnenten können Sie unter [Administration → Upload](#upload) kopieren oder 
 
 Wichtig: Nicht jeder User hat diese Rechte. Sollten Sie das nicht sehen, sprechen Sie Ihren MultiRoute Go! Administrator an oder melden Sie sich bei uns.
 
+## Ausgabe auswählen und suchen ##
+
+Über das Auswahlfeld „Aktuelle Ausgabe“ im oberen Bereich von MultiRoute Go! wechseln Sie zwischen den verfügbaren Ausgaben.
+
+Damit Sie die gewünschte Ausgabe schneller finden, steht Ihnen in der Auswahlliste eine Suchfunktion zur Verfügung.
+
+So funktioniert es:
+
+Klicken Sie auf das Auswahlfeld „Aktuelle Ausgabe“.
+
+Geben Sie im Suchfeld einen Teil der gesuchten Ausgabebezeichnung ein, beispielsweise montag.
+
+Die Auswahlliste wird automatisch auf passende Einträge eingegrenzt.
+
+Klicken Sie auf die gewünschte Ausgabe, um diese auszuwählen.
+
+Tipp: Besonders bei einer großen Anzahl an Ausgaben sparen Sie mit der Suchfunktion Zeit und vermeiden langes Scrollen.
+
 ## Geschäftsstelle ##
 ❗ Achtung! Nicht im Standard enthalten - bitte sprechen Sie uns an!
 Vielleicht möchten Sie, dass der Lesermarkt oder der Betriebsrat nur auf bestimmte Ausgaben zugreifen darf? Dann können Sie über Geschäftsstellen eingrenzen, wer welche Ausgabe sehen darf und auch hier noch, welche Rechte der einzelne Benutzer hat. Änderungen an Gebieten vornehmen ja/nein oder Gehfolgen ansehen/berechnen ja/nein.
