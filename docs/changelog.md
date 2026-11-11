@@ -9,6 +9,15 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.4055 zuletzt vom 20.10.2026
+- Anpassungen Dichteberechnung, Exporte
+  
+### v1.4050 zuletzt vom 19.10.2026
+- Höhenprofile Anpassung
+
+### v1.4044 zuletzt vom 14.10.2026
+- Änderungen Google Maps
+
 ### v1.4034-41 zuletzt vom 09.10.2026
 - Dichtematrix
 
