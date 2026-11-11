@@ -53,8 +53,7 @@ Damit Sie die gewünschte Ausgabe schneller finden, steht Ihnen in der Auswahlli
 
 **Tipp:** Besonders bei einer großen Anzahl an Ausgaben sparen Sie mit der Suchfunktion Zeit und vermeiden langes Scrollen.
 
-Weitere Informationen zur Verwaltung von Ausgaben finden Sie unter [Administration → Ausgaben](https://go.multiroute.de/handbuch/administration/#ausgaben).
-
+Weitere Informationen zur Verwaltung von Ausgaben finden Sie unter[ Administration → Ausgaben](https://go.multiroute.de/handbuch/administration/#ausgabe-auswahlen-und-suchen).
 
 ### Zusätzliche Daten und Layer
 
