@@ -5,10 +5,21 @@ description: Für Freunde des Papiers werden optimierte Gangfolgen als PDF ausge
 
 # **7. Trägerdokumente**
 
-Zu jeder berechneten Gehfolge gibt es einen Ergebnisbericht mit den Informationen zur Gehfolge.
-- Die Dauer der Strecke ist abhängig von der Gehgeschwindigkeit. Diese kann manuell für jeden Bezirk angepasst werden mit zwei Nachkommastellen.
-- Die Steckzeiten für die erste Steckung und die Folgesteckungen werden vorab definiert und hier berechnet. Die Steckzeiten werden extra ausgegeben und als Gesamtsumme mit der Streckenzeit. Je Ausgabe/Bezirk können die Steckzeiten angepasst werden.
-- Die Summe der Strecke für die Hauszugangsdistanzen wird separat angegeben. Diese kann durch Aktivierung der Gesamtdauer hinzugefügt werden. Die entsprechenden Werte verändern sich dann.
+Zu jeder berechneten Gehfolge erhalten Sie einen Ergebnisbericht
+mit Angaben zu Strecken und Zeiten.
+
+Die Zeitberechnung berücksichtigt die hinterlegten Einstellungen:
+
+- **Wegezeiten:** Sie ergeben sich aus den Streckenlängen und den
+  jeweils angesetzten Geschwindigkeiten.
+- **Steckzeiten:** Die Zeiten für die erste Steckung und weitere
+  Steckungen werden separat ausgewiesen und bei der Gesamtzeit berücksichtigt.
+- **Hauszugangsdistanzen:** Die Wege zwischen Straßenankerpunkt und
+  Gebäude werden separat ausgewiesen. Ihre Berücksichtigung in der
+  Strecken- und Zeitberechnung hängt von den gewählten Einstellungen ab.
+
+Die einzelnen Einstellungen erläutert das Kapitel
+[Gehfolgenberechnung](https://go.multiroute.de/handbuch/gehfolgen/#parameter-fur-die-gehfolgenberechnung).
 
 ![grafik](https://user-images.githubusercontent.com/99329016/170692371-21ce7637-7197-4305-a5d7-b946af9b7923.png "Details der Gehfolgenberechnung")
 
@@ -31,27 +42,82 @@ Bei *Bezirkskarte* und *Gehfolgen* können wir Veränderungen in der Legende unw
 
 
 ## Bezirkskarte
-Zwei mögliche Varianten als PDF:
 
-- rot umrandet der Trägerbezirk mit allen Gebäuden, in denen gesteckt wird als schwarzer Punkt ohne berechnete Route
-- 
-- wie oben nur mit Route und Markierung für jedes 10. Gebäude
+Die Bezirkskarte unterstützt Zusteller bei der Orientierung im
+Verteilbezirk. Die neue Darstellung umfasst eine **Routenkarte**
+und einen **Übersichtsplan**.
+
+### Routenkarte
+
+Die Routenkarte zeigt die berechnete Gehfolge mit Zustellreihenfolge,
+Hausnummern und Richtungspfeilen.
+
+<img width="381" height="324" alt="route" src="https://github.com/user-attachments/assets/40910407-6dfb-47eb-a5fa-cb013fe3433e" />
+
+
+| Darstellung | Bedeutung |
+|---|---|
+| Zahl im blauen Kreis | Position des Gebäudes in der Gehfolge |
+| Zahl im Haussymbol | Hausnummer des Gebäudes |
+| Blaue Linie mit Richtungspfeilen | Verlauf und Richtung der Route |
+| Rote Umrandung | Grenze des Verteilbezirks |
+
+Die Position in der Gehfolge und die zugehörige Hausnummer stehen
+direkt nebeneinander.
+
+**Beispiel:** Ein blauer Kreis mit der Zahl **1** neben einem
+Haussymbol mit der Zahl **12** bedeutet: Hausnummer 12 steht
+an erster Position in der Gehfolge.
+
+### Übersichtsplan
+
+Der Übersichtsplan zeigt die Grenze des Verteilbezirks sowie die Lage
+der Gebäude und Straßen. Die Gebäude sind mit kleinen Kreisen markiert.
+
+Die zusätzliche blaue Routenlinie, die Richtungspfeile und die
+Reihenfolgenmarkierungen der Routenkarte werden hier ausgeblendet.
+So dient der Übersichtsplan der räumlichen Orientierung im Bezirk.
+
+### Angaben zum Bezirk
+
+Das Beschriftungsfeld unten rechts enthält die Bezirkskennung und
+ergänzende Angaben wie den Ortsnamen und das Unternehmen.
+
 
 ## Gehfolge
 PDF der optimierten Gehfolge inkl. der an den Gebäuden vermerkten Bemerkungen.
 
 ## Straßenliste
-Alle Straßen des Verteilbezirks alphabetisch und mit aufsteigenden Hausnummern sortiert.
+Die Straßenliste führt die Straßen des Verteilbezirks alphabetisch auf.
+Innerhalb jeder Straße sind die Hausnummern aufsteigend sortiert.
+
+Die Sortierung entspricht nicht der berechneten Zustellreihenfolge.
+Wenn Sie die Gebäude in der Reihenfolge der Zustellung benötigen,
+verwenden Sie die [Gehfolgenliste](#gehfolge).
 
 ## Excel
-Eine Datei inklusive aller berechneter Faktoren und Zahlen. Wunderbar geeignet für die Dokumentation.
-Aufgeteilt auf zwei Reiter:
+Die Excel-Datei enthält die Ergebnisse der berechneten Gehfolge
+in zwei Tabellenblättern:
 
-1. Metainformationen
-2. Gehfolge mit allen Parametern
+1. **Metainformationen:** Zusammenfassende Angaben zur Gehfolge.
+2. **Gehfolge mit allen Parametern:** Einzelangaben zur berechneten
+   Zustellreihenfolge. Sämtliche Teilstrecken werden hier einzeln ausgewiesen.
+
+Die Datei eignet sich zur Dokumentation und für eigene Auswertungen.
+
+Werden Zeitwerte als Dezimalstunden ausgegeben, hilft die Erklärung unter
+[Exporte → Industriezeit](https://go.multiroute.de/handbuch/exporte/#industriezeit)
+bei der Umrechnung in Stunden und Minuten.
 
 ## GPX 
-Datei zur Übertragung in Navigationsgeräte oder andere Applikationen.
+Die GPX-Datei enthält den berechneten Routenverlauf. Sie können diese
+in kompatible Navigationsgeräte oder andere Anwendungen zur
+Darstellung und Weiterverarbeitung von Routen übernehmen.
+
+Wenn Sie eine tatsächlich aufgezeichnete Tour mit der berechneten
+Gehfolge vergleichen möchten, können Sie den aufgezeichneten Track
+in MultiRoute Go! laden. Die Anleitung finden Sie unter
+[Optimierungen → Tracks, Touren, Routen abbilden](https://go.multiroute.de/handbuch/gehfolgenoptimieren/#tracks-touren-routen-abbilden).
 
 ## QR Code
 Liste zur schnellen Orientierung und direktem Aufruf in Google oder Apple Maps.
