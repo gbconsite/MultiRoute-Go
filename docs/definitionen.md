@@ -35,8 +35,13 @@ Unter Matching verstehen wir das eindeutige Zuordnen von Adressen oder Gebäude-
 Eine pauschale Angabe in Minuten. Kann von Ihnen per API nach berechneter Formel (bspw. X Sekunden je Stück) übergeben werden.
 
 ## Steckzeit
-Wir unterscheiden eine Erste Steckung und Folgesteckungen mit Angaben in Sekunden.
-Eine Unterscheidung nach Produkten (Brief, Zeitung, Paket etc.) haben wir aktuell noch nicht umgesetzt. Sie haben Interesse daran? Lassen Sie uns das gerne wissen!
+Die Steckzeit beschreibt die Zeit für das Zustellen eines Exemplars am
+Gebäude. Sie wird in Sekunden angegeben. MultiRoute Go! unterscheidet
+zwischen der ersten Steckung und weiteren Steckungen am selben Gebäude.
+
+Weitere Informationen zur Berücksichtigung unterschiedlicher Produkte
+finden Sie unter
+[Gehfolgenberechnung → Steckzeiten](https://go.multiroute.de/handbuch/gehfolgen/#steckzeiten).
 
 ## Optimierungsmethode
 [Drei Möglichkeiten](gehfolgen.md#einstellungen-bei-gehfolgenberechnungen):
