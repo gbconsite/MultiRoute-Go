@@ -38,22 +38,21 @@ Für die **[Gebietsplanung](gebietsplanung.md)** benötigen Sie **[Gebäudekoord
 
 3. **Eigene Geokoordinaten**: Wenn Sie bereits **Geokoordinaten** (Latitude, Longitude) besitzen, können wir diese übernehmen, inklusive Ihrer eigenen Haushaltszahlen für eine präzise Planung.
 
-### Ausgabe (Verteilschiene) auswählen und suchen
+## Ausgabe suchen und wechseln
 
-Über das Auswahlfeld **„Aktuelle Ausgabe“** im oberen Bereich von MultiRoute Go! wechseln Sie zwischen den verfügbaren Ausgaben.
+Über die Auswahlliste `Aktuelle Ausgabe` wählen Sie die Ausgabe aus,
+mit der Sie arbeiten möchten. Bei vielen verfügbaren Ausgaben hilft
+Ihnen das integrierte Suchfeld:
 
-Damit Sie die gewünschte Ausgabe schneller finden, steht Ihnen in der Auswahlliste eine **Suchfunktion** zur Verfügung.
+1. Öffnen Sie die Auswahlliste `Aktuelle Ausgabe`.
+2. Geben Sie einen Suchbegriff ein, beispielsweise `Montag` oder `Wochenblatt`.
+3. Die Liste wird automatisch gefiltert und zeigt die passenden Ausgaben.
+4. Klicken Sie auf die gewünschte Ausgabe, um zu ihr zu wechseln.
 
-**So funktioniert es:**
-
-1. Klicken Sie auf das Auswahlfeld **„Aktuelle Ausgabe“**.
-2. Geben Sie im Suchfeld einen Teil der gesuchten Ausgabebezeichnung ein, beispielsweise `montag` der 'wochenblatt'.
-3. Die Auswahlliste wird automatisch auf passende Einträge eingegrenzt.
-4. Klicken Sie auf die gewünschte Ausgabe, um diese auszuwählen.
-
-**Tipp:** Besonders bei einer großen Anzahl an Ausgaben sparen Sie mit der Suchfunktion Zeit und vermeiden langes Scrollen.
-
-Weitere Informationen zur Verwaltung von Ausgaben finden Sie unter[ Administration → Ausgaben](https://go.multiroute.de/handbuch/administration/#ausgabe-auswahlen-und-suchen).
+Was eine Ausgabe ist, erfahren Sie unter
+[Begriffe → Ausgabe](https://go.multiroute.de/handbuch/definitionen/#ausgabe).
+Wie Sie Ausgaben anlegen und bearbeiten, beschreibt
+[Administration → Ausgaben](https://go.multiroute.de/handbuch/administration/#ausgaben).
 
 ### Zusätzliche Daten und Layer
 
