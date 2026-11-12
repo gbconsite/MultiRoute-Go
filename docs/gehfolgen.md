@@ -145,13 +145,81 @@ In der Summe wird Ihnen das rechte Beispiel ein realistischeres Ergebnis geben.
 
 ## Geschwindigkeiten
 
-Für sämtliche Strecken, die zurückgelegt werden, können Sie verschiedene Geschwindigkeiten hinterlegen:
+Für unterschiedliche Streckenanteile können eigene Geschwindigkeiten
+angesetzt werden:
 
-- Hin- und Rückweg (von der Abladestelle zur ersten Steckung, abhängig von Optimierungsmethode)
-- Strecke im Verteilbezirk (dicke blaue Linie)
-- Hauszugangsdistanz (der Weg von der Straßenmitte zum Gebäudepunkt)
-- [Zwischenstrecke](#zwischenstrecken): Für längere Strecken zwischen Zustellpunkten kann eine gesonderte Geschwindigkeit gelten. Welche Strecken darunterfallen, bestimmt der Zwischenstreckengrenzwert.
+- Hin- und Rückweg zum beziehungsweise vom Verteilbezirk
+- Zustellstrecke im Verteilbezirk
+- Hauszugangsdistanzen
+- Zwischenstrecken
 
+Für die Zustellstrecke kann die Geschwindigkeit anhand der
+**Stoppdichte** und der Dichtematrix des verwendeten Transportmittels
+ermittelt werden.
+
+### Dichteabhängige Geschwindigkeit
+
+Die Stoppdichte beschreibt die Anzahl der **Gebäudestopps je Kilometer**.
+Sie berücksichtigt damit, wie dicht die Zustellstopps entlang der
+Strecke aufeinanderfolgen.
+
+Bei wenigen Stopps je Kilometer sind längere zusammenhängende Fahrten
+möglich. Bei vielen Stopps fällt die durchschnittliche Geschwindigkeit
+üblicherweise geringer aus.
+
+In der Dichtematrix ist für jeden Dichtebereich eine Geschwindigkeit
+hinterlegt. MultiRoute Go! ermittelt bei der Gehfolgenberechnung die
+Stoppdichte und verwendet für die Zustellstrecke die Geschwindigkeit
+der passenden Dichteklasse.
+
+**Beispiel:** Für das Transportmittel „Auto“ ist im Bereich von
+10 bis 20 Gebäudestopps je Kilometer eine Geschwindigkeit von 6 km/h
+hinterlegt. Ergibt die Berechnung 12 Gebäudestopps je Kilometer,
+wird die Zustellstrecke mit 6 km/h berechnet.
+
+Die genannten Werte sind ein Konfigurationsbeispiel und keine
+allgemeingültigen Vorgaben.
+
+Die zugrunde liegenden Geschwindigkeitswerte basieren auf der
+Geschwindigkeitstabelle von **Markus Bohl**. Weitere Hintergründe
+erläutert der
+[Blogbeitrag zur automatischen Stoppdichte und Geschwindigkeitsplanung](https://go.multiroute.de/handbuch/blog/2026/05/22/routenoptimierung-mit-multiroute-go-automatische-stoppdichte--intelligente-geschwindigkeitsplanung/).
+
+### Zwischenstrecken und Stoppdichte
+
+Längere Verbindungen ohne Zustellung werden bei der Dichteberechnung
+gesondert behandelt:
+
+- Die Längen der Zwischenstrecken werden von der Strecke im
+  Verteilbezirk abgezogen.
+- Je Zwischenstrecke wird ein Gebäude aus der für die Dichte
+  verwendeten Gebäudeanzahl herausgerechnet.
+
+Die Dichteklasse wird anhand der verbleibenden Zustellstrecke und
+Gebäudeanzahl ermittelt. Das Herausrechnen eines Gebäudes betrifft
+ausschließlich die Dichtebilanz; das Gebäude wird weiterhin zugestellt.
+
+Die Zustellstrecke erhält die Geschwindigkeit aus der Dichtematrix.
+Zwischenstrecken werden mit ihrer gesonderten Geschwindigkeit
+berechnet und bleiben vollständig in der Strecken- und
+Zeitberechnung enthalten.
+
+Die Formel und ein Rechenbeispiel finden Sie unter
+[Zwischenstrecken](#zwischenstrecken).
+
+### Änderungen an Route oder Transportmittel
+
+Die Stoppdichte wird bei jeder Gehfolgenberechnung neu ermittelt.
+Wenn Sie das Transportmittel wechseln, kann sich durch das zugehörige
+Routingprofil auch der Routenverlauf ändern. Dadurch können andere
+Streckenlängen und eine andere Stoppdichte entstehen.
+
+Verwendet wird die Dichtematrix des für die Berechnung eingesetzten
+Transportmittels.
+
+Wie Sie Transportmittel, Standardgeschwindigkeiten, Stoppzeiten und
+Dichteklassen hinterlegen, erfahren Sie unter
+[Administration → Transportmittel](https://go.multiroute.de/handbuch/administration/#transportmittel).
 
 ## Steckzeiten
 
