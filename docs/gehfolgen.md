@@ -207,7 +207,7 @@ Beim manuellen Anstoßen gibt es noch die folgenden Möglichkeiten, für diesen 
 
 Sie können auch direkt ALLE Gehfolgen der jeweiligen Verteilschiene (Ausgabe) anstoßen. Nach wenigen Sekunden sind alle aktuellen Berechnungen durch:
 
-<img width="566" height="147" alt="grafik" src="https://github.com/user-attachments/assets/13efc0e1-4289-414e-9e24-e9c977d480da" "alle Gehfolgen auf einmal berechnen"/>
+![grafik](https://github.com/user-attachments/assets/13efc0e1-4289-414e-9e24-e9c977d480da "alle Gehfolgen auf einmal berechnen")
 
 
 ## Aufruf von berechneten Gehfolgen
