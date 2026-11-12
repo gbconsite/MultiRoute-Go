@@ -56,8 +56,19 @@ Unter ERWEITERT noch Punkt und Komma tauschen.
 
 
 ## Industriezeit
+In vielen Exporten werden Zeiten als **Dezimalstunden (Industriestunden)**
+ausgegeben. Die Nachkommastellen geben dabei den Anteil einer Stunde an.
 
-In vielen Exporten gibt MultiRoute Go! die berechnete Zeit in Industriestunden aus. Wie Sie das wieder in "normale Zeit" umrechnen können oder wie genau das zu lesen ist, finden Sie auch hier: [https://de.wikipedia.org/wiki/Industrieminute](https://de.wikipedia.org/wiki/Industrieminute)
+| Dezimalstunden | Stunden und Minuten |
+|---|---|
+| 1,25 | 1 Stunde 15 Minuten |
+| 1,50 | 1 Stunde 30 Minuten |
+| 1,75 | 1 Stunde 45 Minuten |
+
+**Wichtig:** 1,50 Stunden entsprechen nicht 1 Stunde 50 Minuten.
+
+Um Dezimalstunden in Minuten umzurechnen, multiplizieren Sie den Wert
+mit 60. Beispiel: **1,50 × 60 = 90 Minuten**.
 
 ## Eigenschaften der Verteilgebiete
 
@@ -66,11 +77,27 @@ Ganz unten über den *.CSV-Export erhalten Sie die Eigenschaften gebündelt zur�
 
 <img width="276" height="68" alt="grafik" src="https://github.com/user-attachments/assets/c3d576f0-8214-45a9-a4ec-bcb576f61f1b" />
 
-Diese können dann in eine andere Ausgabe importiert werden.
+Die exportierten Bezirkseigenschaften können Sie als Grundlage verwenden,
+um Berechnungsparameter in eine andere Ausgabe zu übernehmen.
+Prüfen Sie vor dem Import, ob die Bezirksnummern zu den Verteilbezirken
+der Zielausgabe passen.
 
-## Export als Shape (*.kml)
+Die Anleitung finden Sie unter
+[Gehfolgenberechnung → Parameter für die Gehfolgenberechnung](https://go.multiroute.de/handbuch/gehfolgen/#parameter-fur-die-gehfolgenberechnung).
 
-Häufig werden wir gefragt, wie Sie die Verteilgebiete als Shape exportieren können, um diese bspw. Media Central oder anderen Dienstleistern, zur Verfügung zu stellen. Das ist kein Problem. Unter Administration - Verteilbezirke können Sie ganz unten einen Export als *.kml oder *.kmz machen. Dieser kann dann entweder im Fremdsystem in eine [Shape-Datei](https://de.wikipedia.org/wiki/Shapefile) umgewandelt werden, oder meist auch direkt verwendet werden:
+## Gebietsgrenzen als KML oder KMZ exportieren
+
+Sie können die Gebietsgrenzen Ihrer Verteilbezirke exportieren, um sie
+in anderen Systemen oder bei Dienstleistern weiterzuverwenden.
+
+Öffnen Sie `Administration → Verteilbezirke`. Am unteren Ende der Seite
+finden Sie den Export als **KML** oder **KMZ**.
+
+Viele Geoinformationssysteme können diese Dateien direkt einlesen.
+Benötigt das Zielsystem stattdessen ein **Shapefile**, müssen Sie die
+exportierte Datei anschließend mit einer geeigneten GIS-Anwendung
+in dieses Format umwandeln.
+
 <img width="325" height="76" alt="grafik" src="https://github.com/user-attachments/assets/6dd16263-a682-4ca1-9f12-ee6f40745d9c" />
 
 ## Straßenabschnitte exportieren
