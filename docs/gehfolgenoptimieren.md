@@ -45,7 +45,17 @@ Einstellungen für die Gehfolgenberechnung werden global für alle Bezirke stand
 
 ## Veränderung der Straßenankerpunkte
 
-Mittels Manipulation der berechneten Straßenankerpunkte kann die Gehfolge zusätzlich optimiert werden. Die Grundlagen der Informationen für die Veränderungen können vielfältig sein:
+Der Straßenankerpunkt legt fest, an welcher Stelle des Wegenetzes ein
+Gebäude angebunden ist. Liegt dieser Punkt ungünstig, können Sie ihn
+manuell verschieben, um den tatsächlichen Zugang zum Gebäude besser
+abzubilden.
+
+Die Verbindung zwischen Straßenankerpunkt und Gebäude wird als
+[Hauszugangsdistanz](https://go.multiroute.de/handbuch/gehfolgen/#hauszugangsdistanz-hzd-grenzwert)
+berücksichtigt.
+
+Für die Wahl eines geeigneten Straßenankerpunkts können Sie folgende
+Informationen nutzen:
 
 - Erfahrungen oder Tracking der Zusteller
 - Begehungen durch Inspektoren
@@ -68,13 +78,29 @@ In unserem Beispiel müssen auch noch die Straßen in OSM angepasst werden, da d
 
 ## Passivschaltung (inaktiv) oder Löschen von Gebäudekoordinaten
 
-Ein Gebäude auf inaktiv <span style="color: blue;">&#x1f534;&#xfe0e;</span> zu setzen bedeutet nicht, dass das Gebäude aus der Verteilbezirkszuordnung entfernt wird. Es wird lediglich nicht in die Berechnung einbezogen. Es gibt verschiedene Gründe dies zu tun. Beispielsweise wenn aus der Betrachtung der Gehfolge absehbar ist, dass sich durch die Passivschaltung eine signifikant kürzere Gehfolge ergibt. Dabei ist es dann abzuwägen, ob eine Nichtbelieferung sinnvoll ist.
+Wenn ein Gebäude nicht mehr in der Gehfolgenberechnung berücksichtigt
+werden soll, können Sie es auf **inaktiv** setzen. Das Gebäude bleibt
+gespeichert; auch seine Verteilbezirkszuordnung bleibt bestehen.
 
-Da grundsätzlich alle Gebäude zunächst aktiv geschaltet sind muss zur Passivschaltung das "Haus aktiv" Feld ausgeschaltet werden. Danach muss die Gehfolge neu berechnet werden. Das Gebäude ist nicht mehr Bestandteil der Zustellung. Das "inaktiv" Schalten wirkt sich auf ALLE Ausgaben aus.
+**Wichtig:** Die Einstellung gilt für **alle Ausgaben**. Auch Abonnenten
+in diesem Gebäude werden anschließend nicht mehr in der Gehfolge
+berücksichtigt.
+
+So gehen Sie vor:
+
+1. Öffnen Sie die Eigenschaften des gewünschten Gebäudes.
+2. Deaktivieren Sie das Feld `Haus aktiv` und speichern Sie die Änderung.
+3. Berechnen Sie die betroffene Gehfolge neu.
+
+❗ Inaktive Gebäude werden bei den Summen für Haushalte, Gewerbebetriebe
+und Abonnenten in der Gebietsinformation nicht mitgezählt.
 
 ![grafik](https://user-images.githubusercontent.com/99329016/170689864-2a9f4777-fbbe-42ba-ace3-013876a50c58.png "Status des Hauses ist inaktiv")
 
-❗Abonennten, die sich in passiven Gebäuden befinden werden NICHT in der Gehfolge berücksichtigt! Bei der Aufsummierung bei Klick auf den Trägerbezirk werden inaktive Gebäude sowohl mit Anzahl Haushalte, Gewerbebetriebe und Abonnenten NICHT mitgezählt.
+Wie Sie inaktive Gebäude wieder in der Adressliste anzeigen, erfahren
+Sie unter
+[Adressverwaltung → Anzeige Adressen](https://go.multiroute.de/handbuch/adressverwaltung/#anzeige-adressen).
+
 
 ## Veränderungen in OSM vornehmen 
 
@@ -90,6 +116,13 @@ Weitere Informationen zur Einrichtung finden Sie in diesem PDF: [https://gbconsi
 
 Sofern für Ihr Kundenprofil ein oder meherer OSM-Accounts vom gb consite Support eingetragen wurde, können Sie über den OSM Monitor nun sehen, ob diese in JOSM durchgeführten Änderungen bereits in MultiRoute Go! verfügbar sind (siehe hierzu OSM Monitor).
 
+Wenn Straßenanpassungen ausschließlich für Ihre eigene Installation gelten
+sollen, können Sie das Zusatzmodul
+[Straßenanpassungen](https://go.multiroute.de/handbuch/zusatzmodule/#straenanpassungen)
+nutzen, beispielsweise für vorübergehende Sperren oder saisonal ungeeignete
+Wege. Das Modul ist für Kunden mit InHouse-Lizenz oder dediziertem Server
+verfügbar.
+
 ## Manuelle Gehfolgensortierung (Zusatzmodul)
 Trotz aller Optimierungen kann es Gründe geben, warum die Reihenfolge der Gehfolge verändert werden muss. Dafür haben wir das Zusatzmodul "[Manuelles Eingreifen in die Gehfolgen](zusatzmodule.md#manuelles-eingreifen-in-gehfolgen)". Ist dieses Zusatzmodul aktiviert, haben Sie in bereits berechneten Gehfolgen die Möglichkeit, manuell einzugreifen.
 
@@ -101,6 +134,11 @@ Sie können nun ganz einfach per drag & drop Gebäude an einen anderen Punkt in 
 
 Ihre veränderten Punkte erkennen Sie durch die orangene Einfärbung.
 Anschließend können Sie die nun aktuellen Strecken und Zeiten von MultiRoute Go! berechnen lassen. Sind Sie mit dem Ergebnis zufrieden, können Sie die "Reihenfolge speichern" für zukünftige Berechnungen.
+
+Liegt Ihre gewünschte Zustellreihenfolge bereits als Datei vor, können Sie
+diese mit dem entsprechenden Zusatzmodul importieren. Die Anleitung finden
+Sie unter
+[Festgelegte Reihenfolge hochladen](#festgelegte-reihenfolge-hochladen-zusatzmodul).
 
 ## Festgelegte Reihenfolge hochladen (Zusatzmodul)
 Es gibt schon eine festgelegte Reihenfolge von Ihnen (vom Zusteller) und die soll unbedingt eingehalten werden? Vielleicht liegt es auch an der (Brief-)Sortierung?
@@ -127,7 +165,10 @@ Nach Aktivierung dieses Zusatzmoduls können Sie die bestimmten Gebäude/Straße
 
 ![grafik](https://github.com/user-attachments/assets/c80f06e8-873b-460f-979e-e9f9021e274a "Anti-Zick-Zack Zustellung")
 
-Achtung! Es muss ein Zustellerhaus, Start- oder Endhaus gesetzt sein.
+**Voraussetzung:** Für den Verteilbezirk muss mindestens ein Zustellerhaus,
+ein Starthaus oder ein Endhaus festgelegt sein. Wie Sie diese Punkte
+einrichten, erfahren Sie im Kapitel
+[Spezialhäuser](https://go.multiroute.de/handbuch/spezialhaeuser/).
 
 ## Parameterveränderungen für Gehfolgen
 Im Standard werden die Gehfolgenparameter in den Kundeneinstellungen festgelegt. Je Ausgabe und je Bezirk können diese übersteuert werden.
@@ -135,7 +176,12 @@ Im Standard werden die Gehfolgenparameter in den Kundeneinstellungen festgelegt.
 Dazu gehören:
 
 - Optimierungsmethode (Rundweg, einfache Strecke, Rundweg im Verteilbezirk)
-- Geschwindigkeiten (separat für Hin-/Rückweg, im Bezirk, für Hauszugangsdistanz)
+* [Geschwindigkeiten](https://go.multiroute.de/handbuch/gehfolgen/#geschwindigkeiten)
+  für Hin- und Rückweg, Zustellstrecke im Verteilbezirk, Hauszugangsdistanz
+  und Zwischenstrecken
+* [Zwischenstreckengrenzwert](https://go.multiroute.de/handbuch/gehfolgen/#zwischenstrecken)
+  zur Festlegung, ab welcher Entfernung eine Verbindung als Zwischenstrecke
+  behandelt wird
 - Steckzeiten
 - Rüstzeiten
 - Hauszugangsdistanzen
