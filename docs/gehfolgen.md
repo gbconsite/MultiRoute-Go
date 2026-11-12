@@ -172,11 +172,27 @@ hinterlegt. MultiRoute Go! ermittelt bei der Gehfolgenberechnung die
 Stoppdichte und verwendet für die Zustellstrecke die Geschwindigkeit
 der passenden Dichteklasse.
 
-**Beispiel:** Für das Transportmittel „Auto“ ist im Bereich von
-10 bis 20 Gebäudestopps je Kilometer eine Geschwindigkeit von 6 km/h
-hinterlegt. Ergibt die Berechnung 12 Gebäudestopps je Kilometer,
-wird die Zustellstrecke mit 6 km/h berechnet.
+#### Beispiel: Fahrrad
 
+Die folgende Dichtematrix zeigt beispielhafte Einstellungen für
+das Transportmittel „Fahrrad“:
+
+| Dichteklasse | Untere Grenze (Gebäudestopps/km) | Obere Grenze (Gebäudestopps/km) | Geschwindigkeit |
+|---|---:|---:|---:|
+| 1 | 0 | 5 | 10 km/h |
+| 2 | 5 | 10 | 7,9 km/h |
+| 3 | 10 | 15 | 7,5 km/h |
+| 4 | 15 | 20 | 7 km/h |
+| 5 | 20 | 25 | 6,2 km/h |
+| 6 | 25 | 30 | 5,5 km/h |
+| 7 | 30 | unbegrenzt | 4,5 km/h |
+
+Ergibt die Berechnung beispielsweise **12 Gebäudestopps je Kilometer**,
+wird die Geschwindigkeit der **Dichteklasse 3** angesetzt:
+Die Zustellstrecke wird mit **7,5 km/h** berechnet.
+
+Die Werte sind ein Konfigurationsbeispiel. Für jedes Transportmittel
+können eigene Dichteklassen und Geschwindigkeiten hinterlegt werden.
 Die genannten Werte sind ein Konfigurationsbeispiel und keine
 allgemeingültigen Vorgaben.
 
