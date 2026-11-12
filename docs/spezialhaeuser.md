@@ -5,8 +5,20 @@ description: Abladestellen im oder außerhalb des Bezirks anlegen und ändern, R
 
 # **4. Spezialhäuser**
 
-Zum Berechnen der Gehfolgen wird ein Startpunkt benötigt. Das ist meistens die  **Abladestelle** (bei uns auch **Zustellerhaus** <span style="color: magenta;">&#x1f534;&#xfe0e;</span>). Ergänzend dazu kann auch ein eigenes **Starthaus** <span style="color: yellow;">&#x1f534;&#xfe0e;</span> definiert werden. Genau so wie es auch ein definiertes **Endhaus** <span style="color: orange;">&#x1f534;&#xfe0e;</span> geben kann.
-Auf die verschiedenen Einfärbungen wurde schon in der [Gebietsplanung](gebietsplanung.md#bedeutung-der-punkteinfarbungen) eingegangen.
+Spezialhäuser übernehmen besondere Aufgaben bei der Gehfolgenberechnung:
+
+| Spezialhaus | Funktion |
+|---|---|
+| **Zustellerhaus / Abladestelle** | Ausgangspunkt der Tour, beispielsweise der Ort, an dem der Zusteller die Zeitungen übernimmt. Kann innerhalb oder außerhalb des Verteilbezirks liegen. |
+| **Starthaus** | Gebäude, an dem die erste Zustellung im Verteilbezirk erfolgt. |
+| **Endhaus** | Gebäude, an dem die letzte Zustellung im Verteilbezirk erfolgt. |
+| **Depot** | Zusätzliche Abladestelle zum Nachladen während der Tour. Erfordert das Zusatzmodul „Nachladen“. |
+
+Die Abladestelle und das Starthaus können unterschiedliche Orte sein:
+Der Weg von der Abladestelle zur ersten Zustellung gehört zum Hinweg.
+
+Die Farben der Gebäudepunkte erläutert
+[Gebietsplanung → Bedeutung der Punkteinfärbungen](https://go.multiroute.de/handbuch/gebietsplanung/#bedeutung-der-punkteinfarbungen).
 
 ## Zustellerhaus / Abladestelle anlegen/löschen
 Das **Zustellerhaus** kann sich innerhalb oder außerhalb eines Trägerbezirks befinden. Das **Starthaus** muss sich hingegen im Bezirk befinden. Hier helfen die verschiedenen Symbole in MultiRoute Go!. 
@@ -34,16 +46,28 @@ Durck Klick auf das weiße Männchen auf blauem Hintergrund hüpfe ich direkt zu
 
 
 ## Start-/Endhaus festlegen
-Das Anlegen von **Starthaus** oder auch **Endhaus** funktioniert ähnlich. Beide müssen sich immer innerhalb des Trägerbezirks befinden. Einfach auf das entsprechende Gebäude klicken und mit dem **grünen Häuschen** auswählen:
 
-![grafik](https://user-images.githubusercontent.com/99329016/161265379-28d7ab48-6fd6-4b37-b172-d3781c862cc8.png "Starthaus festlegen")
+Mit dem Starthaus bestimmen Sie, an welchem Gebäude die erste Zustellung
+erfolgt. Das Endhaus legt das Gebäude für die letzte Zustellung fest.
+Beide Gebäude müssen sich innerhalb des Verteilbezirks befinden.
 
-Für das **Endhaus** wird das **rote Zielfähnchen** ausgewählt.
+1. Aktivieren Sie den gewünschten Verteilbezirk.
+2. Klicken Sie auf das Gebäude, das Sie festlegen möchten.
+3. Wählen Sie im Gebäudemenü das passende Symbol:
+   - **Grünes Häuschen:** Gebäude als Starthaus festlegen.
+   - **Rotes Zielfähnchen:** Gebäude als Endhaus festlegen.
 
-Auf der Karte erscheinen das Starthaus <span style="color: yellow;">&#x1f534;&#xfe0e;</span> und das Endhaus <span style="color: orange;">&#x1f534;&#xfe0e;</span>.
+Wie Start- und Endpunkt mit der gewählten Routenform zusammenhängen,
+erläutert der Abschnitt
+[Gehfolgenberechnung → Optimierungsmethode](https://go.multiroute.de/handbuch/gehfolgen/#optimierungsmethode).
 
 ## Depot anlegen
 Wenn Sie auch über das [Zusatzmodul "Nachladen"](zusatzmodule.md#nachladen-an-depots) verfügen, können Sie zusätzlich zum Zustellerhaus (Abladestelle) auch weitere Abladestellen, dann **Depots** genannt, anlegen. Ist das Zusatzmodul bei Ihnen aktiviert, gehen Sie wie oben beschrieben vor, setzen aber nicht das :fontawesome-solid-user:{style="color:blue"} Symbol, sondern :fontawesome-solid-box-archive:{style="color:blue"}
 
 ![grafik](https://user-images.githubusercontent.com/99329016/168281433-8978a6a8-9cac-43a1-b15a-e06bf8b5e77c.png "Depot setzen als zusätzliche Abladestelle")
 
+**Wichtig:** Damit die Depots bei der Routenberechnung berücksichtigt werden,
+müssen Sie das Nachladen auch beim Starten der Gehfolgenberechnung aktivieren.
+
+Die Einstellungen zu Zuladung, Gewicht und Stückzahl erläutert der Abschnitt
+[Zusatzmodule → Nachladen an Depots](https://go.multiroute.de/handbuch/zusatzmodule/#nachladen-an-depots).
