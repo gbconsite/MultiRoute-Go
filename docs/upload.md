@@ -55,3 +55,20 @@ Alternativ: Datenimport wird manuell angestoßen
 
 Im Hintergrund werden Ihren Adressen (Straßenabschnitten) Geokoordinaten zugeordnet. Durch die Zuordnung zu (Verteil-)Bezirken werden diese auf der Karte visualisiert. Wir legen die Polygone drumherum. Jeder Adresspunkt, der über den Straßenabschnitt definiert wurde, weiß nun, in welchen Bezirk er gehört/zu welchem Bezirk er zugeordnet ist. Auf der Karte wird dieser nun <span style="color: green;">&#x1f534;&#xfe0e;</span>  (oder <span style="color: black;">&#x1f534;&#xfe0e;</span> ) dargestellt. Wenn Sie auf der Karte <span style="color: red;">&#x1f534;&#xfe0e;</span> Punkte entdecken, dann wurden diese entweder nicht gefunden oder von Ihnen nicht definiert. Hier lohnt sich nochmal ein zweiter Blick in die Ursprungsdaten. Häufige Fehler treten auf bei unterschiedlichen Schreibeweisen bei Straßen mit Bindestrichen.
 
+## Synchronisierung mit zusie
+
+Transportmittel und die zugehörigen Berechnungsvorgaben können aus
+**zusie** nach MultiRoute Go! synchronisiert werden.
+
+Damit können Sie die Disposition in zusie durchführen und die
+Gehfolgen anschließend in MultiRoute Go! auf Grundlage der
+synchronisierten Daten berechnen lassen.
+
+Dabei werden die Vorgaben des eingesetzten Transportmittels für die
+Berechnung verwendet. Die Dichtematrix legt fest, welche Geschwindigkeit
+für die ermittelte Anzahl von Gebäudestopps je Kilometer angesetzt wird.
+
+Die Einstellungen beschreibt
+[Administration → Transportmittel](https://go.multiroute.de/handbuch/administration/#transportmittel).
+Die Berechnungslogik erläutert
+[Gehfolgenberechnung → Dichteabhängige Geschwindigkeit](https://go.multiroute.de/handbuch/gehfolgen/#dichteabhangige-geschwindigkeit).
