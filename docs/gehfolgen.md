@@ -151,7 +151,44 @@ Wir unterscheiden standarmäßig zwischen der 1. Steckung an einem Gebäude und 
 Möchten Sie je Produkt (Zeitung, Zeitschrift, Brief) unterschiedliche Steckzeiten hinterlegen, können wir dies im Rahmen der automatisierten Datenübernahme berücksichtigen.
 
 ## Zwischenstrecken
-Anwendbar, wenn innerhalb der Gebiete zu Fuß verteilt wird und eine längere Strecke zwischendurch mit dem Auto zurückgelegt wird. Die "längere Strecke" wird über den **Zwischenstreckengrenzwert** definiert. Für die längere Strecke wird eine gesonderte Geschwindigkeit angeben. Bleibt das Feld für die Geschwindigkeit leer, es wird nur ein Grenzwert angegeben, wird die [Geschwindigkeit für Hin-/Rückweg](#geschwindigkeiten) genommen.
+
+Zwischenstrecken sind längere Verbindungen zwischen Zustellpunkten, für die eine eigene Geschwindigkeit angesetzt wird. Über den **Zwischenstreckengrenzwert** legen Sie fest, ab welcher Entfernung ein Abschnitt als Zwischenstrecke behandelt wird.
+
+Das ist beispielsweise sinnvoll, wenn innerhalb eines Gebiets zu Fuß zugestellt und eine längere Verbindung mit einem Fahrzeug zurückgelegt wird. Auch bei einer reinen Autozustellung unterscheiden sich die Geschwindigkeiten: In Bereichen mit vielen Zustellstopps ist die Durchschnittsgeschwindigkeit niedriger als auf längeren Verbindungen ohne Zustellung.
+
+### Grenzwert und Geschwindigkeit
+
+Für Zwischenstrecken hinterlegen Sie einen Grenzwert und eine gesonderte Geschwindigkeit. Bleibt das Geschwindigkeitsfeld leer und ist nur ein Grenzwert angegeben, verwendet MultiRoute Go! die hinterlegte [Geschwindigkeit für den Hin- und Rückweg](#geschwindigkeiten).
+
+Die Einstellungen können je Verteilbezirk angepasst werden. Beachten Sie dabei die [Rangfolge der Einstellungen](#einstellungen-bei-gehfolgenberechnungen).
+
+### Berücksichtigung bei der Dichteberechnung
+
+Bei der dichteabhängigen Geschwindigkeitsberechnung werden Zwischenstrecken und die verbleibende Zustellstrecke getrennt betrachtet. So senken lange Verbindungen ohne Zustellung nicht die berechnete Stoppdichte der eigentlichen Zustellstrecke.
+
+Für die Dichteberechnung werden:
+
+- die Längen aller Zwischenstrecken von der Strecke im Verteilbezirk abgezogen;
+- je Zwischenstrecke ein Gebäude – das Start- oder Zielgebäude dieser Verbindung – aus der für die Dichte verwendeten Gebäudeanzahl herausgerechnet.
+
+Die Stoppdichte ergibt sich damit aus:
+
+**Stoppdichte = (Gebäudeanzahl − Anzahl der Zwischenstrecken) /
+(Strecke im Verteilbezirk in km − Summe der Zwischenstrecken in km)**
+
+**Wichtig:** Das Herausrechnen eines Gebäudes dient ausschließlich der Dichteberechnung. Das Gebäude bleibt Teil der Gehfolge und wird weiterhin zugestellt.
+
+
+### Rechenbeispiel
+
+<img width="6144" height="3456" alt="Rechenbeispiel Dichteberechnung" src="https://github.com/user-attachments/assets/91023df4-6287-4a3e-b929-d0eba7ac403f" />
+
+Die beiden Streckenanteile erhalten jeweils ihre passende Geschwindigkeit:
+
+- **Zustellstrecke:** Für die verbleibenden 2 km wird die Geschwindigkeit der ermittelten Dichteklasse angesetzt.
+- **Zwischenstrecke:** Für die 3 km lange Verbindung wird die hinterlegte Zwischenstreckengeschwindigkeit verwendet.
+
+Die Wegezeiten beider Anteile werden anschließend addiert. Die Zwischenstrecke bleibt somit vollständig in der Strecken- und Zeitberechnung enthalten, beeinflusst aber nicht die Dichteklasse der verbleibenden Zustellstrecke.
 
 ## Gehfolgenberechnung manuell anstoßen
 
