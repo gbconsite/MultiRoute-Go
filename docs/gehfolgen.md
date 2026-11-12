@@ -77,10 +77,20 @@ Wenn die Berechnungsparameter bereits als Excel- oder CSV-Datei vorliegen, könn
 
 <img width="1477" height="592" alt="grafik" src="https://github.com/user-attachments/assets/8b6da97a-3454-4c5c-aa83-6829e4a0abd0" />
 
-## Kfz-Fahrprofil
+## Routingprofile
 
-Erwartet wird die Angabe *true* oder *false*.
-Also Routingprofil für Auto verwenden oder nicht (= Fußwege).
+Für die Gehfolgenberechnung stehen drei Routingprofile zur Verfügung:
+
+- **Fuß** – für die Zustellung zu Fuß.
+- **Fahrrad** – für die Zustellung mit dem Fahrrad.
+- **Auto** – für die Zustellung mit dem Auto.
+
+Das gewählte Profil bestimmt, welche Straßen und Wege für die
+Routenberechnung berücksichtigt werden. Wählen Sie das Profil passend
+zum eingesetzten Verkehrsmittel.
+
+Informationen zur Berechnung längerer Verbindungen zwischen Zustellpunkten
+finden Sie unter [Zwischenstrecken](#zwischenstrecken).
 
 ## Hauszugangsdistanz (HZD) Grenzwert
 
