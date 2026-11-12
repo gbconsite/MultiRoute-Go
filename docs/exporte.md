@@ -73,3 +73,16 @@ Diese können dann in eine andere Ausgabe importiert werden.
 Häufig werden wir gefragt, wie Sie die Verteilgebiete als Shape exportieren können, um diese bspw. Media Central oder anderen Dienstleistern, zur Verfügung zu stellen. Das ist kein Problem. Unter Administration - Verteilbezirke können Sie ganz unten einen Export als *.kml oder *.kmz machen. Dieser kann dann entweder im Fremdsystem in eine [Shape-Datei](https://de.wikipedia.org/wiki/Shapefile) umgewandelt werden, oder meist auch direkt verwendet werden:
 <img width="325" height="76" alt="grafik" src="https://github.com/user-attachments/assets/6dd16263-a682-4ca1-9f12-ee6f40745d9c" />
 
+## Straßenabschnitte exportieren
+
+Mit dem Zusatzmodul **„Straßenabschnitte exportieren“** können Sie die
+in MultiRoute Go! optimierten Bezirkszuordnungen als Straßenabschnitte
+für die Übernahme in Ihr Verlagssystem ausgeben.
+
+Die Hausnummernbereiche reichen jeweils bis zum letzten tatsächlich
+vorhandenen Gebäude und werden nach geraden und ungeraden Hausnummern
+unterschieden.
+
+**Hinweis:** Für diesen Export benötigen Sie das entsprechende Zusatzmodul.
+Weitere Informationen finden Sie unter
+[Zusatzmodule → Straßenabschnitte exportieren](https://go.multiroute.de/handbuch/zusatzmodule/#straenabschnitte-exportieren).
