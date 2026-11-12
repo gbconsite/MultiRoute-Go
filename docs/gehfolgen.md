@@ -181,6 +181,15 @@ Die Stoppdichte ergibt sich damit aus:
 
 ### Rechenbeispiel
 
+Eine Gehfolge umfasst **8 Gebäude** und **5 km Strecke im Verteilbezirk**.
+Darin ist eine **3 km lange Zwischenstrecke** enthalten.
+
+| Größe | Berechnung | Ergebnis |
+|---|---|---|
+| Zustellstrecke für die Dichteberechnung | 5 km − 3 km | 2 km |
+| Gebäudeanzahl für die Dichteberechnung | 8 − 1 | 7 |
+| Stoppdichte | 7 Gebäude ÷ 2 km | 3,5 Stopps/km |
+
 <img width="6144" height="3456" alt="Rechenbeispiel Dichteberechnung" src="https://github.com/user-attachments/assets/91023df4-6287-4a3e-b929-d0eba7ac403f" />
 
 Die beiden Streckenanteile erhalten jeweils ihre passende Geschwindigkeit:
