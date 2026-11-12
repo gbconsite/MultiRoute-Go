@@ -34,8 +34,11 @@ Parallel zur Berechnung der Gehfolgen werden PDF Dokumente und Daten erzeugt:
 ![grafik](https://user-images.githubusercontent.com/99329016/170691421-7769c0df-8c51-4de1-94e9-ca69e1352f6f.png "Übersicht der zur Laufzeit erzeugten Gangfolgendokumente")
 
 
-Diese Dokumente können aus dem Gehfolgenmenü heraus abgerufen und lokal gespeichert werden.
-Die Übertragung per API ist natürlich ebenfalls möglich.
+Öffnen Sie die gewünschte berechnete Gehfolge, um die zugehörigen
+Dokumente abzurufen und lokal zu speichern. Die Anleitung finden Sie unter
+[Gehfolgenberechnung → Aufruf von berechneten Gehfolgen](https://go.multiroute.de/handbuch/gehfolgen/#aufruf-von-berechneten-gehfolgen).
+
+Die Dokumente können auch über die API abgerufen werden.
 
 Bei *Bezirkskarte* und *Gehfolgen* können wir Veränderungen in der Legende unwaufwändig vornehmen. Wir bieten verschiedene Varianten, die wir gerne besprechen können. 
 
