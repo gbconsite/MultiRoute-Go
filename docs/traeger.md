@@ -21,7 +21,6 @@ Die Zeitberechnung berücksichtigt die hinterlegten Einstellungen:
 Die einzelnen Einstellungen erläutert das Kapitel
 [Gehfolgenberechnung](https://go.multiroute.de/handbuch/gehfolgen/#parameter-fur-die-gehfolgenberechnung).
 
-![grafik](https://user-images.githubusercontent.com/99329016/170692371-21ce7637-7197-4305-a5d7-b946af9b7923.png "Details der Gehfolgenberechnung")
 
 Parallel zur Berechnung der Gehfolgen werden PDF Dokumente und Daten erzeugt:
 
