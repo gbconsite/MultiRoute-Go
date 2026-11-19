@@ -17,7 +17,7 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
   
 ### v1.4073 zuletzt vom 30.10.2026
 - Korrekturen Straßensegment-Exporte
-- Ergänzung: "alle Adressen, ohne Bezirke"
+- Ergänzung: alle Adressen, ohne Bezirke
   
 ### v1.4066 zuletzt vom 27.10.2026
 - Transportmittel NEU mit Abgleich zusie
