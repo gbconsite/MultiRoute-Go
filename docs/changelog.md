@@ -9,6 +9,22 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.4081 zuletzt vom 09.11.2026
+- Anpassungen Fahrradsettings
+
+### v1.4076 zuletzt vom 02.11.2026
+- Zusammenfassung nur mit Gehfolgen vom Plantag
+  
+### v1.4073 zuletzt vom 30.10.2026
+- Korrekturen Straßensegment-Exporte
+- Ergänzung: "alle Adressen, ohne Bezirke"
+  
+### v1.4066 zuletzt vom 27.10.2026
+- Transportmittel NEU mit Abgleich zusie
+  
+### v1.4061 zuletzt vom 22.10.2026
+- Gebäudeexporte Anpassung
+
 ### v1.4055 zuletzt vom 20.10.2026
 - Anpassungen Dichteberechnung, Exporte
   
