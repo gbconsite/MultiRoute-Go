@@ -9,6 +9,18 @@ Alle MultiRoute Go! Revisionen sind hier mit den letzten Änderungen aufgeführt
 
 ## 2026
 
+### v1.4102 zuletzt vom 16.11.2026
+- "[Gruppen](https://go.multiroute.de/handbuch/blog/2026/11/26/neu-in-multiroute-go-ausgaben-jetzt-einfach-gruppieren/)" anlegen und [Suchen](https://go.multiroute.de/handbuch/blog/2026/11/11/neu-in-multiroute-go-ausgaben-jetzt-einfach-durchsuchen/) nach Ausgaben
+  
+### v1.4101 zuletzt vom 16.11.2026
+- Dichte und Zwischenstrecken im Excel-Export
+  
+### v1.4090 zuletzt vom 12.11.2026
+- Hinterlegte Geschwindigkeiten bei [Transportmitteln](https://go.multiroute.de/handbuch/administration/?h=transportmittel#transportmittel) für Gehfolgenberechnungen verwenden
+
+### v1.4085 zuletzt vom 10.11.2026
+- Anpassung Dichte ([Zwischenstrecke](https://github.com/user-attachments/assets/91023df4-6287-4a3e-b929-d0eba7ac403f))
+
 ### v1.4081 zuletzt vom 09.11.2026
 - Anpassungen Fahrradsettings
 
