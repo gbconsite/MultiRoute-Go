@@ -55,7 +55,7 @@ Unter `Administration` → `Ausgaben` können Sie Ausgaben individuellen Gruppen
 3. Wählen Sie die gewünschte Gruppe aus.
 4. Klicken Sie auf `Speichern`.
 
-![Gruppe einer Ausgabe in MultiRoute Go! zuweisen](images/ausgaben_gruppe_zuweisen.png)
+<img width="363" height="322" alt="Gruppe einer Ausgabe in MultiRoute Go! zuweisen" src="https://github.com/user-attachments/assets/e621f8c7-e2b1-4f68-989c-ae74d636803e" />
 
 Die Ausgabe wird anschließend in der entsprechenden Gruppe im Auswahlfeld „Aktuelle Ausgabe“ angezeigt.
 
