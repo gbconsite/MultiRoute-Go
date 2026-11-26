@@ -11,6 +11,7 @@ Die Preisstaffelung richtet sich nach:
 - der Anzahl Ihrer Trägerbezirke
 - der Anzahl der Verteilschienen
 - der Art der Installation (SaaS, InHouse-Server, dedizierter Server)
+- Schnittstellen zu anderen Systemen (bitte kurze Angabe, welche Systeme)
 
 
 Preise zzgl. Einrichtungspauschale abhängig von Ihrer individuellen Fragestellung und Komplexität.
