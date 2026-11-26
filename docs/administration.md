@@ -43,6 +43,35 @@ Abonnenten können Sie unter [Administration → Upload](#upload) kopieren oder 
 
 Wichtig: Nicht jeder User hat diese Rechte. Sollten Sie das nicht sehen, sprechen Sie Ihren MultiRoute Go! Administrator an oder melden Sie sich bei uns.
 
+
+### Ausgaben gruppieren
+
+Unter `Administration` → `Ausgaben` können Sie Ausgaben individuellen Gruppen zuweisen. Dadurch lässt sich die Auswahlliste „Aktuelle Ausgabe“ übersichtlicher strukturieren.
+
+#### Gruppe zuweisen
+
+1. Öffnen Sie unter `Administration` den Menüpunkt `Ausgaben`.
+2. Rufen Sie für die gewünschte Ausgabe die Funktion „Gruppe zuweisen“ auf.
+3. Wählen Sie die gewünschte Gruppe aus.
+4. Klicken Sie auf `Speichern`.
+
+![Gruppe einer Ausgabe in MultiRoute Go! zuweisen](images/ausgaben_gruppe_zuweisen.png)
+
+Die Ausgabe wird anschließend in der entsprechenden Gruppe im Auswahlfeld „Aktuelle Ausgabe“ angezeigt.
+
+#### Gruppenzuordnung ändern oder entfernen
+
+Um eine bestehende Gruppenzuordnung zu ändern, rufen Sie erneut die Funktion „Gruppe zuweisen“ auf und wählen Sie eine andere Gruppe aus.
+
+Möchten Sie eine Gruppenzuordnung entfernen, lassen Sie das Feld leer und klicken Sie auf `Speichern`.
+
+Die Ausgabe wird anschließend unter „Ohne Gruppe“ angezeigt.
+
+Die Gruppierung dient der übersichtlichen Organisation Ihrer Ausgaben.
+
+Weitere Informationen zur Auswahl und Suche von Ausgaben finden Sie unter [Grundlagen → Ausgaben nach Gruppen auswählen](grundlagen.md#ausgaben-nach-gruppen-auswahlen).
+
+
 ## Ausgabe auswählen und suchen ##
 
 Über das Auswahlfeld „Aktuelle Ausgabe“ im oberen Bereich von MultiRoute Go! wechseln Sie zwischen den verfügbaren Ausgaben.
