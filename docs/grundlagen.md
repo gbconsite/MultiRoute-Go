@@ -67,3 +67,22 @@ Wenn Sie weitere Daten wie **Werbeverweigerer** oder eigene Haushaltsdaten in di
 Das Ein- und Ausschalten von Labels (Beschriftungen der Bezirke) oder das Einfärben kann Ihnen helfen, den Überblick zu behalten. Unten in der Karte können Sie die Transparenz der Einfärbungen über einen Schieberegler anpassen.
 
 
+### Ausgaben nach Gruppen auswählen
+
+Zur besseren Übersicht können Ausgaben in MultiRoute Go! individuellen Gruppen zugeordnet werden.
+
+Sind Ausgaben einer Gruppe zugeordnet, werden diese im Auswahlfeld „Aktuelle Ausgabe“ unter dem jeweiligen Gruppennamen zusammengefasst.
+
+- Klicken Sie auf den Gruppennamen, um die Gruppe auf- oder zuzuklappen.
+- Klicken Sie innerhalb der Gruppe auf die gewünschte Ausgabe, um diese auszuwählen.
+- Ausgaben ohne Gruppenzuordnung werden unter „Ohne Gruppe“ zusammengefasst.
+
+Die Suchfunktion steht Ihnen weiterhin zur Verfügung.
+
+<img width="376" height="403" alt="Gruppierte Ausgabenauswahl in MultiRoute Go!" src="https://github.com/user-attachments/assets/602e7bc7-a5ce-497b-963a-cd57b4a1481c" />
+
+Besonders bei einer großen Anzahl an Ausgaben empfiehlt sich eine Gruppierung, beispielsweise nach Zeitungstiteln, Zustellarten, Regionen oder regelmäßigen Berechnungen.
+
+Wie Sie Ausgaben einer Gruppe zuweisen, erfahren Sie unter [Administration → Ausgaben gruppieren](administration.md#ausgaben-gruppieren).
+
+
